@@ -313,8 +313,24 @@ If **all sources** fail or you fetch zero items:
 - ❌ NEVER force-push
 - ❌ NEVER delete digest files (they're history)
 - ✅ Stay within Anthropic ToS — public web fetches only, respect rate limits
-- ✅ Total runtime budget: **15 minutes max**. If you're over budget, ship partial and exit cleanly.
+- ✅ **Runtime budget: 55 minutes hard cap. Target 45–50 minutes per run.** Use the time for depth — do not exit early just because the basics are done. Depth IS the value. See "Depth checklist" below.
 - ✅ When in doubt about whether something counts as interesting, lean toward **scoring it lower** rather than burning surface space — Leo can always loosen the filter, but a noisy digest erodes trust fast
+
+---
+
+## Depth checklist — use your budget
+
+If you're at the 30-minute mark and basics are done, you have ~20 more minutes to spend. Spend them like this, in order:
+
+1. **Expand source coverage.** Don't stop at the configured fetch limits — paginate deeper on the busy sources (Reddit `after=`, HN `page=`, GitHub `&page=`). Add keyword variations of `hackernews.queries` (e.g. "Claude" → also try "Sonnet 4", "Opus 4", "Anthropic API").
+2. **Deep-read top 5.** For the 5 highest-ranked items, fetch the actual content (full Reddit post body via `.json?raw_json=1`, HN comments via Algolia `items/{id}`, GitHub README, RSS full-article fetch). Read it. Base the "why it matters" paragraph on the actual content, not the title.
+3. **Multi-pass ranking.** First pass filters obvious noise (one second of judgment per item). Second pass: re-rank the top 30 by deep-reading their summaries. Third pass: cross-reference against `feedback.md` to nudge based on Leo's taste.
+4. **Cross-reference linked content.** If a Reddit post links a YouTube video, GitHub repo, or paper, fetch THAT too and bring 1–2 lines of context into the digest item.
+5. **Trend section.** If you spot ≥3 items hitting a common theme (e.g. "Claude Skills tooling," "new MCP servers," "agent frameworks shipping this week"), add a `## 📈 Trends spotted` section at the top of the digest naming the theme and the items. This is high-value pattern detection Leo can't get from raw feeds.
+6. **Longer "why it matters" on top 3.** Aim for 5–7 lines each, tied to a specific Leo project (writing pipeline, Council skill, Kindle longform, Fate-Anchor worldbuilding, etc.). Be concrete: "This could replace the X step in your Y pipeline" — not "this seems useful."
+7. **Self-suggestion log.** As you run, if you spot a source that should be added/removed, or a ranking heuristic that misfires, append to `state/agent_suggestions.md`.
+
+Approaching 55 min? Ship what you have. Never blow past the cap.
 
 ---
 
