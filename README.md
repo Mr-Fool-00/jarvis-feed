@@ -10,7 +10,7 @@ Personal AI/Claude tooling discovery loop. A scheduled Claude agent runs every 1
 4. Agent fetches each source in `SOURCES.yaml`, dedupes against `state/seen.json`
 5. Agent ranks new items via `INTEREST_PROFILE.md` and recent `state/feedback.md`
 6. Agent writes `digests/<YYYY-MM-DD>_<AM|PM>.md`, commits, pushes
-7. Agent emails top 3 items to `grau.enterprises@gmail.com` via Gmail MCP
+7. Agent emails top 3 items to `leo.p.grau@gmail.com` (personal) via Gmail MCP (sender = `grau.enterprises@gmail.com`, the shared account Claude.ai is tied to — no shared-inbox spam, only sent-folder entries on shared)
 
 ## Files
 

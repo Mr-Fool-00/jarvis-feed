@@ -79,7 +79,7 @@ For each source category in `SOURCES.yaml`, fetch via curl. Collect ALL raw item
 For each subreddit in `reddit.subreddits`:
 
 ```bash
-curl -sH "User-Agent: jarvis-feed/1.0 by GrauAI" \
+curl -sH "User-Agent: jarvis-feed/1.0 by Mr-Fool-00" \
   "https://www.reddit.com/r/<SUB>/new.json?limit=<FETCH_LIMIT>" \
   | jq '.data.children[].data'
 ```
