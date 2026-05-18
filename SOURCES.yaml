@@ -1,0 +1,75 @@
+# Sources for the Jarvis Discovery Loop.
+# All sources must be fetchable via free public API (no auth required).
+# Edit freely — agent re-reads every run.
+
+reddit:
+  # Public Reddit JSON: https://www.reddit.com/r/SUB/new.json?limit=N
+  # User-Agent header required.
+  subreddits:
+    - ClaudeAI
+    - LocalLLaMA
+    - AI_Agents
+    - PromptEngineering
+    - OpenAI
+    - MachineLearning
+    - LangChain
+    - singularity      # high noise, keep low priority
+  fetch_limit: 30      # items per sub
+  min_score: 5         # drop posts with fewer upvotes
+  hours_window: 24     # only consider posts within last N hours
+
+hackernews:
+  # Algolia API: https://hn.algolia.com/api/v1/search
+  queries:
+    - "Claude"
+    - "Anthropic"
+    - "Claude Code"
+    - "Claude skill"
+    - "MCP server"
+    - "AI agent"
+    - "LLM agent"
+    - "agent framework"
+  hours_window: 24
+  min_points: 10       # drop low-engagement HN stories
+
+github:
+  # API: https://api.github.com/search/repositories
+  # Recent repos matching keywords or topics, sorted by stars
+  topics:
+    - claude-code
+    - mcp-server
+    - claude-skills
+    - claude-plugin
+    - anthropic
+    - agent-framework
+  keywords:
+    - "claude code"
+    - "anthropic agent"
+    - "mcp server"
+    - "claude skill"
+  pushed_within_days: 3
+  min_stars: 10        # filter noise repos
+
+rss:
+  feeds:
+    - name: "Simon Willison"
+      url: "https://simonwillison.net/atom.xml"
+    - name: "Anthropic News"
+      url: "https://www.anthropic.com/news/rss"
+    - name: "Latent Space"
+      url: "https://www.latent.space/feed"
+
+youtube:
+  # Channel RSS (free, no API key): https://www.youtube.com/feeds/videos.xml?channel_id=ID
+  # Add channels as we identify high-signal ones.
+  # Start empty — YouTube content is slower-moving and transcript fetching is heavier.
+  channels: []
+
+# Future expansion targets (commented out, enable after v1 validates):
+# arxiv:
+#   categories: [cs.CL, cs.AI, cs.LG]
+#   keywords: ["agent", "prompt", "tool use"]
+#   hours_window: 24
+# producthunt:
+#   query: "AI"
+#   hours_window: 24
