@@ -9,7 +9,7 @@ This runbook is your full operating manual. Read it carefully each run. If anyth
 ## Step 0 — Sanity checks
 
 Confirm you have:
-- A git checkout of `GrauAI/jarvis-feed` (current working dir)
+- A git checkout of `Mr-Fool-00/jarvis-feed` (current working dir)
 - Network access (you can curl)
 - Gmail MCP available (you'll need it for Step 7)
 
@@ -259,7 +259,7 @@ If still failing, log the error and continue — email delivery is more importan
 
 ## Step 8 — Email top 3 via Gmail MCP
 
-Use the Gmail MCP `create_draft` tool first, then send. Recipient: `grau.enterprises@gmail.com`.
+Use the Gmail MCP `create_draft` tool first, then send. Recipient: **`leo.p.grau@gmail.com`** (Leo's personal — the Gmail MCP is bound to `grau.enterprises@gmail.com` (shared with his dad), so the email goes FROM the shared account TO Leo's personal inbox. Do NOT send to `grau.enterprises@gmail.com` — never spam the shared inbox).
 
 **Subject:** `Jarvis digest — <DATE> <AM|PM> — <K> new (top: <truncated top-1 title>)`
 
@@ -281,7 +281,7 @@ Use the Gmail MCP `create_draft` tool first, then send. Recipient: `grau.enterpr
 ...
 
 <hr>
-<p>Full digest (items 4–15): <a href="https://github.com/GrauAI/jarvis-feed/blob/main/digests/<filename>">view on GitHub</a></p>
+<p>Full digest (items 4–15): <a href="https://github.com/Mr-Fool-00/jarvis-feed/blob/main/digests/<filename>">view on GitHub</a></p>
 <p><i>To tune: add 👍/👎/🤷 lines to <code>state/feedback.md</code>, commit + push.</i></p>
 ```
 
