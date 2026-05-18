@@ -132,14 +132,57 @@ xmllint --xpath '//item/title/text() | //item/link/text() | //item/pubDate/text(
 
 Filter: only entries published within the last 24 hours.
 
-### 3e. YouTube (optional, only if `youtube.channels` is non-empty)
+### 3e. YouTube channels
 
-For each channel ID:
+For each entry in `youtube.channels` (listed by handle, not channel_id):
+
+**Step 1 — resolve channel_id (cached in `state/youtube_channel_ids.json`).**
+
+If you've never seen the handle before, fetch the channel page and parse the ID:
+```bash
+HTML=$(curl -sL "https://www.youtube.com/$HANDLE")
+CHANNEL_ID=$(echo "$HTML" | grep -oE 'channelId":"[^"]+"' | head -1 | sed 's/channelId":"//;s/"//')
+# Fallback: try the itemprop meta tag
+[ -z "$CHANNEL_ID" ] && CHANNEL_ID=$(echo "$HTML" | grep -oE '<meta itemprop="(identifier|channelId)" content="[^"]+"' | head -1 | sed -E 's/.*content="([^"]+)".*/\1/')
+```
+
+Cache the result in `state/youtube_channel_ids.json` (create if missing) as `{handle: channel_id}` map. Read this file FIRST before any resolution work — handles you've seen before should skip the fetch.
+
+**Step 2 — fetch the channel's RSS:**
 ```bash
 curl -s "https://www.youtube.com/feeds/videos.xml?channel_id=$CHANNEL_ID"
 ```
 
-Same XML parsing as RSS. Filter: published in last 24 hours.
+Parse `<entry>` blocks (Atom format) for title, link, published, `<media:statistics views="...">` for view count. Filter: published in last `youtube.hours_window` hours, views ≥ `youtube.min_views`.
+
+For top-ranked YouTube items (score ≥ 7), fetch the video description and (if time permits within budget) the transcript via:
+```bash
+yt-dlp --skip-download --write-auto-sub --sub-lang en --convert-subs vtt -o "/tmp/yt_%(id)s" "$VIDEO_URL"
+```
+Read `/tmp/yt_*.en.vtt` and use it for the "why it matters" paragraph. (Skip if it pushes you past the 50-min mark.)
+
+### 3f. Manual incoming-urls funnel (`incoming_urls`)
+
+This is the highest-priority source — items here are pre-curated by Leo.
+
+```bash
+if [ -s "state/incoming_urls.md" ]; then
+  # File exists and is non-empty
+  grep -oE 'https?://[^ ]+' state/incoming_urls.md | while read url; do
+    # Use yt-dlp to download IG Reels, YouTube, TikTok, etc.
+    yt-dlp -o "/tmp/incoming_%(id)s.%(ext)s" "$url"
+    # Extract frames every 3s (vertical → 540px wide)
+    # Extract audio + transcribe with whisper if available, else just description
+    # If platform doesn't support yt-dlp, fall back to curl + meta-tag parse
+  done
+fi
+```
+
+For each downloaded item, build a normalized record with `source: "incoming:<original-url>"`. **Force-include all of them in the digest's top section** (under a `🎯 Curated by Leo` heading, before the algorithmic Top 3). Do NOT apply score filtering to these — Leo already pre-filtered by adding them to the file.
+
+If processing succeeded, **clear `state/incoming_urls.md`** (truncate to its template header so Leo knows the file is fresh and ready for the next batch). Commit the cleared file along with the digest.
+
+If processing failed for any URL, leave that line in `state/incoming_urls.md` (so it gets retried next run) and note the failure in the digest's `## ⚠️ Failures` section.
 
 ---
 

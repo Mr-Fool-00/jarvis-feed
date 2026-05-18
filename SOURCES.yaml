@@ -61,9 +61,34 @@ rss:
 
 youtube:
   # Channel RSS (free, no API key): https://www.youtube.com/feeds/videos.xml?channel_id=ID
-  # Add channels as we identify high-signal ones.
-  # Start empty — YouTube content is slower-moving and transcript fetching is heavier.
-  channels: []
+  # Listed by handle — agent resolves to channel_id on first sight by fetching the
+  # channel page and grepping for `<meta itemprop="channelId" content="...">`.
+  # Channel IDs cached in state/youtube_channel_ids.json so resolution is one-time per handle.
+  channels:
+    - handle: "@aiexplained-official"   # AI Explained — papers, model releases
+    - handle: "@mreflow"                # Matt Wolfe — AI tools roundups
+    - handle: "@WesRothMoney"           # Wes Roth — AI news commentary
+    - handle: "@AIJasonZ"               # AI Jason — builds AI agents/projects
+    - handle: "@indydevdan"              # Indy Dev Dan — Claude/Cursor indie builds
+    - handle: "@ColeMedin"               # Cole Medin — agent dev tutorials
+    - handle: "@DavidOndrej"             # David Ondrej — AI agents, automation
+    - handle: "@aifoundations"           # AI Foundations — practical AI tools
+    - handle: "@AnthropicAI"             # Official Anthropic
+  hours_window: 36       # YouTube posts less frequently than Reddit, longer window
+  min_views: 1000        # filter low-engagement videos
+
+incoming_urls:
+  # Manual IG-curation funnel. When Leo scrolls Instagram and sees a Reel worth
+  # surfacing in Jarvis, he drops the URL into `state/incoming_urls.md` (one per line).
+  # The agent reads that file each run, downloads each Reel via yt-dlp, extracts the
+  # actual content (frames + transcript), and FORCE-INCLUDES every one in the digest
+  # (no score filter — Leo already pre-filtered by curating them).
+  # After processing, the agent clears the file (commits empty state).
+  # Lets Leo use IG's algorithm + his own taste as the front-end without giving
+  # the agent any Instagram credentials or scraping responsibility.
+  path: "state/incoming_urls.md"
+  force_include: true    # always surface every URL in the digest's top section
+  clear_after_run: true  # empty the file after successful processing
 
 # Future expansion targets (commented out, enable after v1 validates):
 # arxiv:
