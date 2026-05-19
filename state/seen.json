@@ -1,5 +1,81 @@
 {
   "schema_version": 1,
-  "last_run_utc": null,
-  "items": {}
+  "last_run_utc": "2026-05-19T16:10:00Z",
+  "items": {
+    "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 10,
+      "title_snippet": "Claude Managed Agents: Dreaming, Outcomes, Multiagent Orchestration"
+    },
+    "docs:claude-code-agent-teams-2026": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Claude Code Agent Teams (official, experimental)"
+    },
+    "github:HadiFrt20/deepresearch": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Autonomous multi-session research agent for Claude Code"
+    },
+    "github:alirezarezvani/claude-skills": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "313+ Claude Code skills & agent plugins v2.7.3"
+    },
+    "rss:lennysnewsletter:boris-cherny-coding-solved": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Head of Claude Code: What happens after coding is solved"
+    },
+    "rss:simonwillison:5-minute-llms-2026-05-19": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "The last six months in LLMs in five minutes"
+    },
+    "rss:simonwillison:code-w-claude-2026-05-06": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Live blog: Code w/ Claude 2026"
+    },
+    "github:affaan-m/everything-claude-code": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Everything Claude Code v1.10.0 / 163K stars"
+    },
+    "github:rohitg00/awesome-claude-code-toolkit": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "135 agents, 176+ plugins, 14 MCP configs"
+    },
+    "hn:47099597": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "24 Simultaneous Claude Code agents on local hardware"
+    },
+    "github:wanshuiyin/Auto-claude-code-research-in-sleep": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "ARIS: Auto-Research-In-Sleep for Claude Code"
+    },
+    "anthropic:claude-mythos-restricted-2026-04": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Claude Mythos — restricted model, zero-day vulns"
+    },
+    "rss:simonwillison:playwright-mcp-claude-code": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Using Playwright MCP with Claude Code"
+    },
+    "github:Weizhena/Deep-Research-skills": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Structured deep research skill with human-in-the-loop"
+    },
+    "news:9to5mac:ios27-claude-choice-2026-05-05": {
+      "first_seen_utc": "2026-05-19T16:10:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "iOS 27 will let you choose Claude as AI engine"
+    }
+  }
 }
