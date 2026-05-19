@@ -716,7 +716,17 @@ EOF
 
 This is the "I'm alive" signal. If `#general` goes silent for 2+ cron cycles, something's broken on the routine side.
 
-### 8f. Gmail backup (PRIMARY if all Slack POSTs fail, or as redundant safety net)
+### 8f. Gmail backup — DEPRECATED 2026-05-19
+
+**Status: DEPRECATED.** Do not create Gmail drafts anymore.
+
+**Reason:** As of 2026-05-19, the GitHub Actions Slack router handles all per-channel routing reliably. The Gmail-as-fallback step was for the era when direct Slack POSTs from CCR were blocked (which they still are, but the workflow router covers it). Drafts piled up in `grau.enterprises@gmail.com` Drafts that nobody sent — pure waste.
+
+If somehow BOTH the GitHub push AND the Actions workflow fail simultaneously (very unlikely — different infrastructures), log to `state/failures.log` with explicit detail and move on. Leo will see the failures.log change via `#errors` channel on the NEXT successful push.
+
+The Gmail MCP remains attached to the routine for future use cases (e.g. searching past threads for context) but Step 8f no longer fires draft-creation on every run.
+
+### (former 8f content — kept for archival reference only, do NOT execute)
 
 **Sandbox note:** The Gmail MCP exposes `create_draft` but NOT `send_message` (security default). So this step CREATES a draft addressed to leo.p.grau@gmail.com — Leo manually sends it from grau.enterprises@gmail.com's Drafts folder.
 
