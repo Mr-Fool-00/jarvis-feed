@@ -300,7 +300,77 @@ If still failing, log the error and continue — email delivery is more importan
 
 ---
 
-## Step 8 — Email top 3 via Gmail MCP
+## Step 8 — Deliver digest (Slack primary, Gmail backup)
+
+### 8a. Slack webhook (PRIMARY delivery)
+
+The Slack webhook URL is provided to you in your routine instruction prompt (NOT in this repo — it's a secret). Look for the `SLACK_WEBHOOK_URL=` line near the top of your prompt.
+
+POST a Slack Block Kit message to the webhook. Format the top 3 items with rich rendering:
+
+```bash
+curl -X POST -H 'Content-Type: application/json' \
+  --data @- "$SLACK_WEBHOOK_URL" <<EOF
+{
+  "blocks": [
+    {
+      "type": "header",
+      "text": {"type": "plain_text", "text": "🚀 Jarvis digest — <DATE> <AM|PM>"}
+    },
+    {
+      "type": "context",
+      "elements": [
+        {"type": "mrkdwn", "text": "Fetched <N> · New <K> · Surfaced <up to 15>"}
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {"type": "mrkdwn", "text": "*1. <Title>* — score <S>/10\n_<source>_\n<2-3 line summary>\n*Why it matters:* <tie to Leo's project>"}
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {"type": "button", "text": {"type": "plain_text", "text": "🔗 Open"}, "url": "<url>"}
+      ]
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {"type": "mrkdwn", "text": "*2. ...*"}
+    },
+    {"type": "actions", "elements": [...]},
+    {"type": "divider"},
+    {
+      "type": "section",
+      "text": {"type": "mrkdwn", "text": "*3. ...*"}
+    },
+    {"type": "actions", "elements": [...]},
+    {
+      "type": "divider"
+    },
+    {
+      "type": "section",
+      "text": {"type": "mrkdwn", "text": "📋 Items 4–15 + filter stats in the full digest"}
+    },
+    {
+      "type": "actions",
+      "elements": [
+        {"type": "button", "text": {"type": "plain_text", "text": "View full digest on GitHub"}, "url": "https://github.com/Mr-Fool-00/jarvis-feed/blob/main/digests/<filename>"}
+      ]
+    }
+  ]
+}
+EOF
+```
+
+If Slack returns HTTP 200, delivery succeeded. If it returns anything else (404 means webhook revoked, 429 means rate-limited), log the failure and fall through to 8b.
+
+### 8b. Gmail backup (only if Slack fails OR running in failure-mode)
 
 Use the Gmail MCP `create_draft` tool first, then send. Recipient: **`leo.p.grau@gmail.com`** (Leo's personal — the Gmail MCP is bound to `grau.enterprises@gmail.com` (shared with his dad), so the email goes FROM the shared account TO Leo's personal inbox. Do NOT send to `grau.enterprises@gmail.com` — never spam the shared inbox).
 
