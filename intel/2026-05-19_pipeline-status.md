@@ -12,7 +12,8 @@ Snapshot of what's working end-to-end vs what's still blocked.
 | Digest write to repo | working | `digests/2026-05-19_PM.md` committed by agent |
 | GITHUB_PAT auth push | working | `jarvis-feed-agent` commits visible at github.com/Mr-Fool-00/jarvis-feed |
 | State file maintenance | working | `state/seen.json`, `state/agent_suggestions.md`, `state/failures.log` all updated |
-| GitHub → Slack bridge (commit notifications) | wiring up | this commit is the test — should auto-post to #ai-news |
+| GitHub → Slack bridge (commit notifications) | working | initial setup via /github subscribe |
+| GitHub Actions Slack router (per-channel by prefix) | live as of 2026-05-19 12:51 PM CDT | replaces the broad /github subscribe; routes by commit prefix to #ai-news / #improvements / #wins / #errors |
 
 ## ❌ Blocked
 
