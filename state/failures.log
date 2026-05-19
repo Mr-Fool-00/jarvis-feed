@@ -11,3 +11,6 @@
 2026-05-19T20:50:00Z fetch_arxiv_direct_failed reason="WebFetch returned 403 — covered via search result snippets"
 2026-05-19T20:50:00Z fetch_latentspace_archive_failed reason="WebFetch returned 403 — covered via search"
 2026-05-19T20:50:00Z fetch_releasebot_claude_code_failed reason="WebFetch returned 403 — covered via search result excerpts"
+2026-05-19T20:55:00Z slack_ai_news_retry_failed reason="hooks.slack.com still 403 from CCR sandbox — falling back to Gmail draft"
+2026-05-19T20:55:00Z slack_general_retry_failed reason="hooks.slack.com still 403 — GitHub commit prefix routing is the only active Slack delivery path"
+2026-05-19T20:55:00Z slack_improvements_retry_failed reason="hooks.slack.com still 403 — briefing: commits will trigger via GitHub-Slack bridge"
