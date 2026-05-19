@@ -41,7 +41,16 @@ Read these files in order:
 1. `SOURCES.yaml` — fetch config
 2. `INTEREST_PROFILE.md` — ranking criteria
 3. `state/seen.json` — dedupe DB
-4. `state/feedback.md` — Leo's reactions to past items (used to refine ranking)
+4. `state/feedback.md` — Leo's manually-written feedback (used to refine ranking)
+5. **`state/reactions.md`** — Slack reactions Leo gave on past digest items + briefings (NEW 2026-05-19). Auto-appended by the jarvis-listener Cloudflare Worker every time Leo reacts in Slack. **Use this as a primary feedback signal — emoji reactions are higher-confidence than text feedback because they're zero-effort to add.** Reaction map:
+   - **👍 / +1 / thumbsup** → APPROVE — boost similar items in future ranking (+1 score adjustment)
+   - **👎 / -1 / thumbsdown** → REJECT — penalize similar items (-2 score adjustment)
+   - **🤷 / shrug** → NEUTRAL (logged but no ranking change — signals "off-target but not bad")
+   - **🔥 / fire** → HYPE — strong boost (+2), this category should appear more
+   - **🚀 / rocket** → SHIP-IT — Leo wants action on this item (mark for follow-up briefing in #improvements)
+   - **👀 / eyes** → WATCHING — Leo's tracking this category, surface updates aggressively
+
+   Each reaction entry has a permalink to the Slack message. To resolve which DIGEST ITEM a reaction is on, match the message-ts in the reaction entry against the commit history (since digest commits + briefing commits land in Slack with file-name + commit-sha context). When matching is ambiguous (e.g., reaction on a message that doesn't tie cleanly to a single item), log to `state/agent_suggestions.md` and skip the adjustment for that reaction.
 
 If `state/seen.json` doesn't exist or is empty, treat all fetched items as new.
 
