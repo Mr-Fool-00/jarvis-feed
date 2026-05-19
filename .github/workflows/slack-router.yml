@@ -84,8 +84,18 @@ jobs:
                 ;;
             esac
 
+            # Trim whitespace/newlines from the secret value (GitHub doesn't always strip)
+            WEBHOOK=$(echo -n "$WEBHOOK" | tr -d '[:space:]')
+
             if [ -z "$WEBHOOK" ]; then
-              echo "  → silent (no channel for this commit type)"
+              echo "  → silent (no channel for this commit type, or secret missing/empty)"
+              continue
+            fi
+
+            # Sanity check the URL format — catches typos and partial pastes
+            if [[ ! "$WEBHOOK" =~ ^https://hooks\.slack\.com/services/ ]]; then
+              echo "  ⚠ Webhook URL malformed (not a Slack hooks URL): ${WEBHOOK:0:30}..."
+              echo "  → skipping this post, continuing with other commits"
               continue
             fi
 
@@ -112,15 +122,22 @@ jobs:
               }')
 
             echo "  → POST to $HEADER"
+            # Capture curl exit code separately so a curl-level error (network, malformed URL,
+            # etc.) doesn't abort the whole job via set -e. Loop continues regardless.
+            set +e
             HTTP_CODE=$(curl -s -o /tmp/slack_resp -w "%{http_code}" \
               -X POST -H 'Content-Type: application/json' \
               --data "$PAYLOAD" \
               "$WEBHOOK")
+            CURL_EXIT=$?
+            set -e
 
-            if [ "$HTTP_CODE" = "200" ]; then
+            if [ "$CURL_EXIT" != "0" ]; then
+              echo "    ✗ curl exit code $CURL_EXIT (webhook unreachable, malformed URL, or network issue)"
+            elif [ "$HTTP_CODE" = "200" ]; then
               echo "    ✓ 200 OK"
             else
-              RESP=$(cat /tmp/slack_resp)
+              RESP=$(cat /tmp/slack_resp 2>/dev/null || echo "(empty)")
               echo "    ✗ HTTP $HTTP_CODE: $RESP"
             fi
           done
