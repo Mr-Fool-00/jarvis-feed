@@ -5,6 +5,8 @@
 reddit:
   # Public Reddit JSON: https://www.reddit.com/r/SUB/new.json?limit=N
   # User-Agent header required.
+  # NOTE 2026-05-19: direct JSON API blocked from CCR sandbox. Use broader WebSearch
+  # queries instead (per Suggestion 3 approved). Keep subreddit list for query construction.
   subreddits:
     - ClaudeAI
     - LocalLLaMA
@@ -17,9 +19,12 @@ reddit:
   fetch_limit: 30      # items per sub
   min_score: 5         # drop posts with fewer upvotes
   hours_window: 24     # only consider posts within last N hours
+  fallback_strategy: "websearch-broader"  # use broader WebSearch queries like "r/ClaudeAI top posts this week" instead of site:reddit.com narrow
 
 hackernews:
   # Algolia API: https://hn.algolia.com/api/v1/search
+  # NOTE 2026-05-19: try WebFetch on hn.algolia.com/api/v1/items/{id} for deep-reading
+  # comment threads when WebSearch surfaces a high-value story (per Suggestion 6 approved).
   queries:
     - "Claude"
     - "Anthropic"
@@ -31,6 +36,7 @@ hackernews:
     - "agent framework"
   hours_window: 24
   min_points: 10       # drop low-engagement HN stories
+  deep_read_via_algolia: true  # for top-scored HN items, WebFetch hn.algolia.com/api/v1/items/{id} for comments
 
 github:
   # API: https://api.github.com/search/repositories
@@ -58,6 +64,27 @@ rss:
       url: "https://www.anthropic.com/news/rss"
     - name: "Latent Space"
       url: "https://www.latent.space/feed"
+    # Added 2026-05-19 per Suggestions 1 + 4 approved
+    - name: "Lenny's Newsletter"
+      url: "https://www.lennysnewsletter.com/feed"
+    - name: "Pragmatic Engineer"
+      url: "https://newsletter.pragmaticengineer.com/feed"
+
+# Added 2026-05-19 per Suggestion 2 approved — arxiv papers (cs.AI + cs.CL)
+arxiv:
+  # No direct API in CCR sandbox; use WebSearch with site:arxiv.org filter
+  # Weekly scan for practitioner-relevant papers (not pure theory).
+  categories: ["cs.CL", "cs.AI", "cs.LG"]
+  keywords: ["agent", "prompt engineering", "tool use", "LLM evaluation", "in-context learning", "multi-agent"]
+  hours_window: 168     # 7 days — papers publish less frequently than blog posts
+  search_strategy: "websearch"  # WebSearch \"site:arxiv.org 2026 <keyword>\"
+
+# Added 2026-05-19 per Suggestion 5 approved — PulseMCP as MCP-discovery source
+pulsemcp:
+  # MCP server registry — curated index of new MCP releases. Acts like ProductHunt for MCP.
+  url: "https://www.pulsemcp.com/servers"
+  search_strategy: "webfetch"   # WebFetch the /servers page, parse for new entries by published date
+  hours_window: 168     # weekly scan
 
 youtube:
   # Channel RSS (free, no API key): https://www.youtube.com/feeds/videos.xml?channel_id=ID
