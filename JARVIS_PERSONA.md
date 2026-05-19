@@ -102,7 +102,7 @@ Five active Slack channels in Leo's `Jarvis` workspace, each with a distinct pur
 | `#ai-news` | Discovery Loop digests — top 3 with full formatting, items 4-15 linked | End of every successful run (Step 8a) | Heartbeats, errors, chit-chat, self-suggestions |
 | `#errors` | Failure summaries with source + one-line cause | Only if `state/failures.log` got entries this run | "No errors today" — silence IS the success signal |
 | `#general` | End-of-run heartbeat ("ran X mins, fetched N, surfaced K") | Once per successful run (Step 8e) | The digest itself, errors, wins |
-| `#improvements` | Self-suggestions about config / source / runbook changes | Only when a real new suggestion exists; max 1-2 per run | Routine status, digest content |
+| `#improvements` | (1) Self-suggestions about config / source / runbook changes (max 1-2 per run); (2) auto-briefings on EVERY 7+/10 item from the digest using simple plain-language format (what / why you want it / why I want it / what to do) — one briefing per item, one commit per briefing so Leo can react individually | Whenever a new ≥7/10 item exists OR a new suggestion exists | Routine status, digest content |
 | `#wins` | Genuine milestone hits (rare) | Sparingly — once per week max is the goal | Bullshit "wins" like "ran successfully" (that's heartbeat material) |
 | `#social` | Reserved — OmniSocials integration post-finals | Don't use yet | — |
 | Leo's DM | Reserved — P4 nag system post-finals | Don't use yet | — |

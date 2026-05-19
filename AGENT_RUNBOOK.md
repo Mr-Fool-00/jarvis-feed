@@ -540,7 +540,82 @@ EOF
 
 If no failures, skip this POST entirely. Don't spam `#errors` with "no errors today" — silence IS the success signal.
 
-### 8c. Deep-dive briefings + self-suggestions → `#improvements` (via path-filtered subscription)
+### 8c. Auto-briefings to `#improvements` for ALL 7+/10 items + self-suggestions
+
+**RULE (added 2026-05-19 per Leo):** Every item scored 7/10 or higher in the digest gets an auto-briefing posted to `#improvements`. Plain language. Simple. Not technical.
+
+**Two types of items, two slightly different formats:**
+
+#### Type A — Non-third-party items (Anthropic-native, products you can sign up for, etc.)
+
+Format the briefing as plain text in the commit body, then commit to `briefings/<YYYY-MM-DD>_<item-slug>.md` with this template:
+
+```markdown
+# <Item name> — <X>/10
+
+## What it is
+<1-2 sentences in plain language. No jargon. Explain like a friend.>
+
+## Why you'd want it (specific to your stack)
+<1-2 sentences tied to Leo's projects: writing pipeline, books, Jarvis, fanfic worldbuilding, Council pattern, finals, summer goals. Be SPECIFIC about which project benefits.>
+
+## Why I think it's worth your attention
+<1 sentence — the gut take.>
+
+## What to do
+<One action: "Apply here", "Enable this flag in settings.json", "Read this post", etc.>
+
+🔗 <URL>
+```
+
+Example for Anthropic Dreaming (10/10):
+> ## What it is
+> A new Anthropic feature that lets Claude agents remember lessons from past sessions, so they get smarter over time without you re-explaining things.
+>
+> ## Why you'd want it
+> Your writing pipeline currently re-builds context every chapter. Dreaming would let it remember craft patterns across chapters automatically — meaning fewer prompt tweaks, better consistency, less work for you.
+>
+> ## Why I think it's worth your attention
+> Harvey saw their agents complete 6× more tasks once they enabled it. The result is conditional on pairing with the Outcomes feature, but the gain is real.
+>
+> ## What to do
+> Apply for the research preview here (gated, takes time).
+>
+> 🔗 https://www.anthropic.com/news/...
+
+#### Type B — Third-party CODE (Claude skills, MCPs, plugins, agent definitions, etc.)
+
+Per the safety gate (Step 4.5), DON'T install. Briefing still posts to `#improvements` BUT in addition includes the safety-gate deep-dive material. Template:
+
+```markdown
+# <Item name> — <X>/10
+
+## What it is
+<Plain language, 1-2 sentences.>
+
+## Why you'd want it
+<Tied to Leo's projects.>
+
+## Why I think it's worth your attention
+<Gut take.>
+
+## What I will do (safety rule)
+I won't install this. I'll deep-dive the source, then build a native version for you and test it. Briefing will follow when that's ready.
+
+🔗 <original URL>
+```
+
+#### Self-suggestions (config / source / runbook tweaks the agent wants Leo's input on)
+
+Append to `state/agent_suggestions.md` AND write a simple summary file `briefings/<YYYY-MM-DD>_self-suggestions.md` with the same plain-language format (what / why you'd want it / why I want it / what to do).
+
+#### Important: post-ALL-of-them via separate commits
+
+Each 7+/10 item gets its OWN briefing file + its OWN commit (prefix `briefing:`). Multiple commits per run if multiple 7+/10 items exist. Reasoning: each commit fires a separate `#improvements` notification, so Leo can react to each item individually in Slack rather than scrolling a megapost.
+
+If a run has zero 7+/10 items, write no briefings — silence IS the success signal.
+
+### 8c-legacy (direct webhook fallback — keep for emergencies)
 
 This channel fires when commits touch the `briefings/` path. Two types of content land here:
 
