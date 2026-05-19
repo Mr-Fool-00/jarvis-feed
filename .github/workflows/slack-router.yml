@@ -7,11 +7,16 @@ on:
 permissions:
   contents: read
 
+env:
+  # Opt into Node.js 24 now — Node 20 is deprecated June 2 2026.
+  # Removes the deprecation warning + future-proofs the workflow.
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+
 jobs:
   route:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v5
         with:
           fetch-depth: 50
 
