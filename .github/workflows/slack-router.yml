@@ -1,0 +1,126 @@
+name: Slack Router
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  route:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 50
+
+      - name: Route commits to Slack channels by prefix
+        env:
+          SLACK_AI_NEWS: ${{ secrets.SLACK_AI_NEWS }}
+          SLACK_ERRORS: ${{ secrets.SLACK_ERRORS }}
+          SLACK_IMPROVEMENTS: ${{ secrets.SLACK_IMPROVEMENTS }}
+          SLACK_WINS: ${{ secrets.SLACK_WINS }}
+          REPO: ${{ github.repository }}
+          BEFORE_SHA: ${{ github.event.before }}
+          AFTER_SHA: ${{ github.event.after }}
+        run: |
+          set -euo pipefail
+
+          # Enumerate commits via git (safer than github.event.commits.*.id which is
+          # untrusted input; git log from before..after gives us the same list via
+          # a trusted local source).
+          if [ "$BEFORE_SHA" = "0000000000000000000000000000000000000000" ]; then
+            # First push to branch — just show HEAD
+            COMMIT_RANGE="$AFTER_SHA -1"
+          else
+            COMMIT_RANGE="${BEFORE_SHA}..${AFTER_SHA}"
+          fi
+
+          # Get SHAs only (no message data interpolation — read messages with git log per-sha below)
+          mapfile -t SHAS < <(git rev-list --reverse "$COMMIT_RANGE" 2>/dev/null || git rev-list -1 "$AFTER_SHA")
+
+          for sha in "${SHAS[@]}"; do
+            # Read trusted fields from git, not from github.event
+            MSG=$(git log -1 --pretty=%s "$sha")
+            AUTHOR=$(git log -1 --pretty=%an "$sha")
+            FILES=$(git diff-tree --no-commit-id --name-only -r "$sha" | tr '\n' ' ')
+            SHORT_SHA="${sha:0:7}"
+            COMMIT_URL="https://github.com/${REPO}/commit/${sha}"
+
+            echo "Processing commit $SHORT_SHA: $MSG"
+
+            # Determine destination channel based on prefix
+            WEBHOOK=""
+            HEADER=""
+
+            case "$MSG" in
+              digest:*)
+                WEBHOOK="$SLACK_AI_NEWS"
+                HEADER="📰 New digest"
+                ;;
+              briefing:*)
+                WEBHOOK="$SLACK_AI_NEWS"
+                HEADER="🛠️ New briefing — react in this channel to confirm/reject"
+                ;;
+              feat:*|fix:*|chore:*|intel:*|refactor:*|test:*|docs:*)
+                WEBHOOK="$SLACK_IMPROVEMENTS"
+                HEADER="🔧 Improvement landed"
+                ;;
+              wins:*)
+                WEBHOOK="$SLACK_WINS"
+                HEADER="🏆 Win logged"
+                ;;
+              state:*)
+                # Only fire #errors if failures.log changed; otherwise silent
+                if echo "$FILES" | grep -q "state/failures.log"; then
+                  WEBHOOK="$SLACK_ERRORS"
+                  HEADER="🚨 Failures logged"
+                fi
+                ;;
+              *)
+                WEBHOOK="$SLACK_IMPROVEMENTS"
+                HEADER="🔧 Improvement landed"
+                ;;
+            esac
+
+            if [ -z "$WEBHOOK" ]; then
+              echo "  → silent (no channel for this commit type)"
+              continue
+            fi
+
+            # Build payload via jq for safe JSON escaping (no shell interpolation
+            # of message content into the payload directly)
+            PAYLOAD=$(jq -n \
+              --arg header "$HEADER" \
+              --arg msg "$MSG" \
+              --arg sha "$SHORT_SHA" \
+              --arg author "$AUTHOR" \
+              --arg files "$FILES" \
+              --arg url "$COMMIT_URL" \
+              '{
+                blocks: [
+                  {type: "header", text: {type: "plain_text", text: $header}},
+                  {type: "section", text: {type: "mrkdwn", text: ("*" + $msg + "*")}},
+                  {type: "context", elements: [
+                    {type: "mrkdwn", text: ("`" + $sha + "` by " + $author + " · files: " + ($files | gsub("^\\s+|\\s+$"; "")))}
+                  ]},
+                  {type: "actions", elements: [
+                    {type: "button", text: {type: "plain_text", text: "View on GitHub"}, url: $url}
+                  ]}
+                ]
+              }')
+
+            echo "  → POST to $HEADER"
+            HTTP_CODE=$(curl -s -o /tmp/slack_resp -w "%{http_code}" \
+              -X POST -H 'Content-Type: application/json' \
+              --data "$PAYLOAD" \
+              "$WEBHOOK")
+
+            if [ "$HTTP_CODE" = "200" ]; then
+              echo "    ✓ 200 OK"
+            else
+              RESP=$(cat /tmp/slack_resp)
+              echo "    ✗ HTTP $HTTP_CODE: $RESP"
+            fi
+          done
