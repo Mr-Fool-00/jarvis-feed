@@ -1,0 +1,8 @@
+2026-05-19T16:15:00Z slack_ai_news_post_failed reason="hooks.slack.com not in network allowlist (403 from sandbox proxy)"
+2026-05-19T16:15:00Z slack_errors_post_failed reason="hooks.slack.com not in network allowlist (403 from sandbox proxy)"
+2026-05-19T16:15:00Z slack_improvements_post_failed reason="hooks.slack.com not in network allowlist (403 from sandbox proxy)"
+2026-05-19T16:15:00Z slack_general_post_failed reason="hooks.slack.com not in network allowlist (403 from sandbox proxy)"
+2026-05-19T16:10:00Z fetch_reddit_json_failed reason="curl blocked by sandbox proxy (403) — WebSearch fallback produced no indexed Reddit posts"
+2026-05-19T16:10:00Z fetch_rss_simonwillison_failed reason="WebFetch returned 403 — covered via WebSearch"
+2026-05-19T16:10:00Z fetch_rss_anthropic_failed reason="WebFetch returned 403 — covered via WebSearch"
+2026-05-19T16:10:00Z fetch_hn_items_webfetch_failed reason="Direct HN item WebFetch returned 403 — covered via targeted WebSearch per item"
