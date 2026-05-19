@@ -271,6 +271,22 @@ For each fetched item, check if its `id` appears in `state/seen.json`. If yes, d
 
 ---
 
+## File-path discipline for channel routing (NEW 2026-05-19)
+
+Slack delivery is via the GitHub→Slack bridge (direct webhook POSTs from CCR sandbox are blocked). Each Slack channel subscribes to commits touching a specific path. To route content to the right channel, write to the right path:
+
+| Path you commit | Channel that auto-fires | Content type |
+|---|---|---|
+| `digests/<YYYY-MM-DD>_<AM|PM>.md` | `#ai-news` | Main daily digest |
+| `briefings/<YYYY-MM-DD>_<topic-slug>.md` | `#improvements` | Deep-dive briefing on 7+/10 third-party item awaiting Leo's approval |
+| `state/failures.log` (modified) | `#errors` | Failure summaries (only when log changed) |
+| `wins/<YYYY-MM-DD>_<slug>.md` | `#wins` | Milestone events |
+| Anything else in repo | (no channel auto-fires, but commit visible on GitHub) | Internal state, intel, README updates, etc. |
+
+**One commit can touch multiple paths** — each path triggers its own channel's subscription. Example: a run that produces both a digest AND a briefing fires BOTH `#ai-news` and `#improvements` from a single commit.
+
+If a path's content is empty/no-op for this run, DON'T write a placeholder file just to trigger the channel — keep silence as the absence-of-news signal (per JARVIS_PERSONA channel discipline).
+
 ## Step 4.5 — Skill/tool safety gate (NEW 2026-05-19)
 
 Before ranking, identify items that are third-party CODE intended for installation: Claude Code skills, MCPs, plugins, agent definitions, hooks, shell scripts, npm/pip/go packages. For each:
@@ -520,7 +536,56 @@ EOF
 
 If no failures, skip this POST entirely. Don't spam `#errors` with "no errors today" — silence IS the success signal.
 
-### 8c. Self-suggestions → `#improvements`
+### 8c. Deep-dive briefings + self-suggestions → `#improvements` (via path-filtered subscription)
+
+This channel fires when commits touch the `briefings/` path. Two types of content land here:
+
+**Type 1 — Deep-dive briefings on 7+/10 third-party items** (per Step 4.5 safety gate):
+
+For each item that passed the safety gate's deep-dive (≥7/10 third-party CODE), write a briefing file to `briefings/<YYYY-MM-DD>_<topic-slug>.md` with this structure:
+
+```markdown
+# Briefing: <item name>
+
+**Date:** <YYYY-MM-DD>
+**Source URL:** <repo or post URL>
+**Score:** <X>/10 (initial: <Y>/10, post-deep-dive adjusted to <X>)
+**Category:** Third-party Claude Code skill / MCP / plugin / etc.
+
+## What it does (1 paragraph)
+
+## What it would touch on Leo's system
+- Files installed: ...
+- Tools requested: ...
+- Hooks installed: ...
+
+## Why score >= 7
+- ...
+
+## Red flags found during deep-dive
+- ... (if any, otherwise "None found")
+
+## Maintainership signal
+- Last commit: ...
+- Open issues: ... open / ... closed
+- Stars / forks: ...
+
+## Recommended action for Leo
+- ☐ Approve → Jarvis builds our own version
+- ☐ Reject → drop, never surface again
+- ☐ Defer → re-evaluate after summer
+
+## Build-our-own sketch (if approved)
+<2-3 paragraph sketch of how Jarvis would re-implement the value of this item as Leo-owned code, not third-party install>
+```
+
+Then the next-run agent will check `briefings/` for unactioned items, look for Leo's checkbox decision in feedback.md or via a future Slack-reply system.
+
+**Type 2 — General self-suggestions** (config tweaks, source additions, runbook gaps): append to `state/agent_suggestions.md` AND write a brief summary to `briefings/<YYYY-MM-DD>_self-suggestions.md` to fire the `#improvements` channel.
+
+### 8c (legacy direct webhook — keep but de-prioritize)
+
+If for some reason path-filter routing isn't yet set up (Leo hasn't run the `/github subscribe` with path filter), fall back to direct webhook POST per the original Step 8c. Otherwise prefer the file-path approach above — it's reliable, the webhook isn't.
 
 If during the run you noticed something the runbook should change (a dead source, a keyword that produces only noise, a missing source category, a Block Kit formatting bug), append to `state/agent_suggestions.md` AND POST a summary to `#improvements`:
 
