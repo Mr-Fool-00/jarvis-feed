@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-19T16:10:00Z",
+  "last_run_utc": "2026-05-19T20:50:00Z",
   "items": {
     "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
       "first_seen_utc": "2026-05-19T16:10:00Z",
@@ -76,6 +76,56 @@
       "first_seen_utc": "2026-05-19T16:10:00Z",
       "score_when_seen": 4,
       "title_snippet": "iOS 27 will let you choose Claude as AI engine"
+    },
+    "anthropic:claude-opus-4-7": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Claude Opus 4.7 — new model, 87.6% SWE-bench, 60% less task abandonment"
+    },
+    "rss:simonwillison:unreasonable-effectiveness-html": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Using Claude Code: The Unreasonable Effectiveness of HTML"
+    },
+    "anthropic:claude-code-fast-mode-opus-4-7": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Claude Code changelog: fast mode → Opus 4.7, new agent flags, SKILL.md fix"
+    },
+    "rss:simonwillison:vibe-coding-agentic-engineering": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Vibe coding and agentic engineering are getting closer than I'd like"
+    },
+    "github:VILA-Lab/Dive-into-Claude-Code": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Dive into Claude Code — systematic architecture analysis, 1.6% AI logic"
+    },
+    "arxiv:2605.02801": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "RL for LLM-based Multi-Agent Systems through Orchestration Traces"
+    },
+    "podcast:latentspace:felix-rieseberg-cowork": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Why Anthropic Thinks AI Should Have Its Own Computer — Felix Rieseberg"
+    },
+    "arxiv:2505.19591": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Multi-Agent Collaboration via Evolving Orchestration"
+    },
+    "blog:mindstudio:agentic-workflow-patterns": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "5 Claude Code Agentic Workflow Patterns"
+    },
+    "github:czlonkowski/n8n-mcp": {
+      "first_seen_utc": "2026-05-19T20:50:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "n8n-mcp: build n8n workflows via Claude Code (1.4K stars)"
     }
   }
 }

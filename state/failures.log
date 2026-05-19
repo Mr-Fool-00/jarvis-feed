@@ -6,3 +6,8 @@
 2026-05-19T16:10:00Z fetch_rss_simonwillison_failed reason="WebFetch returned 403 — covered via WebSearch"
 2026-05-19T16:10:00Z fetch_rss_anthropic_failed reason="WebFetch returned 403 — covered via WebSearch"
 2026-05-19T16:10:00Z fetch_hn_items_webfetch_failed reason="Direct HN item WebFetch returned 403 — covered via targeted WebSearch per item"
+2026-05-19T20:50:00Z fetch_anthropic_news_direct_failed reason="WebFetch returned 403 — covered via WebSearch"
+2026-05-19T20:50:00Z fetch_simonwillison_direct_failed reason="WebFetch returned 403 — covered via WebSearch + third-party summaries"
+2026-05-19T20:50:00Z fetch_arxiv_direct_failed reason="WebFetch returned 403 — covered via search result snippets"
+2026-05-19T20:50:00Z fetch_latentspace_archive_failed reason="WebFetch returned 403 — covered via search"
+2026-05-19T20:50:00Z fetch_releasebot_claude_code_failed reason="WebFetch returned 403 — covered via search result excerpts"
