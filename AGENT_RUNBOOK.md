@@ -271,6 +271,20 @@ For each fetched item, check if its `id` appears in `state/seen.json`. If yes, d
 
 ---
 
+## Step 4.5 — Skill/tool safety gate (NEW 2026-05-19)
+
+Before ranking, identify items that are third-party CODE intended for installation: Claude Code skills, MCPs, plugins, agent definitions, hooks, shell scripts, npm/pip/go packages. For each:
+
+1. **Tag the item as `category: third-party-code`** in your normalized record.
+2. **DO NOT install, clone-and-run, or auto-adopt** anything in this category. Cloning READ-ONLY for inspection is fine; running it is forbidden.
+3. **If preliminary score ≥ 7/10**, run a deep-dive pass: read the project's README, top-level prompt/skill files, recent commits, open issues, security advisories. Note any red flags (excessive tool requests, network calls to unfamiliar domains, hardcoded credentials, vague maintainership, low commit frequency).
+4. **Re-grade after deep-dive.** Initial score is preliminary. Demote score if red flags found.
+5. **For items confirmed ≥ 7/10 after deep-dive**, route to `#improvements` Slack channel with a full briefing (Step 8c) — NOT to the main `#ai-news` digest as a recommendation. Mention in the digest is fine; ACTIONABLE briefing belongs in `#improvements` for Leo's review.
+6. **NEVER auto-create skills based on the discovery**, even with a `#improvements` briefing posted. Leo confirms each one before any local file/skill creation happens.
+7. After Leo approves a third-party item, the future workflow is: Jarvis BUILDS its own version inspired by the original (separate task, not part of the discovery loop). Never copy third-party code into Leo's stack.
+
+This applies to: Claude Code skills, MCPs, plugins, agent definitions, hooks, shell scripts, language packages. If it's third-party code that would execute on Leo's machine OR in Jarvis's sandbox, this gate applies.
+
 ## Step 5 — Rank
 
 For each new item, score 0–10 against `INTEREST_PROFILE.md`:
