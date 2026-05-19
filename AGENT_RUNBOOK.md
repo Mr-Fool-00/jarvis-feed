@@ -300,11 +300,23 @@ If still failing, log the error and continue — email delivery is more importan
 
 ---
 
-## Step 8 — Deliver digest (Slack primary, Gmail backup)
+## Step 8 — Deliver digest (multi-channel Slack, Gmail backup)
 
-### 8a. Slack webhook (PRIMARY delivery)
+You have 5 active Slack channels routed by message type. URLs are in your routine prompt under "## Secrets" — look for the `SLACK_WEBHOOK_*=` lines. Each channel has a distinct purpose:
 
-The Slack webhook URL is provided to you in your routine instruction prompt (NOT in this repo — it's a secret). Look for the `SLACK_WEBHOOK_URL=` line near the top of your prompt.
+| Channel | Webhook ENV var | What goes here |
+|---|---|---|
+| `#ai-news` | `SLACK_WEBHOOK_AI_NEWS` | Main digest: top 3 + items 4-15 link |
+| `#errors` | `SLACK_WEBHOOK_ERRORS` | Source fetch failures, parse errors, push fails |
+| `#general` | `SLACK_WEBHOOK_GENERAL` | Heartbeat ("ran successfully"), status pings |
+| `#improvements` | `SLACK_WEBHOOK_IMPROVEMENTS` | Self-suggestions for SOURCES.yaml / INTEREST_PROFILE / runbook changes |
+| `#wins` | `SLACK_WEBHOOK_WINS` | Explicit milestone hits worth celebrating |
+
+Send to channels in this order: errors first (if any), then ai-news (main payload), then improvements (if new suggestions), then wins (if applicable), then general (heartbeat). Each channel is a separate POST.
+
+### 8a. Main digest → `#ai-news` (PRIMARY delivery)
+
+This is the most important POST. Use Block Kit. Same format as before:
 
 POST a Slack Block Kit message to the webhook. Format the top 3 items with rich rendering:
 
@@ -370,7 +382,77 @@ EOF
 
 If Slack returns HTTP 200, delivery succeeded. If it returns anything else (404 means webhook revoked, 429 means rate-limited), log the failure and fall through to 8b.
 
-### 8b. Gmail backup (only if Slack fails OR running in failure-mode)
+### 8b. Failures → `#errors`
+
+If `state/failures.log` got entries this run, POST a summary to `#errors`. Format:
+
+```bash
+curl -s -X POST -H 'Content-Type: application/json' \
+  --data @- "$SLACK_WEBHOOK_ERRORS" <<EOF
+{
+  "blocks": [
+    {"type": "header", "text": {"type": "plain_text", "text": "🚨 Jarvis errors — <DATE> <AM|PM>"}},
+    {"type": "section", "text": {"type": "mrkdwn", "text": "<N> failures this run:\n• <source>: <one-line error>\n• <source>: <one-line error>"}}
+  ]
+}
+EOF
+```
+
+If no failures, skip this POST entirely. Don't spam `#errors` with "no errors today" — silence IS the success signal.
+
+### 8c. Self-suggestions → `#improvements`
+
+If during the run you noticed something the runbook should change (a dead source, a keyword that produces only noise, a missing source category, a Block Kit formatting bug), append to `state/agent_suggestions.md` AND POST a summary to `#improvements`:
+
+```bash
+curl -s -X POST -H 'Content-Type: application/json' \
+  --data @- "$SLACK_WEBHOOK_IMPROVEMENTS" <<EOF
+{
+  "blocks": [
+    {"type": "header", "text": {"type": "plain_text", "text": "🛠️ Jarvis improvement suggestions"}},
+    {"type": "section", "text": {"type": "mrkdwn", "text": "I noticed during this run:\n\n• <suggestion 1 with reasoning>\n• <suggestion 2 with reasoning>\n\nReact 👍 to approve / 👎 to reject. See <https://github.com/Mr-Fool-00/jarvis-feed/blob/main/state/agent_suggestions.md|state/agent_suggestions.md> for full log."}}
+  ]
+}
+EOF
+```
+
+If no new suggestions, skip this POST.
+
+### 8d. Wins → `#wins`
+
+If something in the digest is genuinely worth celebrating (e.g., found a skill that directly addresses Leo's current bottleneck; spotted a meta-pattern that unlocks something), POST to `#wins`. Be sparing — wins channel loses value if every digest gets one.
+
+```bash
+curl -s -X POST -H 'Content-Type: application/json' \
+  --data @- "$SLACK_WEBHOOK_WINS" <<EOF
+{
+  "blocks": [
+    {"type": "section", "text": {"type": "mrkdwn", "text": "🏆 <one-line description of the win>\n\nFrom <DATE> <AM|PM> digest: <linked title>\n*Why this matters:* <2-3 lines tied to Leo's specific project>"}}
+  ]
+}
+EOF
+```
+
+Default: skip this POST. Only fire when there's a real win.
+
+### 8e. Heartbeat → `#general`
+
+At the END of every successful run, POST a brief heartbeat to `#general`:
+
+```bash
+curl -s -X POST -H 'Content-Type: application/json' \
+  --data @- "$SLACK_WEBHOOK_GENERAL" <<EOF
+{
+  "blocks": [
+    {"type": "context", "elements": [{"type": "mrkdwn", "text": "✓ Jarvis ran <DATE> <AM|PM>. Fetched <N>, surfaced <K>. Wall time: <X> min. <Y> commits. <Z> errors. Full digest in <#ai-news>."}]}
+  ]
+}
+EOF
+```
+
+This is the "I'm alive" signal. If `#general` goes silent for 2+ cron cycles, something's broken on the routine side.
+
+### 8f. Gmail backup (only if ALL Slack delivery fails)
 
 Use the Gmail MCP `create_draft` tool first, then send. Recipient: **`leo.p.grau@gmail.com`** (Leo's personal — the Gmail MCP is bound to `grau.enterprises@gmail.com` (shared with his dad), so the email goes FROM the shared account TO Leo's personal inbox. Do NOT send to `grau.enterprises@gmail.com` — never spam the shared inbox).
 
