@@ -1,0 +1,4 @@
+# outbox/ — Max's responses, ready for Worker to deliver to Slack.
+#
+# Each file: same ulid as the inbox task. Frontmatter has slack_channel + status (pending|sent).
+# Worker scheduled() polls this dir every minute, posts pending responses, marks status: sent.

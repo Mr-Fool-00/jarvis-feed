@@ -1,0 +1,4 @@
+# inbox/ — Tasks dispatched from Jarvis (Slack courier) → Max (thinker)
+#
+# Each file: <ulid>.md with frontmatter (slack_channel, thread_ts, user, created_at) + task body.
+# Max daemon polls this dir, processes new files, writes responses to ../outbox/.
