@@ -271,21 +271,25 @@ For each fetched item, check if its `id` appears in `state/seen.json`. If yes, d
 
 ---
 
-## File-path discipline for channel routing (NEW 2026-05-19)
+## Slack routing via commit-message PREFIX convention (REVISED 2026-05-19)
 
-Slack delivery is via the GitHub→Slack bridge (direct webhook POSTs from CCR sandbox are blocked). Each Slack channel subscribes to commits touching a specific path. To route content to the right channel, write to the right path:
+**Reality check (discovered 2026-05-19 12:00 PM CDT):** the GitHub Slack app does NOT support `+path:` filters. Only event-type filters (commits, issues, pulls, releases, etc.). So we can't route content to different channels by repo path.
 
-| Path you commit | Channel that auto-fires | Content type |
+**Current architecture:** ONE channel (`#ai-news`) subscribes to all commits via `/github subscribe Mr-Fool-00/jarvis-feed commits`. Route signal via commit-MESSAGE prefixes that Leo skims by.
+
+| Commit prefix | Content type | Where Leo reads full content |
 |---|---|---|
-| `digests/<YYYY-MM-DD>_<AM|PM>.md` | `#ai-news` | Main daily digest |
-| `briefings/<YYYY-MM-DD>_<topic-slug>.md` | `#improvements` | Deep-dive briefing on 7+/10 third-party item awaiting Leo's approval |
-| `state/failures.log` (modified) | `#errors` | Failure summaries (only when log changed) |
-| `wins/<YYYY-MM-DD>_<slug>.md` | `#wins` | Milestone events |
-| Anything else in repo | (no channel auto-fires, but commit visible on GitHub) | Internal state, intel, README updates, etc. |
+| `digest:` | Main daily digest | Click GitHub link → `digests/<date>_<slot>.md` |
+| `briefing:` | Deep-dive on 7+/10 third-party item awaiting Leo's approval | Click GitHub link → `briefings/<date>_<topic>.md` |
+| `state:` | State updates (seen.json, failures.log, etc.) | Usually skip — system bookkeeping |
+| `wins:` | Milestone events worth celebrating | Click GitHub link → `wins/<date>_<slug>.md` |
+| `feat:` / `fix:` / `chore:` / `intel:` | Code or doc changes (not auto-generated content) | Standard dev signal |
 
-**One commit can touch multiple paths** — each path triggers its own channel's subscription. Example: a run that produces both a digest AND a briefing fires BOTH `#ai-news` and `#improvements` from a single commit.
+**One commit can touch multiple file paths.** Example: a run that produces both a digest AND a briefing should make TWO separate commits (one prefixed `digest:`, one prefixed `briefing:`) — keeps the Slack signal clean even though it costs a second push.
 
-If a path's content is empty/no-op for this run, DON'T write a placeholder file just to trigger the channel — keep silence as the absence-of-news signal (per JARVIS_PERSONA channel discipline).
+If no briefing this run, skip writing one — silence IS the success signal.
+
+**Future plan:** Post-finals CF Workers bridge (`intel/2026-05-19_slack-listener-design.md`) will solve real per-channel routing by parsing commit content and POSTing to the right webhook. Until then, prefix-convention is the workaround.
 
 ## Step 4.5 — Skill/tool safety gate (NEW 2026-05-19)
 
