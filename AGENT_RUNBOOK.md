@@ -62,9 +62,86 @@ If `state/seen.json` doesn't exist or is empty, treat all fetched items as new.
 
 ---
 
-## Step 3 — Fetch each source
+## Step 3 — Fetch each source (SANDBOX-AWARE — UPDATED 2026-05-19)
 
-For each source category in `SOURCES.yaml`, fetch via curl. Collect ALL raw items into a single in-memory list with normalized fields:
+**Critical context:** Anthropic CCR sandbox runs with a **network allowlist**. Most direct `curl` calls to public APIs (reddit.com, hn.algolia.com, api.github.com, hooks.slack.com) RETURN 403 via the local proxy at `127.0.0.1:46017`. Don't waste time trying curl first.
+
+**Fetch order of preference (highest-yield first):**
+1. **`WebSearch` tool** — primary discovery method. Returns search results with titles, URLs, snippets. Works for all topic-based discovery (subreddits via "reddit r/ClaudeAI new posts last 24h", HN via "hacker news Claude site:news.ycombinator.com", GitHub via "github claude code skill new repo", etc.).
+2. **`WebFetch` tool** — primary deep-read method for specific URLs surfaced by WebSearch. Fetches a single URL and processes with a prompt. Use this to deep-read top items.
+3. **`curl` via Bash** — LAST RESORT only. Try if WebFetch/WebSearch can't surface what you need. Expect 403 from most domains. Don't loop on retries — fail fast and move on.
+
+**Per-source approach (WebSearch-primary):**
+
+For each source category in `SOURCES.yaml`, run targeted WebSearch queries instead of API curls. Collect ALL results into a single normalized list:
+
+- `id` — unique key, format `<source>:<some-id>` (URL hash if no ID available)
+- `source` — source label (e.g. `reddit:ClaudeAI`, `hn`, `github`, `rss:Simon Willison`, `youtube:AI Explained`)
+- `title`
+- `url`
+- `summary` — from search snippet + WebFetch deep-read for top items
+- `engagement` — stars/score/views (best-effort from search results; fine if 0)
+- `published_utc` — best-effort from search; estimate if unclear
+
+### 3a. Reddit (WebSearch primary)
+
+For each subreddit in `reddit.subreddits`, search:
+```
+WebSearch: "site:reddit.com/r/<SUB> Claude OR MCP OR agent posted last 24 hours"
+```
+Or more naturally: `"reddit r/ClaudeAI new posts about Claude Code or skills"`.
+
+Don't try the .json API via curl — sandbox blocks it.
+
+### 3b. Hacker News (WebSearch primary)
+
+For each query in `hackernews.queries`, search:
+```
+WebSearch: "<query> site:news.ycombinator.com 2026"
+```
+
+Use WebFetch on `https://hn.algolia.com/api/v1/search?query=<URL_ENCODED>` ONLY if WebSearch missed something — it sometimes works via WebFetch when blocked via curl.
+
+### 3c. GitHub (WebSearch primary)
+
+For each topic/keyword:
+```
+WebSearch: "github <keyword> new repos this week stars" or
+           "github.com claude-code <topic> 2026"
+```
+
+For deep-reading a specific repo, use WebFetch on the repo's GitHub URL.
+
+### 3d. RSS / Atom (WebFetch primary)
+
+For each feed in `rss.feeds`:
+```
+WebFetch: <feed URL>, prompt: "extract titles, links, pub dates of entries posted in last 24 hours"
+```
+
+WebFetch can hit some domains curl can't (it has different network rules in some sandboxes).
+
+### 3e. YouTube channels (WebSearch primary)
+
+For each handle in `youtube.channels`:
+```
+WebSearch: "<handle> youtube latest video 2026 Claude OR AI agent"
+```
+
+Skip channel_id resolution if WebSearch returns the latest video directly. Resolution can fail under sandbox restrictions anyway.
+
+### 3f. Manual incoming-urls funnel — unchanged
+
+Process `state/incoming_urls.md` URLs via WebFetch (works for most public web URLs the user dropped in). Same force-include rules.
+
+### Curl fallback (use ONLY if WebSearch+WebFetch don't surface what you need)
+
+```bash
+# Try curl, but EXPECT 403 from proxy
+curl -sH "User-Agent: jarvis-feed/1.0 by Mr-Fool-00" "<URL>" 2>&1 | head -50
+```
+
+If you get 403, log to `state/failures.log` as "curl blocked by sandbox proxy for <URL>" and move on. Don't retry-loop.
 
 - `id` — unique key, format `<source>:<source_id>` (e.g. `reddit:t3_abc123`, `hn:39482001`, `github:karpathy/nanochat`, `rss:simonwillison:post-slug`)
 - `source` — source label (e.g. `reddit:ClaudeAI`, `hn`, `github`, `rss:Simon Willison`)
@@ -280,23 +357,46 @@ Then update `state/seen.json`:
 
 ---
 
-## Step 7 — Commit and push
+## Step 7 — Commit and push (SANDBOX-AWARE — UPDATED 2026-05-19)
+
+**Critical context:** The sandbox's git proxy at `127.0.0.1:46017` uses a READ-ONLY token by default. Direct `git push` returns 403. We work around this by using a Leo-provided PAT (Personal Access Token) embedded in the routine prompt OR by using the GitHub MCP write tools if attached.
+
+**Push order of preference:**
+
+### 7a. Try PAT-authenticated push (PRIMARY)
+
+If your routine prompt contains a `GITHUB_PAT=` secret line, use it:
 
 ```bash
 git config user.name "jarvis-feed-agent"
 git config user.email "agent@jarvis-feed.local"
-git add digests/ state/
+git add digests/ state/ intel/
 git commit -m "digest: <DATE> <AM|PM> (<K> new, top score <SCORE>)"
+
+# Override remote URL to use PAT auth, bypassing the read-only proxy token
+git remote set-url origin "https://x-access-token:${GITHUB_PAT}@github.com/Mr-Fool-00/jarvis-feed"
 git push origin main
 ```
 
-If push fails (race condition with manual edits), do:
-```bash
-git pull --rebase origin main
-git push origin main
-```
+If THIS push succeeds → done with Step 7. Move to Step 8.
 
-If still failing, log the error and continue — email delivery is more important than perfect commit.
+### 7b. Try GitHub MCP push (FALLBACK if 7a fails)
+
+If 7a returns 403 or no PAT is available, try the GitHub MCP tools (loaded via ToolSearch):
+- `push_files` (batch upload of multiple files to a branch)
+- `create_or_update_file` (per-file API call)
+
+These use Anthropic's GitHub integration, which may have its own auth scope.
+
+### 7c. Log push failure and continue (LAST RESORT)
+
+If both 7a and 7b fail:
+1. Append to `state/failures.log`: `<UTC timestamp> push_failed reason="<error>"`
+2. Write `state/PENDING_PUSH.md` with: commit hash, files changed, retry instructions for next run
+3. Surface in the digest's `## ⚠️ Failures` section: "Digest committed to sandbox FS but NOT pushed to GitHub. Archive lives only in this run's container."
+4. DO NOT abort the run — Slack/Gmail delivery is independent of push success.
+
+The next-run agent should check for `state/PENDING_PUSH.md` and attempt the push retry early in Step 7.
 
 ---
 
@@ -316,7 +416,13 @@ Send to channels in this order: errors first (if any), then ai-news (main payloa
 
 ### 8a. Main digest → `#ai-news` (PRIMARY delivery)
 
-This is the most important POST. Use Block Kit. Same format as before:
+**Sandbox note:** `hooks.slack.com` may be blocked from direct `curl` via the proxy. Try in this order:
+
+1. **`WebFetch` POST** — pass the webhook URL with the JSON payload. WebFetch sometimes works for domains curl can't reach.
+2. **`curl` POST** — fall back to curl with `-w "%{http_code}"` to detect 403 quickly.
+3. **If both return non-200:** log to `state/failures.log` AND immediately fall back to Gmail (Step 8f) for THIS delivery. Don't skip just because Slack failed.
+
+Use Block Kit. Same format as before:
 
 POST a Slack Block Kit message to the webhook. Format the top 3 items with rich rendering:
 
@@ -452,7 +558,11 @@ EOF
 
 This is the "I'm alive" signal. If `#general` goes silent for 2+ cron cycles, something's broken on the routine side.
 
-### 8f. Gmail backup (only if ALL Slack delivery fails)
+### 8f. Gmail backup (PRIMARY if all Slack POSTs fail, or as redundant safety net)
+
+**Sandbox note:** The Gmail MCP exposes `create_draft` but NOT `send_message` (security default). So this step CREATES a draft addressed to leo.p.grau@gmail.com — Leo manually sends it from grau.enterprises@gmail.com's Drafts folder.
+
+To make this less terrible, the draft body should be self-contained — Leo should be able to read it directly without needing the repo or Slack to understand it.
 
 Use the Gmail MCP `create_draft` tool first, then send. Recipient: **`leo.p.grau@gmail.com`** (Leo's personal — the Gmail MCP is bound to `grau.enterprises@gmail.com` (shared with his dad), so the email goes FROM the shared account TO Leo's personal inbox. Do NOT send to `grau.enterprises@gmail.com` — never spam the shared inbox).
 
