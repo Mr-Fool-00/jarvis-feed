@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-20T12:50:00Z",
+  "last_run_utc": "2026-05-20T15:30:00Z",
   "items": {
     "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
       "first_seen_utc": "2026-05-19T16:10:00Z",
@@ -276,6 +276,101 @@
       "first_seen_utc": "2026-05-20T12:50:00Z",
       "score_when_seen": 3,
       "title_snippet": "Claude for Small Business — QuickBooks, PayPal, HubSpot integrations"
+    },
+    "news:agent-sdk-billing-split-june-2026": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Agent SDK billing split June 15 — programmatic usage moves to separate credit pool"
+    },
+    "anthropic:higher-limits-spacex-2026-05-06": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Claude Code 5-hour limits doubled + weekly +50% through July 13"
+    },
+    "github:coleam00/ai-transformation-workshop": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "AI Transformation Workshop — PIV loop, 15 Claude Code commands, context engineering"
+    },
+    "rss:simonwillison:showboat-rodney-2026-02-10": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Showboat + Rodney — agent demo tools beyond automated tests"
+    },
+    "hn:47976415": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Uber torches 2026 AI budget on Claude Code in four months"
+    },
+    "hn:48125552": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Use the Claude Agent SDK with Your Claude Plan — HN discussion"
+    },
+    "rss:simonwillison:agentic-engineering-patterns-2026-02-27": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Simon Willison: Agentic Engineering Patterns — TDD, hoard expertise, linear walkthroughs"
+    },
+    "pulsemcp:new-servers-may-2026": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "PulseMCP May additions: mabl, Senzing, WhatsApp MCP, Wolfram Alpha"
+    },
+    "anthropic:claude-code-desktop-2026-05-06": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Claude Code Desktop App redesigned — session sidebar, SSH Mac, terminal editor"
+    },
+    "arxiv:2511.15755": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Multi-Agent Orchestration for Incident Response — 100% actionable vs 1.7% single-agent"
+    },
+    "github:microsoft/conductor": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Microsoft Conductor — deterministic multi-agent orchestration via YAML"
+    },
+    "github:VRSEN/OpenSwarm": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "OpenSwarm — multi-agent Claude CLI orchestrator for Linear/GitHub"
+    },
+    "arxiv:2605.14312": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Hermes: Making OpenAPI Documentation Agent-Ready"
+    },
+    "rss:simonwillison:shopify-river-learning": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison: Shopify River coding agent — Learning on the Shop Floor"
+    },
+    "hn:47693047": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Claude Managed Agents — HN mega-thread on pricing, capabilities, enterprise vs indie"
+    },
+    "changelog:claude-code-goal-2026-05-11": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Claude Code /goal — persistent task completion across turns"
+    },
+    "anthropic:claude-ad-free-2026-02-04": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Claude will remain ad-free — incentive alignment with Constitutional AI"
+    },
+    "github:levnikolaevich/claude-code-skills": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Plugin suite + hex-line, hex-graph, hex-ssh bundled MCP servers"
+    },
+    "anthropic:kpmg-alliance-2026-05-19": {
+      "first_seen_utc": "2026-05-20T15:30:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "KPMG-Anthropic alliance — 276K employees, Digital Gateway, KPMG Blaze"
     }
   }
 }
