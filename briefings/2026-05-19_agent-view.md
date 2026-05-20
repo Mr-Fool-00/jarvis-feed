@@ -15,3 +15,4 @@ Check your Claude Code version (`claude --version`). If you're on v2.1.139+, try
 🔗 https://code.claude.com/docs/en/agent-view
 
 <!-- resurfaced 2026-05-19 with enriched #ai-news format -->
+<!-- retry-surface 02:42:44Z -->
