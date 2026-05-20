@@ -1,0 +1,48 @@
+name: Daemon Watchdog
+
+on:
+  schedule:
+    - cron: '*/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  check-heartbeat:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 2
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Check heartbeat freshness
+        run: |
+          set -euo pipefail
+          HEARTBEAT_FILE="state/daemon-heartbeat.txt"
+          if [ ! -f "$HEARTBEAT_FILE" ]; then
+            echo "No heartbeat file yet"
+            exit 0
+          fi
+          LAST=$(git log -1 --format=%ct -- "$HEARTBEAT_FILE")
+          NOW=$(date -u +%s)
+          AGE_SEC=$((NOW - LAST))
+          AGE_MIN=$((AGE_SEC / 60))
+          echo "Last heartbeat ${AGE_MIN} min ago"
+          if [ "$AGE_SEC" -gt 900 ]; then
+            LAST_MSG=$(git log -1 --format=%s)
+            if echo "$LAST_MSG" | grep -q "Max daemon stale"; then
+              echo "Already alerted, skipping"
+              exit 0
+            fi
+            git config user.name "github-actions[bot]"
+            git config user.email "github-actions[bot]@users.noreply.github.com"
+            mkdir -p state
+            echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) stale alert age=${AGE_MIN}min" >> state/watchdog.log
+            git add state/watchdog.log
+            git commit -m "notify: ⚠️ Max daemon stale — last heartbeat ${AGE_MIN} min ago. Reload via launchctl unload + load."
+            git push origin main
+          else
+            echo "Heartbeat fresh"
+          fi
