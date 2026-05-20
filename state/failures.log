@@ -14,3 +14,8 @@
 2026-05-19T20:55:00Z slack_ai_news_retry_failed reason="hooks.slack.com still 403 from CCR sandbox — falling back to Gmail draft"
 2026-05-19T20:55:00Z slack_general_retry_failed reason="hooks.slack.com still 403 — GitHub commit prefix routing is the only active Slack delivery path"
 2026-05-19T20:55:00Z slack_improvements_retry_failed reason="hooks.slack.com still 403 — briefing: commits will trigger via GitHub-Slack bridge"
+2026-05-20T12:15:00Z fetch_reddit_json_failed reason="WebSearch found 0 indexed r/ClaudeAI posts for today — indexing lag on morning Reddit posts"
+2026-05-20T12:15:00Z fetch_simonwillison_direct_failed reason="WebFetch 403 on simonwillison.net — covered via WebSearch + search snippets"
+2026-05-20T12:15:00Z fetch_anthropic_news_direct_failed reason="WebFetch 403 on anthropic.com/news — covered via WebSearch"
+2026-05-20T12:15:00Z fetch_hn_items_webfetch_failed reason="WebFetch 403 on news.ycombinator.com/item — covered via WebSearch summaries"
+2026-05-20T12:15:00Z fetch_youtube_london_keynote_failed reason="WebFetch 403 on youtube.com video — London keynote not yet transcribed/indexed; will retry next run"

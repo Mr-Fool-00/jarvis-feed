@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-20T01:50:34Z",
+  "last_run_utc": "2026-05-20T12:50:00Z",
   "items": {
     "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
       "first_seen_utc": "2026-05-19T16:10:00Z",
@@ -201,6 +201,81 @@
       "first_seen_utc": "2026-05-20T01:50:34Z",
       "score_when_seen": 5,
       "title_snippet": "754 structured cybersecurity skills for AI agents"
+    },
+    "anthropic:advisor-tool-2026-03-01": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Advisor Tool — pair Sonnet/Haiku executor with Opus advisor mid-generation"
+    },
+    "anthropic:claude-code-ci-autofix-remote-2026": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Claude Code CI auto-fix + Remote Control sessions across devices"
+    },
+    "changelog:claude-code-2.1.145-2026-05-20": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Claude Code v2.1.145 — claude agents --json, OTEL spans, plugin preview"
+    },
+    "github:luongnv89/claude-howto": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "claude-howto: progressive 10-module Claude Code mastery guide, 33.6K stars"
+    },
+    "github:nblintao/awesome-claude-code-postleak-insights": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Curated post-leak Claude Code analyses: KAIROS, context compression, Undercover Mode"
+    },
+    "github:ruvnet/ruflo": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Ruflo: 53.4K star multi-agent swarm platform for Claude, 100+ agents"
+    },
+    "github:jeremylongshore/claude-code-plugins-plus-skills": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "425 plugins, 2,810 skills, 200 agents + ccpi package manager + tonsofskills.com"
+    },
+    "news:code-with-claude-london-extended-2026": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Code with Claude London Extended — May 20, indie dev focus"
+    },
+    "github:hesreallyhim/awesome-claude-code": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "awesome-claude-code: 44.3K stars curated skills/hooks/orchestrators (mid-restructure)"
+    },
+    "github:affaan-m/claude-swarm": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "claude-swarm: Opus plans + Haiku executes in parallel (3x cheaper)"
+    },
+    "news:pulsemcp-rebrand-agentic-loop": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "PulseMCP rebrands to The Agentic Loop — MCP ecosystem mature (500+ clients)"
+    },
+    "news:anthropic-tightens-limits-axios-2026-05-14": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic tightens Claude limits as OpenAI courts agent users"
+    },
+    "rss:simonwillison:xai-data-center-2026-05-07": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Notes on the xAI/Anthropic data center deal (SpaceX Colossus)"
+    },
+    "anthropic:gates-foundation-partnership-2026-05-14": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Anthropic + Gates Foundation $200M — global health/education"
+    },
+    "anthropic:claude-for-small-business-2026-05-14": {
+      "first_seen_utc": "2026-05-20T12:50:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Claude for Small Business — QuickBooks, PayPal, HubSpot integrations"
     }
   }
 }
