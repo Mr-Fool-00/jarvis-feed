@@ -12,3 +12,4 @@ I won't install this. I'll deep-dive the source, then build improvements to your
 🔗 https://github.com/karpathy/AutoResearch
 
 <!-- resurfaced 2026-05-19 with enriched #ai-news format -->
+<!-- retry-surface 02:42:44Z -->
