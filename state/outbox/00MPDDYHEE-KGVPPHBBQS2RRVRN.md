@@ -3,7 +3,7 @@ ulid: 00MPDDYHEE-KGVPPHBBQS2RRVRN
 slack_channel: D0B4N3MEWJE
 slack_thread_ts: 
 created_at: 2026-05-20T01:41:45.185108+00:00
-status: pending
+status: sent
 ---
 Good question. Looking at the daemon code, the answer is clear:
 
@@ -18,3 +18,5 @@ So if two tasks land in the inbox at once, Max handles them back-to-back, not si
 - **C)** Smart routing — parallel for lightweight tasks (quick questions), sequential for heavy ones (research, multi-file work)
 
 B and C would mean literally multiple `claude -p` processes running simultaneously on your Mac, which eats more RAM/CPU but gets answers faster when you fire off multiple things. What's your call?
+
+<!-- sent_at: 2026-05-20T01:41:56.411Z -->
