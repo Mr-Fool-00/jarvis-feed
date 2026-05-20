@@ -187,18 +187,19 @@ jobs:
             if [[ "$MSG" == briefing:* ]] || [[ "$MSG" == digest:* ]]; then
               TARGET_FILE=$(echo "$FILES" | tr ' ' '\n' | grep -E '^(briefings|digests)/.*\.md$' | head -1)
               if [ -n "$TARGET_FILE" ] && [ -f "$TARGET_FILE" ]; then
-                # Strip YAML frontmatter if present, take first ~600 chars of body
-                FILE_BODY_EXCERPT=$(awk '/^---$/{n++;next} n==2{print}' "$TARGET_FILE" 2>/dev/null | head -c 1200)
-                # If no frontmatter, take the file from the start (skip h1 title line)
-                if [ -z "$FILE_BODY_EXCERPT" ]; then
-                  FILE_BODY_EXCERPT=$(tail -n +2 "$TARGET_FILE" | head -c 1200)
+                # Read full file into a bash var, then truncate via substring. Avoids `head -c | cmd`
+                # SIGPIPE (exit 141 under pipefail) which fired on the digest file (large file →
+                # head closes pipe early → awk gets SIGPIPE → pipefail kills script).
+                FULL_BODY=""
+                FULL_BODY=$(awk '/^---$/{n++;next} n==2{print}' "$TARGET_FILE" 2>/dev/null || true)
+                if [ -z "$FULL_BODY" ]; then
+                  FULL_BODY=$(tail -n +2 "$TARGET_FILE" 2>/dev/null || true)
                 fi
-                # If still empty, fall back to first 600 chars verbatim
-                if [ -z "$FILE_BODY_EXCERPT" ]; then
-                  FILE_BODY_EXCERPT=$(head -c 1200 "$TARGET_FILE")
+                if [ -z "$FULL_BODY" ]; then
+                  FULL_BODY=$(cat "$TARGET_FILE" 2>/dev/null || true)
                 fi
-                # Add ellipsis if file is longer
-                if [ -n "$FILE_BODY_EXCERPT" ] && [ "$(wc -c < "$TARGET_FILE")" -gt 1200 ]; then
+                FILE_BODY_EXCERPT="${FULL_BODY:0:1200}"
+                if [ ${#FULL_BODY} -gt 1200 ]; then
                   FILE_BODY_EXCERPT="${FILE_BODY_EXCERPT}..."
                 fi
               fi
