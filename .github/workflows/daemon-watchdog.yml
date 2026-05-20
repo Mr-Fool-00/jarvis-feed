@@ -1,5 +1,9 @@
 name: Daemon Watchdog
 
+# Phase 3 (2026-05-20): queries Worker /api/heartbeat-status (KV-backed) instead of
+# checking the git commit age of state/daemon-heartbeat.txt. The daemon no longer
+# commits heartbeats to git; it POSTs them to the Worker every ~5 min.
+
 on:
   schedule:
     - cron: '*/10 * * * *'
@@ -17,29 +21,32 @@ jobs:
           fetch-depth: 2
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Check heartbeat freshness
+      - name: Check heartbeat freshness via Worker
+        env:
+          DAEMON_SHARED_SECRET: ${{ secrets.DAEMON_SHARED_SECRET }}
+          WORKER_URL: https://jarvis-listener.leograu.workers.dev
         run: |
           set -euo pipefail
-          HEARTBEAT_FILE="state/daemon-heartbeat.txt"
-          if [ ! -f "$HEARTBEAT_FILE" ]; then
-            echo "No heartbeat file yet"
-            exit 0
-          fi
-          LAST=$(git log -1 --format=%ct -- "$HEARTBEAT_FILE")
-          NOW=$(date -u +%s)
-          AGE_SEC=$((NOW - LAST))
-          AGE_MIN=$((AGE_SEC / 60))
-          echo "Last heartbeat ${AGE_MIN} min ago"
-          if [ "$AGE_SEC" -gt 1800 ]; then
+          RESP=$(curl -sS -H "X-Daemon-Secret: ${DAEMON_SHARED_SECRET}" \
+            -H "User-Agent: gh-actions-watchdog/1.0" \
+            "${WORKER_URL}/api/heartbeat-status")
+          echo "Worker response: $RESP"
+
+          STALE=$(echo "$RESP" | jq -r '.stale // false')
+          AGE=$(echo "$RESP" | jq -r '.age_seconds // -1')
+          AGE_MIN=$(( AGE / 60 ))
+          echo "Heartbeat age: ${AGE_MIN} min (stale=${STALE})"
+
+          if [ "$STALE" = "true" ]; then
             LAST_MSG=$(git log -1 --format=%s)
             if echo "$LAST_MSG" | grep -q "Max daemon stale"; then
-              echo "Already alerted, skipping"
+              echo "Already alerted recently, skipping"
               exit 0
             fi
             git config user.name "github-actions[bot]"
             git config user.email "github-actions[bot]@users.noreply.github.com"
             mkdir -p state
-            echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) stale alert age=${AGE_MIN}min" >> state/watchdog.log
+            echo "$(date -u +%Y-%m-%dT%H:%M:%SZ) stale alert age=${AGE_MIN}min (KV-backed heartbeat)" >> state/watchdog.log
             git add state/watchdog.log
             git commit -m "notify: ⚠️ Max daemon stale — last heartbeat ${AGE_MIN} min ago. Reload via launchctl unload + load."
             git push origin main

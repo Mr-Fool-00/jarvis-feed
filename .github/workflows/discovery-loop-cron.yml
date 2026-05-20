@@ -1,6 +1,9 @@
 name: Discovery Loop Cron
 
-# Replaces the dead Anthropic CCR trigger (silent-failing as of 2026-05-19).
+# Phase 3 (2026-05-20): writes task directly to Cloudflare KV via Worker /api/enqueue-task.
+# Replaces the previous pattern of writing to state/inbox/ via git (broken under Phase 3
+# transport — daemon no longer polls git inbox).
+#
 # Fires at 7am + 7pm CDT every day via cron schedule + manual workflow_dispatch.
 
 on:
@@ -9,7 +12,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: write
+  contents: read
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
@@ -18,34 +21,20 @@ jobs:
   fire-discovery-loop:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
-        with:
-          fetch-depth: 1
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Fire discovery loop
+      - name: Fire discovery loop via Worker KV enqueue
+        env:
+          DAEMON_SHARED_SECRET: ${{ secrets.DAEMON_SHARED_SECRET }}
+          WORKER_URL: https://jarvis-listener.leograu.workers.dev
         run: |
           set -euo pipefail
           HOUR=$(date -u +%H)
           if [ "$HOUR" -lt 12 ]; then SLOT=PM; else SLOT=AM; fi
-          ULID="CRON-${SLOT}-$(date -u +%s)"
-          NOW_UTC=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
           TODAY_UTC=$(date -u +"%Y-%m-%d")
+          ULID="CRON-${SLOT}-$(date -u +%s)"
           CHANNEL="D0B4N3MEWJE"
 
-          mkdir -p state/inbox
-          cat > "state/inbox/${ULID}.md" <<EOF
-          ---
-          ulid: ${ULID}
-          slack_channel: ${CHANNEL}
-          slack_user: gh-actions-cron
-          slack_thread_ts:
-          created_at: ${NOW_UTC}
-          status: pending
-          history_messages: 0
-          ---
-
-          SCHEDULED DISCOVERY LOOP RUN — fired by GitHub Actions cron, replaces the dead Anthropic CCR trigger.
+          BODY=$(cat <<INNER_EOF
+          SCHEDULED DISCOVERY LOOP RUN — fired by GitHub Actions cron (Phase 3 KV transport).
 
           Slot: ${SLOT}. Today: ${TODAY_UTC}.
 
@@ -54,13 +43,27 @@ jobs:
           Running on Leo's Mac with full network access — no CCR sandbox limits. Use Haiku-tier subagents for fixer work. Budget ~5% weekly Max plan. cd ~/Desktop/jarvis-feed before git ops. Commit as Mr-Fool-00.
 
           Return one-line summary when done; closer notify fires automatically.
-          EOF
+          INNER_EOF
+          )
 
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "state/inbox/${ULID}.md"
-          git commit -m "inbox: scheduled ${SLOT} discovery-loop fire (gh-actions cron)"
-          git push origin main
+          PAYLOAD=$(jq -n \
+            --arg ulid "$ULID" \
+            --arg slack_channel "$CHANNEL" \
+            --arg slack_user "gh-actions-cron" \
+            --arg body "$BODY" \
+            --arg kind "discovery-loop-cron" \
+            '{ulid: $ulid, slack_channel: $slack_channel, slack_user: $slack_user, body: $body, kind: $kind}')
 
-          echo "## Discovery Loop ${SLOT} fired" >> $GITHUB_STEP_SUMMARY
-          echo "Inbox file committed. Mac daemon picks up within 30s when laptop is on." >> $GITHUB_STEP_SUMMARY
+          curl -sS -X POST \
+            -H "X-Daemon-Secret: ${DAEMON_SHARED_SECRET}" \
+            -H "Content-Type: application/json" \
+            -H "User-Agent: gh-actions-discovery-cron/1.0" \
+            -d "$PAYLOAD" \
+            "${WORKER_URL}/api/enqueue-task" \
+            -o /tmp/enqueue-response.json -w "HTTP %{http_code}\n"
+
+          cat /tmp/enqueue-response.json
+          echo
+
+          echo "## Discovery Loop ${SLOT} fired" >> "$GITHUB_STEP_SUMMARY"
+          echo "Task ${ULID} written to Cloudflare KV via Worker /api/enqueue-task. Mac daemon polls every 5s." >> "$GITHUB_STEP_SUMMARY"
