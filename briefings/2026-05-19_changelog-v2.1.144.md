@@ -15,3 +15,4 @@ Run `claude update` to get v2.1.144.
 🔗 https://releasebot.io/updates/anthropic/claude-code
 
 <!-- resurfaced 2026-05-19 with enriched #ai-news format -->
+<!-- retry-surface 02:42:44Z -->
