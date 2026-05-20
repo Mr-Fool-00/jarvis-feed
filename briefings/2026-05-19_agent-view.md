@@ -13,3 +13,5 @@ This is the single biggest quality-of-life upgrade for multi-agent Claude Code u
 Check your Claude Code version (`claude --version`). If you're on v2.1.139+, try `claude agents` right now. Dispatch a simple task ("investigate the jarvis-feed repo structure") and watch the dashboard work. Key shortcuts: Space to peek, Enter to attach, left-arrow to detach.
 
 🔗 https://code.claude.com/docs/en/agent-view
+
+<!-- resurfaced 2026-05-19 with enriched #ai-news format -->
