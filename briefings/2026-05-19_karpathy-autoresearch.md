@@ -10,3 +10,5 @@ Your `/research` skill already does deep research with adversary-agent verificat
 I won't install this. I'll deep-dive the source, then build improvements to your existing `/research` skill inspired by its patterns. Briefing will follow when that's ready.
 
 🔗 https://github.com/karpathy/AutoResearch
+
+<!-- resurfaced 2026-05-19 with enriched #ai-news format -->
