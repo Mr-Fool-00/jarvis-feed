@@ -10,3 +10,5 @@ Discovery source for skill patterns. Your skill library is already substantial (
 I won't install this. I'll browse the repo for interesting patterns and flag anything worth building natively for your stack. No third-party code runs on your machine.
 
 🔗 https://github.com/VoltAgent/awesome-agent-skills
+
+<!-- resurfaced 2026-05-19 with enriched #ai-news format -->
