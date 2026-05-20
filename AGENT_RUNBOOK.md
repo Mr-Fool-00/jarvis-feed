@@ -363,6 +363,35 @@ Sort descending by score. **Take top 15.** Drop anything scored < 3.
 
 ---
 
+## Step 5.5 — Buildability filter (NEW 2026-05-20)
+
+Per Leo's correction: don't post EVERY ≥7/10 item as a briefing. Pre-filter so only items YOU would actually want to build + integrate as a skill get individual #ai-news briefing posts. Informational items still go in the daily digest for awareness but don't get their own post.
+
+For each item with score ≥7/10, run an internal self-check (Council-style, single-turn — no separate subagent needed unless the call is genuinely ambiguous):
+
+> "If Leo gave me the green light right now, would I actually want to build this as a `~/.claude/commands/<slug>.md` slash command OR `~/.claude/skills/<slug>/SKILL.md` skill? Would I be PROUD of the result? Or am I about to ship cruft?"
+
+**Mark as `build_worthy: true` only if ALL of:**
+1. The item describes a WORKFLOW, PATTERN, or PROMPTING TECHNIQUE that maps to a skill — not just news/announcement/changelog/acquisition/paper-review/feature-being-used.
+2. The pattern is genuinely additive — NOT already covered by an existing skill (check `~/.claude/commands/` and `~/.claude/skills/` first).
+3. There's enough substance to build something useful — not just "vibes" or "thought leadership."
+4. You can imagine writing the skill content in 30 min and the result being a clean Slack-tight artifact Leo would actually use.
+
+**Mark as `build_worthy: false` (informational only) if ANY of:**
+- News/acquisition/changelog/release-notes/version-bump
+- Academic paper without an obvious skill-shape (most papers)
+- Built-in feature of Claude Code / Slack / etc. (e.g., `agent-view` is a CC feature, not a skill to build)
+- Registry/directory/awesome-list (browse, don't replicate)
+- Already covered by an existing skill (check both `~/.claude/commands/` and `~/.claude/skills/`)
+- Hype/marketing artifact with no concrete pattern underneath
+- The "skill" would be a 1-line wrapper around something Claude already knows how to do natively
+
+**Document the call** for each item in the digest's "Items 4–15" section as a `Build verdict: BUILDABLE` or `Build verdict: INFORMATIONAL — <reason>` line. Transparency lets Leo override.
+
+**Top 3 still write full briefings even if `build_worthy: false`** — they're the headline items and deserve substance in the digest. But only `build_worthy: true` items get the SEPARATE per-item briefing file + Slack post (via Step 7 routing below).
+
+---
+
 ## Step 6 — Write digest
 
 Path: `digests/<YYYY-MM-DD>_<AM|PM>.md`
@@ -433,6 +462,8 @@ Then update `state/seen.json`:
 ## Step 7 — Commit and push (SANDBOX-AWARE — UPDATED 2026-05-19)
 
 **Critical context:** The sandbox's git proxy at `127.0.0.1:46017` uses a READ-ONLY token by default. Direct `git push` returns 403. We work around this by using a Leo-provided PAT (Personal Access Token) embedded in the routine prompt OR by using the GitHub MCP write tools if attached.
+
+**Briefing commit rule (NEW 2026-05-20):** Only create individual `briefings/<date>_<slug>.md` files + commit them with `briefing:` prefix for items where `build_worthy: true` (per Step 5.5). Items marked `build_worthy: false` STAY IN THE DIGEST FILE but do NOT get a separate briefing post — this kills #ai-news noise from informational items Leo would never build anyway. The digest commit (`digest:` prefix) still fires the daily summary post. Result: #ai-news gets ONE digest post per run + only the genuinely buildable items as individual briefings.
 
 **Push order of preference:**
 
