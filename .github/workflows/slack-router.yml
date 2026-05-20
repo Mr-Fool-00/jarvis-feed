@@ -105,26 +105,35 @@ jobs:
             fi
 
             # Build payload via jq for safe JSON escaping (no shell interpolation
-            # of message content into the payload directly)
-            PAYLOAD=$(jq -n \
-              --arg header "$HEADER" \
-              --arg msg "$MSG" \
-              --arg sha "$SHORT_SHA" \
-              --arg author "$AUTHOR" \
-              --arg files "$FILES" \
-              --arg url "$COMMIT_URL" \
-              '{
-                blocks: [
-                  {type: "header", text: {type: "plain_text", text: $header}},
-                  {type: "section", text: {type: "mrkdwn", text: ("*" + $msg + "*")}},
-                  {type: "context", elements: [
-                    {type: "mrkdwn", text: ("`" + $sha + "` by " + $author + " · files: " + ($files | gsub("^\\s+|\\s+$"; "")))}
-                  ]},
-                  {type: "actions", elements: [
-                    {type: "button", text: {type: "plain_text", text: "View on GitHub"}, url: $url}
-                  ]}
-                ]
-              }')
+            # of message content into the payload directly).
+            # notify: prefix → simpler payload (just the message body, no metadata).
+            # Everything else → full Block Kit with header + commit context + GitHub button.
+            if [ "${IS_NOTIFY:-0}" = "1" ]; then
+              # Strip "notify:" prefix + leading whitespace for clean display
+              BODY=$(echo "$MSG" | sed 's/^notify:[[:space:]]*//')
+              PAYLOAD=$(jq -n --arg text "$BODY" '{text: $text}')
+              IS_NOTIFY=0  # reset for next iteration
+            else
+              PAYLOAD=$(jq -n \
+                --arg header "$HEADER" \
+                --arg msg "$MSG" \
+                --arg sha "$SHORT_SHA" \
+                --arg author "$AUTHOR" \
+                --arg files "$FILES" \
+                --arg url "$COMMIT_URL" \
+                '{
+                  blocks: [
+                    {type: "header", text: {type: "plain_text", text: $header}},
+                    {type: "section", text: {type: "mrkdwn", text: ("*" + $msg + "*")}},
+                    {type: "context", elements: [
+                      {type: "mrkdwn", text: ("`" + $sha + "` by " + $author + " · files: " + ($files | gsub("^\\s+|\\s+$"; "")))}
+                    ]},
+                    {type: "actions", elements: [
+                      {type: "button", text: {type: "plain_text", text: "View on GitHub"}, url: $url}
+                    ]}
+                  ]
+                }')
+            fi
 
             echo "  → POST to $HEADER"
             # Capture curl exit code separately so a curl-level error (network, malformed URL,

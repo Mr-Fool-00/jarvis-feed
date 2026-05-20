@@ -17,6 +17,36 @@ If any are missing, write a one-line failure to `state/failures.log` and exit.
 
 ---
 
+## Step 0.5 — Wave hello (cheery sendoff to #ai-news)
+
+Before doing real fetch work, commit a tiny heartbeat so Leo sees in `#ai-news` that you're awake and off to the wilds. The `notify:` commit prefix routes through the slack-router workflow as a simple one-line post (no GitHub button, no SHA context — just the cheery message).
+
+Pick a one-liner by day-of-year mod 5 to keep the wave fresh across runs:
+
+```bash
+MESSAGES=(
+  "🚀 Off to research, returning soon..."
+  "🔭 Telescope out, scanning the AI landscape..."
+  "🌊 Heading into the wilds, back with goodies..."
+  "📡 Discovery Loop firing up. See you in a bit."
+  "✨ Off hunting for fresh signal — back shortly."
+)
+INDEX=$(($(date -u +%j) % 5))
+MSG="${MESSAGES[$INDEX]}"
+
+# Touch a heartbeat file so the commit has content
+mkdir -p state
+date -u +%Y-%m-%dT%H:%M:%SZ > state/_heartbeat.txt
+
+git add state/_heartbeat.txt
+git commit -m "notify: $MSG"
+git push origin main
+```
+
+If the push fails (network blip, conflict, etc.), DO NOT halt — just continue to Step 1. The heartbeat is a nice-to-have, not load-bearing on the discovery run itself.
+
+---
+
 ## Step 1 — Anchor time and pick run slot
 
 Get the current UTC timestamp:
