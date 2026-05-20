@@ -13,3 +13,5 @@ This is the App Store moment for Claude Code. The ecosystem just got a front doo
 Browse the repo to see what's available: `gh repo view anthropics/claude-plugins-official`. Check if any plugins overlap with skills you've already built or want.
 
 🔗 https://github.com/anthropics/claude-plugins-official
+
+<!-- resurfaced 2026-05-19 with enriched #ai-news format -->
