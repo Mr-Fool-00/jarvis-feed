@@ -142,6 +142,14 @@ jobs:
                 }')
             fi
 
+            # Sub-second outbox delivery: if this commit touched state/outbox/, poke the Worker
+            # to process the outbox immediately rather than waiting up to 60s for the next cron.
+            # Unauthenticated endpoint; failure is silently tolerated (cron is the safety net).
+            if echo "$FILES" | grep -q "state/outbox/"; then
+              echo "  → Poking Worker outbox-poll for sub-second delivery"
+              curl -s -X POST https://jarvis-listener.leograu.workers.dev/poll-outbox >/dev/null 2>&1 || true
+            fi
+
             echo "  → POST to $HEADER"
             # Capture curl exit code separately so a curl-level error (network, malformed URL,
             # etc.) doesn't abort the whole job via set -e. Loop continues regardless.
