@@ -13,3 +13,5 @@ This is the "we're building the whole agent infrastructure in-house" move. Combi
 Nothing actionable right now — this is strategic awareness. The effects will show up as better MCP tooling in future Claude Code releases.
 
 🔗 https://www.anthropic.com/news/anthropic-acquires-stainless
+
+<!-- resurfaced 2026-05-19 with enriched #ai-news format -->
