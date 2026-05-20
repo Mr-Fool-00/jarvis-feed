@@ -15,3 +15,4 @@ Browse the repo to see what's available: `gh repo view anthropics/claude-plugins
 🔗 https://github.com/anthropics/claude-plugins-official
 
 <!-- resurfaced 2026-05-19 with enriched #ai-news format -->
+<!-- retry-surface 02:42:44Z -->
