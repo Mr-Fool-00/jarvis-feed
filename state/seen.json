@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-19T20:50:00Z",
+  "last_run_utc": "2026-05-20T01:50:34Z",
   "items": {
     "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
       "first_seen_utc": "2026-05-19T16:10:00Z",
@@ -126,6 +126,81 @@
       "first_seen_utc": "2026-05-19T20:50:00Z",
       "score_when_seen": 4,
       "title_snippet": "n8n-mcp: build n8n workflows via Claude Code (1.4K stars)"
+    },
+    "anthropic:stainless-acquisition-2026-05-18": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 9,
+      "title_snippet": "Anthropic acquires Stainless for $300M+ — SDK and MCP tooling"
+    },
+    "docs:claude-code-agent-view-2026-05-11": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 9,
+      "title_snippet": "Claude Code Agent View — multi-session CLI dashboard"
+    },
+    "github:anthropics/claude-plugins-official": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 8,
+      "title_snippet": "Official Anthropic-managed Claude Code Plugins directory"
+    },
+    "github:karpathy/AutoResearch": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 8,
+      "title_snippet": "Karpathy AutoResearch — 42K stars, autonomous research agent"
+    },
+    "changelog:claude-code-2.1.144-2026-05-19": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 7,
+      "title_snippet": "Claude Code v2.1.144 — bg session resume, startup fix, usage credits rename"
+    },
+    "anthropic:mcp-tunnels-self-hosted-sandboxes-2026-05-19": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 7,
+      "title_snippet": "MCP Tunnels + Self-hosted Sandboxes for Managed Agents"
+    },
+    "github:VoltAgent/awesome-agent-skills": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 7,
+      "title_snippet": "1000+ curated agent skills — Claude Code, Codex, Gemini CLI compatible"
+    },
+    "arxiv:2508.08322": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 7,
+      "title_snippet": "Context Engineering for Multi-Agent LLM Code Assistants"
+    },
+    "anthropic:claude-design-2026-04-17": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 6,
+      "title_snippet": "Claude Design by Anthropic Labs — visual prototyping tool"
+    },
+    "youtube:alex-albert-next-claude-2026-05": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 6,
+      "title_snippet": "Inside How Anthropic Is Building the Next Claude — Alex Albert"
+    },
+    "arxiv:2605.12280": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 6,
+      "title_snippet": "Iterative Audit Convergence in LLM-Managed Multi-Agent Systems"
+    },
+    "arxiv:2603.22862": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 6,
+      "title_snippet": "Evolution of Tool Use in LLM Agents — single-tool to multi-tool"
+    },
+    "hn:48126281": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 5,
+      "title_snippet": "Claude subscription changes — claude -p coverage debate"
+    },
+    "arxiv:2603.19896": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 5,
+      "title_snippet": "Utility-Guided Agent Orchestration for Efficient LLM Tool Use"
+    },
+    "github:mukul975/Anthropic-Cybersecurity-Skills": {
+      "first_seen_utc": "2026-05-20T01:50:34Z",
+      "score_when_seen": 5,
+      "title_snippet": "754 structured cybersecurity skills for AI agents"
     }
   }
 }
