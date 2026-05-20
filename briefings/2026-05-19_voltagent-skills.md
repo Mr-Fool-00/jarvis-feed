@@ -12,3 +12,4 @@ I won't install this. I'll browse the repo for interesting patterns and flag any
 🔗 https://github.com/VoltAgent/awesome-agent-skills
 
 <!-- resurfaced 2026-05-19 with enriched #ai-news format -->
+<!-- retry-surface 02:42:45Z -->
