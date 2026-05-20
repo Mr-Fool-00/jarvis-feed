@@ -2,6 +2,7 @@
 
 **Score:** 7/10 pre-deep-dive, 5/10 post-deep-dive
 **Decision:** SKIP
+**Re-reviewed:** 2026-05-20 — verdict stands. Academic paper, patterns already implemented in Leo's stack.
 
 ## Deep-dive findings
 Paper proposes a 5-layer context model (L1-L5) and hub-and-spoke orchestration for multi-agent code assistants. Actionable patterns: intent translation front-loading, hybrid code retrieval (tree-sitter + semantic), document synthesis pipeline, orchestrator-level file locks. Evidence is thin (5 tasks on one Next.js codebase, 80% vs 40% success).

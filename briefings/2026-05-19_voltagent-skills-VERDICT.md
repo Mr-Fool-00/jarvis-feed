@@ -2,6 +2,7 @@
 
 **Score:** 7/10 pre-deep-dive, 4/10 post-deep-dive
 **Decision:** SKIP
+**Re-reviewed:** 2026-05-20 — verdict stands. Awesome-list, not buildable.
 
 ## Deep-dive findings
 It's an awesome-list (4 files: README, LICENSE, CONTRIBUTING, .gitignore) linking to 1,100+ skills across 55+ categories. Not installable skill files, just a curated directory of links to repos hosted elsewhere.

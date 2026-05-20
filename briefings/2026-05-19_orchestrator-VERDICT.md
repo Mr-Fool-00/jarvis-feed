@@ -3,6 +3,7 @@
 **Date:** 2026-05-19
 **Source briefing:** `2026-05-19_rl-multi-agent-orchestration-paper.md`
 **Decision:** Do NOT build `/orchestrate`.
+**Re-reviewed:** 2026-05-20 — verdict stands. Taxonomy useful for Council v2 improvements, not a new command.
 
 ## TL;DR
 

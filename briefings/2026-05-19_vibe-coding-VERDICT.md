@@ -3,6 +3,7 @@
 **Date:** 2026-05-19
 **Briefing:** `2026-05-19_vibe-coding-agentic-engineering.md`
 **Decision:** Do not build `/vibe-coding`. Use existing `/feature-dev:feature-dev`.
+**Re-reviewed:** 2026-05-20 — verdict stands. Philosophy paper, covered by /feature-dev.
 
 ---
 

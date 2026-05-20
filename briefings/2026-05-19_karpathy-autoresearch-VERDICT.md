@@ -2,6 +2,7 @@
 
 **Score:** 8/10 pre-deep-dive, 5/10 post-deep-dive
 **Decision:** SKIP
+**Re-reviewed:** 2026-05-20 — verdict stands. ML experiment loop, zero overlap with info research.
 
 ## Deep-dive findings
 AutoResearch is an ML experiment automation loop, not an information research agent. Architecture: read program.md -> propose hypothesis -> edit train.py -> train 5 min -> evaluate val_bpb -> git commit if improved, git reset if not. Single continuous loop on one GPU.

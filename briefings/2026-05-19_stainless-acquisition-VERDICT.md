@@ -2,6 +2,7 @@
 
 **Score:** 9/10 pre-deep-dive, N/A post (no deep-dive needed)
 **Decision:** SKIP
+**Re-reviewed:** 2026-05-20 — verdict stands. Acquisition news, no buildable artifact.
 
 ## Reason
 Acquisition news (Anthropic buys Stainless for $300M+). Pure strategic awareness — no buildable artifact. The briefing itself says "Nothing actionable right now." Effects will surface as better MCP tooling in future Claude Code releases.

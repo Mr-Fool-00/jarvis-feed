@@ -2,6 +2,7 @@
 
 **Score:** 8/10 pre-deep-dive, 4/10 post-deep-dive
 **Decision:** SKIP
+**Re-reviewed:** 2026-05-20 — verdict stands. /plugin > Discover covers this natively.
 
 ## Deep-dive findings
 The repo has 35 Anthropic-maintained plugins + 15 external plugins + 237 total entries in marketplace.json (includes remote repos). There's also an `anthropics/skills` repo with 3 bundles / 17 skills. The marketplace.json is machine-readable JSON.
