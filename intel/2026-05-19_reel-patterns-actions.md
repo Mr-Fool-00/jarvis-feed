@@ -1,0 +1,39 @@
+# Reel-Patterns → Actions — 2026-05-19
+
+## Honest assessment of the source doc
+
+`2026-05-18_reel-patterns.md` is **above the slop line but not by a wide margin**. The "Universal Reels Playbook" section is real, useful synthesis (hook/reveal/authority/use-cases/CTA + comment-bait → list → course is in fact the exact funnel running across this whole creator cohort). The product/repo list is mostly accurate inventory with one or two name-checks that are essentially unverified marketing copy (ruflo's "50% token reduction / 250% Claude Code extension," Hermes "fastest repo to 100k stars ever"). The "Architecture themes" and "Direct relevance" sections are the most actionable part — they cleanly map reel-world hype to Leo's existing stack. The income table is honest. The "Recommended action items" at the bottom are fine but vague. **Net: ~40% directly buildable, ~30% worth-evaluating-then-deciding, ~30% noise/hype.** Six concrete actions extracted below. None are urgent, two are high-ROI.
+
+---
+
+## Ranked actions (best impact-to-effort first)
+
+| # | Name | What it does | File to create/edit | Build spec (≤5 sentences) | Surface |
+|---|------|--------------|---------------------|---------------------------|---------|
+| 1 | **Wire `stop-slop` / humanize into fixer chain as `fixer-15`** | Adds a final humanization pass after `fixer-14` and before `verify-15` to strip residual AI tells (filter phrases, false-balance hedges, corporate-helpful tone) that the existing 14 fixers don't target. | New: `~/Desktop/ai-writer/cultivation/body-to-immortality/system/agents/fixer-15.md` (mirror for `the-spire/`). Edit: `WRITING_PIPELINE.md` and `verify-15.md` to insert the new step. | Build it as a thin wrapper around the existing global `humanize` skill (Leo already has it). Run it only on narration paragraphs, never dialog. Token budget per chapter ~3k. Add a regression check in `verify-15` for any AI-tell phrases it should have removed. Measure delta on one chapter before promoting to default. | Writing pipeline |
+| 2 | **`council` skill as a `/decision` command for Max** | Wraps the already-installed `council` skill in a Jarvis-callable command so Leo can route any "should I do X?" prompt through 5 advisors + chairman synthesis without typing `/council` himself. | New: `/Users/leograu/Desktop/jarvis-claude/MAX_DECISION_PROTOCOL.md` plus a one-line dispatcher in Max's CLAUDE.md. | When Max sees a user prompt that is a binary or multi-option choice (regex: `should I`, `pick`, `A or B`, `decide`), Max automatically invokes the `council` skill instead of answering from a single perspective. Output format: 5 verdicts + 1 synthesized next step + 1 confidence score. No new code — purely an instruction layer over the existing skill. | Max |
+| 3 | **Model-routing audit on writing pipeline (ruflo-inspired, no install)** | Audits which fixer agents are running on Opus vs Sonnet vs Haiku today, then reassigns the mechanical ones (fixer-01 forbidden words, fixer-12 possessives, fixer-13 system formatting) to Haiku. Pure config change. | Edit: each `fixer-0X.md` frontmatter under `~/Desktop/ai-writer/cultivation/body-to-immortality/system/agents/` to add an explicit `preferred_model` field. Edit: `AGENT_COMMONS.md` to document the tiering. | Don't install ruflo — its claims are unverified and adding a third-party orchestrator is high-risk for a working pipeline. Instead steal the *idea*: tier the 14 fixers by cognitive load (mechanical pattern-match → Haiku, prose judgment → Sonnet, holistic chapter audit → Opus). Measure tokens/chapter before and after on one chapter. Target: 30%+ token reduction without quality regression flagged by `verify-15`. | Writing pipeline |
+| 4 | **Jarvis comment-keyword harvester** | Adds a single endpoint to the Cloudflare Worker that scrapes Leo's saved Instagram Reels for the CTA keyword pattern (`comment "X"`) and dumps them into a `keywords-seen.md` intel file. Lets Leo see the creator economy's lead-magnet inventory at a glance. | Edit: `/Users/leograu/Desktop/jarvis-listener/src/index.js` — add a `POST /reels/extract-keyword` route. New intel file: `~/Desktop/jarvis-feed/intel/keywords-seen.md`. | Route accepts a transcript blob, runs a regex for `comment\s+["']?(\w+)["']?` plus a few common variants ("DM me X", "type X below"), appends `{date, keyword, source_handle}` rows to the markdown. Pure additive — doesn't touch existing routes. Useful only if Leo decides to actually do the Reels-creator path; skip otherwise. | Jarvis |
+| 5 | **`/reel-script` skill for Leo's own future Reels** | Codifies the 5-beat playbook (Hook → Reveal → Authority → Use-Cases → CTA) into a skill that takes a topic and outputs a 30-second script with timestamps and the comment-bait keyword. | New: `~/.claude/skills/reel-script/SKILL.md` | Input: `{topic, product, target_keyword}`. Output: scripted beats with second-counts, on-screen text suggestions, and the exact CTA line. Constraint: hook must be under 8 words, demo screenshot must appear by second 5. Only build if Leo commits to the content-account path from the income table — otherwise it's premature tooling. | Cross-cutting (skill) |
+| 6 | **Obsidian-mind-style memory inspection for writing projects** | Audit whether `cultivation/body-to-immortality/memory/` actually carries cross-chapter consistency or if the file-based system is leaking. Not building anything new yet — just measuring. | Read-only audit. Output: `~/Desktop/ai-writer/cultivation/body-to-immortality/memory/MEMORY_AUDIT_2026-05.md` | List every memory file, when it was last updated, which agents read it, which write to it. Flag any file that hasn't been read in 30+ days (dead memory). Flag any character/world detail that exists in `knowledge/` but isn't referenced in `memory/`. The obsidian-mind repo can stay aspirational — don't migrate yet. | Writing pipeline |
+
+---
+
+## Do NOT build (cool-sounding patterns that don't earn their slot)
+
+- **Install ruvnet/ruflo as orchestrator** — unverified claims (50% tokens, 250% extension), would invert ownership of a pipeline Leo controls. Action #3 captures the real insight without the dependency.
+- **Install "147 agents" repo** — 147 pre-built agents is 147 things that don't match Leo's existing system; vast majority would be unused (tax strategist, AI citation strategist, fractional CTO). High noise, low fit.
+- **Hermes Agent / Browser Harness integration** — Leo's Jarvis north star *is* this, eventually. But adopting a third-party agent now would lock him into someone else's architecture before his own is mature. Revisit in 6 months.
+- **OpenClaw / n8n M&A demo replication** — visual workflow tools solve a problem Leo doesn't have. He already writes Workers in JS faster than dragging nodes.
+- **OmniSocials MCP** — auto-posting to IG/LinkedIn/TikTok/X is a foot-gun before there's an account worth posting to. Premature.
+- **Remotion video-editor skill** — fun but not on any critical path. Cuts against the "stick to code, keep dirs clean" feedback rule.
+- **Higgsfield Supercomputer / Apple-style launch product** — pure marketing artifact, no extractable build.
+- **Karpathy llm-council reinstall** — Leo already has the `council` skill. Action #2 is the upgrade. Re-cloning the repo is redundant.
+- **marketing-skills (Corey Haynes) 23 sub-agents** — would only matter if Leo's already running marketing campaigns. He isn't. Defer.
+- **UI/UX Pro Max skill** — Leo writes fanfic and Cloudflare Workers, not UIs. Wrong tool for this stack.
+
+---
+
+## Top recommendation
+
+**Build #1 first** (`fixer-15` humanize pass). Lowest effort, the skill already exists, drops into a working pipeline at a known seam, measurable on a single chapter. **Then #3** (model-routing audit) — same pipeline, no new dependencies, directly attacks the Max-plan cost ceiling Leo has flagged multiple times. Everything else can wait for a clear monetization commitment.
