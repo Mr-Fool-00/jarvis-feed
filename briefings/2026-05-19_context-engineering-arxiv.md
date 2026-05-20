@@ -15,3 +15,4 @@ Read the paper abstract and methodology section. If the patterns look relevant, 
 🔗 https://arxiv.org/abs/2508.08322
 
 <!-- resurfaced 2026-05-19 with enriched #ai-news format -->
+<!-- retry-surface 02:42:45Z -->
