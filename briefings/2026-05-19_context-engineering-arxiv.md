@@ -13,3 +13,5 @@ Academic validation of the multi-agent context-passing patterns you're already b
 Read the paper abstract and methodology section. If the patterns look relevant, I'll summarize the key findings for your next pipeline iteration.
 
 🔗 https://arxiv.org/abs/2508.08322
+
+<!-- resurfaced 2026-05-19 with enriched #ai-news format -->
