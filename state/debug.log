@@ -60,3 +60,4 @@ Appended by the jarvis-listener Cloudflare Worker. Read by the next Jarvis routi
 - **2026-05-20T19:04:07.449Z** · type=`message` · ch=`C0B5MRKEEBS` · reaction=`-` · user=`U0B4RMMA4JY`
 - **2026-05-20T19:04:37.828Z** · PRE-CHECK · type=`event_callback` · event_type=`reaction_added` · reaction=`+1` · sig_ok=`true` · ts=`1779303877`
 - **2026-05-20T19:04:38.677Z** · type=`reaction_added` · ch=`C0B5MRKEEBS` · reaction=`+1` · user=`U0B4JLHT2ER`
+- **2026-05-20T19:04:41.003Z** · PRE-CHECK · type=`event_callback` · event_type=`reaction_added` · reaction=`pushpin` · sig_ok=`true` · ts=`1779303880`
