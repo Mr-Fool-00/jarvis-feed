@@ -121,25 +121,52 @@ jobs:
               PAYLOAD=$(jq -n --arg text "$BODY" '{text: $text}')
               IS_NOTIFY=0  # reset for next iteration
             else
-              PAYLOAD=$(jq -n \
-                --arg header "$HEADER" \
-                --arg msg "$MSG" \
-                --arg sha "$SHORT_SHA" \
-                --arg author "$AUTHOR" \
-                --arg files "$FILES" \
-                --arg url "$COMMIT_URL" \
-                '{
-                  blocks: [
-                    {type: "header", text: {type: "plain_text", text: $header}},
-                    {type: "section", text: {type: "mrkdwn", text: ("*" + $msg + "*")}},
-                    {type: "context", elements: [
-                      {type: "mrkdwn", text: ("`" + $sha + "` by " + $author + " · files: " + ($files | gsub("^\\s+|\\s+$"; "")))}
-                    ]},
-                    {type: "actions", elements: [
-                      {type: "button", text: {type: "plain_text", text: "View on GitHub"}, url: $url}
-                    ]}
-                  ]
-                }')
+              # For briefing:/digest: commits with file excerpt, include the substance as
+              # a second section block so Slack readers see "what + why" without clicking through.
+              if [ -n "$FILE_BODY_EXCERPT" ]; then
+                PAYLOAD=$(jq -n \
+                  --arg header "$HEADER" \
+                  --arg msg "$MSG" \
+                  --arg excerpt "$FILE_BODY_EXCERPT" \
+                  --arg sha "$SHORT_SHA" \
+                  --arg author "$AUTHOR" \
+                  --arg files "$FILES" \
+                  --arg url "$COMMIT_URL" \
+                  '{
+                    blocks: [
+                      {type: "header", text: {type: "plain_text", text: $header}},
+                      {type: "section", text: {type: "mrkdwn", text: ("*" + $msg + "*")}},
+                      {type: "divider"},
+                      {type: "section", text: {type: "mrkdwn", text: $excerpt}},
+                      {type: "context", elements: [
+                        {type: "mrkdwn", text: ("`" + $sha + "` by " + $author + " · " + ($files | gsub("^\\s+|\\s+$"; "")))}
+                      ]},
+                      {type: "actions", elements: [
+                        {type: "button", text: {type: "plain_text", text: "View on GitHub"}, url: $url}
+                      ]}
+                    ]
+                  }')
+              else
+                PAYLOAD=$(jq -n \
+                  --arg header "$HEADER" \
+                  --arg msg "$MSG" \
+                  --arg sha "$SHORT_SHA" \
+                  --arg author "$AUTHOR" \
+                  --arg files "$FILES" \
+                  --arg url "$COMMIT_URL" \
+                  '{
+                    blocks: [
+                      {type: "header", text: {type: "plain_text", text: $header}},
+                      {type: "section", text: {type: "mrkdwn", text: ("*" + $msg + "*")}},
+                      {type: "context", elements: [
+                        {type: "mrkdwn", text: ("`" + $sha + "` by " + $author + " · files: " + ($files | gsub("^\\s+|\\s+$"; "")))}
+                      ]},
+                      {type: "actions", elements: [
+                        {type: "button", text: {type: "plain_text", text: "View on GitHub"}, url: $url}
+                      ]}
+                    ]
+                  }')
+              fi
             fi
 
             # Sub-second outbox delivery: if this commit touched state/outbox/, poke the Worker
@@ -148,6 +175,32 @@ jobs:
             if echo "$FILES" | grep -q "state/outbox/"; then
               echo "  → Poking Worker outbox-poll for sub-second delivery"
               curl -s -X POST https://jarvis-listener.leograu.workers.dev/poll-outbox >/dev/null 2>&1 || true
+            fi
+
+            # Enrich briefing: + digest: posts with the actual file content so Slack readers
+            # see the substance ("what + why"), not just the commit-message title.
+            # Heuristic: for briefing:/digest: prefix, find the first .md file in briefings/
+            # or digests/ that this commit touched, read its first ~600 chars, and include
+            # them as a section block in the Slack post.
+            FILE_BODY_EXCERPT=""
+            if [[ "$MSG" == briefing:* ]] || [[ "$MSG" == digest:* ]]; then
+              TARGET_FILE=$(echo "$FILES" | tr ' ' '\n' | grep -E '^(briefings|digests)/.*\.md$' | head -1)
+              if [ -n "$TARGET_FILE" ] && [ -f "$TARGET_FILE" ]; then
+                # Strip YAML frontmatter if present, take first ~600 chars of body
+                FILE_BODY_EXCERPT=$(awk '/^---$/{n++;next} n==2{print}' "$TARGET_FILE" 2>/dev/null | head -c 600)
+                # If no frontmatter, take the file from the start (skip h1 title line)
+                if [ -z "$FILE_BODY_EXCERPT" ]; then
+                  FILE_BODY_EXCERPT=$(tail -n +2 "$TARGET_FILE" | head -c 600)
+                fi
+                # If still empty, fall back to first 600 chars verbatim
+                if [ -z "$FILE_BODY_EXCERPT" ]; then
+                  FILE_BODY_EXCERPT=$(head -c 600 "$TARGET_FILE")
+                fi
+                # Add ellipsis if file is longer
+                if [ -n "$FILE_BODY_EXCERPT" ] && [ "$(wc -c < "$TARGET_FILE")" -gt 600 ]; then
+                  FILE_BODY_EXCERPT="${FILE_BODY_EXCERPT}..."
+                fi
+              fi
             fi
 
             echo "  → POST to $HEADER"
