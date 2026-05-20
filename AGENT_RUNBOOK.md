@@ -801,6 +801,41 @@ If Gmail MCP fails, log the failure but DON'T abort the run — the digest is al
 
 ---
 
+## Step 8.5 — Wave goodbye (cheery closer to #ai-news)
+
+Symmetric with Step 0.5's sendoff. Commit a notify: closer so Leo knows the run finished cleanly. The combination of Step 0.5 + Step 8.5 gives him at-a-glance run health: sendoff fired but no closer in 60+ min = stuck. Both fired = ✓ clean run.
+
+Pick a closer one-liner by day-of-year mod 5 (different rotation than Step 0.5 so they pair distinctly):
+
+```bash
+CLOSERS=(
+  "🏁 Back from the wilds — digest just dropped above!"
+  "✨ Returned with goodies! See digest ↑"
+  "📬 Mail call — fresh digest is in. Off to nap until next run."
+  "🏞️ Home base, all systems green. Until next run."
+  "🎯 Mission accomplished — fresh signal landed above."
+)
+INDEX=$(($(date -u +%j) % 5))
+CLOSER="${CLOSERS[$INDEX]}"
+
+# Optionally include count of items surfaced for at-a-glance signal
+if [ -n "${ITEM_COUNT:-}" ]; then
+  CLOSER="$CLOSER ($ITEM_COUNT items surfaced)"
+fi
+
+# Update heartbeat with completion timestamp
+date -u +%Y-%m-%dT%H:%M:%SZ > state/_heartbeat.txt
+echo "completed" >> state/_heartbeat.txt
+
+git add state/_heartbeat.txt
+git commit -m "notify: $CLOSER"
+git push origin main
+```
+
+Same failure tolerance as Step 0.5: if push fails, log it and exit cleanly — the digest commit + delivery already happened.
+
+---
+
 ## Failure handling
 
 If any **single source** fetch fails (rate limit, parse error, site down):
