@@ -60,6 +60,13 @@ jobs:
             HEADER=""
 
             case "$MSG" in
+              notify:*)
+                # Cheery one-liners (sendoff, heartbeat, "I'm thinking", etc.)
+                # Uses simpler payload — no header/SHA/files/button — just the message body.
+                WEBHOOK="$SLACK_AI_NEWS"
+                HEADER=""
+                IS_NOTIFY=1
+                ;;
               digest:*)
                 WEBHOOK="$SLACK_AI_NEWS"
                 HEADER="📰 New digest"
