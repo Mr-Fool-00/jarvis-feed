@@ -30,7 +30,7 @@ jobs:
           AGE_SEC=$((NOW - LAST))
           AGE_MIN=$((AGE_SEC / 60))
           echo "Last heartbeat ${AGE_MIN} min ago"
-          if [ "$AGE_SEC" -gt 900 ]; then
+          if [ "$AGE_SEC" -gt 1800 ]; then
             LAST_MSG=$(git log -1 --format=%s)
             if echo "$LAST_MSG" | grep -q "Max daemon stale"; then
               echo "Already alerted, skipping"
