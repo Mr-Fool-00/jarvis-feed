@@ -15,3 +15,4 @@ Read the announcement for awareness. No action needed until you're ready to move
 🔗 https://9to5mac.com/2026/05/19/anthropic-enhances-claude-managed-agents-with-two-new-privacy-and-security-features/
 
 <!-- resurfaced 2026-05-19 with enriched #ai-news format -->
+<!-- retry-surface 02:42:45Z -->
