@@ -123,7 +123,7 @@ jobs:
             else
               # For briefing:/digest: commits with file excerpt, include the substance as
               # a second section block so Slack readers see "what + why" without clicking through.
-              if [ -n "$FILE_BODY_EXCERPT" ]; then
+              if [ -n "${FILE_BODY_EXCERPT:-}" ]; then
                 PAYLOAD=$(jq -n \
                   --arg header "$HEADER" \
                   --arg msg "$MSG" \
@@ -180,24 +180,25 @@ jobs:
             # Enrich briefing: + digest: posts with the actual file content so Slack readers
             # see the substance ("what + why"), not just the commit-message title.
             # Heuristic: for briefing:/digest: prefix, find the first .md file in briefings/
-            # or digests/ that this commit touched, read its first ~600 chars, and include
-            # them as a section block in the Slack post.
+            # or digests/ that this commit touched, read its first ~1200 chars, and include
+            # them as a section block in the Slack post. Bumped from 600 to 1200 because 600
+            # cut off mid-sentence on most briefings.
             FILE_BODY_EXCERPT=""
             if [[ "$MSG" == briefing:* ]] || [[ "$MSG" == digest:* ]]; then
               TARGET_FILE=$(echo "$FILES" | tr ' ' '\n' | grep -E '^(briefings|digests)/.*\.md$' | head -1)
               if [ -n "$TARGET_FILE" ] && [ -f "$TARGET_FILE" ]; then
                 # Strip YAML frontmatter if present, take first ~600 chars of body
-                FILE_BODY_EXCERPT=$(awk '/^---$/{n++;next} n==2{print}' "$TARGET_FILE" 2>/dev/null | head -c 600)
+                FILE_BODY_EXCERPT=$(awk '/^---$/{n++;next} n==2{print}' "$TARGET_FILE" 2>/dev/null | head -c 1200)
                 # If no frontmatter, take the file from the start (skip h1 title line)
                 if [ -z "$FILE_BODY_EXCERPT" ]; then
-                  FILE_BODY_EXCERPT=$(tail -n +2 "$TARGET_FILE" | head -c 600)
+                  FILE_BODY_EXCERPT=$(tail -n +2 "$TARGET_FILE" | head -c 1200)
                 fi
                 # If still empty, fall back to first 600 chars verbatim
                 if [ -z "$FILE_BODY_EXCERPT" ]; then
-                  FILE_BODY_EXCERPT=$(head -c 600 "$TARGET_FILE")
+                  FILE_BODY_EXCERPT=$(head -c 1200 "$TARGET_FILE")
                 fi
                 # Add ellipsis if file is longer
-                if [ -n "$FILE_BODY_EXCERPT" ] && [ "$(wc -c < "$TARGET_FILE")" -gt 600 ]; then
+                if [ -n "$FILE_BODY_EXCERPT" ] && [ "$(wc -c < "$TARGET_FILE")" -gt 1200 ]; then
                   FILE_BODY_EXCERPT="${FILE_BODY_EXCERPT}..."
                 fi
               fi
