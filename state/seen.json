@@ -1,7 +1,47 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-21T02:00:48Z",
+  "last_run_utc": "2026-05-21T12:09:38Z",
   "items": {
+    "github:anthropics/cwc-long-running-agents": {
+      "first_seen_utc": "2026-05-21T12:09:38Z",
+      "score_when_seen": 9,
+      "title_snippet": "Official Anthropic harness primitives: Default-FAIL Contract, Fresh-Context Evaluator, Agent Handoff"
+    },
+    "changelog:claude-code-2.1.146-2026-05-21": {
+      "first_seen_utc": "2026-05-21T12:09:38Z",
+      "score_when_seen": 7,
+      "title_snippet": "Claude Code v2.1.146 — /code-review with effort levels, AskUserQuestion auto-mode fix"
+    },
+    "hn:47494890": {
+      "first_seen_utc": "2026-05-21T12:09:38Z",
+      "score_when_seen": 7,
+      "title_snippet": "Neil Kakkar: How I'm Productive with Claude Code — /git-pr, multi-agent comparison, review-checklist abstraction"
+    },
+    "arxiv:2605.18747": {
+      "first_seen_utc": "2026-05-21T12:09:38Z",
+      "score_when_seen": 7,
+      "title_snippet": "Code as Agent Harness — code as operational substrate for agent planning, memory, tool use, verification"
+    },
+    "github:marckrenn/claude-code-changelog": {
+      "first_seen_utc": "2026-05-21T12:09:38Z",
+      "score_when_seen": 6,
+      "title_snippet": "marckrenn/claude-code-changelog — unofficial tracker of CC prompts, feature flags, CLI metadata per release"
+    },
+    "github:VoltAgent/awesome-claude-code-subagents": {
+      "first_seen_utc": "2026-05-21T12:09:38Z",
+      "score_when_seen": 5,
+      "title_snippet": "VoltAgent/awesome-claude-code-subagents — 100+ specialized subagents in 10 categories"
+    },
+    "anthropic:cache-diagnostics-beta-2026": {
+      "first_seen_utc": "2026-05-21T12:09:38Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic cache diagnostics beta — diagnostics.previous_message_id + cache-diagnosis header for cache miss debugging"
+    },
+    "anthropic:pwc-expanded-partnership-2026-05-14": {
+      "first_seen_utc": "2026-05-21T12:09:38Z",
+      "score_when_seen": 3,
+      "title_snippet": "PwC + Anthropic expanded alliance — 30K staff certified, Office of the CFO unit"
+    },
     "github:Narcooo/inkos": {
       "first_seen_utc": "2026-05-21T02:00:48Z",
       "score_when_seen": 9,
