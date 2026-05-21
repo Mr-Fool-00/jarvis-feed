@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-21T00:48:00Z",
+  "last_run_utc": "2026-05-21T00:50:00Z",
   "items": {
     "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
       "first_seen_utc": "2026-05-19T16:10:00Z",
@@ -446,6 +446,56 @@
       "first_seen_utc": "2026-05-21T00:48:00Z",
       "score_when_seen": 3,
       "title_snippet": "travisvn/awesome-claude-skills: 12.3K stars curated Claude Skills list"
+    },
+    "anthropic:claude-code-routines-2026-04-14": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Claude Code Routines — first-party scheduled cloud automation (research preview)"
+    },
+    "blog:addyosmani:code-agent-orchestra": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Addy Osmani: The Code Agent Orchestra — multi-agent orchestration patterns"
+    },
+    "forum:level1techs:book-agent-epistemic-pipeline": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Book-Agent: Epistemic-controlled novel writing pipeline with revelation scheduling"
+    },
+    "leak:claude-sonnet-4-8-source-map": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Sonnet 4.8 confirmed in Claude Code source map leak — release imminent"
+    },
+    "arxiv:2503.08275": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Beyond Outlining — Heterogeneous Recursive Planning for Long-form Writing"
+    },
+    "github:quemsah/awesome-claude-plugins": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "quemsah/awesome-claude-plugins: automated plugin adoption metrics via n8n"
+    },
+    "github:K-Dense-AI/claude-skills-mcp": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "K-Dense-AI/claude-skills-mcp: vector search MCP for Claude skills"
+    },
+    "arxiv:2604.03136": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "StoryScope: Investigating idiosyncrasies in AI fiction across 10K prompts"
+    },
+    "news:anthropic-pentagon-lawsuit-may20": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic Pentagon lawsuit — appellate judges divided (May 20)"
+    },
+    "arxiv:2605.13110": {
+      "first_seen_utc": "2026-05-21T00:50:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Multi-Agent Orchestration Framework for VC Due Diligence"
     }
   }
 }
