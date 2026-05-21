@@ -1,7 +1,82 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-21T00:50:00Z",
+  "last_run_utc": "2026-05-21T02:00:48Z",
   "items": {
+    "github:Narcooo/inkos": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 9,
+      "title_snippet": "InkOS: Autonomous 10-agent novel-writing pipeline with truth files"
+    },
+    "google:gemini-spark-io-2026": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 7,
+      "title_snippet": "Google Gemini Spark: 24/7 background agentic AI on Antigravity harness"
+    },
+    "arxiv:2605.03378": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 7,
+      "title_snippet": "ARGUS: Defending LLM Agents Against Context-Aware Prompt Injection"
+    },
+    "hn:44678535": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 7,
+      "title_snippet": "How Anthropic teams use Claude Code — insider HN thread"
+    },
+    "github:barkain/claude-code-workflow-orchestration": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 7,
+      "title_snippet": "Barkain: Claude Code multi-step workflow orchestration plugin"
+    },
+    "rss:simonwillison:google-io-gemini-spark-2026-05-20": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 6,
+      "title_snippet": "Simon Willison: Google I/O, Gemini Spark, Antigravity analysis"
+    },
+    "rss:simonwillison:tokens-per-second-2026-05-20": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 6,
+      "title_snippet": "Simon Willison: How fast is 10 tokens per second really?"
+    },
+    "anthropic:claude-cowork-ga-2026-04-09": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 6,
+      "title_snippet": "Claude Cowork GA + May vertical expansions (Legal, Finance, M365)"
+    },
+    "hn:47878905": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 6,
+      "title_snippet": "HN: An update on recent Claude Code quality reports"
+    },
+    "github-gist:kieranklaassen:claude-swarm-orchestration": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 6,
+      "title_snippet": "Claude Code Swarm Orchestration Skill — complete multi-agent guide"
+    },
+    "youtube:cwc-london-keynote-2026-05-20": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 6,
+      "title_snippet": "Code with Claude London keynote + What's new in Claude Code session"
+    },
+    "rss:simonwillison:spacex-s1-2026-05-20": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 5,
+      "title_snippet": "Simon Willison: SpaceX S-1 / Anthropic $1.25B/mo cloud deal"
+    },
+    "anthropic:claude-legal-mcp-2026-05-12": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 5,
+      "title_snippet": "Claude for Legal: 20+ MCP connectors + 12 practice-area plugins"
+    },
+    "youtube:ColeMedin:ai-youtube-hype": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 5,
+      "title_snippet": "Cole Medin: AI YouTube Is Only Claude Hype Now"
+    },
+    "rss:simonwillison:llm-gemini-032-2026-05-19": {
+      "first_seen_utc": "2026-05-21T02:00:48Z",
+      "score_when_seen": 4,
+      "title_snippet": "Simon Willison: llm-gemini 0.32 — Gemini 3.5 Flash support"
+    },
     "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
       "first_seen_utc": "2026-05-19T16:10:00Z",
       "score_when_seen": 10,
