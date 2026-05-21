@@ -363,32 +363,58 @@ Sort descending by score. **Take top 15.** Drop anything scored < 3.
 
 ---
 
-## Step 5.5 — Buildability filter (NEW 2026-05-20)
+## Step 5.5 — Buildability filter (REVISED 2026-05-20 evening)
 
-Per Leo's correction: don't post EVERY ≥7/10 item as a briefing. Pre-filter so only items YOU would actually want to build + integrate as a skill get individual #ai-news briefing posts. Informational items still go in the daily digest for awareness but don't get their own post.
+**Score gates CONSIDERATION. Your judgment gates VISIBILITY.** Items below 7/10 don't even enter this step. Items at or above 7/10 are CANDIDATES — they still have to pass your genuine "would I personally want this on Leo's #ai-news right now" check before they become individual briefings.
 
-For each item with score ≥7/10, run an internal self-check (Council-style, single-turn — no separate subagent needed unless the call is genuinely ambiguous):
+Leo's exact correction 2026-05-20 evening: *"i only want to see the stuff you yourself truly want on ai news, not 7/10 and above anymore."* Score alone never qualifies. The previous version of this step was too generous — anything that passed 4 loose checks got marked build_worthy. That's wrong. Default is FALSE. build_worthy=TRUE is the EXCEPTION, not the norm.
 
-> "If Leo gave me the green light right now, would I actually want to build this as a `~/.claude/commands/<slug>.md` slash command OR `~/.claude/skills/<slug>/SKILL.md` skill? Would I be PROUD of the result? Or am I about to ship cruft?"
+### The truly-want test (apply per item, default FALSE)
 
-**Mark as `build_worthy: true` only if ALL of:**
-1. The item describes a WORKFLOW, PATTERN, or PROMPTING TECHNIQUE that maps to a skill — not just news/announcement/changelog/acquisition/paper-review/feature-being-used.
-2. The pattern is genuinely additive — NOT already covered by an existing skill (check `~/.claude/commands/` and `~/.claude/skills/` first).
-3. There's enough substance to build something useful — not just "vibes" or "thought leadership."
-4. You can imagine writing the skill content in 30 min and the result being a clean Slack-tight artifact Leo would actually use.
+For each ≥7/10 item, ask honestly:
 
-**Mark as `build_worthy: false` (informational only) if ANY of:**
-- News/acquisition/changelog/release-notes/version-bump
+> "Setting aside the score — if I were Leo's friend sitting next to him scrolling Slack, would I tap him on the shoulder for THIS specific item? Would I say 'hey, you actually want to see this'? Or would I think 'meh, it's fine, but Leo doesn't need it pinged in his face'?"
+
+Default to "meh, fine but not pinged." Only true unambiguous "yes, he wants this" earns build_worthy=true.
+
+### Concrete bars build_worthy=TRUE must clear (ALL)
+
+1. **Maps to a buildable skill or command.** Concrete workflow, pattern, prompt structure — NOT news, announcement, paper, changelog, version-bump, acquisition, feature-being-used.
+2. **Genuinely additive.** Not already covered by `~/.claude/commands/` or `~/.claude/skills/`. Grep first. If similar exists, build_worthy=false (mention in digest, don't briefing).
+3. **You can imagine the resulting skill RIGHT NOW.** If you're squinting at it, it's not ready.
+4. **You'd PROACTIVELY recommend it to Leo unprompted.** If your honest reaction is "Leo might find this mildly useful," that's build_worthy=false. Truly-want = "Leo NEEDS to see this, it's an upgrade to his workflow."
+5. **Survives the bored-Leo test.** Would Leo find it interesting enough to click through the briefing on a tired Tuesday night? If it requires Sunday-morning energy to engage with, build_worthy=false.
+
+### Defaults to FALSE (any one is enough)
+
+- News / acquisition / changelog / release-notes / version-bump
 - Academic paper without an obvious skill-shape (most papers)
-- Built-in feature of Claude Code / Slack / etc. (e.g., `agent-view` is a CC feature, not a skill to build)
-- Registry/directory/awesome-list (browse, don't replicate)
-- Already covered by an existing skill (check both `~/.claude/commands/` and `~/.claude/skills/`)
-- Hype/marketing artifact with no concrete pattern underneath
-- The "skill" would be a 1-line wrapper around something Claude already knows how to do natively
+- Built-in Claude Code / Slack feature being demoed (not a skill to build)
+- Registry / directory / awesome-list (browse, don't replicate)
+- Already covered by an existing skill or command (grep both dirs)
+- Hype / marketing artifact with no concrete pattern underneath
+- 1-line wrapper around something Claude already does natively
+- "Tutorial" content explaining a thing Leo already knows
+- The skill would only be useful for ONE narrow project Leo isn't focused on right now
+- You yourself wouldn't bother building it if Leo gave you free rein
 
-**Document the call** for each item in the digest's "Items 4–15" section as a `Build verdict: BUILDABLE` or `Build verdict: INFORMATIONAL — <reason>` line. Transparency lets Leo override.
+### What to do with build_worthy=false items
 
-**Top 3 still write full briefings even if `build_worthy: false`** — they're the headline items and deserve substance in the digest. But only `build_worthy: true` items get the SEPARATE per-item briefing file + Slack post (via Step 7 routing below).
+Stay in digest, get a one-line mention with `Build verdict: INFORMATIONAL — <reason>`. Do NOT create individual briefing files. Do NOT post to #ai-news as separate items. Digest mention IS the visibility for those.
+
+### Transparency
+
+For every ≥7/10 item, document the call in the digest as either:
+- `Build verdict: BUILDABLE — <one-line why you'd ping Leo>`
+- `Build verdict: INFORMATIONAL — <one-line why digest-only>`
+
+Leo can override either direction by reacting to the digest item.
+
+### Top 3 carve-out
+
+The headline Top-3 items get full digest treatment (2-3 line summary, "why it matters") regardless of build_worthy — they're the day's most-interesting things, that's what the section is for. But even Top-3 only gets a SEPARATE briefing file + #ai-news post if build_worthy=true. A Top-3 item that's pure news still stays digest-only.
+
+**Calibration target:** A typical run with 15 surfaced items should produce 0–3 build_worthy=true. If you're flagging more than 3 per run, you're being too generous. Re-apply the truly-want test more strictly.
 
 ---
 
