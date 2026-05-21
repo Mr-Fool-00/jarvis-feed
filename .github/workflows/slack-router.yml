@@ -84,10 +84,25 @@ jobs:
                 HEADER="🏆 Win logged"
                 ;;
               state:*)
-                # Only fire #errors if failures.log changed; otherwise silent
+                # Fire #errors when failures.log changed AND new entries aren't all "expected" fallbacks.
+                # CCR sandbox can't reach hooks.slack.com directly — the GitHub→Slack bridge is the
+                # canonical path, so "Slack 403 expected, bridge active" entries are documented
+                # fallbacks not real failures. Skip the #errors fire when every new line is one of
+                # those known-benign cases. Real failures still fire as before.
                 if echo "$FILES" | grep -q "state/failures.log"; then
-                  WEBHOOK="$SLACK_ERRORS"
-                  HEADER="🚨 Failures logged"
+                  # Extract only the lines this commit ADDED to failures.log
+                  NEW_LINES=$(git show "$sha" -- state/failures.log 2>/dev/null                     | awk '/^@@/{f=1; next} f && /^\+/ && !/^\+\+\+/ {sub(/^\+/,""); print}')
+                  # If there are new lines and ANY of them is NOT a known-expected fallback, fire #errors.
+                  # If all new lines match expected patterns OR there are no new lines, stay silent.
+                  if [ -n "$NEW_LINES" ]; then
+                    UNEXPECTED=$(echo "$NEW_LINES" | grep -v -i -E "expected|bridge active|covered via WebSearch|covered via search" || true)
+                    if [ -n "$UNEXPECTED" ]; then
+                      WEBHOOK="$SLACK_ERRORS"
+                      HEADER="🚨 Failures logged"
+                    else
+                      echo "All new failures.log entries are expected/covered fallbacks — skipping #errors fire"
+                    fi
+                  fi
                 fi
                 ;;
               *)
