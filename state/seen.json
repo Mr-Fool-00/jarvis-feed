@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-20T15:30:00Z",
+  "last_run_utc": "2026-05-21T00:48:00Z",
   "items": {
     "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
       "first_seen_utc": "2026-05-19T16:10:00Z",
@@ -371,6 +371,81 @@
       "first_seen_utc": "2026-05-20T15:30:00Z",
       "score_when_seen": 4,
       "title_snippet": "KPMG-Anthropic alliance — 276K employees, Digital Gateway, KPMG Blaze"
+    },
+    "anthropic:karpathy-joins-2026-05-19": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Andrej Karpathy joins Anthropic pre-training — recursive self-improvement team"
+    },
+    "github:wshobson/agents": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "wshobson/agents: 35.7K stars, 185 agents, 3-tier Opus/Sonnet/Haiku model routing"
+    },
+    "podcast:every.to:boris-cherny-cat-wu": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Boris Cherny + Cat Wu: plan mode, shared settings.json, parallel subagent review"
+    },
+    "reddit:opus47-workarounds-2026": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Opus 4.7 hallucinations + arguing workarounds: front-load, mid-session injection, hooks"
+    },
+    "github:sickn33/antigravity-awesome-skills": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "antigravity-awesome-skills: 38.2K stars, 1,462 skills, v11.4.1 May 20, CLI installer"
+    },
+    "security:checkpoint-cve-2026-21852": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Check Point CVE-2026-21852: RCE + token exfiltration via .claude/ project files"
+    },
+    "rss:lennysnewsletter:cwc-5-biggest-updates": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Lenny's: Code w/ Claude 5 biggest updates — Routines, Outcomes, Dreaming"
+    },
+    "security:mitiga-mcp-oauth-hijack": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Mitiga: MCP OAuth token hijack via malicious npm postinstall hook"
+    },
+    "rss:simonwillison:gemini-3.5-flash-2026-05-19": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Simon Willison: Gemini 3.5 Flash — more expensive than Flash-tier implies"
+    },
+    "arxiv:2605.11453": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Predictive Maps of Multi-Agent Reasoning: topology selection without pre-inference cost"
+    },
+    "news:anthropic-q2-profit-2026-05-20": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic Q2 $10.9B revenue / first operating profit $559M"
+    },
+    "github:aaddrick/claude-pipeline": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "aaddrick/claude-pipeline: 115 stars, portable multi-agent pipeline, --dangerously-skip-permissions"
+    },
+    "arxiv:2605.14498": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "GroupMemBench: benchmarking LLM agent memory in multi-party conversations"
+    },
+    "news:anthropic-cnbc-disruptor50-2026": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Anthropic CNBC Disruptor 50 #1 — displacing OpenAI"
+    },
+    "github:travisvn/awesome-claude-skills": {
+      "first_seen_utc": "2026-05-21T00:48:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "travisvn/awesome-claude-skills: 12.3K stars curated Claude Skills list"
     }
   }
 }
