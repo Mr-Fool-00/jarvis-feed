@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-22T02:15:00Z",
+  "last_run_utc": "2026-05-22T12:45:00Z",
   "items": {
     "blog:hackernoon:claude-book-multi-agent": {
       "first_seen_utc": "2026-05-22T02:15:00Z",
@@ -741,6 +741,61 @@
       "first_seen_utc": "2026-05-21T00:50:00Z",
       "score_when_seen": 4,
       "title_snippet": "Multi-Agent Orchestration Framework for VC Due Diligence"
+    },
+    "addyosmani:agent-skills-repo": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "addyosmani/agent-skills: 44.8K stars, production-grade engineering skills, slash commands, 3 agent personas, hooks"
+    },
+    "blog:nicolascole:ai-publishing-house": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Nicolas Cole: 6 novellas in 6 days, 30K-word pipeline in 30 min, Story Seeds method"
+    },
+    "blog:nicolascole:fiction-voice-skill": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Nicolas Cole: Build a Claude Cowork .Skill encoding author fiction voice for contextual injection"
+    },
+    "arxiv:2605.00410": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Agent Capsules: 63% token savings quality-gated granularity control for multi-agent pipelines"
+    },
+    "arxiv:2604.07911": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "DACS: 90-98% steering accuracy via dynamic attentional context scoping in multi-agent orchestration"
+    },
+    "arxiv:2605.01293": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Lifting Traces to Logic: neuro-symbolic skill induction from few-shot interaction traces"
+    },
+    "arxiv:2604.02674": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Agent Societies Power Laws: intellectual elites, heavy-tailed coordination, DTI fix"
+    },
+    "github:kgraph57:paper-writer-skill": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "kgraph57/paper-writer-skill: 8-phase quality gate auto-fix loops, 7 parallel agents, 3-iteration fixer contract"
+    },
+    "blog:hightower:btw-fork-rewind": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Rick Hightower: Claude Code /btw /fork /rewind context hygiene toolkit"
+    },
+    "hn:47844269": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "HN: Anthropic says OpenClaw-style Claude CLI usage is allowed again"
+    },
+    "course:indydevdan:tactical-agentic-coding": {
+      "first_seen_utc": "2026-05-22T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "IndyDevDan: Tactical Agentic Coding May 2026 update, 14 modules, AFK agents, ZTE"
     }
   }
 }

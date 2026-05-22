@@ -18,6 +18,12 @@ Format: `<date> [suggestion] <reasoning>`
 
 6. **HN deep-read blocked** — Direct WebFetch on news.ycombinator.com/item?id=* returns 403 in this sandbox. As a workaround, WebSearch for the headline + "hacker news" extracts snippet context. Not ideal — we miss comment threads which sometimes contain the best insight (e.g., "this architecture is similar to X which failed because Y"). If sandbox allows fetching via Algolia, try `https://hn.algolia.com/api/v1/items/{id}` as a WebFetch fallback before curl.
 
+## Run: 2026-05-22 PM (retry)
+
+12. **Add nicolascolefiction.substack.com to tracked RSS sources** — Nicolas Cole is producing highly relevant AI fiction writing content (voice skills, publishing pipeline, throughput patterns) that maps perfectly to Leo's book goals. He posts 2-4x/week on practical AI fiction workflows. High signal-to-noise for this specific audience. Suggest adding `WebSearch: "site:nicolascolefiction.substack.com 2026"` to each run's blog discovery pass, or attempting RSS at `https://nicolascolefiction.substack.com/feed`.
+
+13. **arxiv papers from April still appearing as new** — This run surfaced four arxiv papers from April 2026 (DACS Apr 9, Agent Societies Apr 3) that weren't in seen.json despite prior runs covering May content. The arxiv hours_window in SOURCES.yaml is 168 hours (7 days), which would have missed April papers. Either the window was respected correctly and we should expand it for arxiv, OR prior runs didn't run the arxiv search at all. Suggest: set arxiv hours_window to 720 hours (30 days) for the weekly retroactive scan, since papers get discussed weeks after publication.
+
 ## Run: 2026-05-22 AM
 
 10. **Add addyosmani.com/blog as a tracked RSS/WebSearch source** — Addy Osmani published at least 3 high-signal posts this cycle (Long-running Agents, Self-Improving Coding Agents, Agent Harness Engineering) that weren't in any configured source. His post cadence is ~2/month on Claude Code topics. His signal-to-noise is extremely high. Should be a first-class discovery target alongside Simon Willison. Suggest adding `WebSearch: "site:addyosmani.com claude OR agent 2026"` to the HN/blog discovery pass.
