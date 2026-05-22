@@ -1,7 +1,62 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-22T01:05:00Z",
+  "last_run_utc": "2026-05-22T02:15:00Z",
   "items": {
+    "blog:hackernoon:claude-book-multi-agent": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Claude Book: Multi-agent novel framework with perplexity-based quality gate (Ministral 8B)"
+    },
+    "rss:simonwillison:datasette-agent-2026-05-21": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Simon Willison: Datasette Agent — LLM + SQLite convergence, plugin architecture, Claw personal AI vision"
+    },
+    "blog:earezki:book-writing-agent": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "earezki: 5-agent book writing system with DAG chapter dependencies and hallucination prevention"
+    },
+    "podcast:latentspace:shopify-ai-phase-transition": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Latent Space: Shopify unlimited Opus-4.6 budget, Tangle orchestrator, 3.5x productivity gains"
+    },
+    "blog:medium:osushi-5-novels-month": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "osushi_cr: 5 novels in a month with Claude Code — role separation (design+judgment vs writing+fixing)"
+    },
+    "rss:pragmatic-engineer:ai-impact-part2": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Pragmatic Engineer: AI impact on SWEs Part 2 — 900+ survey, slot machine behavior, quality decline"
+    },
+    "podcast:latentspace:notion-token-town": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Latent Space: Notion Token Town — MCP vs CLIs, 5 rebuilds, 100+ tools, Software Factory"
+    },
+    "blog:openclawapi:webnovel-writer": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "OpenClaw WebNovel Writer: 8-agent RAG-based novel system, mandatory embedding+reranking"
+    },
+    "blog:milvus:is-mcp-dead-2026": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Milvus: Is MCP Dead? CLI+Skills vs MCP comparison, Bytedance Lark 200+ commands"
+    },
+    "blog:f22labs:cc-productivity-tips": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "F22 Labs: 10 Claude Code productivity workflows — CLAUDE.md externalization, planning mode"
+    },
+    "podcast:latentspace:unsupervised-learning-crossover-may20": {
+      "first_seen_utc": "2026-05-22T02:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Latent Space x Unsupervised Learning: year-in-review AI crossover special"
+    },
     "addyosmani:long-running-agents": {
       "first_seen_utc": "2026-05-22T01:05:00Z",
       "score_when_seen": 8,
