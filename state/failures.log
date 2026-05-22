@@ -24,3 +24,5 @@
 2026-05-21T01:02:00Z slack_direct_post blocked reason="sandbox proxy 403 on hooks.slack.com — all channels" delivery_status="routing via GitHub commit prefix bridge (digest:/briefing:/notify: prefixes → GitHub Actions → Slack)"
 2026-05-21T12:10:00Z slack_general_post_failed reason="hooks.slack.com still 403 from sandbox proxy — heartbeat routed via GitHub commit prefix bridge"
 2026-05-21T12:10:00Z slack_ai_news_direct_post_skipped reason="delivery via digest: commit prefix bridge — no direct POST needed"
+2026-05-22T02:15:00Z reddit_json_api: blocked by proxy (expected, using WebSearch fallback)
+2026-05-22T02:15:00Z milvus_webfetch: 403 on milvus.io (used WebSearch snippet)
