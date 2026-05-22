@@ -1,7 +1,82 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-21T12:09:38Z",
+  "last_run_utc": "2026-05-22T01:05:00Z",
   "items": {
+    "addyosmani:long-running-agents": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Addy Osmani: Long-running Agents — checkpoint/resume, handoff file, context reset, gen/eval separation"
+    },
+    "tds:continually-improve-claude-code-may15-2026": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "TDS May 15: nightly cron scans session JSONL logs → extracts corrections → updates CLAUDE.md"
+    },
+    "github:BayramAnnakov/claude-reflect": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "claude-reflect: 1K stars, hooks capture corrections → /reflect review table → CLAUDE.md sync"
+    },
+    "changelog:claude-code-2.1.147-2026-05-22": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC v2.1.147: Rewind 'Summarize up to here', context:fork loop fix, agents --cwd, non-ASCII teammate fix"
+    },
+    "addyosmani:agent-harness-engineering": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Addy Osmani Apr 19: harness = prompts+tools+context+hooks+sandboxes+subagents+feedback+recovery"
+    },
+    "github:haowjy/creative-writing-skills": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "haowjy/creative-writing-skills: 4-mode agents (write/critique/revise/explore), style files from prose"
+    },
+    "mit-tech-review:code-with-claude-codings-future-may21": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "MIT Tech Review May 21: CwC London, half devs shipped Claude-written PRs, Dreaming system context"
+    },
+    "anthropic:agentic-coding-trends-report-2026": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic 2026 Agentic Coding Trends Report: 60% AI use but 0-20% full delegation, TELUS/Zapier stats"
+    },
+    "gist:a-c-m:reflection-md": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "reflection.md gist: single-file minimal /reflect implementation, no third-party install"
+    },
+    "hn:47759035": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Show HN: CodeBurn — analyze Claude Code token usage by task, 13-category JSONL classifier"
+    },
+    "addyosmani:self-improving-agents": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Addy Osmani Jan 2026: self-improving agent loops, Ralph Wiggum technique, acceptance criteria as tests"
+    },
+    "anthropic:long-running-claude-science": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic Mar 23: Claude Opus 4.6 compresses months of cosmological research into days, harness recipe"
+    },
+    "fortune:anthropic-london-may21": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Fortune May 21: Anthropic lands in London, Spotify/Delivery Hero rebuilt around Claude Code"
+    },
+    "hn:47836740": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Show HN: Ctx — /resume that works across Claude Code and Codex"
+    },
+    "github:forsonny/claude-code-novel-writer": {
+      "first_seen_utc": "2026-05-22T01:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "forsonny/Claude-Code-Novel-Writer: Fantasy Novel Writing System v3.1, 100K-word generation"
+    },
     "github:anthropics/cwc-long-running-agents": {
       "first_seen_utc": "2026-05-21T12:09:38Z",
       "score_when_seen": 9,
