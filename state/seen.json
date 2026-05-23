@@ -1,7 +1,82 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-23T00:45:00Z",
+  "last_run_utc": "2026-05-23T12:55:00Z",
   "items": {
+    "github:mgechev/skillgrade": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Skillgrade: unit tests for agent skills — with/without baseline, LLM judge, CI mode, 489 stars, MIT"
+    },
+    "blog:kaguura:everyday-writer": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Everyday Writer: free Claude skill preserving fiction voice, 13 sub-skills, released Apr 26 2026"
+    },
+    "github:sangrokjung/claude-forge": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Claude Forge: oh-my-zsh for Claude Code — 11 agents, 40 commands, 15 skills, 6-layer hooks, 708 stars"
+    },
+    "blog:google:genkit-middleware-2026-05-14": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Google Genkit Middleware: composable hooks for agentic apps — generate/model/tool interception layers"
+    },
+    "blog:excellentprompts:fiction-writing-cowork": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "4 AI Prompts + 1 Skill for fiction novel with Claude Cowork — Save the Cat, Story Grid, publish pipeline"
+    },
+    "arxiv:2605.10114": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "SkillRAE: Skill-Based Context Compilation for Retrieval-Augmented Execution — validates selective loading"
+    },
+    "blog:anthropic:claude-code-large-codebases": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Anthropic: How Claude Code Works in Large Codebases — best practices, context window management"
+    },
+    "github:microsoft/agent-framework": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Microsoft Agent Framework v1.0 — YAML orchestration, Python+.NET, checkpointing, time-travel, GA April 2026"
+    },
+    "anthropic:alignment:teaching-claude-why": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Anthropic alignment: Teaching Claude Why — agentic misalignment, blackmail behavior in ethical dilemmas"
+    },
+    "arxiv:2605.10268": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "MemReread: memory-guided rereading for agentic long-context reasoning — compressed memory + targeted reread"
+    },
+    "arxiv:2605.07358": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Comprehensive Survey on Agent Skills: taxonomy (atomic/composed/adaptive), eval, deployment patterns"
+    },
+    "changelog:claude-code-2.1.148-2026-05-22": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "CC v2.1.148 hotfix: Bash tool exit code 127 regression from 2.1.147 fixed"
+    },
+    "hn:48046023": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Show HN: agent-skills-eval — test whether agent skills improve outputs vs baseline, CI mode"
+    },
+    "podcast:latentspace:every-agent-needs-a-box": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Latent Space: Every Agent Needs a Box — Aaron Levie on agent identity, governance, scoped access"
+    },
+    "arxiv:2605.08538": {
+      "first_seen_utc": "2026-05-23T12:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Human-Inspired Memory Architecture for LLM Agents — sleep consolidation, interference forgetting, multi-cue retrieval"
+    },
     "blog:hackernoon:claude-book-multi-agent": {
       "first_seen_utc": "2026-05-22T02:15:00Z",
       "score_when_seen": 8,
