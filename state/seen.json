@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-22T12:45:00Z",
+  "last_run_utc": "2026-05-23T00:45:00Z",
   "items": {
     "blog:hackernoon:claude-book-multi-agent": {
       "first_seen_utc": "2026-05-22T02:15:00Z",
@@ -796,6 +796,66 @@
       "first_seen_utc": "2026-05-22T12:45:00Z",
       "score_when_seen": 4,
       "title_snippet": "IndyDevDan: Tactical Agentic Coding May 2026 update, 14 modules, AFK agents, ZTE"
+    },
+    "hn:48108778": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Statewright: Visual state machines + phase-constrained tool access for AI agents (Apache 2.0 Rust engine)"
+    },
+    "arxiv:2605.17734": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "HASP: Harnessing LLM Agents with Skill Programs — skills as executable Program Functions (PFs)"
+    },
+    "rss:lennysnewsletter:cat-wu-anthropic-product-speed-2026-05": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Cat Wu: How Anthropic ships product in 1 week — evergreen launch room, Research Preview labels"
+    },
+    "arxiv:2605.13716": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "SkillOps: Managing LLM Agent Skill Libraries as Self-Maintaining Software Ecosystems"
+    },
+    "arxiv:2605.19952": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "TriMem: Beyond Atomic Facts in Lifelong LLM Agent Memory — 3-layer representation"
+    },
+    "github:edouard-claude/snip": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "snip: CLI proxy, declarative YAML filters cut LLM token usage 60-90% for Claude Code"
+    },
+    "anthropic:how-ai-transforms-work-2026-05": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Anthropic research: 60% work uses Claude, 50% productivity boost, engineers becoming managers of AI agents"
+    },
+    "arxiv:2605.18535": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Beyond Scaling: Agents Are Heading to the Edge — Cambridge position paper on edge-device agent architecture"
+    },
+    "arxiv:2605.18693": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "SkillGenBench: First benchmark for evaluating skill generation pipelines in LLM agents"
+    },
+    "github:yusufkaraaslan/Skill_Seekers": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Skill_Seekers: Convert docs/GitHub/PDFs to Claude AI skills, 13.7K stars"
+    },
+    "news:anthropic-funding-close-30B-2026-05-22": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Bloomberg: Anthropic closing $30B+ round at $900B valuation as soon as next week"
+    },
+    "hn:48193111": {
+      "first_seen_utc": "2026-05-23T00:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "HN: Anthropic Is Preparing for IPO and We Should Be Worried — October 2026 target, valuation concerns"
     }
   }
 }
