@@ -30,6 +30,14 @@ Format: `<date> [suggestion] <reasoning>`
 
 11. **Towards Data Science Claude Code cluster is producing consistent signal** — Found at least 3 genuinely useful TDS articles (How I Continually Improve My Claude Code; How to Make Claude Code Improve from its Own Mistakes; How to Improve Performance with Automated Testing). TDS is publishing a steady cadence of practitioner-written Claude Code deep-dives. Suggest adding `WebSearch: "site:towardsdatascience.com claude code 2026"` as a weekly source scan. High signal-to-noise for this specific subject.
 
+## Run: 2026-05-23 AM
+
+14. **Reddit WebSearch coverage still sparse** — This run got 0 confirmed Reddit posts from r/ClaudeAI, r/LocalLLaMA, r/AI_Agents. The `site:reddit.com` filter returns nothing; broader queries return results that aren't recent. Reddit is a configured primary source but effectively dead in this sandbox for < 24h content. Suggest: accept Reddit as a lagging secondary source only and remove it from "primary" expectations. Double-down on HN depth (more specific HN item IDs found via search) and GitHub trending as the real-time discovery sources.
+
+15. **YouTube channel coverage = 0 this run** — WebFetch on youtube.com 403, WebSearch for specific channel names returns channel pages not video listings. Got no new video content from any of the 9 configured channels despite them posting regularly. For improvement: try searching `"@ColeMedin" OR "@indydevdan" youtube.com/watch 2026 Claude` to surface specific video URLs, then WebFetch those. Current approach of `"<handle> youtube latest video"` returns channel pages with no video dates.
+
+16. **Skills-as-software wave merits its own tracked keyword** — This run surfaced 3 papers converging on "skill engineering" in a single 9-day window. Consider adding arxiv search query `"skill library" OR "skill program" LLM agent` to the weekly arxiv scan to catch this cluster early next run.
+
 ---
 
 ## Run: 2026-05-20 PM
