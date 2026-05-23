@@ -170,3 +170,4 @@ Appended by the jarvis-listener Cloudflare Worker. Read by the next Jarvis routi
 - **2026-05-23T12:53:31.270Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779540811`
 - **2026-05-23T12:54:08.862Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`U0B4RMMA4JY`
 - **2026-05-23T12:54:54.172Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`U0B4RMMA4JY`
+- **2026-05-23T12:55:11.645Z** · PRE-CHECK · type=`event_callback` · event_type=`reaction_added` · reaction=`+1` · sig_ok=`true` · ts=`1779540911`
