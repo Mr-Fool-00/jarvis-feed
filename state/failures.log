@@ -31,3 +31,6 @@
 2026-05-23T00:45:00Z webfetch_403 sources="simonwillison.net/atom,anthropic.com/research,anthropic.com/news,arxiv.org/list/cs.MA,youtube.com,news.ycombinator.com/item" — sandbox proxy 403 on all direct reads. All content recovered via WebSearch.
 2026-05-23T00:45:00Z reddit_websearch: 0 indexed posts found for r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (indexing lag expected, using HN+GitHub as primary real-time sources)
 2026-05-23T00:45:00Z slack_direct_post blocked reason="sandbox proxy 403 on hooks.slack.com" delivery_status="routing via GitHub commit prefix bridge (digest:/briefing:/notify: prefixes)"
+2026-05-23T12:57:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403 Host not in allowlist)" — digest delivered via digest: commit prefix; briefings delivered via briefing: commit prefix
+2026-05-23T12:57:00Z rss_feed FAILED reason="simonwillison.net/atom.xml HTTP 403 — fetched via WebSearch alternative successfully"
+2026-05-23T12:57:00Z rss_feed FAILED reason="anthropic.com/news/rss HTTP 403 — fetched via WebSearch alternative successfully"
