@@ -34,3 +34,4 @@
 2026-05-23T12:57:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403 Host not in allowlist)" — digest delivered via digest: commit prefix; briefings delivered via briefing: commit prefix
 2026-05-23T12:57:00Z rss_feed FAILED reason="simonwillison.net/atom.xml HTTP 403 — fetched via WebSearch alternative successfully"
 2026-05-23T12:57:00Z rss_feed FAILED reason="anthropic.com/news/rss HTTP 403 — fetched via WebSearch alternative successfully"
+2026-05-24T00:11:16Z push_failed reason='PAT auth rejected — Invalid username or token for github.com/Mr-Fool-00/jarvis-feed'
