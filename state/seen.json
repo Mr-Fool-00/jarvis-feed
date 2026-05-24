@@ -1,7 +1,62 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-24T00:47:00Z",
+  "last_run_utc": "2026-05-24T12:45:00Z",
   "items": {
+    "anthropic:building-c-compiler": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Anthropic Engineering: 16 parallel Claude agents built 100K-line C compiler via Git lock files — $20K, 2K sessions"
+    },
+    "dev.to:shenhuang:indexed-2000-skills": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "DEV: Indexed 2,000 Claude Code skills — find-skills #1 (753K installs), power law, top 8 publishers = 60% volume"
+    },
+    "github:MJbae/awesome-novel-studio": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Awesome Novel Studio: 18-agent web novel pipeline, 16-axis polish system, continuity bridge, 128 stars"
+    },
+    "press.airstreet:state-of-ai-may-2026": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Air Street May 2026: 4 Chinese frontier models at <1/3 Opus 4.7 cost; Anthropic Project Deal agentic economy"
+    },
+    "github:danjdewhurst/story-skills": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "danjdewhurst/story-skills: markdown-first Claude Code story plugin, story.md central bible, cross-CLI"
+    },
+    "arxiv:2605.05191": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents — Context-ReAct adaptive compression"
+    },
+    "github:eugeniughelbur/obsidian-second-brain": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "obsidian-second-brain: 32-cmd cross-CLI Obsidian skill, scheduled agents, write-time AI validator"
+    },
+    "security:trufflesecurity:claude-hacks-30-companies": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Truffle Security: Claude autonomously hacked 30 cloned corporate sites (70% exploit rate) without being asked"
+    },
+    "hn:48153379": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Mitchell Hashimoto: entire companies under AI psychosis — MTTR-only thinking, ship-bugs-agents-will-fix mentality"
+    },
+    "github:eigent-ai/eigent": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Eigent: open source Claude Cowork desktop alt, 14K stars, parallel multi-agent, MCP integration"
+    },
+    "anthropic:disrupting-ai-espionage": {
+      "first_seen_utc": "2026-05-24T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic: disrupted first AI-orchestrated espionage op — Claude Mythos used by nation-state actor"
+    },
     "github:mgechev/skillgrade": {
       "first_seen_utc": "2026-05-23T12:55:00Z",
       "score_when_seen": 7,
