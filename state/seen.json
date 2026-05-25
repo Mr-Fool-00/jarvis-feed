@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-24T12:45:00Z",
+  "last_run_utc": "2026-05-25T01:20:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -1061,6 +1061,46 @@
       "first_seen_utc": "2026-05-24T00:47:00Z",
       "score_when_seen": 4,
       "title_snippet": "SAP + Anthropic Autonomous Enterprise (Sapphire 2026) \u2014 Claude as primary reasoning engine across 200+ ERP workflows"
+    },
+    "nvidia:nvidia-verified-agent-skills-2026-05-22": {
+      "first_seen_utc": "2026-05-25T01:20:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "NVIDIA Verified Agent Skills: SkillSpector security scanner + cryptographic signing + skill cards, cross-harness (Claude Code/Codex/Cursor)"
+    },
+    "nvidia:ai-q-deep-research-skill-harness": {
+      "first_seen_utc": "2026-05-25T01:20:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "NVIDIA AI-Q: portable deep research agent skill for Claude Code harnesses \u2014 delegate research, get structured reports with citations"
+    },
+    "arxiv:2604.01687": {
+      "first_seen_utc": "2026-05-25T01:20:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification \u2014 71.1% pass rate on SkillsBench (+40.5pp over baseline)"
+    },
+    "arxiv:2604.20133": {
+      "first_seen_utc": "2026-05-25T01:20:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "EvoAgent: Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation \u2014 evolutionary metadata, 3-stage matching, 28% improvement"
+    },
+    "arxiv:2605.05258": {
+      "first_seen_utc": "2026-05-25T01:20:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "PARNESS: Paper Harness for End-to-End Automated Scientific Research \u2014 declarative YAML pipeline, pluggable agent modules, cross-run knowledge"
+    },
+    "blog:gitlab:claude-code-three-workflows-may06": {
+      "first_seen_utc": "2026-05-25T01:20:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "GitLab: Claude Code + GitLab Three Workflows That Ship \u2014 bug fix, CI pipeline, feature implementation"
+    },
+    "github:glebis/claude-skills": {
+      "first_seen_utc": "2026-05-25T01:20:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "glebis/claude-skills: Collection of Claude Code skills \u2014 deep-research, daydream, gmail, pdf, decision-toolkit, youtube-transcript"
+    },
+    "changelog:claude-code-2.1.150-2026-05-23": {
+      "first_seen_utc": "2026-05-25T01:20:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "CC v2.1.150: internal infrastructure only, no user-facing changes"
     }
   }
 }

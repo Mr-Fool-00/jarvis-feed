@@ -37,3 +37,7 @@
 2026-05-24T00:11:16Z push_failed reason='PAT auth rejected — Invalid username or token for github.com/Mr-Fool-00/jarvis-feed'
 2026-05-24T12:45:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — digest delivered via digest: commit prefix; briefing delivered via briefing: commit prefix
 2026-05-24T12:45:00Z reddit_websearch: 0 indexed posts found (sandbox indexing gap persists)
+2026-05-25T01:20:00Z reddit_websearch: 0 indexed posts found (sandbox indexing gap persists — consistent across all runs)
+2026-05-25T01:20:00Z youtube_websearch: 0 videos retrieved (403 sandbox block on all YouTube WebFetch; WebSearch returns channel pages not video listings)
+2026-05-25T01:20:00Z webfetch_403 sources="simonwillison.net/atom.xml,developer.nvidia.com,arxiv.org" — sandbox proxy 403 on direct reads. All content recovered via WebSearch.
+2026-05-25T01:20:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — digest delivered via digest: commit prefix; briefing delivered via briefing: commit prefix
