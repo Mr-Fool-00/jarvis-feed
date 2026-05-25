@@ -47,3 +47,9 @@ Format: `<date> [suggestion] <reasoning>`
 8. **Track the Advisor Tool ecosystem** — The advisor-tool-2026-03-01 beta is generating a cluster of blog posts (builder.io, MindStudio, chatgptguide.ai) that contain useful benchmark data and implementation patterns. These practitioner analyses are higher-signal than the official docs for Leo's use case. Consider adding a WebSearch query "claude advisor tool" to the HN/blog discovery pass.
 
 9. **YouTube London keynote missed** — The Code w/ Claude London Day 1 keynote (youtube.com/watch?v=6amLO7I9xdg) was not fetchable this run (403). Should be fully indexed within 24 hours. Next run (2026-05-20 AM cycle or 2026-05-21 AM): retry WebFetch on that video URL or search for transcript.
+
+## Run: 2026-05-25 AM
+
+17. **Add NVIDIA/SkillSpector as a pre-adoption check step in the runbook** — NVIDIA's open-source SkillSpector scanner (github.com/NVIDIA/SkillSpector) directly automates the manual safety gate described in Step 4.5. Suggest adding it as an optional automated check before any third-party skill is recommended. Would reduce manual review time from ~10 minutes to ~30 seconds per skill and catch agent-specific risks (trigger abuse, tool poisoning, instruction mismatch) that human review typically misses.
+
+18. **YouTube coverage still 0 this run** — Persistent issue. Current approach (`"<handle> youtube latest video"` WebSearch) returns channel pages, not video listings. Suggest trying `site:youtube.com "@ColeMedin" watch 2026 Claude` pattern to surface specific video URLs from the last 7 days, then WebFetch those. Alternative: use YouTube's public RSS feed URLs via WebFetch directly (format: `https://www.youtube.com/feeds/videos.xml?channel_id=<ID>`) — these may bypass the 403 sandbox block that hits the main youtube.com domain.
