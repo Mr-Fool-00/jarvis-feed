@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-25T01:20:00Z",
+  "last_run_utc": "2026-05-25T12:45:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -1101,6 +1101,51 @@
       "first_seen_utc": "2026-05-25T01:20:00Z",
       "score_when_seen": 3,
       "title_snippet": "CC v2.1.150: internal infrastructure only, no user-facing changes"
+    },
+    "github:coleam00/second-brain-skills": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Cole Medin: 22-skill second brain system, 24/7 content engine, Obsidian memory, progressive disclosure of context, 739 stars"
+    },
+    "arxiv:2604.24594": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Skill Retrieval Augmentation for Agentic AI — enumeration breaks at scale, dynamic retrieval paradigm + SRA-Bench"
+    },
+    "github:mattpocock/skills": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "mattpocock/skills: 105K stars, 20 production engineering skills (TDD, diagnose, improve-architecture, to-prd), MIT"
+    },
+    "arxiv:2605.05726": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "SkillRet: 17,810-skill benchmark for LLM agent skill retrieval — fine-tuning improves NDCG@10 +13.1pp over best prior retriever"
+    },
+    "langgraph:1.2-per-node-timeout": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "LangGraph v1.2: per-node timeouts, DeltaChannel (delta-only checkpoints), NodeError handlers, async only"
+    },
+    "anthropic:glasswing-mythos-10k-may24": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic Project Glasswing: 10,000+ critical vulns found with Mythos, closer to general release pending stronger safeguards"
+    },
+    "github:AgriciDaniel/claude-blog": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "claude-blog v1.9.0: 30 sub-skills, 5 agents, 5-gate Blog Delivery Contract — SEO/fact-check/format/review pipeline"
+    },
+    "simonwillison:usborne-mad-house-may24": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Simon Willison: 1983 Usborne 'Mad House' game rebuilt from scanned PDF via Claude artifacts — PDF-to-interactive pattern"
+    },
+    "github:JanBussieck/hn-skill": {
+      "first_seen_utc": "2026-05-25T12:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "JanBussieck/hn-skill: HN post optimizer skill (hn-optimize, hn-spin, hn-score), 5yr front-page data, 2 stars"
     }
   }
 }
