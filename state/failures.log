@@ -44,3 +44,6 @@
 2026-05-25T12:45:00Z RSS-all-sources curl-blocked-and-rss-403 — anthropic/simonwillison/latentspace feeds all returning 403 via WebFetch. Fallback to WebSearch site: filter for coverage.
 2026-05-25T12:45:00Z pulsemcp.com webfetch-403 — MCP registry page blocked, no new MCP server entries this run.
 2026-05-25T12:45:00Z youtube-coverage-0 — All YouTube channel RSS feeds and video pages return 403. No new video content this run.
+2026-05-25T12:50:00Z slack_webhook_errors curl-blocked-403 — hooks.slack.com in sandbox network denylist. #errors delivery skipped; digest commit prefix handles #ai-news.
+2026-05-25T12:50:00Z slack_webhook_improvements curl-blocked-403 — briefing: commit prefix handles #improvements delivery via GitHub→Slack bridge.
+2026-05-25T12:50:00Z slack_webhook_general curl-blocked-403 — heartbeat delivered via notify: closer commit prefix instead.
