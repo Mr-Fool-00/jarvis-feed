@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-25T12:45:00Z",
+  "last_run_utc": "2026-05-26T00:55:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -1146,6 +1146,51 @@
       "first_seen_utc": "2026-05-25T12:45:00Z",
       "score_when_seen": 3,
       "title_snippet": "JanBussieck/hn-skill: HN post optimizer skill (hn-optimize, hn-spin, hn-score), 5yr front-page data, 2 stars"
+    },
+    "github:howells/fiction": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "howells/fiction: Claude Code plugin for fiction — 7 agents (architecture, characters, prose, review, editing, continuity, publishing), EPUB builder, manuscript critique"
+    },
+    "blog:mindstudio:learnings-md-skill": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "MindStudio: Self-learning Claude Code skill via Learnings.md — Claude reads + appends learnings per run, skill-level memory"
+    },
+    "github:rhavekost/author-toolkit": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "rhavekost/author-toolkit: 5 editorial personas for novel writing — Developmental Editor, Line Editor, Character Consultant, Continuity Tracker, Brainstorm Partner"
+    },
+    "hn:47894690": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Could a Claude Code routine watch my finances? — Driggsby MCP (Rust+Plaid) + Routine for personal finance monitoring, daily digest pattern"
+    },
+    "github:nishilbhave/codeprobe": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "nishilbhave/codeprobe: 9 parallel AI expert agents for code review — security, SOLID, architecture, error handling, performance, testing, code smells, patterns, framework"
+    },
+    "github:Piebald-AI/tweakcc": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Piebald-AI/tweakcc: Customize Claude Code system prompts, unlock private features — patches compiled JS. Risky."
+    },
+    "blog:thepromptshelf:hooks-32-events": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Claude Code Hooks: Complete 32+ event production reference (2026) — 5 handler types, exit code semantics, verified CC v2.1.141+"
+    },
+    "github:aattaran/deepclaude": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "aattaran/deepclaude: Claude Code agent loop using DeepSeek V4 Pro — 17x cheaper, API-only (not Max plan)"
+    },
+    "github:ThomasHoussin/Claude-Book": {
+      "first_seen_utc": "2026-05-26T00:55:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "ThomasHoussin/Claude-Book: Multi-agent framework for novel writing with Claude Code — book analysis, story ideation, character/world-building skills"
     }
   }
 }
