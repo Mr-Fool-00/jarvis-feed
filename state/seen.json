@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-26T00:55:00Z",
+  "last_run_utc": "2026-05-26T12:55:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -1191,6 +1191,56 @@
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 4,
       "title_snippet": "ThomasHoussin/Claude-Book: Multi-agent framework for novel writing with Claude Code — book analysis, story ideation, character/world-building skills"
+    },
+    "github:coleam00/claude-memory-compiler": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "claude-memory-compiler: Karpathy-inspired hooks + Agent SDK session memory compiler — no vector DB, markdown articles, Max plan covered"
+    },
+    "github:thedotmack/claude-mem": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "claude-mem: 78K stars persistent context across sessions — 5 hooks, SQLite + Chroma, npx install, cross-platform"
+    },
+    "blog:writewithai:self-publish-14-days": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Nicolas Cole: How to self-publish first book in 14 days with AI — 10/80/10 split, Story Seeds method, 30K words in 30 min"
+    },
+    "arxiv:2605.25438": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Coding Beyond Your Training: 5,838-developer panel, Claude Code improves commits +12%, repos +8%, language diversity +15%"
+    },
+    "anthropic:mcp-aaif-linux-foundation": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "MCP donated to Agentic AI Foundation (Linux Foundation) — co-founded by Anthropic + OpenAI + Block, 10K+ servers, 97M+ SDK downloads/mo"
+    },
+    "github:obra/superpowers": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "obra/superpowers: 150K stars agentic skills framework — official Claude marketplace, TDD/debugging/review skills, Oct 2025 launch"
+    },
+    "atlassian:agentic-pipelines-claude": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Atlassian Bitbucket: Agentic Pipelines now supports Claude Code as CI provider — May 19, 2026"
+    },
+    "arxiv:2605.14563": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Remember Your Trace: Memory-Guided Long-Horizon Framework for hierarchical code documentation — MemDocAgent SOTA"
+    },
+    "hn:48130679": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "DrCatHicks/learning-opportunities: deliberate skill development during AI-assisted coding — retrieval practice, spaced repetition"
+    },
+    "github:agentic-community/mcp-gateway-registry": {
+      "first_seen_utc": "2026-05-26T12:55:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "mcp-gateway-registry: enterprise MCP gateway with OAuth, dynamic discovery, Keycloak/Entra, Federation 2.0, 661 stars"
     }
   }
 }
