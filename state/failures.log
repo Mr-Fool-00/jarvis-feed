@@ -54,3 +54,8 @@
 2026-05-26T00:06:50Z git-push-pat-failed — PAT rejected again (Invalid username or token). Falling back to GitHub MCP push.
 2026-05-26T00:06:50Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
 2026-05-26T01:05:00Z github-mcp-push-403 — mcp__github__push_files and create_or_update_file both returning "403 Resource not accessible by integration" on Mr-Fool-00/jarvis-feed. BOTH push paths now broken. All AM run content (digest, 2 briefings, seen.json updates) written locally but NOT pushed to GitHub. Leo action required: regenerate PAT or grant MCP write access.
+2026-05-26T12:55:00Z RSS-all-sources webfetch-403 — simonwillison/anthropic/latentspace/lenny/pragmatic-engineer all 403. Fallback to WebSearch coverage.
+2026-05-26T12:55:00Z youtube-coverage-0 — All YouTube channel RSS feeds 403. No new video content this run.
+2026-05-26T12:55:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
+2026-05-26T12:55:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
+2026-05-26T12:55:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
