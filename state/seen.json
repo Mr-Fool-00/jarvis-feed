@@ -1,16 +1,16 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-26T12:55:00Z",
+  "last_run_utc": "2026-05-27T00:55:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
       "score_when_seen": 8,
-      "title_snippet": "Anthropic Engineering: 16 parallel Claude agents built 100K-line C compiler via Git lock files — $20K, 2K sessions"
+      "title_snippet": "Anthropic Engineering: 16 parallel Claude agents built 100K-line C compiler via Git lock files \u2014 $20K, 2K sessions"
     },
     "dev.to:shenhuang:indexed-2000-skills": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
       "score_when_seen": 7,
-      "title_snippet": "DEV: Indexed 2,000 Claude Code skills — find-skills #1 (753K installs), power law, top 8 publishers = 60% volume"
+      "title_snippet": "DEV: Indexed 2,000 Claude Code skills \u2014 find-skills #1 (753K installs), power law, top 8 publishers = 60% volume"
     },
     "github:MJbae/awesome-novel-studio": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -30,7 +30,7 @@
     "arxiv:2605.05191": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
       "score_when_seen": 6,
-      "title_snippet": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents — Context-ReAct adaptive compression"
+      "title_snippet": "LongSeeker: Elastic Context Orchestration for Long-Horizon Search Agents \u2014 Context-ReAct adaptive compression"
     },
     "github:eugeniughelbur/obsidian-second-brain": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -45,7 +45,7 @@
     "hn:48153379": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Mitchell Hashimoto: entire companies under AI psychosis — MTTR-only thinking, ship-bugs-agents-will-fix mentality"
+      "title_snippet": "Mitchell Hashimoto: entire companies under AI psychosis \u2014 MTTR-only thinking, ship-bugs-agents-will-fix mentality"
     },
     "github:eigent-ai/eigent": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -55,7 +55,7 @@
     "anthropic:disrupting-ai-espionage": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Anthropic: disrupted first AI-orchestrated espionage op — Claude Mythos used by nation-state actor"
+      "title_snippet": "Anthropic: disrupted first AI-orchestrated espionage op \u2014 Claude Mythos used by nation-state actor"
     },
     "github:mgechev/skillgrade": {
       "first_seen_utc": "2026-05-23T12:55:00Z",
@@ -1110,7 +1110,7 @@
     "arxiv:2604.24594": {
       "first_seen_utc": "2026-05-25T12:45:00Z",
       "score_when_seen": 7,
-      "title_snippet": "Skill Retrieval Augmentation for Agentic AI — enumeration breaks at scale, dynamic retrieval paradigm + SRA-Bench"
+      "title_snippet": "Skill Retrieval Augmentation for Agentic AI \u2014 enumeration breaks at scale, dynamic retrieval paradigm + SRA-Bench"
     },
     "github:mattpocock/skills": {
       "first_seen_utc": "2026-05-25T12:45:00Z",
@@ -1120,7 +1120,7 @@
     "arxiv:2605.05726": {
       "first_seen_utc": "2026-05-25T12:45:00Z",
       "score_when_seen": 6,
-      "title_snippet": "SkillRet: 17,810-skill benchmark for LLM agent skill retrieval — fine-tuning improves NDCG@10 +13.1pp over best prior retriever"
+      "title_snippet": "SkillRet: 17,810-skill benchmark for LLM agent skill retrieval \u2014 fine-tuning improves NDCG@10 +13.1pp over best prior retriever"
     },
     "langgraph:1.2-per-node-timeout": {
       "first_seen_utc": "2026-05-25T12:45:00Z",
@@ -1135,12 +1135,12 @@
     "github:AgriciDaniel/claude-blog": {
       "first_seen_utc": "2026-05-25T12:45:00Z",
       "score_when_seen": 5,
-      "title_snippet": "claude-blog v1.9.0: 30 sub-skills, 5 agents, 5-gate Blog Delivery Contract — SEO/fact-check/format/review pipeline"
+      "title_snippet": "claude-blog v1.9.0: 30 sub-skills, 5 agents, 5-gate Blog Delivery Contract \u2014 SEO/fact-check/format/review pipeline"
     },
     "simonwillison:usborne-mad-house-may24": {
       "first_seen_utc": "2026-05-25T12:45:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Simon Willison: 1983 Usborne 'Mad House' game rebuilt from scanned PDF via Claude artifacts — PDF-to-interactive pattern"
+      "title_snippet": "Simon Willison: 1983 Usborne 'Mad House' game rebuilt from scanned PDF via Claude artifacts \u2014 PDF-to-interactive pattern"
     },
     "github:JanBussieck/hn-skill": {
       "first_seen_utc": "2026-05-25T12:45:00Z",
@@ -1150,62 +1150,62 @@
     "github:howells/fiction": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 8,
-      "title_snippet": "howells/fiction: Claude Code plugin for fiction — 7 agents (architecture, characters, prose, review, editing, continuity, publishing), EPUB builder, manuscript critique"
+      "title_snippet": "howells/fiction: Claude Code plugin for fiction \u2014 7 agents (architecture, characters, prose, review, editing, continuity, publishing), EPUB builder, manuscript critique"
     },
     "blog:mindstudio:learnings-md-skill": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 7,
-      "title_snippet": "MindStudio: Self-learning Claude Code skill via Learnings.md — Claude reads + appends learnings per run, skill-level memory"
+      "title_snippet": "MindStudio: Self-learning Claude Code skill via Learnings.md \u2014 Claude reads + appends learnings per run, skill-level memory"
     },
     "github:rhavekost/author-toolkit": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 7,
-      "title_snippet": "rhavekost/author-toolkit: 5 editorial personas for novel writing — Developmental Editor, Line Editor, Character Consultant, Continuity Tracker, Brainstorm Partner"
+      "title_snippet": "rhavekost/author-toolkit: 5 editorial personas for novel writing \u2014 Developmental Editor, Line Editor, Character Consultant, Continuity Tracker, Brainstorm Partner"
     },
     "hn:47894690": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 7,
-      "title_snippet": "Could a Claude Code routine watch my finances? — Driggsby MCP (Rust+Plaid) + Routine for personal finance monitoring, daily digest pattern"
+      "title_snippet": "Could a Claude Code routine watch my finances? \u2014 Driggsby MCP (Rust+Plaid) + Routine for personal finance monitoring, daily digest pattern"
     },
     "github:nishilbhave/codeprobe": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 7,
-      "title_snippet": "nishilbhave/codeprobe: 9 parallel AI expert agents for code review — security, SOLID, architecture, error handling, performance, testing, code smells, patterns, framework"
+      "title_snippet": "nishilbhave/codeprobe: 9 parallel AI expert agents for code review \u2014 security, SOLID, architecture, error handling, performance, testing, code smells, patterns, framework"
     },
     "github:Piebald-AI/tweakcc": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Piebald-AI/tweakcc: Customize Claude Code system prompts, unlock private features — patches compiled JS. Risky."
+      "title_snippet": "Piebald-AI/tweakcc: Customize Claude Code system prompts, unlock private features \u2014 patches compiled JS. Risky."
     },
     "blog:thepromptshelf:hooks-32-events": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Claude Code Hooks: Complete 32+ event production reference (2026) — 5 handler types, exit code semantics, verified CC v2.1.141+"
+      "title_snippet": "Claude Code Hooks: Complete 32+ event production reference (2026) \u2014 5 handler types, exit code semantics, verified CC v2.1.141+"
     },
     "github:aattaran/deepclaude": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 4,
-      "title_snippet": "aattaran/deepclaude: Claude Code agent loop using DeepSeek V4 Pro — 17x cheaper, API-only (not Max plan)"
+      "title_snippet": "aattaran/deepclaude: Claude Code agent loop using DeepSeek V4 Pro \u2014 17x cheaper, API-only (not Max plan)"
     },
     "github:ThomasHoussin/Claude-Book": {
       "first_seen_utc": "2026-05-26T00:55:00Z",
       "score_when_seen": 4,
-      "title_snippet": "ThomasHoussin/Claude-Book: Multi-agent framework for novel writing with Claude Code — book analysis, story ideation, character/world-building skills"
+      "title_snippet": "ThomasHoussin/Claude-Book: Multi-agent framework for novel writing with Claude Code \u2014 book analysis, story ideation, character/world-building skills"
     },
     "github:coleam00/claude-memory-compiler": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 8,
-      "title_snippet": "claude-memory-compiler: Karpathy-inspired hooks + Agent SDK session memory compiler — no vector DB, markdown articles, Max plan covered"
+      "title_snippet": "claude-memory-compiler: Karpathy-inspired hooks + Agent SDK session memory compiler \u2014 no vector DB, markdown articles, Max plan covered"
     },
     "github:thedotmack/claude-mem": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 8,
-      "title_snippet": "claude-mem: 78K stars persistent context across sessions — 5 hooks, SQLite + Chroma, npx install, cross-platform"
+      "title_snippet": "claude-mem: 78K stars persistent context across sessions \u2014 5 hooks, SQLite + Chroma, npx install, cross-platform"
     },
     "blog:writewithai:self-publish-14-days": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 7,
-      "title_snippet": "Nicolas Cole: How to self-publish first book in 14 days with AI — 10/80/10 split, Story Seeds method, 30K words in 30 min"
+      "title_snippet": "Nicolas Cole: How to self-publish first book in 14 days with AI \u2014 10/80/10 split, Story Seeds method, 30K words in 30 min"
     },
     "arxiv:2605.25438": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
@@ -1215,32 +1215,72 @@
     "anthropic:mcp-aaif-linux-foundation": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 6,
-      "title_snippet": "MCP donated to Agentic AI Foundation (Linux Foundation) — co-founded by Anthropic + OpenAI + Block, 10K+ servers, 97M+ SDK downloads/mo"
+      "title_snippet": "MCP donated to Agentic AI Foundation (Linux Foundation) \u2014 co-founded by Anthropic + OpenAI + Block, 10K+ servers, 97M+ SDK downloads/mo"
     },
     "github:obra/superpowers": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "obra/superpowers: 150K stars agentic skills framework — official Claude marketplace, TDD/debugging/review skills, Oct 2025 launch"
+      "title_snippet": "obra/superpowers: 150K stars agentic skills framework \u2014 official Claude marketplace, TDD/debugging/review skills, Oct 2025 launch"
     },
     "atlassian:agentic-pipelines-claude": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Atlassian Bitbucket: Agentic Pipelines now supports Claude Code as CI provider — May 19, 2026"
+      "title_snippet": "Atlassian Bitbucket: Agentic Pipelines now supports Claude Code as CI provider \u2014 May 19, 2026"
     },
     "arxiv:2605.14563": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Remember Your Trace: Memory-Guided Long-Horizon Framework for hierarchical code documentation — MemDocAgent SOTA"
+      "title_snippet": "Remember Your Trace: Memory-Guided Long-Horizon Framework for hierarchical code documentation \u2014 MemDocAgent SOTA"
     },
     "hn:48130679": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 4,
-      "title_snippet": "DrCatHicks/learning-opportunities: deliberate skill development during AI-assisted coding — retrieval practice, spaced repetition"
+      "title_snippet": "DrCatHicks/learning-opportunities: deliberate skill development during AI-assisted coding \u2014 retrieval practice, spaced repetition"
     },
     "github:agentic-community/mcp-gateway-registry": {
       "first_seen_utc": "2026-05-26T12:55:00Z",
       "score_when_seen": 4,
       "title_snippet": "mcp-gateway-registry: enterprise MCP gateway with OAuth, dynamic discovery, Keycloak/Entra, Federation 2.0, 661 stars"
+    },
+    "hn:48259288": {
+      "first_seen_utc": "2026-05-27T00:55:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Tell HN: Claude Code v2.1.150 remote system prompt injection via bootstrap API + GrowthBook flag tengu_heron_brook"
+    },
+    "github:garagon/aguara": {
+      "first_seen_utc": "2026-05-27T00:55:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Aguara v0.19 (May 26): static security scanner for AI agent skills/MCP, 219 rules, offline Go binary, no LLM"
+    },
+    "blog:mindstudio:hive-mind-sqlite-multi-agent-os": {
+      "first_seen_utc": "2026-05-27T00:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "MindStudio: 6-component Hive Mind on Claude Code \u2014 shared SQLite, agent identities, /standup aggregation, zero cloud cost"
+    },
+    "anthropic:skill-creator-v5-evals-benchmark": {
+      "first_seen_utc": "2026-05-27T00:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Anthropic skill-creator v5: Eval/Improve/Benchmark modes, parallel multi-agent A/B evals, issues found in 5/6 Anthropic skills"
+    },
+    "blog:mindstudio:self-evolving-obsidian-stop-hook": {
+      "first_seen_utc": "2026-05-27T00:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "MindStudio: Self-evolving Obsidian memory via Stop hook \u2014 extracts Patterns/Mistakes/Decisions/Context per session"
+    },
+    "hn:48013746": {
+      "first_seen_utc": "2026-05-27T00:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Show HN: agent-evals \u2014 Claude skill to build your own evals, parallel multi-agent eval infrastructure"
+    },
+    "blog:yuanchang:auto-memory-precompact-hooks": {
+      "first_seen_utc": "2026-05-27T00:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Claude Code Auto Memory + PreCompact hooks \u2014 MEMORY.md index 200-line limit, handover summary before context compression"
+    },
+    "anthropic:model-deprecation-june-15-2026": {
+      "first_seen_utc": "2026-05-27T00:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Claude Sonnet 4-0 + Opus 4-0 deprecated June 15, 2026 \u2014 migrate to 4.5/4.6/4.7"
     }
   }
 }

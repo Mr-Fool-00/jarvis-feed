@@ -59,3 +59,7 @@
 2026-05-26T12:55:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
 2026-05-26T12:55:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
 2026-05-26T12:55:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-05-27T00:55:00Z reddit_websearch: 0 indexed posts (consistent sandbox indexing gap)
+2026-05-27T00:55:00Z youtube_websearch: 0 videos retrieved (403 on all YouTube RSS/WebFetch)
+2026-05-27T00:55:00Z rss_feeds_403: simonwillison.net/atom, anthropic.com/news returning 403 — content via WebSearch
+2026-05-27T00:55:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — digest via digest: commit; briefings via briefing: commit prefix
