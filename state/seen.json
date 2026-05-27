@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-27T00:55:00Z",
+  "last_run_utc": "2026-05-27T12:45:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -1281,6 +1281,71 @@
       "first_seen_utc": "2026-05-27T00:55:00Z",
       "score_when_seen": 5,
       "title_snippet": "Claude Sonnet 4-0 + Opus 4-0 deprecated June 15, 2026 \u2014 migrate to 4.5/4.6/4.7"
+    },
+    "changelog:claude-code-2.1.152-2026-05-27": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "CC v2.1.152: /code-review --fix, disallowed-tools frontmatter, MessageDisplay hook, auto mode for all, /reload-skills \u2014 33 CLI changes"
+    },
+    "security:reversec:skill-issues-part1": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Reversec Part 1: single SKILL.md \u2192 reverse shell on default CC settings; dynamic context bypasses reasoning before model sees skill"
+    },
+    "security:snyk:toxicskills": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Snyk ToxicSkills: 36.82% of 3,984 public skills compromised, 1,467 malicious payloads, SSH exfil in 3 lines of markdown"
+    },
+    "security:datadog:malicious-skills-dynamic-context": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Datadog: dynamic context commands run before model sees skill \u2014 model defenses structurally bypassed; harness-level defense required"
+    },
+    "security:cato:medusalocker-skills": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Cato CTRL: GIF Creator skill weaponized with MedusaLocker ransomware hidden in post-approval remote fetch \u2014 end-to-end attack confirmed"
+    },
+    "security:mitiga:license-to-skill-p2": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Mitiga P2: malicious skills compromise Slack org-wide \u2014 agent inherits full token, becomes exfiltration + propagation node simultaneously"
+    },
+    "arxiv:2605.11770": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "BIV (Palo Alto Networks): 80% of 49,943 OpenClaw skills deviate from declared behavior \u2014 4 novel compound-threat categories"
+    },
+    "arxiv:2605.11418": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "SKILL.md semantic attacks: 86% adversarial pairwise win rate in discovery, 77.6% selection bias \u2014 attack before any code runs"
+    },
+    "security:snyk-tessl-partnership": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Snyk+Tessl Registry: security scores on every Tessl skill, visible at install time \u2014 Snyk engine purpose-built for agent skill scanning"
+    },
+    "arxiv:2604.06550": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "SkillSieve: 3-layer detection (regex/XGBoost \u2192 4-parallel LLM subtasks \u2192 3-LLM jury) \u2014 86% benign filtered in 40ms, zero API cost"
+    },
+    "rss:simonwillison:the-pressure-2026-05-26": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison \u2192 Stenberg: curl CVE flood from AI-assisted vuln research \u2014 4-5x rate vs 2024, 30+ CVEs expected 2026, 1+ per day"
+    },
+    "owasp:agentic-skills-top-10-2026": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "OWASP Agentic Skills Top 10: supply chain security framework for skills/plugins \u2014 goal hijacking, tool misuse, privilege abuse"
+    },
+    "arxiv:2604.08224": {
+      "first_seen_utc": "2026-05-27T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Externalization in LLM Agents: unified review of memory/skills/protocols/harness \u2014 21 authors SJTU/CMU/OPPO, April 9 2026"
     }
   }
 }
