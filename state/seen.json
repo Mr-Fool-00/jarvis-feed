@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-28T00:48:00Z",
+  "last_run_utc": "2026-05-28T12:45:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -1406,6 +1406,51 @@
       "first_seen_utc": "2026-05-28T00:02:00Z",
       "score_when_seen": 4,
       "title_snippet": "VentureBeat: Claude Mexico attack analysis \u2014 month-long execution across four security blind domains"
+    },
+    "barrgroup:ai-agents-finished-novel-12h": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "AI agent teams finished decade-old sci-fi novel in 12 hours \u2014 3W+3E+4R architecture, all-A quality gate"
+    },
+    "tds:kjosbakken:parallel-claude-sessions-2026-05-27": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "TDS May 27: How to Effectively Run Many Claude Code Sessions in Parallel \u2014 session tracking, handoff patterns"
+    },
+    "anthropic:security-guidance-plugin-2026-05-27": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Anthropic free security plugin: 3-stage auto-review (edit/diff/commit), 30-40% fewer PR security issues"
+    },
+    "blog:the-ai-corner:15-agent-consultant-pipeline": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "15-agent consultant pipeline: 6 stages, 6 quality gates, 4h delivery, 4x revenue \u2014 verbatim voice research + dual-score copy"
+    },
+    "changelog:claude-code-2.1.153-2026-05-28": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.153: 36 changes \u2014 bg /resume, code review flow, MCP paginated fix, 75s startup hang fix"
+    },
+    "github:ComposioHQ/agent-orchestrator": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "ComposioHQ/agent-orchestrator: 7.3K stars \u2014 parallel coding agents per git worktree, CI autopilot, PR comment response"
+    },
+    "anthropic:claude-security-public-beta-glasswing-2026-05-28": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic Claude Security public beta \u2014 Glasswing expansion: codebase scan, vuln triage, CI integration"
+    },
+    "anthropic:cowork-sales-webinar-2026-05-26": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic Cowork webinar: sales team daily briefing, Salesforce forecasts, overnight 4K account scoring"
+    },
+    "anthropic:enterprise-security-28-integrations-2026-05-25": {
+      "first_seen_utc": "2026-05-28T12:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Anthropic 28 enterprise security integrations: CrowdStrike, Palo Alto, Okta, Zscaler, Snyk \u2014 Compliance API"
     }
   }
 }
