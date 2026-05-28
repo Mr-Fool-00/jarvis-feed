@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-27T12:45:00Z",
+  "last_run_utc": "2026-05-28T00:48:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -1346,6 +1346,66 @@
       "first_seen_utc": "2026-05-27T12:45:00Z",
       "score_when_seen": 6,
       "title_snippet": "Externalization in LLM Agents: unified review of memory/skills/protocols/harness \u2014 21 authors SJTU/CMU/OPPO, April 9 2026"
+    },
+    "simonwillison:product-market-fit-2026-05-27": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison: Anthropic and OpenAI have found product-market fit \u2014 80x revenue, Uber budget burnout, enterprise at orchestration layer"
+    },
+    "security:nsa:mcp-security-guidance-2026-05": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "NSA MCP Security Design Considerations \u2014 17-page CSI on MCP security for agentic deployments"
+    },
+    "venturebeat:three-agents-leaked-secrets-2026": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "VentureBeat: Three AI coding agents leaked API keys via PR title injection \u2014 auto-execute MCP on trust prompt"
+    },
+    "security:cc-cve-2026-25723-33068": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CVE-2026-25723: sandbox escape via piped commands; CVE-2026-33068: trust dialog bypass via settings.json defaultMode"
+    },
+    "venturebeat:agent-control-plane-claude-2026": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "VentureBeat: Claude's next enterprise battle is the agent control plane \u2014 128% YoY adoption vs OpenAI -8%"
+    },
+    "hn:48289950": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN: Claude Code as Daily Driver \u2014 Claude.md, Skills, Subagents, Plugins, MCPs comprehensive guide"
+    },
+    "mcp:spec-rc-2026-07-28": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "MCP spec RC locked May 21 \u2014 stateless core, Extensions, Tasks, MCP Apps, authorization hardening, final July 28"
+    },
+    "mindstudio:hermes-vs-custom-claude-code-2026-05": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "MindStudio: Hidden costs of off-the-shelf agents vs custom Claude Code \u2014 onboarding wall, lock-in, capability ceiling"
+    },
+    "venturebeat:ai-coding-agents-credentials-2026": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "VentureBeat: AI coding agents attacked via credentials, not models \u2014 six exploit paths, flat LLM auth plane"
+    },
+    "karpathy:claude-md-four-principles-109k": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Karpathy CLAUDE.md four principles (Think, Simplicity, Surgical, Goal-Driven) crossing 109K GitHub stars"
+    },
+    "anthropic:cowork-sales-leader-4000-accounts": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic: sales leader runs 4,000-account book with Claude Cowork \u2014 daily prep + overnight scoring routine"
+    },
+    "venturebeat:claude-mexico-attack-month-4-domains": {
+      "first_seen_utc": "2026-05-28T00:02:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "VentureBeat: Claude Mexico attack analysis \u2014 month-long execution across four security blind domains"
     }
   }
 }
