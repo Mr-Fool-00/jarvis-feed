@@ -55,3 +55,34 @@
 2026-05-29T01:15:00Z webfetch_403_sites: 9to5mac.com, androidheadlines.com, thenewstack.io, marktechpost.com, techcrunch.com, macrumors.com, HN items — all blocked; content recovered via WebSearch snippets
 2026-05-29T01:15:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — all channels delivered via GitHub commit prefix bridge
 2026-05-29T01:15:00Z note: seen.json and digests from 2026-05-26 through 2026-05-28 runs appear MISSING from repo (likely lost to detached HEAD push failures in those sessions). This run starts fresh from 2026-05-25 PM state as baseline.
+2026-05-26T00:06:50Z RSS-all-sources webfetch-403 — simonwillison/anthropic/latentspace/lenny/pragmatic-engineer all 403. Fallback to WebSearch coverage.
+2026-05-26T00:06:50Z youtube-coverage-0 — All YouTube channel RSS feeds 403. No new video content this run.
+2026-05-26T00:06:50Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
+2026-05-26T00:06:50Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
+2026-05-26T00:06:50Z git-push-pat-failed — PAT rejected again (Invalid username or token). Falling back to GitHub MCP push.
+2026-05-26T00:06:50Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-05-26T01:05:00Z github-mcp-push-403 — mcp__github__push_files and create_or_update_file both returning "403 Resource not accessible by integration" on Mr-Fool-00/jarvis-feed. BOTH push paths now broken. All AM run content (digest, 2 briefings, seen.json updates) written locally but NOT pushed to GitHub. Leo action required: regenerate PAT or grant MCP write access.
+2026-05-26T12:55:00Z RSS-all-sources webfetch-403 — simonwillison/anthropic/latentspace/lenny/pragmatic-engineer all 403. Fallback to WebSearch coverage.
+2026-05-26T12:55:00Z youtube-coverage-0 — All YouTube channel RSS feeds 403. No new video content this run.
+2026-05-26T12:55:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
+2026-05-26T12:55:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
+2026-05-26T12:55:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-05-27T00:55:00Z reddit_websearch: 0 indexed posts (consistent sandbox indexing gap)
+2026-05-27T00:55:00Z youtube_websearch: 0 videos retrieved (403 on all YouTube RSS/WebFetch)
+2026-05-27T00:55:00Z rss_feeds_403: simonwillison.net/atom, anthropic.com/news returning 403 — content via WebSearch
+2026-05-27T00:55:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — digest via digest: commit; briefings via briefing: commit prefix
+2026-05-27T12:45:00Z reddit_websearch: 0 indexed posts (consistent sandbox indexing gap)
+2026-05-27T12:45:00Z youtube_websearch: 0 videos retrieved (403 on all YouTube RSS/WebFetch)
+2026-05-27T12:45:00Z rss_feeds_403: simonwillison.net/atom, anthropic.com/news, latentspace.net all 403 — content via WebSearch
+2026-05-27T12:45:00Z pulsemcp_webfetch_403: pulsemcp.com/servers blocked, no new MCP entries
+2026-05-27T12:45:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — digest delivered via digest: commit prefix
+2026-05-28T00:02:00Z reddit_websearch: 0 indexed posts (consistent sandbox indexing gap — r/ClaudeAI, r/LocalLLaMA, r/AI_Agents)
+2026-05-28T00:02:00Z youtube_websearch: 0 videos (403 on all YouTube RSS/WebFetch endpoints)
+2026-05-28T00:02:00Z rss_feeds_403: simonwillison.net/atom.xml, anthropic.com/news/rss, latent.space/feed, lenny, pragmatic-engineer all 403 — covered via WebSearch
+2026-05-28T00:02:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — all channels delivered via GitHub commit prefix bridge
+2026-05-28T00:02:00Z detached_head_recovery: Session spawned in detached HEAD (30 commits behind main). Fast-forward merge fixed. All 2026-05-26 and 2026-05-27 run content now on main and pushed.
+2026-05-28T12:45:00Z reddit_websearch: 0 indexed posts (consistent sandbox indexing gap — r/ClaudeAI, r/LocalLLaMA, r/AI_Agents)
+2026-05-28T12:45:00Z youtube_websearch: 0 videos (403 on all YouTube RSS/WebFetch endpoints)
+2026-05-28T12:45:00Z rss_feeds_403: simonwillison.net/atom.xml, anthropic.com/news/rss, latent.space/feed, lenny, pragmatic-engineer all 403 — covered via WebSearch
+2026-05-28T12:45:00Z pulsemcp_webfetch_403: pulsemcp.com/servers blocked, no new MCP entries this run
+2026-05-28T12:45:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — all channels delivered via GitHub commit prefix bridge

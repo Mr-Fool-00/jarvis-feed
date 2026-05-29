@@ -193,3 +193,22 @@ Appended by the jarvis-listener Cloudflare Worker. Read by the next Jarvis routi
 - **2026-05-25T12:25:17.755Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779711917`
 - **2026-05-25T12:26:36.595Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
 - **2026-05-25T15:10:55.515Z** · type=`reaction_added` · ch=`C0B4C3K5NET` · reaction=`+1` · user=`U0B4JLHT2ER`
+- **2026-05-26T00:39:28.192Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-05-26T00:40:10.467Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779756010`
+- **2026-05-27T00:20:22.757Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779841222`
+- **2026-05-27T00:20:36.042Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-05-27T12:17:09.690Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779884229`
+- **2026-05-27T12:18:13.093Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779884293`
+- **2026-05-27T12:19:03.119Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-05-28T00:04:03.762Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-05-28T00:15:39.710Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779927339`
+- **2026-05-28T00:15:47.212Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779927347`
+- **2026-05-28T12:03:24.910Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-05-28T12:12:42.237Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-05-28T12:12:52.677Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-05-28T12:13:11.351Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779970391`
+- **2026-05-28T12:13:46.086Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-05-28T18:15:30.454Z** · PRE-CHECK · type=`event_callback` · event_type=`reaction_added` · reaction=`+1` · sig_ok=`true` · ts=`1779992130`
+- **2026-05-28T18:15:33.269Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779992133`
+- **2026-05-28T18:15:57.654Z** · PRE-CHECK · type=`event_callback` · event_type=`reaction_added` · reaction=`+1` · sig_ok=`true` · ts=`1779992157`
+- **2026-05-28T18:16:00.463Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1779992160`
