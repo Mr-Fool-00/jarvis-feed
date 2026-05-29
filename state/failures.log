@@ -47,3 +47,11 @@
 2026-05-25T12:50:00Z slack_webhook_errors curl-blocked-403 — hooks.slack.com in sandbox network denylist. #errors delivery skipped; digest commit prefix handles #ai-news.
 2026-05-25T12:50:00Z slack_webhook_improvements curl-blocked-403 — briefing: commit prefix handles #improvements delivery via GitHub→Slack bridge.
 2026-05-25T12:50:00Z slack_webhook_general curl-blocked-403 — heartbeat delivered via notify: closer commit prefix instead.
+2026-05-29T00:01:37Z heartbeat_push_failed — PAT authentication rejected (Invalid username or token). Falling back to GitHub MCP push. Heartbeat commit de802cc committed locally but not yet on GitHub.
+2026-05-29T01:15:00Z reddit_websearch: 0 indexed posts (consistent sandbox indexing gap — r/ClaudeAI, r/LocalLLaMA, r/AI_Agents)
+2026-05-29T01:15:00Z youtube_websearch: 0 videos (403 on all YouTube RSS/WebFetch endpoints)
+2026-05-29T01:15:00Z rss_feeds_403: simonwillison.net/atom, anthropic.com/news, latent.space/feed, lenny, pragmatic-engineer all 403 — covered via WebSearch
+2026-05-29T01:15:00Z pulsemcp_webfetch_403: pulsemcp.com/servers blocked, no new MCP entries this run
+2026-05-29T01:15:00Z webfetch_403_sites: 9to5mac.com, androidheadlines.com, thenewstack.io, marktechpost.com, techcrunch.com, macrumors.com, HN items — all blocked; content recovered via WebSearch snippets
+2026-05-29T01:15:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — all channels delivered via GitHub commit prefix bridge
+2026-05-29T01:15:00Z note: seen.json and digests from 2026-05-26 through 2026-05-28 runs appear MISSING from repo (likely lost to detached HEAD push failures in those sessions). This run starts fresh from 2026-05-25 PM state as baseline.

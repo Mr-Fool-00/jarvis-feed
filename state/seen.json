@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "last_run_utc": "2026-05-25T12:45:00Z",
+  "last_run_utc": "2026-05-29T01:15:00Z",
   "items": {
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
@@ -1146,6 +1146,61 @@
       "first_seen_utc": "2026-05-25T12:45:00Z",
       "score_when_seen": 3,
       "title_snippet": "JanBussieck/hn-skill: HN post optimizer skill (hn-optimize, hn-spin, hn-score), 5yr front-page data, 2 stars"
+    },
+    "anthropic:claude-opus-4-8-2026-05-28": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 10,
+      "title_snippet": "Claude Opus 4.8: 69.2% SWE-bench Pro, 4x code flaw detection, 1M context default, same pricing $5/$25, Fast Mode 3x cheaper"
+    },
+    "docs:claude-code-dynamic-workflows-2026-05-28": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 10,
+      "title_snippet": "Dynamic Workflows: JS orchestration, 16 concurrent/1000 total agents, ultracode mode, /deep-research bundled, resumable, save as commands"
+    },
+    "anthropic:opus-4-8-api-new-2026-05-28": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Opus 4.8 API: mid-conversation system messages, prompt cache min 1024 tokens, stop_details documented, fast mode research preview"
+    },
+    "changelog:claude-code-2.1.152-2026-05-27": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC v2.1.152: /code-review --fix applies suggestions to working tree, disallowed-tools frontmatter for skills, /reload-skills"
+    },
+    "changelog:claude-code-2.1.153-2026-05-28": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC v2.1.153: /model saves as default for new sessions, skipLfs, COLUMNS/LINES env vars, 25+ bug fixes"
+    },
+    "anthropic:mythos-1-preview-coming-weeks-2026-05-28": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Mythos 1 preview imminent: claude-mythos-1-preview in CC UI, 10K+ critical vulns found, Anthropic says 'coming weeks'"
+    },
+    "blog:bun-zig-rust-dynamic-workflow-case-2026-05-28": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Bun Zig-to-Rust with Dynamic Workflows: 750K lines Rust, 11 days, 99.8% test suite green — Jarred Sumner"
+    },
+    "blog:hotz:eternal-sloptember-2026-05-24": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "George Hotz 'Eternal Sloptember': agents frontload progress then slot-machine lever, dark age for quality gems"
+    },
+    "github:ithiria894/awesome-claude-code-workflows": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "awesome-claude-code-workflows: curated hook+MCP+skill+CLAUDE.md combination recipes, 1301 stars"
+    },
+    "arxiv:writing-rl-2506-05760": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Writing-RL: long-form writing via adaptive curriculum RL — addresses output ceiling and length-degradation problems"
+    },
+    "hn:48311705": {
+      "first_seen_utc": "2026-05-29T01:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN: Dynamic Workflows in Claude Code — community reaction, Cursor/Devin/Databricks confirmed improvements"
     }
   }
 }
