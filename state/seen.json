@@ -1,7 +1,82 @@
 {
-  "last_run_utc": "2026-05-29T01:15:00Z",
-  "total_items_seen": 299,
+  "last_run_utc": "2026-05-30T12:28:00Z",
+  "total_items_seen": 314,
   "items": {
+    "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Ken Huang: CLAUDE CODE ORCHESTRATION — Dynamic Workflows vs Subagents vs Agent Teams decision framework"
+    },
+    "simonwillison:claude-opus-4-8-modest-but-tangible-2026-05-28": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison: Claude Opus 4.8 — 'a modest but tangible improvement', mid-convo system messages most useful API feature"
+    },
+    "mindstudio:ultracode-opus-4-8-parallel-agents-2026-05-29": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "MindStudio: What Is Claude Opus 4.8 Ultra Code Mode? $5-20/run, pre-assessment step, Max vs Pro throttling"
+    },
+    "youtube:indydevdan:claude-skills-tutorial-2026-05-27": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "IndyDevDan: Claude Skills Tutorial 2026 — how to save prompts as portable skills across Chat, Cowork, and Code"
+    },
+    "arxiv:2605.23904": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "SkillOpt: Executive Strategy for Self-Evolving Agent Skills — skill docs as trainable state, beats all baselines on 52 cells"
+    },
+    "changelog:claude-code-2.1.154-2026-05-28": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.154: 44 changes — Opus 4.8 default, /effort xhigh, dynamic workflows in CLI, fast mode 3x cheaper"
+    },
+    "changelog:claude-code-2.1.156-2026-05-29": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CC v2.1.156 hotfix: Opus 4.8 thinking block modification bug fixed (API errors on mid-conversation thinking)"
+    },
+    "podcast:latentspace:age-of-async-agents-2026-05-28": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Latent Space: The Age of Async Agents — Cognition/Devin Walden Yan + OpenInspect Cole Murray; background agent architecture, memory, testing"
+    },
+    "blog:towardsai:opus-4-8-agent-changes-2026-05-29": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Rajesh Vishnani / Towards AI: What Claude Opus 4.8 Actually Changes If You're Building Agents — mid-convo system msgs, adaptive thinking tuning"
+    },
+    "mindstudio:modular-skill-system-multiple-clients-2026-05-27": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "MindStudio: How to Build a Modular Skill System in Claude Code for Multiple Clients — root skill + extends: inheritance pattern"
+    },
+    "arxiv:2506.18841": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "LongWriter-Zero: Mastering Ultra-Long Text Generation via RL — Qwen2.5-32B, RL-only, SOTA WritingBench/Arena-Write at ICLR 2026"
+    },
+    "news:robinhood-agentic-trading-mcp-card-2026-05-27": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Robinhood: AI agents can now trade equities + agentic credit card (3% cashback) for 27M users via MCP — Claude/GPT/Codex supported"
+    },
+    "hn:48317595": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Ask HN: About Claude Code's New Feature: Dynamic Workflows — JS orchestration inspectable, 16-concurrent real limit, Pro throttled"
+    },
+    "simonwillison:anthropic-47b-run-rate-2026-05-29": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Simon Willison: Anthropic's run-rate revenue hits $47 billion — $14B Feb → $30B Apr → $47B May; unpacks 'run-rate' vs actual cash"
+    },
+    "anthropic:series-h-65b-965b-2026-05-28": {
+      "first_seen_utc": "2026-05-30T12:28:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic $65B Series H at $965B valuation — surpasses OpenAI, $47B ARR, led by Altimeter/Dragoneer/Greenoaks/Sequoia, IPO signal"
+    },
     "anthropic:building-c-compiler": {
       "first_seen_utc": "2026-05-24T12:45:00Z",
       "score_when_seen": 8,
