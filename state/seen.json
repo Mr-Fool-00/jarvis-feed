@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-05-30T12:28:00Z",
-  "total_items_seen": 314,
+  "last_run_utc": "2026-05-31T00:55:00Z",
+  "total_items_seen": 322,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1571,6 +1571,46 @@
       "first_seen_utc": "2026-05-29T01:15:00Z",
       "score_when_seen": 5,
       "title_snippet": "HN: Dynamic Workflows in Claude Code — community reaction, Cursor/Devin/Databricks confirmed improvements"
+    },
+    "changelog:claude-code-2.1.157-2026-05-29": {
+      "first_seen_utc": "2026-05-31T00:55:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "CC v2.1.157: auto-load plugins from .claude/skills, claude plugin init, EnterWorktree switching, agent field in settings.json honored"
+    },
+    "github:a5c-ai/babysitter": {
+      "first_seen_utc": "2026-05-31T00:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "babysitter: Process-as-Code deterministic agent orchestration, 1K stars, mandatory quality gates, 2000+ workflows, 50-67% token compression"
+    },
+    "security:sysdig:marimo-llm-agent-2026-05-29": {
+      "first_seen_utc": "2026-05-31T00:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Sysdig: First confirmed real-world LLM agent post-exploitation — Marimo CVE-2026-39987, 4 pivots, database dump in <2 min, adaptive (not scripted)"
+    },
+    "github:jordanrendric/claude-video-vision": {
+      "first_seen_utc": "2026-05-31T00:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "claude-video-vision: Claude Code plugin for video analysis (frame extraction + audio transcription), yt-dlp, 703 stars, npm auto-install warning"
+    },
+    "blog:morphllm:ai-agent-frameworks-2026": {
+      "first_seen_utc": "2026-05-31T00:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "morphllm: AI Agent Frameworks 2026 comparison — 8 SDKs, Claude Agent SDK best for OS access + MCP, LangGraph for stateful recovery"
+    },
+    "arxiv:2605.16233": {
+      "first_seen_utc": "2026-05-31T00:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "FORGE: Self-Evolving Agent Memory With No Weight Updates via Population Broadcast — 1.7-7.7x improvement over zero-shot, no weight updates"
+    },
+    "changelog:claude-code-2.1.158-2026-05-30": {
+      "first_seen_utc": "2026-05-31T00:55:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CC v2.1.158: auto mode on Bedrock/Vertex/Foundry for Opus 4.7 + 4.8 (CLAUDE_CODE_ENABLE_AUTO_MODE=1)"
+    },
+    "security:npm:mouse5212-super-formatter-2026-05-27": {
+      "first_seen_utc": "2026-05-31T00:55:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Malicious npm 'mouse5212-super-formatter' stole files from Claude /mnt/user-data via GitHub postinstall, 676 downloads, May 26-27 2026"
     }
   }
 }
