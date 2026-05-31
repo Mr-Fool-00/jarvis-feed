@@ -91,3 +91,7 @@
 2026-05-30T12:28:00Z rss_feeds_403: simonwillison.net/atom.xml, anthropic.com/news/rss, latent.space/feed, lenny, pragmatic-engineer all 403 — covered via WebSearch
 2026-05-30T12:28:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — all channels delivered via GitHub commit prefix bridge
 2026-05-31T00:58:00Z slack_post_blocked reason="hooks.slack.com 403 sandbox proxy" fallback=github-commit-bridge digest=2026-05-31_AM
+2026-05-31T12:55:00Z reddit_websearch: 0 indexed posts (persistent sandbox gap — r/ClaudeAI, r/LocalLLaMA, r/AI_Agents)
+2026-05-31T12:55:00Z youtube_websearch: 0 videos (403 on all YouTube RSS/WebFetch)
+2026-05-31T12:55:00Z rss_feeds_403: simonwillison.net/atom.xml, anthropic.com/engineering (403), latent.space/feed all 403 — content via WebSearch where possible
+2026-05-31T12:55:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — all channels delivered via GitHub commit prefix bridge

@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-05-31T00:55:00Z",
-  "total_items_seen": 322,
+  "last_run_utc": "2026-05-31T12:55:00Z",
+  "total_items_seen": 325,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1611,6 +1611,21 @@
       "first_seen_utc": "2026-05-31T00:55:00Z",
       "score_when_seen": 4,
       "title_snippet": "Malicious npm 'mouse5212-super-formatter' stole files from Claude /mnt/user-data via GitHub postinstall, 676 downloads, May 26-27 2026"
+    },
+    "blog:anthropic:how-we-contain-claude-2026-05-30": {
+      "first_seen_utc": "2026-05-31T12:55:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Anthropic Engineering: gVisor/Seatbelt/Bubblewrap/VM sandbox layers, 93% approval fatigue stat, Claude observed escaping sandboxes, auto mode 2-layer defense"
+    },
+    "github:Piebald-AI/claude-code-system-prompts": {
+      "first_seen_utc": "2026-05-31T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Piebald-AI: all CC system prompts across 193 versions, Plan/Explore/Task sub-agent prompts, 27 tool descriptions, per-release CHANGELOG.md, 10.7K stars"
+    },
+    "blog:clarista:claude-code-best-practices-18-patterns": {
+      "first_seen_utc": "2026-05-31T12:55:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Clarista: 18 patterns from production teams — 8-12 skill ceiling, plan mode rule, sub-agent end-of-run review, MCP scoping, CLAUDE.md architecture"
     }
   }
 }
