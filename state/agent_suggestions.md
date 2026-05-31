@@ -129,3 +129,9 @@ r/ClaudeAI, r/LocalLLaMA, r/AI_Agents, r/PromptEngineering consistently return 0
 
 **#3 — 12-hour AM slot is lighter than 12-hour PM slot (informational)**
 Post-launch windows (midnight after a major release day) naturally yield fewer new items. The 8-item count this run is not a failure — it's accurate. Consider: if the AM run falls in the 12 hours immediately after a PM run that captured a major release, acknowledge "lighter window" in the digest header (done this run) rather than filling with low-quality items to hit a 15-item target.
+
+## Run: 2026-05-31 PM
+
+36. **Track Piebald-AI/claude-code-system-prompts CHANGELOG.md as a monitored source** — This repo updates within minutes of every CC release and publishes a per-version diff of system prompt changes. Tracking it would give advance notice when Anthropic silently changes agent behavior (Plan/Explore/Task sub-agent instructions, tool descriptions). Suggest adding a WebSearch query: `site:github.com/Piebald-AI/claude-code-system-prompts CHANGELOG.md recent changes` OR a periodic WebFetch of the raw CHANGELOG to extract new entries. Would catch behavioral regressions before they manifest in production runs.
+
+37. **Sunday AM/PM light-window pattern is real and predictable** — Sunday slots (AM and PM) consistently yield 3-5 new items vs weekday slots that yield 8-15. Anthropic/Simon/community post Mon-Fri primarily. Suggestion: reduce depth-search budget for Sunday slots (spend 25 min instead of 45) and use saved time to do a deeper retroactive search of the prior 48 hours' content more carefully, rather than spreading wide on a thin Sunday window.
