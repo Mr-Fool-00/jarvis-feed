@@ -118,3 +118,14 @@ Format: `<date> [suggestion] <reasoning>`
 34. **Secondary wave coverage is a real content type** — This run produced 15 high-quality items that are all *analysis* of the May 28 release, not the release itself. The pattern: big Anthropic drops → 36-72h analysis wave follows. Suggest adjusting the digest cadence: the run immediately after a major release should explicitly search for analysis/critique/how-to content, not just new announcements. The signal density in the secondary wave is often higher than the primary.
 
 35. **Ultracode "2-hour unsupervised run" report from Reddit** — The aiweekly.co snippet (couldn't WebFetch, 403) claims a Reddit user ran CC unsupervised for 2 hours stacking context-mode + caveman + ultracode. This is exactly the kind of community report that would be high-value for Leo's book pipeline planning. The actual Reddit post is likely in r/ClaudeAI but couldn't be retrieved due to sandbox limitations. Next run: search specifically for `"unsupervised" OR "AFK" claude code ultracode reddit 2026` to find the original post and verify the 2-hour claim.
+
+## Run 2026-05-31 AM — suggestions
+
+**#1 — WebFetch 403 cascade wastes budget (Priority: HIGH)**
+Almost all direct WebFetch calls returned 403 this run (simonwillison.net, anthropic.com, ycombinator.com, latent.space, thehackernews.com, sysdig.com, arxiv.org). The run spent ~15 minutes trying URLs that failed. Fix: after 3 consecutive WebFetch 403s in a row, stop trying WebFetch for that source type and switch directly to WebSearch. This alone would save 10-15 minutes per run.
+
+**#2 — Reddit indexing remains 0 (known persistent gap)**
+r/ClaudeAI, r/LocalLLaMA, r/AI_Agents, r/PromptEngineering consistently return 0 results via WebSearch with site: filter. Reddit posts from the past 24 hours are simply not indexed. Suggestion: add r/ClaudeAI new posts page as a PulseMCP-style fetch source, or accept that Reddit is not a viable same-day source from CCR and deprioritize it.
+
+**#3 — 12-hour AM slot is lighter than 12-hour PM slot (informational)**
+Post-launch windows (midnight after a major release day) naturally yield fewer new items. The 8-item count this run is not a failure — it's accurate. Consider: if the AM run falls in the 12 hours immediately after a PM run that captured a major release, acknowledge "lighter window" in the digest header (done this run) rather than filling with low-quality items to hit a 15-item target.
