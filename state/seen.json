@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-01T00:47:00Z",
-  "total_items_seen": 329,
+  "last_run_utc": "2026-06-01T12:45:00Z",
+  "total_items_seen": 334,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1646,6 +1646,31 @@
       "first_seen_utc": "2026-06-01T00:47:00Z",
       "score_when_seen": 2,
       "title_snippet": "CC v2.1.159: internal infrastructure improvements only, no user-facing changes"
+    },
+    "blog:codersera:june-15-action-required-2026-06": {
+      "first_seen_utc": "2026-06-01T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "June 15 billing action required: claim $200 Max credit June 8, audit retiring model IDs (sonnet-4-20250514, opus-4-20250514), enable overflow protection"
+    },
+    "news:cwc-tokyo-june-5-6-2026": {
+      "first_seen_utc": "2026-06-01T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Code w/ Claude Tokyo June 5-6 (streamed) + Extended June 11 for indie devs — next CwC event after London"
+    },
+    "arxiv:2506.18096": {
+      "first_seen_utc": "2026-06-01T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Deep Research Agents: systematic examination + roadmap — multi-hop retrieval, iterative tool use, MCP integration, structured report synthesis"
+    },
+    "arxiv:2506.11763": {
+      "first_seen_utc": "2026-06-01T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "DeepResearch Bench: 100 PhD-level research tasks across 22 fields for standardized evaluation of deep research agents"
+    },
+    "hn:48130374": {
+      "first_seen_utc": "2026-06-01T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Tell HN: Starting June 15, claude -p usage will change — community reactions, workarounds, $200 Max credit confirmed generous for lightweight cron"
     }
   }
 }
