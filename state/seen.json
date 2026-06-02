@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-02T00:01:51Z",
-  "total_items_seen": 340,
+  "last_run_utc": "2026-06-02T12:45:00Z",
+  "total_items_seen": 349,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1701,6 +1701,46 @@
       "first_seen_utc": "2026-06-02T00:01:51Z",
       "score_when_seen": 4,
       "title_snippet": "Pimzino/claude-code-spec-workflow: 3.8K stars, SDD workflow Requirements\u2192Design\u2192Tasks\u2192Implementation, 14 slash commands"
+    },
+    "billing:june-15-indie-dev-survival-2026-06": {
+      "first_seen_utc": "2026-06-02T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "June 15 billing split: programmatic usage (claude -p, Routines, Agent SDK) moves to separate $200 Max credit pool at full API rates \u2014 action required before June 8"
+    },
+    "changelog:claude-code-2.1.160-2026-06-02": {
+      "first_seen_utc": "2026-06-02T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC v2.1.160: dynamic-workflow keyword renamed workflow\u2192ultracode, acceptEdits shell startup + build config security prompts, WSL clipboard fix, bg session history fix"
+    },
+    "hn:48238896": {
+      "first_seen_utc": "2026-06-02T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "HN: Microsoft starts canceling Claude Code licenses \u2014 $500-2000/engineer/month, switching to GitHub Copilot CLI $39 flat"
+    },
+    "findskill:june-15-decision-table-2026-06": {
+      "first_seen_utc": "2026-06-02T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "FindSkill.ai: June 15 pricing decision table \u2014 interactive vs programmatic use cases, cost math for light/medium/heavy automation"
+    },
+    "news:cwc-tokyo-june-10-11-2026": {
+      "first_seen_utc": "2026-06-02T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CwC Tokyo: June 10 main (livestreamed) + June 11 Extended for indie devs, Boris Cherny + Ami Vora confirmed speakers"
+    },
+    "youtube:cc-2.1.160-ultracode-june2-2026": {
+      "first_seen_utc": "2026-06-02T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "YouTube: Claude Code v2.1.160 \u2014 Ultracode, Safer Edits & WSL Fix walkthrough video"
+    },
+    "anthropic:ant-cli-2026-04": {
+      "first_seen_utc": "2026-06-02T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "ant CLI: Anthropic official Go CLI for Claude API, YAML resource management, GitOps agent config versioning, launched April 2026"
+    },
+    "hn:48336233": {
+      "first_seen_utc": "2026-06-02T12:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "HN: Anthropic surpasses OpenAI as most valuable AI startup \u2014 $965B vs OpenAI $730B after $65B Series H"
     }
   }
 }
