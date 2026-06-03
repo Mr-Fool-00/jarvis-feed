@@ -123,3 +123,11 @@ Format: `<date> [suggestion] <reasoning>`
 
 51. **CwC Tokyo is June 10 — AM run on June 10 should lead with a Tokyo announcements pass** — The June 10 keynote (8 PM JST = 6 AM CDT) ends right around when the next AM cron would fire. The June 10 AM digest should have a dedicated "CwC Tokyo announcements" WebSearch pass as the FIRST discovery step, ahead of all normal source coverage. Expected content: new Claude Code features, new model hints, possibly Mythos 1 release preview, long-horizon task infrastructure announcements. High-probability hit for 8+/10 items.
 
+## Run: 2026-06-03 PM
+
+52. **Add addyosmani.com/blog as a tracked RSS/WebSearch source** — This PM run surfaced a high-signal April 2026 post (Agentic Engine Optimization framework) that wasn't in seen.json despite being 50+ days old. Osmani's blog publishes 2-3 high-signal Claude Code / agent architecture posts per month. The AEO post alone is directly applicable to Leo's SKILL.md documentation quality. Suggest adding `WebSearch: "site:addyosmani.com claude OR agent 2026"` to the HN/blog discovery pass (Suggestion 10 from May 22 AM also called for this but it was never actioned in SOURCES.yaml). This run confirms the signal is consistently high.
+
+53. **Dynamic Workflows analysis wave merits a dedicated search pass for the next 2 weeks** — Five+ practitioner analysis posts appeared in 6 days after Dynamic Workflows launched May 28. The wave will continue as more builders experiment. Suggest adding a targeted search query for the next 4 runs: `"dynamic workflow" site:mindstudio.ai OR site:addyosmani.com OR site:infoq.com 2026` to catch practical pattern guides as they publish. High relevance to Leo's fiction pipeline architecture. Remove this search after June 17 (2 weeks post-launch).
+
+54. **Glasswing/Mythos 1 general availability signal is accelerating — add monitoring** — Anthropic has now expanded Glasswing from ~50 to ~200 organizations in ~6 weeks. The "coming weeks" language for Mythos 1 preview was used on May 28 and is now 6 days old. Suggest adding `"claude mythos 1 preview" OR "mythos general availability" site:anthropic.com 2026` as a weekly search. A Mythos 1 release would likely be a 10/10 digest item and warrants catching on day-of.
+

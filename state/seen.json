@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-03T00:42:00Z",
-  "total_items_seen": 357,
+  "last_run_utc": "2026-06-03T12:30:00Z",
+  "total_items_seen": 364,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1776,6 +1776,43 @@
       "first_seen_utc": "2026-06-03T00:42:00Z",
       "score_when_seen": 3,
       "title_snippet": "Ultracode for Codex: cross-agent dynamic workflow pattern as a Codex CLI skill"
+    },
+    "mindstudio:dynamic-vs-goal-vs-agent-teams-june-2026": {
+      "first_seen_utc": "2026-06-03T12:30:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "MindStudio: Dynamic Workflows vs /goal vs Agent Teams decision framework — depth-first vs width-first, cost ordering"
+    },
+    "anthropic:glasswing-150-orgs-expansion-2026-06-02": {
+      "first_seen_utc": "2026-06-03T12:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Project Glasswing expands to 150 orgs in 15+ countries + Claude Security public launch (Opus 4.8 codebase scanning)"
+    },
+    "infoq:dynamic-workflows-claude-code-june-2026": {
+      "first_seen_utc": "2026-06-03T12:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "InfoQ: Dynamic Workflows practitioner analysis — investigation tasks, checkpointing, 16-concurrent/1000-total caps"
+    },
+    "mindstudio:goal-depth-vs-dynamic-width-june-2026": {
+      "first_seen_utc": "2026-06-03T12:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "MindStudio: /goal = depth-first (known path), Dynamic Workflows = width-first (discover path) — debugging is canonical DW use case"
+    },
+    "addyosmani:agentic-engine-optimization-apr-2026": {
+      "first_seen_utc": "2026-06-03T12:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Addy Osmani AEO framework: structure docs so AI agents can use them — discoverability, parsability, token efficiency, capability signaling"
+    },
+    "hn:48373544": {
+      "first_seen_utc": "2026-06-03T12:30:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "HN: Anthropic scales Claude Mythos to critical infrastructure — community reaction, dual-use concerns"
+    },
+    "mindstudio:opus48-dynamic-workflows-hundreds-subagents": {
+      "first_seen_utc": "2026-06-03T12:30:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "MindStudio: Opus 4.8 + Dynamic Workflows practical walkthrough, 12-18x speedup on investigation tasks, ultracode mode"
     }
-  }
+  },
+  "last_run_utc": "2026-06-03T12:30:00Z",
+  "total_items_seen": 364
 }
