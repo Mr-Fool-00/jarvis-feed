@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-02T12:45:00Z",
-  "total_items_seen": 349,
+  "last_run_utc": "2026-06-03T00:42:00Z",
+  "total_items_seen": 357,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1741,6 +1741,41 @@
       "first_seen_utc": "2026-06-02T12:45:00Z",
       "score_when_seen": 3,
       "title_snippet": "HN: Anthropic surpasses OpenAI as most valuable AI startup \u2014 $965B vs OpenAI $730B after $65B Series H"
+    },
+    "mcp:hermes-tool-search-v015": {
+      "first_seen_utc": "2026-06-03T00:42:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Hermes Agent Tool Search for MCP: 49%\u219274% accuracy on Opus 4 with large catalogs, 85% token reduction via deferred schema loading"
+    },
+    "changelog:claude-code-2.1.161-2026-06-02": {
+      "first_seen_utc": "2026-06-03T00:42:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.161: MCP secrets fix, Agent View done/total progress, parallel Bash fix, OTEL custom dimensions, unused connectors collapse"
+    },
+    "arxiv:2604.02460": {
+      "first_seen_utc": "2026-06-03T00:42:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Single-Agent LLMs Outperform Multi-Agent Under Equal Token Budget \u2014 4-15x overhead, 515% unoptimized coordination cost"
+    },
+    "arxiv:2601.04748": {
+      "first_seen_utc": "2026-06-03T00:42:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "When Single-Agent with Skills Replace Multi-Agent: 54% fewer tokens, 50% less latency, comparable accuracy on bounded tasks"
+    },
+    "simonwillison:meta-ai-instagram-hijack-june1": {
+      "first_seen_utc": "2026-06-03T00:42:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Simon Willison: Meta AI bypassed all account recovery security \u2014 default FAIL contract lesson for agentic support systems"
+    },
+    "billing:june15-interactive-terminal-workaround": {
+      "first_seen_utc": "2026-06-03T00:42:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "June 15 billing: interactive CLI in terminal stays on subscription; Routines (ACP path) DO hit credit pool"
+    },
+    "blog:devto:ultracode-codex-pablonax": {
+      "first_seen_utc": "2026-06-03T00:42:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Ultracode for Codex: cross-agent dynamic workflow pattern as a Codex CLI skill"
     }
   }
 }

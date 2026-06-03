@@ -87,3 +87,8 @@
 2026-05-28T12:45:00Z pulsemcp_webfetch_403: pulsemcp.com/servers blocked, no new MCP entries this run
 2026-05-28T12:45:00Z slack_direct_post FAILED reason="hooks.slack.com blocked by CCR proxy (403)" — all channels delivered via GitHub commit prefix bridge
 2026-06-02T12:47:00Z slack_direct_post_blocked reason="hooks.slack.com 403 from CCR sandbox — commit-prefix bridge active as fallback"
+2026-06-03T00:42:00Z RSS-all-sources webfetch-403 — simonwillison/anthropic/latentspace/lenny/pragmatic-engineer all 403. Fallback to WebSearch coverage.
+2026-06-03T00:42:00Z youtube-coverage-0 — All YouTube channel RSS feeds 403. No new video content this run.
+2026-06-03T00:42:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
+2026-06-03T00:42:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
+2026-06-03T00:42:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
