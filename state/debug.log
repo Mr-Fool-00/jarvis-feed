@@ -232,3 +232,11 @@ Appended by the jarvis-listener Cloudflare Worker. Read by the next Jarvis routi
 - **2026-05-29T02:24:15.824Z** · type=`reaction_added` · ch=`C0B4C3K5NET` · reaction=`+1` · user=`U0B4JLHT2ER`
 - **2026-05-29T02:24:17.228Z** · PRE-CHECK · type=`event_callback` · event_type=`reaction_added` · reaction=`pushpin` · sig_ok=`true` · ts=`1780021457`
 - **2026-05-29T02:24:21.377Z** · PRE-CHECK · type=`event_callback` · event_type=`reaction_added` · reaction=`+1` · sig_ok=`true` · ts=`1780021461`
+- **2026-06-02T00:18:40.432Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-06-02T00:18:41.118Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-06-02T00:18:41.832Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-06-02T00:18:42.784Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
+- **2026-06-02T00:18:47.862Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1780359527`
+- **2026-06-02T12:03:17.943Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1780401797`
+- **2026-06-02T12:12:09.444Z** · PRE-CHECK · type=`event_callback` · event_type=`message` · reaction=`-` · sig_ok=`true` · ts=`1780402329`
+- **2026-06-02T12:13:24.692Z** · type=`message` · ch=`C0B4C3K5NET` · reaction=`-` · user=`-`
