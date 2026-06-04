@@ -1811,8 +1811,38 @@
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 4,
       "title_snippet": "MindStudio: Opus 4.8 + Dynamic Workflows practical walkthrough, 12-18x speedup on investigation tasks, ultracode mode"
+    },
+    "billing:cowork-routines-exempt-june-15-2026": {
+      "first_seen_utc": "2026-06-04T00:32:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CORRECTION: Claude Cowork scheduled routines (CCR) are explicitly EXEMPT from June 15 billing split — stay on subscription per official Anthropic docs"
+    },
+    "changelog:claude-code-2.1.162-2026-06-03": {
+      "first_seen_utc": "2026-06-04T00:32:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "CC v2.1.162: claude agents --json waitingFor field, workflow agent isolation fix, stale model daemon fix, Grep/Glob explicit listing on native builds"
+    },
+    "news:claude-code-subagent-bug-quota-reset-2026-06-01": {
+      "first_seen_utc": "2026-06-04T00:32:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Opus 4.8 subagent multiplication bug draining Pro/Max quotas in minutes — Anthropic emergency reset all limits June 1, 2026"
+    },
+    "news:uber-caps-ai-coding-1500-2026-06": {
+      "first_seen_utc": "2026-06-04T00:32:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Uber $1,500/month per employee cap on AI coding tools (Claude Code, Cursor) after blowing 2026 AI budget in 4 months"
+    },
+    "news:microsoft-mai-7-models-build-2026": {
+      "first_seen_utc": "2026-06-04T00:32:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Microsoft MAI 7 models at Build 2026 — MAI-Thinking-1 matches Claude Sonnet 4.6, MAI-Code-1-Flash (5B) in VS Code/Copilot"
+    },
+    "news:claude-partner-network-services-track-2026-06-03": {
+      "first_seen_utc": "2026-06-04T00:32:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic Claude Partner Network Services Track + Partner Hub — agencies/consultants, early access, revenue sharing"
     }
   },
-  "last_run_utc": "2026-06-03T12:30:00Z",
-  "total_items_seen": 364
+  "last_run_utc": "2026-06-04T00:32:00Z",
+  "total_items_seen": 370
 }

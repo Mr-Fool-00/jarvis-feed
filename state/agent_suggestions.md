@@ -131,3 +131,7 @@ Format: `<date> [suggestion] <reasoning>`
 
 54. **Glasswing/Mythos 1 general availability signal is accelerating — add monitoring** — Anthropic has now expanded Glasswing from ~50 to ~200 organizations in ~6 weeks. The "coming weeks" language for Mythos 1 preview was used on May 28 and is now 6 days old. Suggest adding `"claude mythos 1 preview" OR "mythos general availability" site:anthropic.com 2026` as a weekly search. A Mythos 1 release would likely be a 10/10 digest item and warrants catching on day-of.
 
+## Run: 2026-06-04 AM
+
+55. **Cross-reference billing/policy items against official Anthropic support docs before scoring** — The June 3 AM run surfaced `billing:june15-interactive-terminal-workaround` (scored 4) with the claim "Routines (ACP path) DO hit credit pool." This turned out to be wrong per official Anthropic support documentation: Claude Cowork (including CCR routines) is explicitly exempt. A higher-scored wrong item is worse than a lower-scored correct one. Suggest: when surfacing billing/policy items that could affect Leo's pipeline directly, add a mandatory cross-reference check against `support.claude.com/en/articles/*` before finalizing the score. If the official doc contradicts the search snippet, the official doc wins and the item gets flagged as "corrected" rather than surfaced at face value.
+
