@@ -92,3 +92,9 @@
 2026-06-03T00:42:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
 2026-06-03T00:42:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
 2026-06-03T00:42:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-04T00:32:00Z RSS-all-sources webfetch-403 — simonwillison/anthropic/latentspace/lenny/pragmatic-engineer all 403. Fallback to WebSearch coverage.
+2026-06-04T00:32:00Z youtube-coverage-0 — All YouTube channel RSS feeds 403. No new video content this run.
+2026-06-04T00:32:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
+2026-06-04T00:32:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
+2026-06-04T00:32:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-04T00:02:00Z detached_head_recovery — Session spawned in detached HEAD (57 commits behind main). Ran cherry-pick + rebase to land notify: commit on main.
