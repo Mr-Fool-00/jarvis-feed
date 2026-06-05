@@ -111,3 +111,4 @@
 2026-06-05T13:15:00Z arxiv-webfetch-403 — arxiv.org paper pages blocked. arxiv:2606.00448 and arxiv:2606.02540 covered via WebSearch snippets only.
 2026-06-05T13:15:00Z cc-changelog-v2.1.164-not-found — No v2.1.164 found in searches. Last confirmed version remains v2.1.163 (June 4).
 2026-06-05T13:15:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge (digest: prefix on main commit).
+2026-06-05T12:22:03Z tail-commits-push-failed — PAT unset in fresh container after context compaction; mcp__github__push_files 403 Resource not accessible. 3 local commits (bfae5a1 failures.log, da92b5d briefings/#58-60, 1cbad50 goodbye-wave) not on GitHub. Digest fd16ca4 already on main. Next run should git pull to pick up these local commits if container persists; otherwise content is ephemeral.
