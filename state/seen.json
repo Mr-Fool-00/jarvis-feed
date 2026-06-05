@@ -1841,8 +1841,33 @@
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 4,
       "title_snippet": "Anthropic Claude Partner Network Services Track + Partner Hub — agencies/consultants, early access, revenue sharing"
+    },
+    "security:guan:comment-and-control-2026-06": {
+      "first_seen_utc": "2026-06-05T00:18:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Comment and Control: Claude Code, Gemini CLI, GitHub Copilot all vulnerable to prompt injection via PR titles/comments — auto-trigger, zero sanitization, full credential dump"
+    },
+    "security:flatttech:cc-github-action-hijack-2026-06-04": {
+      "first_seen_utc": "2026-06-05T00:18:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "GMO Flatt Security (RyotaK): broken checkWritePermissions [bot] trust + prompt injection → repo hijack via single GitHub Issue. CVSS 7.8. Fixed in claude-code-action v1.0.94"
+    },
+    "changelog:claude-code-2.1.163-2026-06-04": {
+      "first_seen_utc": "2026-06-05T00:18:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.163: /plugin list --enabled/--disabled, requiredMinimumVersion/Maximum managed settings, $ escape for skills, bg session task loss fix, keyboard fix"
+    },
+    "billing:june15-june8-claim-deadline-update": {
+      "first_seen_utc": "2026-06-05T00:18:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "June 15 billing: Anthropic sends $200 Max credit claim email around June 8 — must claim via account settings before June 15"
+    },
+    "news:cwc-tokyo-june10-reminder": {
+      "first_seen_utc": "2026-06-05T00:18:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "CwC Tokyo June 10 reminder: keynote 11 AM UTC (6 AM CDT), Boris Cherny + Ami Vora, 3 tracks, Extended June 11"
     }
   },
-  "last_run_utc": "2026-06-04T00:32:00Z",
-  "total_items_seen": 370
+  "last_run_utc": "2026-06-05T00:18:00Z",
+  "total_items_seen": 375
 }
