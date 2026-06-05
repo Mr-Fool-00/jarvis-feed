@@ -104,3 +104,10 @@
 2026-06-05T00:18:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
 2026-06-05T00:18:00Z flatt-tech-webfetch-403 — flatt.tech/research blocked; oddguan.com blocked; securityweek.com blocked. Security items covered via secondary search snippets + multi-source cross-reference.
 2026-06-05T00:18:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-05T13:15:00Z RSS-all-sources webfetch-403 — simonwillison/anthropic/latentspace/lenny/pragmatic-engineer all 403. Fallback to WebSearch coverage. Simon Willison June 4-5 posts not confirmed.
+2026-06-05T13:15:00Z youtube-coverage-0 — All YouTube channel RSS feeds 403. No new video content this run.
+2026-06-05T13:15:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
+2026-06-05T13:15:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
+2026-06-05T13:15:00Z arxiv-webfetch-403 — arxiv.org paper pages blocked. arxiv:2606.00448 and arxiv:2606.02540 covered via WebSearch snippets only.
+2026-06-05T13:15:00Z cc-changelog-v2.1.164-not-found — No v2.1.164 found in searches. Last confirmed version remains v2.1.163 (June 4).
+2026-06-05T13:15:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge (digest: prefix on main commit).
