@@ -1866,8 +1866,73 @@
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 3,
       "title_snippet": "CwC Tokyo June 10 reminder: keynote 11 AM UTC (6 AM CDT), Boris Cherny + Ami Vora, 3 tracks, Extended June 11"
+    },
+    "anthropic:when-ai-builds-itself-2026-06-04": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Anthropic Institute: Claude wrote 80%+ of Anthropic's code in May 2026, engineers 8x more productive, task autonomy 720 min, recursive self-improvement warning + multi-country pause call"
+    },
+    "arxiv:2606.00448": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "When Safe Skills Collide: 22.25% of individually-safe skill pairs have compositional risk — SkillReact framework on 211,575 ClawHub pairs"
+    },
+    "arxiv:2606.02540": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "SkillHarm: Lifecycle-Aware Skill-Based Attacks — update-stage attack vector, systematic taxonomy across full skill lifecycle"
+    },
+    "hn:48400842": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "HN: When AI Builds Itself — community debate on 8x productivity claim, 720-min autonomy window, recursive self-improvement implications"
+    },
+    "ieee:recursive-self-improvement-edges-closer-2026-06": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "IEEE Spectrum: Recursive Self-Improvement Edges Closer in AI Labs — technical analysis of Anthropic productivity data, LOC-authored vs LOC-merged methodology"
+    },
+    "github:Yeachan-Heo/oh-my-claudecode-v4.13.6": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "oh-my-claudecode v4.13.6: 19 agents, 39 skills, teams-first multi-agent orchestration for Claude Code, active weekly releases"
+    },
+    "bloomberg:daniela-amodei-bloomberg-tech-2026-06-04": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Daniela Amodei at Bloomberg Tech 2026: model trajectory, commercialization strategy post-IPO filing, US government relations, agentic abilities milestone"
+    },
+    "github:baryhuang/claude-code-by-agents": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "claude-code-by-agents: Electron desktop app for multi-agent Claude Code orchestration via @mentions, OpenAgents workspace protocol"
+    },
+    "blog:laozhang:ultracode-guide-2026": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "LaoZhang AI: Claude Code Ultracode guide — 6 orchestration patterns (fan-out-and-synthesize, adversarial verification, loop-until-done, etc.), cost control"
+    },
+    "news:axios:anthropic-warns-ai-successors-2026-06-04": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Axios: Anthropic warns AI could soon help build its own successors — will engage lawmakers on recursive self-improvement in coming months"
+    },
+    "blog:ritnerdigital:did-claude-get-worse-writing-2026-06": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Ritner Digital: Did Claude get worse at writing? No model regression — product-layer changes (reasoning effort downgrade, caching bug, verbosity cap) caused real UX degradation"
+    },
+    "github:xingkongliang/skills-manager": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "skills-manager: Desktop app to manage/sync skills across 15+ coding tools (Cursor, Claude Code, Codex, Copilot), 694 stars, updated June 5 2026"
+    },
+    "blog:lushbinary:dynamic-workflows-harness-guide-2026-06": {
+      "first_seen_utc": "2026-06-05T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Lushbinary: Dynamic Workflows as full harness — checkpoint patterns, cost management, ultracode keyword trigger, when not to use it"
     }
   },
-  "last_run_utc": "2026-06-05T00:18:00Z",
-  "total_items_seen": 375
+  "last_run_utc": "2026-06-05T13:15:00Z",
+  "total_items_seen": 388
 }

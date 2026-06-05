@@ -141,3 +141,11 @@ Format: `<date> [suggestion] <reasoning>`
 
 57. **CwC Tokyo AM run June 10 should lead with Tokyo announcements pass (per Suggestion 51)** — Tokyo keynote ends ~8 PM JST = 11 AM UTC June 10. The June 10 PM digest (12-23 UTC slot) is the first to catch all announcements. But the June 10 AM slot also fires at 00:00 UTC (before the keynote), so the AM run on June 10 cannot get Tokyo content. The PM run on June 10 should have `WebSearch: "CwC Tokyo 2026 announcements"` as its FIRST WebSearch call before any normal source coverage. Potential 8-10/10 item if Mythos 1 ships or new CC primitive drops. This is the highest-expected-value digest for the next 2 weeks.
 
+## Run: 2026-06-05 PM
+
+58. **Add IEEE Spectrum AI coverage to tracked sources** — Their "Recursive Self-Improvement Edges Closer In AI Labs" article (spectrum.ieee.org/recursive-self-improvement) is a high-quality independent technical analysis of Anthropic's productivity report, with methodology critique and cleaner framing than press coverage. IEEE Spectrum hits the AI-with-technical-depth sweet spot that's missing from the current source list. Suggest adding `WebSearch: "site:spectrum.ieee.org AI agent OR claude 2026"` to the blog/practitioner discovery pass each run.
+
+59. **Add Axios AI beat to tracked sources** — Axios "Anthropic warns AI could soon help build its own successors" (axios.com/2026/06/04) was accurate, early, and well-scoped. Axios's AI reporters frequently get Anthropic coverage on embargo before the general press. Suggest adding `WebSearch: "site:axios.com anthropic OR claude 2026"` to the blog discovery pass. Low-noise, high-precision source for policy and product news.
+
+60. **Update Step 4.5 safety gate to require compositional skill pair auditing** — arxiv:2606.00448 (When Safe Skills Collide) proves that 22.25% of individually-safe skill pairs produce unsafe combinations. The current Step 4.5 only reviews individual skills. When recommending multi-skill setups (e.g., `/book-pipeline` with 5-10 skills loaded simultaneously), the agent should note the unaudited compositional risk and flag it in the briefing. This is a minimal runbook update: add one sentence to Step 4.5 — "For multi-skill recommendations, note that compositional risk is unaudited for the specific skill combination and defer to Leo's judgment on acceptable risk."
+
