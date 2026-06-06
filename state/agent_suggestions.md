@@ -149,3 +149,12 @@ Format: `<date> [suggestion] <reasoning>`
 
 60. **Update Step 4.5 safety gate to require compositional skill pair auditing** — arxiv:2606.00448 (When Safe Skills Collide) proves that 22.25% of individually-safe skill pairs produce unsafe combinations. The current Step 4.5 only reviews individual skills. When recommending multi-skill setups (e.g., `/book-pipeline` with 5-10 skills loaded simultaneously), the agent should note the unaudited compositional risk and flag it in the briefing. This is a minimal runbook update: add one sentence to Step 4.5 — "For multi-skill recommendations, note that compositional risk is unaudited for the specific skill combination and defer to Leo's judgment on acceptable risk."
 
+
+## Run: 2026-06-06 AM
+
+61. **Narrow-window runs (< 12h gap) consistently produce thin digests** — This run had only ~11 hours since the previous one and found 4 new items (max score 5/10). The 12-hour cron sometimes fires closer to 11h in practice. Suggest: when `last_run_utc` delta is < 11h, auto-reduce the search budget and compensate with trend synthesis / depth rather than breadth. No SOURCES.yaml change needed — this is a runtime behavior tweak. Could add to the runbook as: "If gap since last run < 11h, spend the first 15 minutes on trend synthesis of recent items before doing fresh source queries."
+
+62. **CwC Tokyo PM run (June 10 PM UTC) is the highest-expected-value digest of the next 2 weeks** — Reaffirming suggestions 51 and 57. The June 10 PM digest fires after the keynote ends (~8 PM JST = 11 AM UTC). That run should begin with: `WebSearch: "CwC Tokyo 2026 announcements Boris Cherny"` as its very first query. Expected: new Claude Code primitive or Mythos 1 Preview release. Potential 9-10/10 items. All normal source coverage is secondary to Tokyo on that run.
+
+63. **Add the "Agents Rule of Two" principle to CLAUDE.md for Leo's agent builds** — From Microsoft Security Blog June 5 2026 analysis of Claude Code GitHub Action vulnerability: never simultaneously hold (1) untrusted input processing, (2) sensitive system/secrets access, AND (3) external state-changing tools. This is a concrete design constraint worth adding to Leo's CLAUDE.md as a standing rule for any agent he builds. Zero code change, 2-sentence addition, directly prevents the class of vulnerability that hit claude-code-action in January. Worth flagging to Leo on next interactive session.
+

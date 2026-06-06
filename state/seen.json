@@ -1931,8 +1931,28 @@
       "first_seen_utc": "2026-06-05T13:15:00Z",
       "score_when_seen": 4,
       "title_snippet": "Lushbinary: Dynamic Workflows as full harness — checkpoint patterns, cost management, ultracode keyword trigger, when not to use it"
+    },
+    "news:cwc-tokyo-june10-detailed-agenda-2026": {
+      "first_seen_utc": "2026-06-06T00:07:02Z",
+      "score_when_seen": 5,
+      "title_snippet": "CwC Tokyo June 10: Boris Cherny + Ami Vora + Angela Jiang, 3 tracks (Research/Platform/Code), indie Extended June 11, livestreamed"
+    },
+    "news:when-ai-builds-itself-coverage-wave-june5-6": {
+      "first_seen_utc": "2026-06-06T00:07:02Z",
+      "score_when_seen": 4,
+      "title_snippet": "When AI Builds Itself coverage wave: Scientific American, ABC7, Jack Clark slowdown call — press echo cycle on Anthropic June 4 report"
+    },
+    "news:nsa-mythos-offensive-cyber-june5-2026": {
+      "first_seen_utc": "2026-06-06T00:07:02Z",
+      "score_when_seen": 3,
+      "title_snippet": "NSA deploys Anthropic Mythos for offensive cyber ops, ~6 Anthropic engineers embedded inside NSA — FT/TechCrunch June 5"
+    },
+    "changelog:claude-code-2.1.165-2026-06-05": {
+      "first_seen_utc": "2026-06-06T00:07:02Z",
+      "score_when_seen": 2,
+      "title_snippet": "CC v2.1.165: bug fixes and reliability improvements only, no user-facing changes"
     }
   },
-  "last_run_utc": "2026-06-05T13:15:00Z",
-  "total_items_seen": 388
+  "last_run_utc": "2026-06-06T00:07:02Z",
+  "total_items_seen": 392
 }
