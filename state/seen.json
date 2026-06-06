@@ -1951,8 +1951,38 @@
       "first_seen_utc": "2026-06-06T00:07:02Z",
       "score_when_seen": 2,
       "title_snippet": "CC v2.1.165: bug fixes and reliability improvements only, no user-facing changes"
+    },
+    "changelog:claude-code-2.1.166-2026-06-06": {
+      "first_seen_utc": "2026-06-06T12:58:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC v2.1.166: fallbackModel setting (up to 3 failover models), --thinking disabled flag, cross-session security hardening, JetBrains flicker fix, Windows PowerShell fix"
+    },
+    "changelog:claude-code-2.1.167-2026-06-06": {
+      "first_seen_utc": "2026-06-06T12:58:00Z",
+      "score_when_seen": 2,
+      "title_snippet": "CC v2.1.167: bug fixes and reliability improvements only, no user-facing changes"
+    },
+    "arxiv:2603.15401": {
+      "first_seen_utc": "2026-06-06T12:58:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "SWE-Skills-Bench: 39/49 skills (80%) yield zero pass-rate improvement; avg gain +1.2%; token overhead up to +451%; only 7 skills help, 3 degrade performance"
+    },
+    "simonwillison:ai-enthusiasts-ai-skeptics-2026-06-04": {
+      "first_seen_utc": "2026-06-06T12:58:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Simon Willison -> Charity Majors: AI enthusiasts race time, skeptics race entropy — no natural feedback loop between them in same org"
+    },
+    "anthropic:ai-enabled-cyber-threats-mitre-2026-06-03": {
+      "first_seen_utc": "2026-06-06T12:58:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic MITRE ATT&CK cyber threats report: 832 banned accounts, 67.3% used AI for malware; AI shifting to deeper attack lifecycle post-compromise"
+    },
+    "anthropic:making-claude-a-chemist-2026-06-05": {
+      "first_seen_utc": "2026-06-06T12:58:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic AI for Science: Opus 4.7 matches/beats dedicated NMR software on chemistry tasks — expanding to more chemistry research"
     }
   },
-  "last_run_utc": "2026-06-06T00:07:02Z",
-  "total_items_seen": 392
+  "last_run_utc": "2026-06-06T12:58:00Z",
+  "total_items_seen": 399
 }

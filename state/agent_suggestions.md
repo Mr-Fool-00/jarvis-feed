@@ -158,3 +158,9 @@ Format: `<date> [suggestion] <reasoning>`
 
 63. **Add the "Agents Rule of Two" principle to CLAUDE.md for Leo's agent builds** — From Microsoft Security Blog June 5 2026 analysis of Claude Code GitHub Action vulnerability: never simultaneously hold (1) untrusted input processing, (2) sensitive system/secrets access, AND (3) external state-changing tools. This is a concrete design constraint worth adding to Leo's CLAUDE.md as a standing rule for any agent he builds. Zero code change, 2-sentence addition, directly prevents the class of vulnerability that hit claude-code-action in January. Worth flagging to Leo on next interactive session.
 
+## Run: 2026-06-06 PM
+
+64. **SWE-Skills-Bench (March 2026) surfaced 3 months late** — This paper (arxiv:2603.15401) published March 2026 and directly measures whether agent skills help on real tasks (answer: 80% don't). It wasn't in seen.json despite being a high-relevance, high-rigor paper. The miss is because arxiv searches focus on recent papers only. Suggest adding `"skills effectiveness" OR "agent skill benchmark" site:arxiv.org 2026` to the arxiv search pass, OR broadening the arxiv hours_window in SOURCES.yaml to 720h (30 days) retroactively. High signal papers take weeks to accumulate HN/community attention before surfacing in general searches.
+
+65. **Add `.claude/settings.json` as a recurring "what can I apply today" lens** — v2.1.166 shipped `fallbackModel` (3-model failover) and `--thinking disabled`. Both are immediately applicable to Leo's pipeline with a settings.json edit, not a skill build. Future runs should do a quick "settings.json additions this week" check against the latest CC changelog to surface immediately-applicable config wins. Rough heuristic: any CC changelog item that adds a new `settings.json` field or CLI flag that maps to Leo's pipeline is a 6-7/10 item worth noting, even if it's not "build_worthy" in the skill sense.
+
