@@ -1983,6 +1983,52 @@
       "title_snippet": "Anthropic AI for Science: Opus 4.7 matches/beats dedicated NMR software on chemistry tasks — expanding to more chemistry research"
     }
   },
-  "last_run_utc": "2026-06-06T12:58:00Z",
-  "total_items_seen": 399
+    "anthropic:claude-code-channels-docs-2026": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Claude Code Channels: official Anthropic feature to push external events (Slack/Telegram/Discord) into a running CC session — MCP-based, two-way, live"
+    },
+    "anthropic:claude-code-in-slack-official-2026": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Claude Code in Slack: official @mention-Claude integration — coding intent routing, PR buttons in thread, Pro/Team/Enterprise + GitHub required"
+    },
+    "arxiv:2604.05333": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Graph-of-Skills: dependency-aware structural retrieval for large skill libraries — offline skill graph + PageRank bundle retrieval, open-sourced"
+    },
+    "simonwillison:micropython-wasm-sandbox-2026-06-06": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Simon Willison: MicroPython WASM sandbox for safe agent code execution — micropython-wasm alpha + datasette-agent-micropython"
+    },
+    "github:affaan-m/ECC-v2.0-2026": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "ECC v2.0.0-rc.1 (everything-claude-code renamed): cross-platform harness OS for Claude Code/Codex/Cursor/Gemini, NanoClaw v2, Rust control plane, 82K stars"
+    },
+    "blog:builderio:cc-slack-threads-prs-2026": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "builder.io: Claude Code + Slack — Turn Threads into PRs, step-by-step guide for official Slack integration"
+    },
+    "github:sickn33/antigravity-v12.1-june2026": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Antigravity Awesome Skills v12.1.0: 1,520+ skills, 39.8K stars, cross-harness installer (npx antigravity-awesome-skills)"
+    },
+    "github:retrodigio/claude-channel-slack": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "retrodigio/claude-channel-slack: community Slack→Channels adapter, bridges Slack messages into running Claude Code session"
+    },
+    "github:jeremylongshore/claude-code-slack-channel": {
+      "first_seen_utc": "2026-06-07T00:38:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "jeremylongshore/claude-code-slack-channel: Slack governance substrate for Claude Code — tiered policy engine + hash-chained Ed25519 audit journal"
+    }
+  },
+  "last_run_utc": "2026-06-07T00:38:00Z",
+  "total_items_seen": 408
 }

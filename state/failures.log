@@ -119,3 +119,9 @@
 2026-06-06T00:07:02Z narrow-window — Previous run was 2026-06-05T13:15Z (~11 hours ago). Sparse item count (4 new items) reflects the narrow time window, not source failures.
 2026-06-06T00:07:02Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
 2026-06-06T13:00:00Z slack_webhook_403 channel=#general reason='hooks.slack.com blocked by CCR proxy — direct POST unavailable, delivery via commit prefix only'
+2026-06-07T00:38:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
+2026-06-07T00:38:00Z youtube-coverage-0 — All YouTube channel RSS feeds 403. No new video content this run.
+2026-06-07T00:38:00Z rss_feeds_403 — simonwillison/anthropic/latentspace/lenny/pragmatic-engineer all 403. Fallback to WebSearch coverage.
+2026-06-07T00:38:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
+2026-06-07T00:38:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-07T00:38:00Z narrow-window — ~11h gap since last run (2026-06-06T12:58Z). Sparse item count expected.

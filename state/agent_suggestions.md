@@ -164,3 +164,9 @@ Format: `<date> [suggestion] <reasoning>`
 
 65. **Add `.claude/settings.json` as a recurring "what can I apply today" lens** — v2.1.166 shipped `fallbackModel` (3-model failover) and `--thinking disabled`. Both are immediately applicable to Leo's pipeline with a settings.json edit, not a skill build. Future runs should do a quick "settings.json additions this week" check against the latest CC changelog to surface immediately-applicable config wins. Rough heuristic: any CC changelog item that adds a new `settings.json` field or CLI flag that maps to Leo's pipeline is a 6-7/10 item worth noting, even if it's not "build_worthy" in the skill sense.
 
+
+## Run: 2026-06-07 AM
+
+66. **Claude Code Channels was missing from seen.json for 2.5 months** — This feature launched March 20, 2026 and is directly applicable to Jarvis's notification architecture. It never appeared in any digest. Root cause: the discovery loop doesn't have an explicit scan of the official CC docs pages (code.claude.com/docs/en/*) for new features. Anthropic sometimes ships features that don't generate immediate HN/Reddit signal (especially in preview) — they just appear quietly in the docs. Suggest adding a dedicated WebSearch query per run: `site:code.claude.com/docs 2026 "research preview" OR "new feature"` to catch official doc additions before community coverage catches up. This query would have surfaced Channels weeks earlier.
+
+67. **Add official CC docs page scan to every run's source pass** — The gap in Channels coverage (2.5 months) is a systemic miss. Suggest adding to SOURCES.yaml: `webfetch_strategy: websearch` on `code.claude.com/docs/en/changelog` AND a broader `site:code.claude.com/docs "new" OR "preview" 2026` WebSearch. This would catch first-party features that don't generate immediate HN buzz.
