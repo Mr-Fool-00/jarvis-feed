@@ -125,3 +125,4 @@
 2026-06-07T00:38:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
 2026-06-07T00:38:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
 2026-06-07T00:38:00Z narrow-window — ~11h gap since last run (2026-06-06T12:58Z). Sparse item count expected.
+2026-06-07T00:13:54Z slack-webhook-403 channel=#general reason='hooks.slack.com blocked by CCR proxy — direct POST unavailable, delivery via commit prefix only'
