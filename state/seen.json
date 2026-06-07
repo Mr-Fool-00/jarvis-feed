@@ -1981,8 +1981,7 @@
       "first_seen_utc": "2026-06-06T12:58:00Z",
       "score_when_seen": 4,
       "title_snippet": "Anthropic AI for Science: Opus 4.7 matches/beats dedicated NMR software on chemistry tasks — expanding to more chemistry research"
-    }
-  },
+    },
     "anthropic:claude-code-channels-docs-2026": {
       "first_seen_utc": "2026-06-07T00:38:00Z",
       "score_when_seen": 9,
@@ -2027,8 +2026,28 @@
       "first_seen_utc": "2026-06-07T00:38:00Z",
       "score_when_seen": 4,
       "title_snippet": "jeremylongshore/claude-code-slack-channel: Slack governance substrate for Claude Code — tiered policy engine + hash-chained Ed25519 audit journal"
+    },
+    "github:lingfengQAQ/webnovel-writer-v6.1.0": {
+      "first_seen_utc": "2026-06-07T12:10:14Z",
+      "score_when_seen": 8,
+      "title_snippet": "webnovel-writer v6.1.0: RAG-powered serial fiction Claude Code plugin, hybrid BM25+embedding, Story System, 2M-char scale, 4.8K stars"
+    },
+    "hn:48210010": {
+      "first_seen_utc": "2026-06-07T12:10:14Z",
+      "score_when_seen": 6,
+      "title_snippet": "HN: Stopgap for claude -p before June 15 billing split — ~50-line Python wrapper masquerading headless as interactive session"
+    },
+    "anthropic:dynamic-workflows-harness-blog-2026-06-02": {
+      "first_seen_utc": "2026-06-07T12:10:14Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic: A harness for every task — Dynamic Workflows deep-dive, 3 failure modes (stops early, can't verify, objective drift)"
+    },
+    "github:forsonny/book-os-v1.0.0": {
+      "first_seen_utc": "2026-06-07T12:10:14Z",
+      "score_when_seen": 4,
+      "title_snippet": "forsonny/book-os Novel-OS v1.0.0: 3-layer context framework (Standards/Novel/Manuscripts), 4 slash commands, 44 stars, MIT"
     }
   },
-  "last_run_utc": "2026-06-07T00:38:00Z",
-  "total_items_seen": 408
+  "last_run_utc": "2026-06-07T12:10:14Z",
+  "total_items_seen": 412
 }
