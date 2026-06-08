@@ -141,3 +141,37 @@ Format: `<date> [suggestion] <reasoning>`
 
 57. **CwC Tokyo AM run June 10 should lead with Tokyo announcements pass (per Suggestion 51)** — Tokyo keynote ends ~8 PM JST = 11 AM UTC June 10. The June 10 PM digest (12-23 UTC slot) is the first to catch all announcements. But the June 10 AM slot also fires at 00:00 UTC (before the keynote), so the AM run on June 10 cannot get Tokyo content. The PM run on June 10 should have `WebSearch: "CwC Tokyo 2026 announcements"` as its FIRST WebSearch call before any normal source coverage. Potential 8-10/10 item if Mythos 1 ships or new CC primitive drops. This is the highest-expected-value digest for the next 2 weeks.
 
+## Run: 2026-06-05 PM
+
+58. **Add IEEE Spectrum AI coverage to tracked sources** — Their "Recursive Self-Improvement Edges Closer In AI Labs" article (spectrum.ieee.org/recursive-self-improvement) is a high-quality independent technical analysis of Anthropic's productivity report, with methodology critique and cleaner framing than press coverage. IEEE Spectrum hits the AI-with-technical-depth sweet spot that's missing from the current source list. Suggest adding `WebSearch: "site:spectrum.ieee.org AI agent OR claude 2026"` to the blog/practitioner discovery pass each run.
+
+59. **Add Axios AI beat to tracked sources** — Axios "Anthropic warns AI could soon help build its own successors" (axios.com/2026/06/04) was accurate, early, and well-scoped. Axios's AI reporters frequently get Anthropic coverage on embargo before the general press. Suggest adding `WebSearch: "site:axios.com anthropic OR claude 2026"` to the blog discovery pass. Low-noise, high-precision source for policy and product news.
+
+60. **Update Step 4.5 safety gate to require compositional skill pair auditing** — arxiv:2606.00448 (When Safe Skills Collide) proves that 22.25% of individually-safe skill pairs produce unsafe combinations. The current Step 4.5 only reviews individual skills. When recommending multi-skill setups (e.g., `/book-pipeline` with 5-10 skills loaded simultaneously), the agent should note the unaudited compositional risk and flag it in the briefing. This is a minimal runbook update: add one sentence to Step 4.5 — "For multi-skill recommendations, note that compositional risk is unaudited for the specific skill combination and defer to Leo's judgment on acceptable risk."
+
+
+## Run: 2026-06-06 AM
+
+61. **Narrow-window runs (< 12h gap) consistently produce thin digests** — This run had only ~11 hours since the previous one and found 4 new items (max score 5/10). The 12-hour cron sometimes fires closer to 11h in practice. Suggest: when `last_run_utc` delta is < 11h, auto-reduce the search budget and compensate with trend synthesis / depth rather than breadth. No SOURCES.yaml change needed — this is a runtime behavior tweak. Could add to the runbook as: "If gap since last run < 11h, spend the first 15 minutes on trend synthesis of recent items before doing fresh source queries."
+
+62. **CwC Tokyo PM run (June 10 PM UTC) is the highest-expected-value digest of the next 2 weeks** — Reaffirming suggestions 51 and 57. The June 10 PM digest fires after the keynote ends (~8 PM JST = 11 AM UTC). That run should begin with: `WebSearch: "CwC Tokyo 2026 announcements Boris Cherny"` as its very first query. Expected: new Claude Code primitive or Mythos 1 Preview release. Potential 9-10/10 items. All normal source coverage is secondary to Tokyo on that run.
+
+63. **Add the "Agents Rule of Two" principle to CLAUDE.md for Leo's agent builds** — From Microsoft Security Blog June 5 2026 analysis of Claude Code GitHub Action vulnerability: never simultaneously hold (1) untrusted input processing, (2) sensitive system/secrets access, AND (3) external state-changing tools. This is a concrete design constraint worth adding to Leo's CLAUDE.md as a standing rule for any agent he builds. Zero code change, 2-sentence addition, directly prevents the class of vulnerability that hit claude-code-action in January. Worth flagging to Leo on next interactive session.
+
+## Run: 2026-06-06 PM
+
+64. **SWE-Skills-Bench (March 2026) surfaced 3 months late** — This paper (arxiv:2603.15401) published March 2026 and directly measures whether agent skills help on real tasks (answer: 80% don't). It wasn't in seen.json despite being a high-relevance, high-rigor paper. The miss is because arxiv searches focus on recent papers only. Suggest adding `"skills effectiveness" OR "agent skill benchmark" site:arxiv.org 2026` to the arxiv search pass, OR broadening the arxiv hours_window in SOURCES.yaml to 720h (30 days) retroactively. High signal papers take weeks to accumulate HN/community attention before surfacing in general searches.
+
+65. **Add `.claude/settings.json` as a recurring "what can I apply today" lens** — v2.1.166 shipped `fallbackModel` (3-model failover) and `--thinking disabled`. Both are immediately applicable to Leo's pipeline with a settings.json edit, not a skill build. Future runs should do a quick "settings.json additions this week" check against the latest CC changelog to surface immediately-applicable config wins. Rough heuristic: any CC changelog item that adds a new `settings.json` field or CLI flag that maps to Leo's pipeline is a 6-7/10 item worth noting, even if it's not "build_worthy" in the skill sense.
+
+
+## Run: 2026-06-07 AM
+
+66. **Claude Code Channels was missing from seen.json for 2.5 months** — This feature launched March 20, 2026 and is directly applicable to Jarvis's notification architecture. It never appeared in any digest. Root cause: the discovery loop doesn't have an explicit scan of the official CC docs pages (code.claude.com/docs/en/*) for new features. Anthropic sometimes ships features that don't generate immediate HN/Reddit signal (especially in preview) — they just appear quietly in the docs. Suggest adding a dedicated WebSearch query per run: `site:code.claude.com/docs 2026 "research preview" OR "new feature"` to catch official doc additions before community coverage catches up. This query would have surfaced Channels weeks earlier.
+
+67. **Add official CC docs page scan to every run's source pass** — The gap in Channels coverage (2.5 months) is a systemic miss. Suggest adding to SOURCES.yaml: `webfetch_strategy: websearch` on `code.claude.com/docs/en/changelog` AND a broader `site:code.claude.com/docs "new" OR "preview" 2026` WebSearch. This would catch first-party features that don't generate immediate HN buzz.
+
+
+## Run: 2026-06-07 PM
+
+68. **seen.json malformed JSON from AM run — systemic bug in state writer** — The AM run (2026-06-07T00:38Z) appended 9 new items OUTSIDE the closing brace of the `items` dict, then added a stray `},` before the metadata keys. This produces invalid JSON that would cause any future run relying on JSON parsing of seen.json to fail. Root cause: the state-writer logic that appends new items to seen.json doesn't read and parse the file before writing — it string-patches the tail, and got the insertion point wrong. Fix: the state update step should parse seen.json as JSON, add new items to `data["items"]`, update metadata, then serialize back with `json.dumps(data, indent=2)`. This is idempotent, robust to malformed tails, and trivially correct. Alternatively: validate seen.json is parseable at run start (Step 0) and alert/fix if not. Current workaround: PM run fixed the structure manually via Edit tool.
