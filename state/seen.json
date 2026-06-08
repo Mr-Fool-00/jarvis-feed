@@ -1866,8 +1866,68 @@
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 3,
       "title_snippet": "CwC Tokyo June 10 reminder: keynote 11 AM UTC (6 AM CDT), Boris Cherny + Ami Vora, 3 tracks, Extended June 11"
+    },
+    "github:lingfengQAQ/webnovel-writer-v6.1.0": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "lingfengQAQ/webnovel-writer v6.1.0: RAG-powered serial fiction — BM25+Qwen3-Embedding+Jina-reranker, commit-per-chapter, 2M-char scale, 4.8K stars"
+    },
+    "changelog:claude-code-2.1.166-2026-06-06": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "CC v2.1.166: fallbackModel (3 fallback models), cross-session messaging security, deny * wildcard, thinking disable on default-thinking models"
+    },
+    "simonwillison:datasette-agent-edit-2026-06-07": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "datasette-agent-edit v0.1a0: str_replace/view/insert as minimal agent file-editing API — storage-agnostic, base plugin for any file-editing agent skill"
+    },
+    "billing:max-credit-claim-june-8-action": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Max credit claim email arrives June 8 — claim via account settings before June 15; CCR Routines and interactive terminal exempt from billing split"
+    },
+    "blog:charitymajors:ai-enthusiasts-skeptics-entropy": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Charity Majors: AI enthusiasts race against time, AI skeptics race against entropy — discontinuous capability leaps vs institutional knowledge erosion"
+    },
+    "anthropic:dynamic-workflows-harness-blog-2026-06-02": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Anthropic 'A harness for every task': 3 default harness failure modes — stops early, can't verify own work, objective drift; custom JS harness solves all 3"
+    },
+    "arxiv:2606.03115": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "SPOQ: Specialist Orchestrated Queuing for Multi-Agent SE — specialists pull tasks from queue by capability, 23% fewer agent-turns vs star topology"
+    },
+    "github:andrehuang/academic-writing-agents": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "academic-writing-agents: 12 specialist parallel review agents for academic writing — auto-triggers on .tex files, GPS rhythm, smart cached reviews"
+    },
+    "news:anthropic-outage-data-leak-june5-2026": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Anthropic Opus 4.7/4.8 outage June 5 (~6 hours) — data leak claims under investigation, no evidence found, fallbackModel is the operational fix"
+    },
+    "github:forsonny/book-os": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "forsonny/book-os Novel-OS v1.0.0: 3-layer context (Standards/Novel/Manuscripts), 4 slash commands, early stage 44 stars"
+    },
+    "news:openai-codex-plugins-june2-2026": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "OpenAI Codex plugins (June 2): bundles skills+integrations+MCP servers in one installable — confirms ecosystem convergence on plugin abstraction"
+    },
+    "news:cwc-tokyo-june10-june8-update": {
+      "first_seen_utc": "2026-06-08T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CwC Tokyo June 10 11 AM UTC / 6 AM CDT + Extended June 11 for indie devs — NEC 30K employees, Managed Agents public beta expected"
     }
   },
-  "last_run_utc": "2026-06-05T00:18:00Z",
-  "total_items_seen": 375
+  "last_run_utc": "2026-06-08T12:45:00Z",
+  "total_items_seen": 388
 }

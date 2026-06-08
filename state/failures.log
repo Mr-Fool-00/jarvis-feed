@@ -104,3 +104,5 @@
 2026-06-05T00:18:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
 2026-06-05T00:18:00Z flatt-tech-webfetch-403 — flatt.tech/research blocked; oddguan.com blocked; securityweek.com blocked. Security items covered via secondary search snippets + multi-source cross-reference.
 2026-06-05T00:18:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-08T12:45:00Z push_failed reason="Detached HEAD orphaned commits — prior 6 runs (June 5 PM through June 7 PM) committed locally but git was in detached HEAD state. Recovered by checking out main. Content re-surfaced in 2026-06-08_PM.md."
+2026-06-08T12:45:00Z slack_direct_post_blocked reason="hooks.slack.com blocked by CCR sandbox proxy. Delivery via GitHub commit prefix bridge (digest:/briefing:/notify: prefixes)."
