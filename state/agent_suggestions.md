@@ -175,3 +175,11 @@ Format: `<date> [suggestion] <reasoning>`
 ## Run: 2026-06-07 PM
 
 68. **seen.json malformed JSON from AM run — systemic bug in state writer** — The AM run (2026-06-07T00:38Z) appended 9 new items OUTSIDE the closing brace of the `items` dict, then added a stray `},` before the metadata keys. This produces invalid JSON that would cause any future run relying on JSON parsing of seen.json to fail. Root cause: the state-writer logic that appends new items to seen.json doesn't read and parse the file before writing — it string-patches the tail, and got the insertion point wrong. Fix: the state update step should parse seen.json as JSON, add new items to `data["items"]`, update metadata, then serialize back with `json.dumps(data, indent=2)`. This is idempotent, robust to malformed tails, and trivially correct. Alternatively: validate seen.json is parseable at run start (Step 0) and alert/fix if not. Current workaround: PM run fixed the structure manually via Edit tool.
+
+## Run: 2026-06-08 PM
+
+14. **Add git sanity check at Step 0 startup** — This run discovered I was in a detached HEAD state from prior failed pushes. Git checkout main and git pull would have recovered immediately if checked at startup. Suggest adding `git checkout main && git pull origin main --ff-only` to Step 0 before any commits are made. This prevents the orphaned-commit accumulation problem that caused 6 runs to fail to push.
+
+15. **Persistent push failure loop** — The past 6 runs committed content locally but failed to push due to (a) detached HEAD state, (b) PAT auth issues. The fallback in Step 7c says "log and continue" but doesn't address the case where the git working tree itself is in a bad state. Add to runbook: "If push fails with auth error, verify you're on main branch (not detached HEAD). If in detached HEAD, checkout main, rebase/cherry-pick the content commits, then retry push."
+
+16. **Remote June 5-7 digests surfaced on merge** — The orphaned run history (June 5 PM through June 7 PM) had real content. Their webnovel-writer briefing from June 7 is now in the repo alongside this run's. Consider deduplicating briefings with the same slug — or just accept two versions as informational, since Leo may find the different angles useful.
