@@ -1926,8 +1926,68 @@
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 4,
       "title_snippet": "CwC Tokyo June 10 11 AM UTC / 6 AM CDT + Extended June 11 for indie devs — NEC 30K employees, Managed Agents public beta expected"
+    },
+    "arxiv:2606.01139": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "SkillRevise: execute→diagnose→revise→re-execute loop for LLM agent skill improvement from execution evidence — tested GPT-5.5, Qwen-3.6+, DeepSeek-V4-Pro"
+    },
+    "arxiv:2606.01311": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "SkillAdaptor: training-free step-level skill failure attribution — identifies first failing step in skill trajectory and applies targeted fix"
+    },
+    "news:wwdc2026-apple-foundation-models-claude": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "WWDC 2026: Xcode 27 built-in Claude/Gemini/GPT routing via Apple Foundation Models protocol — Anthropic ships Swift package, swap providers via SPM dependency"
+    },
+    "news:cwc-tokyo-june10-tracks-final": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CwC Tokyo June 10 track details: Research (interpretability/CAI), Platform (billing economics), CC (long-horizon/multi-repo/parallel) — Boris Cherny + Ami Vora + Angela Jiang"
+    },
+    "arxiv:2606.06923": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Declarative Skills for AI Agents: natural-language skill files in system prompt outperform hardcoded orchestration across all complexity levels — validates SKILL.md pattern"
+    },
+    "arxiv:2605.27366": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "MUSE-Autoskill: ByteDance/RIT self-evolving skill lifecycle (create/store/reuse/evaluate/refine) — skill-level memory scales better than episode memory"
+    },
+    "arxiv:2606.09470": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Memory Beyond Recall: dual-process cognitive memory for self-evolving LLM agents — fast episodic vs slow semantic consolidation between sessions"
+    },
+    "simonwillison:datasette-agent-micropython-2026-06-06": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "datasette-agent-micropython 0.1a0: MicroPython+WASM = safe code execution sandbox for any agent tool, no subprocess risk, no host access"
+    },
+    "youtube:indydevdan-cc-billing-june5-2026": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "IndyDevDan: Anthropic Put Claude Code Agents on a Meter — June 15 billing change walkthrough, what counts as billable action, agent loop audit"
+    },
+    "arxiv:2606.06087": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "LatentSkill: text-to-LoRA adapter via hypernetwork — converts textual skill descriptions to plug-and-play LoRA adapters, requires fine-tuning infra"
+    },
+    "arxiv:2606.05608": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "End of Software Engineering: traditional code as decision-logic vs agentic code as ephemeral LLM tooling — SaaS→AaaS paradigm shift taxonomy"
+    },
+    "cc:v2.1.167-v2.1.168-bugfixes": {
+      "first_seen_utc": "2026-06-09T12:10:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Claude Code v2.1.167+168 (June 6): Bedrock model picker fix, MCP paginated tools fix, JetBrains flickering fix — no user-facing feature additions"
     }
   },
-  "last_run_utc": "2026-06-08T12:45:00Z",
-  "total_items_seen": 388
+  "last_run_utc": "2026-06-09T12:10:00Z",
+  "total_items_seen": 400
 }
