@@ -185,6 +185,14 @@ Format: `<date> [suggestion] <reasoning>`
 16. **Remote June 5-7 digests surfaced on merge** — The orphaned run history (June 5 PM through June 7 PM) had real content. Their webnovel-writer briefing from June 7 is now in the repo alongside this run's. Consider deduplicating briefings with the same slug — or just accept two versions as informational, since Leo may find the different angles useful.
 
 
+## Run: 2026-06-10 AM
+
+71. **Add "major model release" pattern to fetch strategy** — When a new top-tier Anthropic model ships (Fable 5 today), the next 7-14 days produce a cluster of community workflows, pipeline adaptations, and benchmarks specific to that model. Suggest adding a triggered search for 2 weeks post-release: `"claude fable 5" site:github.com skill OR pipeline OR workflow 2026`. This is the highest signal window for practical model-adoption content. Could add as a conditional in the fetch step: if `last_run_utc` is within 14 days of a known major model release date, prepend model-specific searches.
+
+72. **Add Ethan Mollick (oneusefulthing.org) as a tracked RSS/WebSearch source** — His Mythos piece scored 9/10 and was found via secondary search, not a configured source. He publishes 2-4 high-signal practitioner pieces per month. His analysis is research-grade and hands-on. Suggest adding `WebSearch: "site:oneusefulthing.org 2026 claude OR anthropic"` to the blog discovery pass. Equal priority to Simon Willison for Leo's stack.
+
+73. **Fable 5 free window closes June 22 — flag in next 3 digests** — Leo has 12 days of free Fable 5 access on Max. Each of the next 3 digests (June 10 PM, June 11, June 12) should include a brief reminder in the trends section: "N days left to test Fable 5 free." This is time-sensitive actionable intel that compounds across digests.
+
 ## Run: 2026-06-09 PM
 
 69. **WWDC as seasonal high-signal source** — WWDC runs annually in early June and consistently produces Anthropic-relevant announcements (this year: Apple Foundation Models + Xcode 27 Claude/Gemini/GPT routing). It's not in SOURCES.yaml because it's ephemeral, but the pattern is reliable. Suggest adding a conditional WebSearch query: first week of June each year, add `WWDC 2026 site:developer.apple.com OR site:github.com/anthropics` to the daily pass. Would have surfaced the Swift package and Foundation Models protocol on Day 1 rather than Day 2.

@@ -1986,8 +1986,38 @@
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 3,
       "title_snippet": "Claude Code v2.1.167+168 (June 6): Bedrock model picker fix, MCP paginated tools fix, JetBrains flickering fix — no user-facing feature additions"
+    },
+    "anthropic:claude-fable-5-mythos-5-2026-06-09": {
+      "first_seen_utc": "2026-06-10T00:03:24Z",
+      "score_when_seen": 10,
+      "title_snippet": "Claude Fable 5 + Mythos 5 released June 9 — 80.3% SWE-Bench Pro, days-long autonomous sessions in CC, free on Max through June 22, model ID claude-fable-5"
+    },
+    "rss:ethanmollick:feels-like-mythos-2026-06-09": {
+      "first_seen_utc": "2026-06-10T00:03:24Z",
+      "score_when_seen": 9,
+      "title_snippet": "Ethan Mollick: 'What it feels like to work with Mythos' — patron not wizard framing, sub-agent spawning, multi-hour autonomous sessions"
+    },
+    "rss:lennysnewsletter:fable-5-review-2026-06-09": {
+      "first_seen_utc": "2026-06-10T00:03:24Z",
+      "score_when_seen": 7,
+      "title_snippet": "Lenny's Newsletter: Claude Fable 5 review — what the new Mythos model gets right (and very wrong), paywalled practitioner review"
+    },
+    "changelog:claude-code-2.1.170-2026-06-09": {
+      "first_seen_utc": "2026-06-10T00:03:24Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.170: Fable 5 support, /cd command (move dir without breaking cache), --safe-mode flag, disableBundledSkills setting, transcript fix for VS Code terminal"
+    },
+    "techcrunch:fable5-video-games-2026-06-09": {
+      "first_seen_utc": "2026-06-10T00:03:24Z",
+      "score_when_seen": 5,
+      "title_snippet": "TechCrunch: Fable 5 one-shots working browser video game from spec — relevant to Unity/game-dev track"
+    },
+    "hn:48463808": {
+      "first_seen_utc": "2026-06-10T00:03:24Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN: Claude Fable 5 discussion thread — builder reactions, Pelican benchmark improvement confirmed over Opus 4.8"
     }
   },
-  "last_run_utc": "2026-06-09T12:10:00Z",
-  "total_items_seen": 400
+  "last_run_utc": "2026-06-10T00:03:24Z",
+  "total_items_seen": 407
 }
