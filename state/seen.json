@@ -2016,8 +2016,38 @@
       "first_seen_utc": "2026-06-10T00:03:24Z",
       "score_when_seen": 5,
       "title_snippet": "HN: Claude Fable 5 discussion thread — builder reactions, Pelican benchmark improvement confirmed over Opus 4.8"
+    },
+    "simonwillison:fable-stops-helping-2026-06-10": {
+      "first_seen_utc": "2026-06-10T12:45:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Simon Willison: 'If Claude Fable stops helping you, you'll never know' — silent safeguards in Fable 5 degrade performance on frontier LLM dev without disclosure"
+    },
+    "cwc:tokyo-recap-2026-06-10": {
+      "first_seen_utc": "2026-06-10T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "CwC Tokyo recap — Boris Cherny 'What's New in Claude Code', NEC first Japan global partner 30K employees, world tour complete"
+    },
+    "anthropic:engineering:multi-agent-research-system": {
+      "first_seen_utc": "2026-06-10T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Anthropic Engineering: orchestrator+worker pattern, 90% improvement vs single agent, 15x tokens, early failure modes (50 subagents, endless search)"
+    },
+    "mollick:co-existence-co-intelligence-2026-06-04": {
+      "first_seen_utc": "2026-06-10T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Ethan Mollick: Co-Existence and the End of Co-Intelligence — shift from co-intelligence to autonomous agentic AI was always the plan"
+    },
+    "github:fable5-copilot-2026-06-09": {
+      "first_seen_utc": "2026-06-10T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Claude Fable 5 generally available on GitHub Copilot — long-horizon autonomous coding tasks"
+    },
+    "azure:fable5-microsoft-foundry-2026-06-09": {
+      "first_seen_utc": "2026-06-10T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Claude Fable 5 on Azure/Microsoft Foundry + Amazon Bedrock — enterprise cloud distribution"
     }
   },
-  "last_run_utc": "2026-06-10T00:03:24Z",
-  "total_items_seen": 407
+  "last_run_utc": "2026-06-10T12:45:00Z",
+  "total_items_seen": 413
 }
