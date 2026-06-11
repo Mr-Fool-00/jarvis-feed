@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-03T12:30:00Z",
-  "total_items_seen": 364,
+  "last_run_utc": "2026-06-11T00:45:00Z",
+  "total_items_seen": 418,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1780,7 +1780,7 @@
     "mindstudio:dynamic-vs-goal-vs-agent-teams-june-2026": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 7,
-      "title_snippet": "MindStudio: Dynamic Workflows vs /goal vs Agent Teams decision framework — depth-first vs width-first, cost ordering"
+      "title_snippet": "MindStudio: Dynamic Workflows vs /goal vs Agent Teams decision framework \u2014 depth-first vs width-first, cost ordering"
     },
     "anthropic:glasswing-150-orgs-expansion-2026-06-02": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
@@ -1790,22 +1790,22 @@
     "infoq:dynamic-workflows-claude-code-june-2026": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 5,
-      "title_snippet": "InfoQ: Dynamic Workflows practitioner analysis — investigation tasks, checkpointing, 16-concurrent/1000-total caps"
+      "title_snippet": "InfoQ: Dynamic Workflows practitioner analysis \u2014 investigation tasks, checkpointing, 16-concurrent/1000-total caps"
     },
     "mindstudio:goal-depth-vs-dynamic-width-june-2026": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 5,
-      "title_snippet": "MindStudio: /goal = depth-first (known path), Dynamic Workflows = width-first (discover path) — debugging is canonical DW use case"
+      "title_snippet": "MindStudio: /goal = depth-first (known path), Dynamic Workflows = width-first (discover path) \u2014 debugging is canonical DW use case"
     },
     "addyosmani:agentic-engine-optimization-apr-2026": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Addy Osmani AEO framework: structure docs so AI agents can use them — discoverability, parsability, token efficiency, capability signaling"
+      "title_snippet": "Addy Osmani AEO framework: structure docs so AI agents can use them \u2014 discoverability, parsability, token efficiency, capability signaling"
     },
     "hn:48373544": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 4,
-      "title_snippet": "HN: Anthropic scales Claude Mythos to critical infrastructure — community reaction, dual-use concerns"
+      "title_snippet": "HN: Anthropic scales Claude Mythos to critical infrastructure \u2014 community reaction, dual-use concerns"
     },
     "mindstudio:opus48-dynamic-workflows-hundreds-subagents": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
@@ -1815,7 +1815,7 @@
     "billing:cowork-routines-exempt-june-15-2026": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 7,
-      "title_snippet": "CORRECTION: Claude Cowork scheduled routines (CCR) are explicitly EXEMPT from June 15 billing split — stay on subscription per official Anthropic docs"
+      "title_snippet": "CORRECTION: Claude Cowork scheduled routines (CCR) are explicitly EXEMPT from June 15 billing split \u2014 stay on subscription per official Anthropic docs"
     },
     "changelog:claude-code-2.1.162-2026-06-03": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
@@ -1825,7 +1825,7 @@
     "news:claude-code-subagent-bug-quota-reset-2026-06-01": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Opus 4.8 subagent multiplication bug draining Pro/Max quotas in minutes — Anthropic emergency reset all limits June 1, 2026"
+      "title_snippet": "Opus 4.8 subagent multiplication bug draining Pro/Max quotas in minutes \u2014 Anthropic emergency reset all limits June 1, 2026"
     },
     "news:uber-caps-ai-coding-1500-2026-06": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
@@ -1835,22 +1835,22 @@
     "news:microsoft-mai-7-models-build-2026": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Microsoft MAI 7 models at Build 2026 — MAI-Thinking-1 matches Claude Sonnet 4.6, MAI-Code-1-Flash (5B) in VS Code/Copilot"
+      "title_snippet": "Microsoft MAI 7 models at Build 2026 \u2014 MAI-Thinking-1 matches Claude Sonnet 4.6, MAI-Code-1-Flash (5B) in VS Code/Copilot"
     },
     "news:claude-partner-network-services-track-2026-06-03": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Anthropic Claude Partner Network Services Track + Partner Hub — agencies/consultants, early access, revenue sharing"
+      "title_snippet": "Anthropic Claude Partner Network Services Track + Partner Hub \u2014 agencies/consultants, early access, revenue sharing"
     },
     "security:guan:comment-and-control-2026-06": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 7,
-      "title_snippet": "Comment and Control: Claude Code, Gemini CLI, GitHub Copilot all vulnerable to prompt injection via PR titles/comments — auto-trigger, zero sanitization, full credential dump"
+      "title_snippet": "Comment and Control: Claude Code, Gemini CLI, GitHub Copilot all vulnerable to prompt injection via PR titles/comments \u2014 auto-trigger, zero sanitization, full credential dump"
     },
     "security:flatttech:cc-github-action-hijack-2026-06-04": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 7,
-      "title_snippet": "GMO Flatt Security (RyotaK): broken checkWritePermissions [bot] trust + prompt injection → repo hijack via single GitHub Issue. CVSS 7.8. Fixed in claude-code-action v1.0.94"
+      "title_snippet": "GMO Flatt Security (RyotaK): broken checkWritePermissions [bot] trust + prompt injection \u2192 repo hijack via single GitHub Issue. CVSS 7.8. Fixed in claude-code-action v1.0.94"
     },
     "changelog:claude-code-2.1.163-2026-06-04": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
@@ -1860,7 +1860,7 @@
     "billing:june15-june8-claim-deadline-update": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 4,
-      "title_snippet": "June 15 billing: Anthropic sends $200 Max credit claim email around June 8 — must claim via account settings before June 15"
+      "title_snippet": "June 15 billing: Anthropic sends $200 Max credit claim email around June 8 \u2014 must claim via account settings before June 15"
     },
     "news:cwc-tokyo-june10-reminder": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
@@ -1870,7 +1870,7 @@
     "github:lingfengQAQ/webnovel-writer-v6.1.0": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 8,
-      "title_snippet": "lingfengQAQ/webnovel-writer v6.1.0: RAG-powered serial fiction — BM25+Qwen3-Embedding+Jina-reranker, commit-per-chapter, 2M-char scale, 4.8K stars"
+      "title_snippet": "lingfengQAQ/webnovel-writer v6.1.0: RAG-powered serial fiction \u2014 BM25+Qwen3-Embedding+Jina-reranker, commit-per-chapter, 2M-char scale, 4.8K stars"
     },
     "changelog:claude-code-2.1.166-2026-06-06": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
@@ -1880,37 +1880,37 @@
     "simonwillison:datasette-agent-edit-2026-06-07": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 7,
-      "title_snippet": "datasette-agent-edit v0.1a0: str_replace/view/insert as minimal agent file-editing API — storage-agnostic, base plugin for any file-editing agent skill"
+      "title_snippet": "datasette-agent-edit v0.1a0: str_replace/view/insert as minimal agent file-editing API \u2014 storage-agnostic, base plugin for any file-editing agent skill"
     },
     "billing:max-credit-claim-june-8-action": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 7,
-      "title_snippet": "Max credit claim email arrives June 8 — claim via account settings before June 15; CCR Routines and interactive terminal exempt from billing split"
+      "title_snippet": "Max credit claim email arrives June 8 \u2014 claim via account settings before June 15; CCR Routines and interactive terminal exempt from billing split"
     },
     "blog:charitymajors:ai-enthusiasts-skeptics-entropy": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 6,
-      "title_snippet": "Charity Majors: AI enthusiasts race against time, AI skeptics race against entropy — discontinuous capability leaps vs institutional knowledge erosion"
+      "title_snippet": "Charity Majors: AI enthusiasts race against time, AI skeptics race against entropy \u2014 discontinuous capability leaps vs institutional knowledge erosion"
     },
     "anthropic:dynamic-workflows-harness-blog-2026-06-02": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Anthropic 'A harness for every task': 3 default harness failure modes — stops early, can't verify own work, objective drift; custom JS harness solves all 3"
+      "title_snippet": "Anthropic 'A harness for every task': 3 default harness failure modes \u2014 stops early, can't verify own work, objective drift; custom JS harness solves all 3"
     },
     "arxiv:2606.03115": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 5,
-      "title_snippet": "SPOQ: Specialist Orchestrated Queuing for Multi-Agent SE — specialists pull tasks from queue by capability, 23% fewer agent-turns vs star topology"
+      "title_snippet": "SPOQ: Specialist Orchestrated Queuing for Multi-Agent SE \u2014 specialists pull tasks from queue by capability, 23% fewer agent-turns vs star topology"
     },
     "github:andrehuang/academic-writing-agents": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 5,
-      "title_snippet": "academic-writing-agents: 12 specialist parallel review agents for academic writing — auto-triggers on .tex files, GPS rhythm, smart cached reviews"
+      "title_snippet": "academic-writing-agents: 12 specialist parallel review agents for academic writing \u2014 auto-triggers on .tex files, GPS rhythm, smart cached reviews"
     },
     "news:anthropic-outage-data-leak-june5-2026": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Anthropic Opus 4.7/4.8 outage June 5 (~6 hours) — data leak claims under investigation, no evidence found, fallbackModel is the operational fix"
+      "title_snippet": "Anthropic Opus 4.7/4.8 outage June 5 (~6 hours) \u2014 data leak claims under investigation, no evidence found, fallbackModel is the operational fix"
     },
     "github:forsonny/book-os": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
@@ -1920,47 +1920,47 @@
     "news:openai-codex-plugins-june2-2026": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 3,
-      "title_snippet": "OpenAI Codex plugins (June 2): bundles skills+integrations+MCP servers in one installable — confirms ecosystem convergence on plugin abstraction"
+      "title_snippet": "OpenAI Codex plugins (June 2): bundles skills+integrations+MCP servers in one installable \u2014 confirms ecosystem convergence on plugin abstraction"
     },
     "news:cwc-tokyo-june10-june8-update": {
       "first_seen_utc": "2026-06-08T12:45:00Z",
       "score_when_seen": 4,
-      "title_snippet": "CwC Tokyo June 10 11 AM UTC / 6 AM CDT + Extended June 11 for indie devs — NEC 30K employees, Managed Agents public beta expected"
+      "title_snippet": "CwC Tokyo June 10 11 AM UTC / 6 AM CDT + Extended June 11 for indie devs \u2014 NEC 30K employees, Managed Agents public beta expected"
     },
     "arxiv:2606.01139": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 7,
-      "title_snippet": "SkillRevise: execute→diagnose→revise→re-execute loop for LLM agent skill improvement from execution evidence — tested GPT-5.5, Qwen-3.6+, DeepSeek-V4-Pro"
+      "title_snippet": "SkillRevise: execute\u2192diagnose\u2192revise\u2192re-execute loop for LLM agent skill improvement from execution evidence \u2014 tested GPT-5.5, Qwen-3.6+, DeepSeek-V4-Pro"
     },
     "arxiv:2606.01311": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 7,
-      "title_snippet": "SkillAdaptor: training-free step-level skill failure attribution — identifies first failing step in skill trajectory and applies targeted fix"
+      "title_snippet": "SkillAdaptor: training-free step-level skill failure attribution \u2014 identifies first failing step in skill trajectory and applies targeted fix"
     },
     "news:wwdc2026-apple-foundation-models-claude": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 7,
-      "title_snippet": "WWDC 2026: Xcode 27 built-in Claude/Gemini/GPT routing via Apple Foundation Models protocol — Anthropic ships Swift package, swap providers via SPM dependency"
+      "title_snippet": "WWDC 2026: Xcode 27 built-in Claude/Gemini/GPT routing via Apple Foundation Models protocol \u2014 Anthropic ships Swift package, swap providers via SPM dependency"
     },
     "news:cwc-tokyo-june10-tracks-final": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 6,
-      "title_snippet": "CwC Tokyo June 10 track details: Research (interpretability/CAI), Platform (billing economics), CC (long-horizon/multi-repo/parallel) — Boris Cherny + Ami Vora + Angela Jiang"
+      "title_snippet": "CwC Tokyo June 10 track details: Research (interpretability/CAI), Platform (billing economics), CC (long-horizon/multi-repo/parallel) \u2014 Boris Cherny + Ami Vora + Angela Jiang"
     },
     "arxiv:2606.06923": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 6,
-      "title_snippet": "Declarative Skills for AI Agents: natural-language skill files in system prompt outperform hardcoded orchestration across all complexity levels — validates SKILL.md pattern"
+      "title_snippet": "Declarative Skills for AI Agents: natural-language skill files in system prompt outperform hardcoded orchestration across all complexity levels \u2014 validates SKILL.md pattern"
     },
     "arxiv:2605.27366": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 6,
-      "title_snippet": "MUSE-Autoskill: ByteDance/RIT self-evolving skill lifecycle (create/store/reuse/evaluate/refine) — skill-level memory scales better than episode memory"
+      "title_snippet": "MUSE-Autoskill: ByteDance/RIT self-evolving skill lifecycle (create/store/reuse/evaluate/refine) \u2014 skill-level memory scales better than episode memory"
     },
     "arxiv:2606.09470": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Memory Beyond Recall: dual-process cognitive memory for self-evolving LLM agents — fast episodic vs slow semantic consolidation between sessions"
+      "title_snippet": "Memory Beyond Recall: dual-process cognitive memory for self-evolving LLM agents \u2014 fast episodic vs slow semantic consolidation between sessions"
     },
     "simonwillison:datasette-agent-micropython-2026-06-06": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
@@ -1970,37 +1970,37 @@
     "youtube:indydevdan-cc-billing-june5-2026": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 5,
-      "title_snippet": "IndyDevDan: Anthropic Put Claude Code Agents on a Meter — June 15 billing change walkthrough, what counts as billable action, agent loop audit"
+      "title_snippet": "IndyDevDan: Anthropic Put Claude Code Agents on a Meter \u2014 June 15 billing change walkthrough, what counts as billable action, agent loop audit"
     },
     "arxiv:2606.06087": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 4,
-      "title_snippet": "LatentSkill: text-to-LoRA adapter via hypernetwork — converts textual skill descriptions to plug-and-play LoRA adapters, requires fine-tuning infra"
+      "title_snippet": "LatentSkill: text-to-LoRA adapter via hypernetwork \u2014 converts textual skill descriptions to plug-and-play LoRA adapters, requires fine-tuning infra"
     },
     "arxiv:2606.05608": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 4,
-      "title_snippet": "End of Software Engineering: traditional code as decision-logic vs agentic code as ephemeral LLM tooling — SaaS→AaaS paradigm shift taxonomy"
+      "title_snippet": "End of Software Engineering: traditional code as decision-logic vs agentic code as ephemeral LLM tooling \u2014 SaaS\u2192AaaS paradigm shift taxonomy"
     },
     "cc:v2.1.167-v2.1.168-bugfixes": {
       "first_seen_utc": "2026-06-09T12:10:00Z",
       "score_when_seen": 3,
-      "title_snippet": "Claude Code v2.1.167+168 (June 6): Bedrock model picker fix, MCP paginated tools fix, JetBrains flickering fix — no user-facing feature additions"
+      "title_snippet": "Claude Code v2.1.167+168 (June 6): Bedrock model picker fix, MCP paginated tools fix, JetBrains flickering fix \u2014 no user-facing feature additions"
     },
     "anthropic:claude-fable-5-mythos-5-2026-06-09": {
       "first_seen_utc": "2026-06-10T00:03:24Z",
       "score_when_seen": 10,
-      "title_snippet": "Claude Fable 5 + Mythos 5 released June 9 — 80.3% SWE-Bench Pro, days-long autonomous sessions in CC, free on Max through June 22, model ID claude-fable-5"
+      "title_snippet": "Claude Fable 5 + Mythos 5 released June 9 \u2014 80.3% SWE-Bench Pro, days-long autonomous sessions in CC, free on Max through June 22, model ID claude-fable-5"
     },
     "rss:ethanmollick:feels-like-mythos-2026-06-09": {
       "first_seen_utc": "2026-06-10T00:03:24Z",
       "score_when_seen": 9,
-      "title_snippet": "Ethan Mollick: 'What it feels like to work with Mythos' — patron not wizard framing, sub-agent spawning, multi-hour autonomous sessions"
+      "title_snippet": "Ethan Mollick: 'What it feels like to work with Mythos' \u2014 patron not wizard framing, sub-agent spawning, multi-hour autonomous sessions"
     },
     "rss:lennysnewsletter:fable-5-review-2026-06-09": {
       "first_seen_utc": "2026-06-10T00:03:24Z",
       "score_when_seen": 7,
-      "title_snippet": "Lenny's Newsletter: Claude Fable 5 review — what the new Mythos model gets right (and very wrong), paywalled practitioner review"
+      "title_snippet": "Lenny's Newsletter: Claude Fable 5 review \u2014 what the new Mythos model gets right (and very wrong), paywalled practitioner review"
     },
     "changelog:claude-code-2.1.170-2026-06-09": {
       "first_seen_utc": "2026-06-10T00:03:24Z",
@@ -2010,22 +2010,22 @@
     "techcrunch:fable5-video-games-2026-06-09": {
       "first_seen_utc": "2026-06-10T00:03:24Z",
       "score_when_seen": 5,
-      "title_snippet": "TechCrunch: Fable 5 one-shots working browser video game from spec — relevant to Unity/game-dev track"
+      "title_snippet": "TechCrunch: Fable 5 one-shots working browser video game from spec \u2014 relevant to Unity/game-dev track"
     },
     "hn:48463808": {
       "first_seen_utc": "2026-06-10T00:03:24Z",
       "score_when_seen": 5,
-      "title_snippet": "HN: Claude Fable 5 discussion thread — builder reactions, Pelican benchmark improvement confirmed over Opus 4.8"
+      "title_snippet": "HN: Claude Fable 5 discussion thread \u2014 builder reactions, Pelican benchmark improvement confirmed over Opus 4.8"
     },
     "simonwillison:fable-stops-helping-2026-06-10": {
       "first_seen_utc": "2026-06-10T12:45:00Z",
       "score_when_seen": 9,
-      "title_snippet": "Simon Willison: 'If Claude Fable stops helping you, you'll never know' — silent safeguards in Fable 5 degrade performance on frontier LLM dev without disclosure"
+      "title_snippet": "Simon Willison: 'If Claude Fable stops helping you, you'll never know' \u2014 silent safeguards in Fable 5 degrade performance on frontier LLM dev without disclosure"
     },
     "cwc:tokyo-recap-2026-06-10": {
       "first_seen_utc": "2026-06-10T12:45:00Z",
       "score_when_seen": 8,
-      "title_snippet": "CwC Tokyo recap — Boris Cherny 'What's New in Claude Code', NEC first Japan global partner 30K employees, world tour complete"
+      "title_snippet": "CwC Tokyo recap \u2014 Boris Cherny 'What's New in Claude Code', NEC first Japan global partner 30K employees, world tour complete"
     },
     "anthropic:engineering:multi-agent-research-system": {
       "first_seen_utc": "2026-06-10T12:45:00Z",
@@ -2035,19 +2035,42 @@
     "mollick:co-existence-co-intelligence-2026-06-04": {
       "first_seen_utc": "2026-06-10T12:45:00Z",
       "score_when_seen": 7,
-      "title_snippet": "Ethan Mollick: Co-Existence and the End of Co-Intelligence — shift from co-intelligence to autonomous agentic AI was always the plan"
+      "title_snippet": "Ethan Mollick: Co-Existence and the End of Co-Intelligence \u2014 shift from co-intelligence to autonomous agentic AI was always the plan"
     },
     "github:fable5-copilot-2026-06-09": {
       "first_seen_utc": "2026-06-10T12:45:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Claude Fable 5 generally available on GitHub Copilot — long-horizon autonomous coding tasks"
+      "title_snippet": "Claude Fable 5 generally available on GitHub Copilot \u2014 long-horizon autonomous coding tasks"
     },
     "azure:fable5-microsoft-foundry-2026-06-09": {
       "first_seen_utc": "2026-06-10T12:45:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Claude Fable 5 on Azure/Microsoft Foundry + Amazon Bedrock — enterprise cloud distribution"
+      "title_snippet": "Claude Fable 5 on Azure/Microsoft Foundry + Amazon Bedrock \u2014 enterprise cloud distribution"
+    },
+    "news:fable5-credit-burn-secret-sabotage-2026-06-10": {
+      "first_seen_utc": "2026-06-11T00:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Fortune: Fable 5 credit burn 2x Opus 4.8, $100 Max balance in <9min; Dean Ball 'secret sabotage' backlash on silent LLM-dev restrictions"
+    },
+    "anthropic:when-ai-builds-itself-rsi-2026-06-04": {
+      "first_seen_utc": "2026-06-11T00:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Anthropic Institute: Claude writes 80%+ of Anthropic's prod code, engineers 8x velocity, Mythos Preview 52x code speedup, 64% beats humans on research \u2014 global pause call"
+    },
+    "github:anthropics/cwc-workshops": {
+      "first_seen_utc": "2026-06-11T00:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "CwC Extended Tokyo workshops source code \u2014 8 workshops: Agents That Remember (Dreaming Service), agent-decomposition, eval-driven dev, deal-desk"
+    },
+    "hn:48470301": {
+      "first_seen_utc": "2026-06-11T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN: Claude Fable 5 feels less like a launch and more like a preview of AI inequality \u2014 Stripe 2 months in 1 day, Pelican creative writing improvement confirmed"
+    },
+    "arxiv:2506.12508": {
+      "first_seen_utc": "2026-06-11T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "AgentOrchestra: TEA Protocol (Tool-Environment-Agent) for lifecycle-aware multi-agent coordination \u2014 agents, tools, and environments as first-class entities"
     }
-  },
-  "last_run_utc": "2026-06-10T12:45:00Z",
-  "total_items_seen": 413
+  }
 }
