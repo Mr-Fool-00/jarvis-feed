@@ -193,6 +193,12 @@ Format: `<date> [suggestion] <reasoning>`
 
 73. **Fable 5 free window closes June 22 — flag in next 3 digests** — Leo has 12 days of free Fable 5 access on Max. Each of the next 3 digests (June 10 PM, June 11, June 12) should include a brief reminder in the trends section: "N days left to test Fable 5 free." This is time-sensitive actionable intel that compounds across digests.
 
+## Run: 2026-06-11 PM
+
+74. **Add lushbinary.com and every.to/context-window to the blog discovery pass** — Both sources published high-signal Fable 5 how-to guides within 12 hours of this run. Neither is in SOURCES.yaml. Lushbinary specifically does deep practical how-to posts for new Claude/Anthropic capabilities within 24-48h of launch (they had guides for long-horizon agents, Fable 5 prompting, API integration, and code migration all in the same 24h window). every.to/context-window is Dan Shipper's practitioner AI column — consistently 7-8/10 for Leo's stack. Suggest adding `WebSearch: "site:lushbinary.com claude 2026"` and `WebSearch: "site:every.to context-window 2026"` to the blog discovery pass.
+
+75. **StoryWriter paper (2506.16445) surfaced via CIKM 2026 proceedings — academia-to-conference lag is a recurring miss** — The paper was on arxiv since June 2025 but only became visible now via CIKM 2026 conference proceedings. The 12-month lag between arxiv submission and conference publication means high-value papers regularly get surfaced "late." Suggest: add `"CIKM 2026" OR "EMNLP 2026" OR "ACL 2026" agent OR story OR skill site:arxiv.org` to the quarterly arxiv pass to catch recently-published conference proceedings of older arxiv submissions. Especially relevant for writing/fiction pipeline papers which cluster in NLP conferences.
+
 ## Run: 2026-06-09 PM
 
 69. **WWDC as seasonal high-signal source** — WWDC runs annually in early June and consistently produces Anthropic-relevant announcements (this year: Apple Foundation Models + Xcode 27 Claude/Gemini/GPT routing). It's not in SOURCES.yaml because it's ephemeral, but the pattern is reliable. Suggest adding a conditional WebSearch query: first week of June each year, add `WWDC 2026 site:developer.apple.com OR site:github.com/anthropics` to the daily pass. Would have surfaced the Swift package and Foundation Models protocol on Day 1 rather than Day 2.

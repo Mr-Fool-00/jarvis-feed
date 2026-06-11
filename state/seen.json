@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-11T00:45:00Z",
-  "total_items_seen": 418,
+  "last_run_utc": "2026-06-11T12:45:00Z",
+  "total_items_seen": 421,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1678,9 +1678,9 @@
       "title_snippet": "NousResearch/autonovel: autonomous novel pipeline \u2014 adversarial Opus review, ANTI-SLOP.md, 79K-word proof novel, LaTeX+ePub+audiobook export"
     },
     "arxiv:2506.16445": {
-      "first_seen_utc": "2026-06-02T00:01:51Z",
+      "first_seen_utc": "2026-06-11T12:45:00Z",
       "score_when_seen": 7,
-      "title_snippet": "StoryWriter: 3-agent long story generation framework \u2014 outline\u2192planning\u2192writing with dynamic history compression"
+      "title_snippet": "StoryWriter: Multi-Agent Framework for Long Story Generation \u2014 outline/planning/writing agents + dynamic history compression, CIKM 2026"
     },
     "news:cwc-tokyo-june-10-correction": {
       "first_seen_utc": "2026-06-02T00:01:51Z",
@@ -2071,6 +2071,41 @@
       "first_seen_utc": "2026-06-11T00:45:00Z",
       "score_when_seen": 5,
       "title_snippet": "AgentOrchestra: TEA Protocol (Tool-Environment-Agent) for lifecycle-aware multi-agent coordination \u2014 agents, tools, and environments as first-class entities"
+    },
+    "blog:lushbinary:long-horizon-fable5-2026-06-11": {
+      "first_seen_utc": "2026-06-11T12:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Lushbinary: Build Long-Horizon AI Agents on Claude Fable 5 \u2014 orchestrator/executor pattern, model routing, external memory, self-verification"
+    },
+    "blog:every.to:fable5-how-to-2026-06-09": {
+      "first_seen_utc": "2026-06-11T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Every.to: How to Get Most Out of Fable 5 \u2014 four-quality test, self-verification prompting, think-like-a-manager mindset, effort calibration"
+    },
+    "github:jztan/pdf-mcp": {
+      "first_seen_utc": "2026-06-11T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "pdf-mcp: MCP server for large PDF reading without context limits \u2014 chunked reading, hybrid search, OCR, SQLite cache, 7100 downloads"
+    },
+    "changelog:claude-code-2.1.173-2026-06-11": {
+      "first_seen_utc": "2026-06-11T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CC v2.1.173: Fable 5 [1m] suffix normalization + Windows sandbox startup warning fix"
+    },
+    "github:religa/multi_mcp": {
+      "first_seen_utc": "2026-06-11T12:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "multi_mcp: Multi-model chat/review MCP server for Claude Code \u2014 GPT/Claude/Gemini consensus, code review and security analysis"
+    },
+    "anthropic:200m-economic-impact-2026-06-10": {
+      "first_seen_utc": "2026-06-11T12:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Anthropic $200M economic impact research fund + Dario Amodei UBI essay \u2014 3-threshold policy framework, IPO narrative management"
+    },
+    "simonwillison:diffusiongemma-2026-06-10": {
+      "first_seen_utc": "2026-06-11T12:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Simon Willison: DiffusionGemma-26B-A4B-it \u2014 Google Apache2 diffusion LLM free on NVIDIA NIM"
     }
   }
 }
