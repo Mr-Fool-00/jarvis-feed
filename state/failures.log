@@ -116,3 +116,7 @@
 2026-06-11T00:45:00Z slack-webhook-403 — hooks.slack.com blocked by CCR sandbox proxy. Delivery via GitHub commit prefix bridge.
 2026-06-11T00:45:00Z anthropic.com/institute/recursive-self-improvement — HTTP 403 on WebFetch; content reconstructed via multi-source WebSearch
 2026-06-12T00:50:00Z slack_webhook_blocked reason="hooks.slack.com not in CCR network allowlist" channels="ai-news,general,improvements" fallback="github-commit-prefix-bridge"
+2026-06-12T12:45:00Z arxiv:2606.04896 webfetch-403 — Channel Fracture paper; content from agent search summary only
+2026-06-12T12:45:00Z simonwillison-jun12-webfetch-403 — simonwillison.net blocked; content from prior AM run
+2026-06-12T12:45:00Z interconnects-lambert-webfetch-403 — interconnects.ai blocked; title + snippet only
+2026-06-12T12:45:00Z slack-webhook-403 — hooks.slack.com blocked by CCR sandbox proxy. Delivery via GitHub commit prefix bridge.

@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-12T00:45:00Z",
-  "total_items_seen": 434,
+  "last_run_utc": "2026-06-12T12:45:00Z",
+  "total_items_seen": 441,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2166,6 +2166,41 @@
       "first_seen_utc": "2026-06-12T00:45:00Z",
       "score_when_seen": 4,
       "title_snippet": "Fable 5 for creative writing: step up in judgment quality but too slow for rapid iteration; suits long delegable tasks"
+    },
+    "docs:anthropic:prompting-fable-5-guide": {
+      "first_seen_utc": "2026-06-12T12:45:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Anthropic official prompting guide for Fable 5 — 10+ copy-paste prompt blocks: long-horizon agents, progress auditing, parallel subagents, memory system, effort tuning, send-to-user tool"
+    },
+    "latentspace:ainews-fable5-mythos-safe-controversial": {
+      "first_seen_utc": "2026-06-12T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Latent Space AINews: Fable 5 — Mythos but Safe, with Controversial Terms — full launch story synthesis, 2x burn confirmed, data retention, developer reactions"
+    },
+    "interconnects:lambert:fable5-safety-june-2026": {
+      "first_seen_utc": "2026-06-12T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Nathan Lambert: Claude Fable 5 and New AI Safety Fables — invisible safeguards mechanism analysis, transparency precedent"
+    },
+    "arxiv:2606.04896": {
+      "first_seen_utc": "2026-06-12T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Channel Fracture: Architectural Blind Spots in Scheduled Cross-Agent Memory Injection — failure modes in scheduled agent memory systems"
+    },
+    "changelog:claude-code-2.1.175-2026-06-12": {
+      "first_seen_utc": "2026-06-12T12:45:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.175: enforceAvailableModels managed setting — constrains Default model to availableModels allowlist"
+    },
+    "changelog:claude-code-2.1.174-2026-06-12": {
+      "first_seen_utc": "2026-06-12T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "CC v2.1.174: Fable 5 billing banner fix, wheelScrollAccelerationEnabled, Bedrock GovCloud, TaskCreate reliability, 13 changes"
+    },
+    "tosea:fable5-developer-review-24h": {
+      "first_seen_utc": "2026-06-12T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Tosea.ai: What developers really think 24h after Fable 5 — hard tasks praised, 2x burn confirmed, Marsland WordPress theme one-shot"
     }
   }
 }
