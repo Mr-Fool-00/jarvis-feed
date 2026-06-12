@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-11T12:45:00Z",
-  "total_items_seen": 421,
+  "last_run_utc": "2026-06-12T00:45:00Z",
+  "total_items_seen": 434,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2106,6 +2106,66 @@
       "first_seen_utc": "2026-06-11T12:45:00Z",
       "score_when_seen": 3,
       "title_snippet": "Simon Willison: DiffusionGemma-26B-A4B-it \u2014 Google Apache2 diffusion LLM free on NVIDIA NIM"
+    },
+    "changelog:claude-code-2.1.172-2026-06-10": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "CC v2.1.172: sub-agents can spawn sub-agents up to 5 levels deep, Bedrock AWS region auto-detect, marketplace plugin search bar"
+    },
+    "news:anthropic-fable5-apology-transparent-fallback-2026-06-11": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "Anthropic apology: Fable 5 invisible safeguards \u2192 transparent fallbacks + API refusal reasons. 'Wrong tradeoff.' Bio/cyber classifiers being retrained."
+    },
+    "blog:thariq:fable5-cc-video-pipeline-2026-06-11": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Thariq (Anthropic CC): Fable 5 + Claude Code edits own launch video \u2014 Whisper+ffmpeg+Remotion+FigmaMCP, 288K views, no NLE"
+    },
+    "simonwillison:fable5-beast-impressions-2026-06-12": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Simon Willison June 12: Fable 5 is 'something of a beast' \u2014 5.5h testing, exceptional long tasks; also covers Anthropic walkback"
+    },
+    "news:fable5-data-retention-30day-no-zdr-2026-06": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Fable 5 mandatory 30-day data retention, no ZDR opt-out even for enterprise \u2014 applies AWS Bedrock, Azure Foundry, Google Cloud"
+    },
+    "news:fable5-credit-burn-2x-june22-deadline-2026": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Fable 5: 2x credit burn vs Opus 4.8, Simon Willison $110/day (78M tokens), June 22 free window ends"
+    },
+    "hn:48489229": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "HN: Anthropic apologizes for invisible Fable 5 guardrails \u2014 dev community reaction, Antirez, AI researcher contamination reports"
+    },
+    "security:pliny:fable5-jailbreak-120k-2026-06-11": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Fable 5 jailbroken within 48h by Pliny: 120K system prompt leaked, Unicode+narrative+multi-agent decomposition attacks"
+    },
+    "hn:48484606": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN: Antirez (Redis creator): 'I believe what Anthropic is doing is deeply wrong' \u2014 Fable 5 invisible safeguards backlash"
+    },
+    "hn:48473166": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN: AWS Bedrock requires data sharing with Anthropic for Fable/Mythos \u2014 ZDR configs overridden, enterprise compliance concern"
+    },
+    "hn:48486370": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN: 'It blocked us at hello' \u2014 Fable 5 classifier over-triggering on innocuous prompts, retraining in progress"
+    },
+    "news:fable5-creative-writing-slow-iteration-2026": {
+      "first_seen_utc": "2026-06-12T00:45:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Fable 5 for creative writing: step up in judgment quality but too slow for rapid iteration; suits long delegable tasks"
     }
   }
 }
