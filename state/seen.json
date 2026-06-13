@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-12T12:45:00Z",
-  "total_items_seen": 441,
+  "last_run_utc": "2026-06-13T00:52:00Z",
+  "total_items_seen": 451,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2201,6 +2201,56 @@
       "first_seen_utc": "2026-06-12T12:45:00Z",
       "score_when_seen": 5,
       "title_snippet": "Tosea.ai: What developers really think 24h after Fable 5 — hard tasks praised, 2x burn confirmed, Marsland WordPress theme one-shot"
+    },
+    "anthropic:fable-5-mythos-5-release-2026-06-09": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 10,
+      "title_snippet": "Anthropic launches Fable 5 + Mythos 5 — first publicly available Mythos-class model, 1M context, 128K output, free on Max until June 22"
+    },
+    "news:fable5-covert-limits-backlash-2026-06-10": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Fable 5 secret sabotage: Anthropic silently limited AI research capabilities, reversed same day after backlash — transparent fallback now applies to all categories"
+    },
+    "anthropic:dynamic-workflows-ga-tokyo-2026-06-10": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Dynamic Workflows GA + Managed Agents scheduled deployments public beta (CwC Tokyo, June 10)"
+    },
+    "blog:linas:fable5-12-patterns-june22": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "12 Patterns for Prompting Fable 5 Before June 22 — goal-level prompting, not step-by-step; success-state driven design"
+    },
+    "simonwillison:fable-relentlessly-proactive-2026-06-11": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison: Fable 5 is relentlessly proactive — spun up CORS servers unasked; CLAUDE.md constraints more critical with Fable 5"
+    },
+    "changelog:claude-code-2.1.169-2026-06-08": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.169: --safe-mode, /cd path navigation, disableBundledSkills setting"
+    },
+    "benchmark:lechmazur:fable5-creative-writing-rank2": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Fable 5 ranks #2 on lechmazur creative writing benchmark — writes longer than Opus 4.x, trends toward upper end of word budget"
+    },
+    "simonwillison:claude-fable-5-initial-impressions-2026-06-09": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Simon Willison initial Fable 5 impressions: slow, expensive, capable of crunching through pretty much everything — 5.5 hours tested"
+    },
+    "anthropic:cwc-tokyo-nec-managed-agents-2026-06-10": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "CwC Tokyo: NEC partnership (30K employees), Hitachi partnership, managed agents workshops, no new CC primitives beyond Dynamic Workflows GA"
+    },
+    "arxiv:2606.08878": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "PerspectiveGap benchmark: 110 scenarios testing LLM orchestration prompt composition for multi-agent systems"
     }
   }
 }
