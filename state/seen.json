@@ -1866,8 +1866,83 @@
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 3,
       "title_snippet": "CwC Tokyo June 10 reminder: keynote 11 AM UTC (6 AM CDT), Boris Cherny + Ami Vora, 3 tracks, Extended June 11"
+    },
+    "anthropic:fable-5-mythos-5-release-2026-06-09": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 10,
+      "title_snippet": "Claude Fable 5 + Mythos 5 released June 9 — 1M context, 128K output, $10/50 per M tokens, free on Max until June 22; 30-day data retention on all platforms"
+    },
+    "changelog:claude-code-2.1.172-2026-06-10": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 9,
+      "title_snippet": "CC v2.1.172: sub-agents can spawn sub-agents (5 levels deep) — breaks hard rule, enables depth-2 fiction pipeline; marketplace plugin search"
+    },
+    "news:fable5-covert-limits-backlash-2026-06-10": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Fable 5 covert capability limits for AI research tasks — accused of 'secret sabotage', Anthropic reversed to transparent fallback within 24 hours"
+    },
+    "anthropic:dynamic-workflows-ga-tokyo-2026-06-10": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Dynamic Workflows GA at CwC Tokyo; Managed Agents scheduled deployments + env vaults in public beta; up to 1,000 parallel subagents"
+    },
+    "blog:linas:fable5-12-patterns-june22": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "12 Patterns for Prompting Fable 5 Before June 22 — goal-level prompting, not step-by-step; design workflows not prompts"
+    },
+    "simonwillison:fable-relentlessly-proactive-2026-06-11": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison: Fable 5 is relentlessly proactive — spins up tools/servers unasked; CLAUDE.md constraints matter more with Fable than Opus 4.8"
+    },
+    "arxiv:2606.04896": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Channel Fracture: split-context failures in scheduled cross-agent memory injection — directly describes Jarvis architecture and potential failure modes"
+    },
+    "changelog:claude-code-2.1.157-2026-05-29": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.157: plugins in .claude/skills/ auto-loaded; claude plugin init <name> scaffolds new plugins"
+    },
+    "changelog:claude-code-2.1.169-2026-06-08": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.169: --safe-mode flag, /cd command, disableBundledSkills setting, post-session lifecycle hook for self-hosted runners"
+    },
+    "changelog:claude-code-2.1.166-2026-06-06": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.166: fallbackModel setting — up to 3 fallback models tried in order on overload/unavailability"
+    },
+    "changelog:claude-code-2.1.174-2026-06-12": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.174: VSCode per-skill/agent/plugin/MCP usage attribution in Account & usage dialog"
+    },
+    "benchmark:lechmazur:fable5-creative-writing-rank2": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Fable 5 #2 on lechmazur creative writing benchmark — writes longer than Opus 4.x, uses more of word budget; 395/400 stories completed"
+    },
+    "simonwillison:claude-fable-5-initial-impressions-2026-06-09": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Simon Willison initial Fable 5 impressions: 'big model smell — slow, expensive, capable'; 5.5h test; senior-research-scientist grade reasoning"
+    },
+    "anthropic:cwc-tokyo-nec-managed-agents-2026-06-10": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "CwC Tokyo: NEC first Japan partner (30K employees), Hitachi partnership, managed agents workshops"
+    },
+    "arxiv:2606.08878": {
+      "first_seen_utc": "2026-06-13T00:52:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "PerspectiveGap: benchmark for multi-agent orchestration prompting — 110 scenarios, role-fragment assignment and free-form orchestration prompt writing"
     }
   },
-  "last_run_utc": "2026-06-05T00:18:00Z",
-  "total_items_seen": 375
+  "last_run_utc": "2026-06-13T00:52:00Z",
+  "total_items_seen": 391
 }
