@@ -104,3 +104,4 @@
 2026-06-05T00:18:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
 2026-06-05T00:18:00Z flatt-tech-webfetch-403 — flatt.tech/research blocked; oddguan.com blocked; securityweek.com blocked. Security items covered via secondary search snippets + multi-source cross-reference.
 2026-06-05T00:18:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-13T01:05:00Z push_failed reason="PAT auth invalid (github_pat_11B5AQ2UI0mukomssorV5K...) + GitHub MCP integration lacks write access (403 Resource not accessible by integration). All push paths dead. Content committed locally only."
