@@ -120,3 +120,8 @@
 2026-06-12T12:45:00Z simonwillison-jun12-webfetch-403 — simonwillison.net blocked; content from prior AM run
 2026-06-12T12:45:00Z interconnects-lambert-webfetch-403 — interconnects.ai blocked; title + snippet only
 2026-06-12T12:45:00Z slack-webhook-403 — hooks.slack.com blocked by CCR sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-13T13:15:00Z reddit_websearch: 0 indexed posts (consistent sandbox indexing gap — r/ClaudeAI, r/LocalLLaMA, r/AI_Agents)
+2026-06-13T13:15:00Z youtube_websearch: 0 videos (403 on all YouTube RSS/WebFetch endpoints)
+2026-06-13T13:15:00Z rss_feeds_403: simonwillison.net/atom.xml, anthropic.com/news/rss, latent.space/feed, lenny, pragmatic-engineer all 403 — covered via WebSearch
+2026-06-13T13:15:00Z webfetch_403: anthropic.com/news/fable-mythos-access, simonwillison.net/Jun/13, dev.classmethod.jp all 403 — content recovered via WebSearch multi-source
+2026-06-13T13:15:00Z slack-webhook-403 — hooks.slack.com blocked by CCR sandbox proxy. Delivery via GitHub commit prefix bridge.

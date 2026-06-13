@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-13T00:52:00Z",
-  "total_items_seen": 451,
+  "last_run_utc": "2026-06-13T13:15:00Z",
+  "total_items_seen": 464,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2251,6 +2251,71 @@
       "first_seen_utc": "2026-06-13T00:52:00Z",
       "score_when_seen": 5,
       "title_snippet": "PerspectiveGap benchmark: 110 scenarios testing LLM orchestration prompt composition for multi-agent systems"
+    },
+    "anthropic:fable-mythos-export-ban-2026-06-12": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 10,
+      "title_snippet": "US export control directive bans Fable 5 + Mythos 5 for all users — Commerce Dept cites Pliny jailbreak, Anthropic calls it misunderstanding, working to restore"
+    },
+    "security:tenet:agentjacking-sentry-2026-06-12": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Agentjacking: fake Sentry error events hijack Claude Code/Cursor/Codex via MCP with 85% success rate — 2,388 orgs exposed (Tenet Security)"
+    },
+    "simonwillison:fable-ban-historical-export-controls-2026-06-13": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Simon Willison: logged Fable 5 going dark at 6:59pm PT June 12 — first use of US export controls against a commercially deployed language model"
+    },
+    "arxiv:2606.08162": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Silent Failure in LLM Agent Systems: Entropy Principle — 40K trials, 22 intrinsic properties, PIG+ADE countermeasures for inevitable disorder in autonomous agents"
+    },
+    "youtube:thariq-fable5-video-pipeline-2026-06-09": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Thariq: Fable 5 edited its own Anthropic launch video — Whisper→subagents→ffmpeg→colorgrade→Remotion→Figma MCP→4K. 0 video editors opened."
+    },
+    "note:x2775co:novel-writing-structure-2026": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "note.com: Japanese web novel writing via ClaudeCode file structure design — pre-design→constrained generation→post-inspection pipeline"
+    },
+    "github:jztan/pdf-mcp": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "jztan/pdf-mcp: MCP server for large PDF reading without context limits — chunked read, hybrid search, OCR, SQLite cache, 7.1K PyPI downloads"
+    },
+    "blog:truefoundry:fable5-vs-opus48-2026": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Fable 5 vs Opus 4.8 benchmarks: Fable writes denser/longer fiction, fills word budget more fully — Opus 4.8 still excellent for Leo's pipeline"
+    },
+    "hn:fable5-ban-threads-48511072": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN threads 48511072 + 48512915: community reactions to Fable 5 ban — export controls on deployed AI model seen as chilling precedent"
+    },
+    "thenewstack:fable5-developer-reactions-guardrails": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "TheNewStack: Fable 5 developer complaints pre-ban — guardrails, 5% Opus 4.8 fallback, 30-day retention frustrations"
+    },
+    "arxiv:2606.05608": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Agentic Software: How AI Agents Restructure Software Paradigm — licensed→SaaS→AaaS arc, agent IS the software, code is runtime-generated resource"
+    },
+    "changelog:claude-code-2.1.175-2026-06-12": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CC v2.1.175: enforceAvailableModels managed setting — Default model now constrained by allowlist, user/project can't widen managed list"
+    },
+    "forrester:fable5-vendor-risk-data-retention": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Forrester: Fable 5 raises model availability risk + data retention compliance gaps — export recall as new vendor risk category"
     }
   }
 }
