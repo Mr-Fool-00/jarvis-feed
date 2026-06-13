@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-13T13:15:00Z",
-  "total_items_seen": 464,
+  "last_run_utc": "2026-06-13T12:20:00Z",
+  "total_items_seen": 465,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2316,6 +2316,11 @@
       "first_seen_utc": "2026-06-13T13:15:00Z",
       "score_when_seen": 4,
       "title_snippet": "Forrester: Fable 5 raises model availability risk + data retention compliance gaps — export recall as new vendor risk category"
+    },
+    "changelog:claude-code-2.1.176-2026-06-13": {
+      "first_seen_utc": "2026-06-13T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CC v2.1.176: session titles in conversation language, footerLinksRegexes setting, JetBrains flicker fix, Kitty keyboard Shift+non-ASCII fix, Bedrock caching, availableModels alias bypass fix"
     }
   }
 }
