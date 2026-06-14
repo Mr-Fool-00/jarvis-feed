@@ -125,3 +125,7 @@
 2026-06-13T13:15:00Z rss_feeds_403: simonwillison.net/atom.xml, anthropic.com/news/rss, latent.space/feed, lenny, pragmatic-engineer all 403 — covered via WebSearch
 2026-06-13T13:15:00Z webfetch_403: anthropic.com/news/fable-mythos-access, simonwillison.net/Jun/13, dev.classmethod.jp all 403 — content recovered via WebSearch multi-source
 2026-06-13T13:15:00Z slack-webhook-403 — hooks.slack.com blocked by CCR sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-14T00:45:00Z reddit 403 — WebSearch returned 0 r/ClaudeAI indexed posts (sandbox indexing lag)
+2026-06-14T00:45:00Z youtube 403 — all YouTube RSS/WebFetch endpoints blocked in CCR sandbox
+2026-06-14T00:45:00Z rss:all 403 — simonwillison.net/atom.xml, anthropic.com/news/rss, latent.space/feed, lenny, pragmatic-engineer all HTTP 403; content recovered via WebSearch
+2026-06-14T00:45:00Z slack-direct 403 — hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
