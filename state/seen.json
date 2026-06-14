@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-14T00:45:00Z",
-  "total_items_seen": 469,
+  "last_run_utc": "2026-06-14T12:07:59Z",
+  "total_items_seen": 481,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2329,8 +2329,8 @@
     },
     "github:raphaelchristi/harness-evolver": {
       "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "raphaelchristi/harness-evolver: automated harness evolution for AI agents \u2014 limited info, needs deep-dive"
+      "score_when_seen": 6,
+      "title_snippet": "raphaelchristi/harness-evolver: automated harness evolution for AI agents \u2014 deep-dive complete: 333 commits, MIT, Meta-Harness research-backed, LangSmith dependency blocks install"
     },
     "anthropic:claude-corps-2026-06-11": {
       "first_seen_utc": "2026-06-14T00:45:00Z",
@@ -2346,6 +2346,61 @@
       "first_seen_utc": "2026-06-14T00:45:00Z",
       "score_when_seen": 5,
       "title_snippet": "HN: Not Your Weights Not Your Workflow \u2014 model dependency risk post Fable 5 ban, design pipelines model-agnostic"
+    },
+    "news:fable5-ban-defense-company-no-timeline-2026-06-14": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 6,
+      "title_snippet": "Fable 5 ban: DataShield Analytics says interactions were authorized defense red-teaming, filing EAR 740.17 exemption, no Anthropic restoration timeline"
+    },
+    "arxiv:2603.05890": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 6,
+      "title_snippet": "Lost in Stories: LLMs have measurable character/plot consistency bugs past 5K tokens, chunked generation + memory injection reduces failures 38%"
+    },
+    "anthropic:project-vend-2": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 5,
+      "title_snippet": "Project Vend Phase 2: multi-agent AI store expanded to NYC+London, 90-day run, revenue positive after 47 days, 8-agent orchestrator stack"
+    },
+    "cc:v2.1.177-june13": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 4,
+      "title_snippet": "CC v2.1.177: Fable 5 auto-switches to Opus 4.8, Remote Control stability, PostToolUse before Stop hook ordering change, 22 changes"
+    },
+    "github:0xDarkMatter/claude-mods-v3": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 5,
+      "title_snippet": "claude-mods v3.0.0: 89 skills, supply-chain defense hash-check layer, audit CLI, 312 stars, MIT \u2014 third-party, safety gate"
+    },
+    "arxiv:2506.15841": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 5,
+      "title_snippet": "MEM1: memory + reasoning synergy for long-horizon agents, 3.5x perf gain vs pure reasoning (memory alone 1.8x, reasoning alone 1.4x)"
+    },
+    "github:watchsound/claude-novel": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 5,
+      "title_snippet": "watchsound/claude-novel: VSCode extension + CLAUDE.md harness for novel writing, pacing visualization, character heatmap, MCP continuity check \u2014 third-party"
+    },
+    "github:DKeken/codex-skills-alternative": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 5,
+      "title_snippet": "DKeken/codex-skills-alternative: 17 cross-agent SKILL.md creative production skills, progressive disclosure structure, 89 stars MIT \u2014 third-party"
+    },
+    "github:pasteurmonga/crucible-writing-system": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 5,
+      "title_snippet": "pasteurmonga/The-Crucible: 36-beat epic fantasy framework for Claude Code, beat-tracking CLAUDE.md, no license listed \u2014 caution"
+    },
+    "news:fable5-builder-incident-guide-cluster": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 4,
+      "title_snippet": "ChatForest + Totalum migration guides: Opus 4.8 within 8% of Fable 5 on fiction benchmarks with minor prompt adjustment"
+    },
+    "anthropic:public-record-june12-2026": {
+      "first_seen_utc": "2026-06-14T12:07:59Z",
+      "score_when_seen": 3,
+      "title_snippet": "Anthropic Public Record June 2026: 67% US support federal AI oversight, Advanced AI Framework update adds export control compliance section"
     }
   }
 }
