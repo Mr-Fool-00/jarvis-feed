@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-15T00:19:38Z",
-  "total_items_seen": 486,
+  "last_run_utc": "2026-06-15T13:15:00Z",
+  "total_items_seen": 492,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2426,6 +2426,36 @@
       "first_seen_utc": "2026-06-15T00:19:38Z",
       "score_when_seen": 5,
       "title_snippet": "From Failed Trajectories: second-pass failure analysis identifies patchable harness flaws in 64% of failed agent runs"
+    },
+    "aws:strands-interleaved-thinking-2026-06-13": {
+      "first_seen_utc": "2026-06-15T13:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "AWS Strands Agents + Claude 4 Interleaved Thinking: IS-CoT Plan-Write-Reflect as native model capability via extended thinking between tool calls"
+    },
+    "alexop:deterministic-orchestration-workflows-2026-05-28": {
+      "first_seen_utc": "2026-06-15T13:15:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "alexop.dev: 130-line Dynamic Workflow spawns 9 parallel agents with deterministic control flow — reference implementation for /book-pipeline"
+    },
+    "trend:june15-triple-constraint-2026": {
+      "first_seen_utc": "2026-06-15T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "June 15 Triple Constraint: Fable 5 offline + Agent SDK billing split live + model ID deprecations — CCR Routines exempt, Leo's stack unaffected"
+    },
+    "github:VoltAgent/awesome-ai-agent-papers": {
+      "first_seen_utc": "2026-06-15T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "VoltAgent/awesome-ai-agent-papers: curated 2026 agent research list, auto-updated weekly from arxiv, 2026-only, 5 categories"
+    },
+    "trilogy:dynamic-workflows-thousand-agents": {
+      "first_seen_utc": "2026-06-15T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Trilogy AI: Dynamic Workflows conceptual explainer — control flow in code, content in Claude; parallel/sequential/barrier patterns"
+    },
+    "paddo:three-ways-deep-research-claude": {
+      "first_seen_utc": "2026-06-15T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Paddo.dev: Three deep research architectures — single-agent loop, parallel fan-out, recursive decomposition with specialist agents"
     }
   }
 }
