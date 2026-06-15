@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-14T12:07:59Z",
-  "total_items_seen": 481,
+  "last_run_utc": "2026-06-15T00:19:38Z",
+  "total_items_seen": 486,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2401,6 +2401,31 @@
       "first_seen_utc": "2026-06-14T12:07:59Z",
       "score_when_seen": 3,
       "title_snippet": "Anthropic Public Record June 2026: 67% US support federal AI oversight, Advanced AI Framework update adds export control compliance section"
+    },
+    "arxiv:2606.09709": {
+      "first_seen_utc": "2026-06-15T00:19:38Z",
+      "score_when_seen": 7,
+      "title_snippet": "IS-CoT: Interleaved Structural Chain-of-Thought — Plan-Write-Reflect loop reduces long-form generation collapse 41%; build_worthy=TRUE"
+    },
+    "news:fable5-whitehouse-amazon-june14": {
+      "first_seen_utc": "2026-06-15T00:19:38Z",
+      "score_when_seen": 5,
+      "title_snippet": "Fable 5 ban political phase: White House meeting June 14, Amazon Jassy confirmed as trigger; EAR 740.17 exemption filing active"
+    },
+    "arxiv:2606.10677": {
+      "first_seen_utc": "2026-06-15T00:19:38Z",
+      "score_when_seen": 6,
+      "title_snippet": "Infini Memory: topic-structured persistent memory documents for agents, iterative retrieval, 64.7% MemoryAgentBench"
+    },
+    "arxiv:2606.08348": {
+      "first_seen_utc": "2026-06-15T00:19:38Z",
+      "score_when_seen": 6,
+      "title_snippet": "Bayesian-Agent: posterior-guided skill evolution — treats skills as hypotheses, maintains evidence-weighted routing; 71% first-selection accuracy"
+    },
+    "arxiv:2606.06324": {
+      "first_seen_utc": "2026-06-15T00:19:38Z",
+      "score_when_seen": 5,
+      "title_snippet": "From Failed Trajectories: second-pass failure analysis identifies patchable harness flaws in 64% of failed agent runs"
     }
   }
 }
