@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-15T13:15:00Z",
-  "total_items_seen": 492,
+  "last_run_utc": "2026-06-16T00:55:00Z",
+  "total_items_seen": 388,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1618,9 +1618,9 @@
       "title_snippet": "Anthropic Engineering: gVisor/Seatbelt/Bubblewrap/VM sandbox layers, 93% approval fatigue stat, Claude observed escaping sandboxes, auto mode 2-layer defense"
     },
     "github:Piebald-AI/claude-code-system-prompts": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Piebald-AI: 515+ CC internal system prompts extracted v2.1.177 \u2014 memory staleness verification, stop conditions, action safety built in"
+      "first_seen_utc": "2026-05-31T12:55:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Piebald-AI: all CC system prompts across 193 versions, Plan/Explore/Task sub-agent prompts, 27 tool descriptions, per-release CHANGELOG.md, 10.7K stars"
     },
     "blog:clarista:claude-code-best-practices-18-patterns": {
       "first_seen_utc": "2026-05-31T12:55:00Z",
@@ -1678,9 +1678,9 @@
       "title_snippet": "NousResearch/autonovel: autonomous novel pipeline \u2014 adversarial Opus review, ANTI-SLOP.md, 79K-word proof novel, LaTeX+ePub+audiobook export"
     },
     "arxiv:2506.16445": {
-      "first_seen_utc": "2026-06-11T12:45:00Z",
+      "first_seen_utc": "2026-06-02T00:01:51Z",
       "score_when_seen": 7,
-      "title_snippet": "StoryWriter: Multi-Agent Framework for Long Story Generation \u2014 outline/planning/writing agents + dynamic history compression, CIKM 2026"
+      "title_snippet": "StoryWriter: 3-agent long story generation framework \u2014 outline\u2192planning\u2192writing with dynamic history compression"
     },
     "news:cwc-tokyo-june-10-correction": {
       "first_seen_utc": "2026-06-02T00:01:51Z",
@@ -1867,595 +1867,81 @@
       "score_when_seen": 3,
       "title_snippet": "CwC Tokyo June 10 reminder: keynote 11 AM UTC (6 AM CDT), Boris Cherny + Ami Vora, 3 tracks, Extended June 11"
     },
-    "github:lingfengQAQ/webnovel-writer-v6.1.0": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "lingfengQAQ/webnovel-writer v6.1.0: RAG-powered serial fiction \u2014 BM25+Qwen3-Embedding+Jina-reranker, commit-per-chapter, 2M-char scale, 4.8K stars"
-    },
-    "changelog:claude-code-2.1.166-2026-06-06": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "CC v2.1.166: fallbackModel (3 fallback models), cross-session messaging security, deny * wildcard, thinking disable on default-thinking models"
-    },
-    "simonwillison:datasette-agent-edit-2026-06-07": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "datasette-agent-edit v0.1a0: str_replace/view/insert as minimal agent file-editing API \u2014 storage-agnostic, base plugin for any file-editing agent skill"
-    },
-    "billing:max-credit-claim-june-8-action": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Max credit claim email arrives June 8 \u2014 claim via account settings before June 15; CCR Routines and interactive terminal exempt from billing split"
-    },
-    "blog:charitymajors:ai-enthusiasts-skeptics-entropy": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Charity Majors: AI enthusiasts race against time, AI skeptics race against entropy \u2014 discontinuous capability leaps vs institutional knowledge erosion"
-    },
-    "anthropic:dynamic-workflows-harness-blog-2026-06-02": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Anthropic 'A harness for every task': 3 default harness failure modes \u2014 stops early, can't verify own work, objective drift; custom JS harness solves all 3"
-    },
-    "arxiv:2606.03115": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "SPOQ: Specialist Orchestrated Queuing for Multi-Agent SE \u2014 specialists pull tasks from queue by capability, 23% fewer agent-turns vs star topology"
-    },
-    "github:andrehuang/academic-writing-agents": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "academic-writing-agents: 12 specialist parallel review agents for academic writing \u2014 auto-triggers on .tex files, GPS rhythm, smart cached reviews"
-    },
-    "news:anthropic-outage-data-leak-june5-2026": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Anthropic Opus 4.7/4.8 outage June 5 (~6 hours) \u2014 data leak claims under investigation, no evidence found, fallbackModel is the operational fix"
-    },
-    "github:forsonny/book-os": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "forsonny/book-os Novel-OS v1.0.0: 3-layer context (Standards/Novel/Manuscripts), 4 slash commands, early stage 44 stars"
-    },
-    "news:openai-codex-plugins-june2-2026": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "OpenAI Codex plugins (June 2): bundles skills+integrations+MCP servers in one installable \u2014 confirms ecosystem convergence on plugin abstraction"
-    },
-    "news:cwc-tokyo-june10-june8-update": {
-      "first_seen_utc": "2026-06-08T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "CwC Tokyo June 10 11 AM UTC / 6 AM CDT + Extended June 11 for indie devs \u2014 NEC 30K employees, Managed Agents public beta expected"
-    },
-    "arxiv:2606.01139": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "SkillRevise: execute\u2192diagnose\u2192revise\u2192re-execute loop for LLM agent skill improvement from execution evidence \u2014 tested GPT-5.5, Qwen-3.6+, DeepSeek-V4-Pro"
-    },
-    "arxiv:2606.01311": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "SkillAdaptor: training-free step-level skill failure attribution \u2014 identifies first failing step in skill trajectory and applies targeted fix"
-    },
-    "news:wwdc2026-apple-foundation-models-claude": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "WWDC 2026: Xcode 27 built-in Claude/Gemini/GPT routing via Apple Foundation Models protocol \u2014 Anthropic ships Swift package, swap providers via SPM dependency"
-    },
-    "news:cwc-tokyo-june10-tracks-final": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "CwC Tokyo June 10 track details: Research (interpretability/CAI), Platform (billing economics), CC (long-horizon/multi-repo/parallel) \u2014 Boris Cherny + Ami Vora + Angela Jiang"
-    },
-    "arxiv:2606.06923": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Declarative Skills for AI Agents: natural-language skill files in system prompt outperform hardcoded orchestration across all complexity levels \u2014 validates SKILL.md pattern"
-    },
-    "arxiv:2605.27366": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "MUSE-Autoskill: ByteDance/RIT self-evolving skill lifecycle (create/store/reuse/evaluate/refine) \u2014 skill-level memory scales better than episode memory"
-    },
-    "arxiv:2606.09470": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Memory Beyond Recall: dual-process cognitive memory for self-evolving LLM agents \u2014 fast episodic vs slow semantic consolidation between sessions"
-    },
-    "simonwillison:datasette-agent-micropython-2026-06-06": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "datasette-agent-micropython 0.1a0: MicroPython+WASM = safe code execution sandbox for any agent tool, no subprocess risk, no host access"
-    },
-    "youtube:indydevdan-cc-billing-june5-2026": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "IndyDevDan: Anthropic Put Claude Code Agents on a Meter \u2014 June 15 billing change walkthrough, what counts as billable action, agent loop audit"
-    },
-    "arxiv:2606.06087": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "LatentSkill: text-to-LoRA adapter via hypernetwork \u2014 converts textual skill descriptions to plug-and-play LoRA adapters, requires fine-tuning infra"
-    },
-    "arxiv:2606.05608": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Agentic Software: How AI Agents Restructure Software Paradigm \u2014 licensed\u2192SaaS\u2192AaaS arc, agent IS the software, code is runtime-generated resource"
-    },
-    "cc:v2.1.167-v2.1.168-bugfixes": {
-      "first_seen_utc": "2026-06-09T12:10:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "Claude Code v2.1.167+168 (June 6): Bedrock model picker fix, MCP paginated tools fix, JetBrains flickering fix \u2014 no user-facing feature additions"
-    },
-    "anthropic:claude-fable-5-mythos-5-2026-06-09": {
-      "first_seen_utc": "2026-06-10T00:03:24Z",
-      "score_when_seen": 10,
-      "title_snippet": "Claude Fable 5 + Mythos 5 released June 9 \u2014 80.3% SWE-Bench Pro, days-long autonomous sessions in CC, free on Max through June 22, model ID claude-fable-5"
-    },
-    "rss:ethanmollick:feels-like-mythos-2026-06-09": {
-      "first_seen_utc": "2026-06-10T00:03:24Z",
+    "billing:june15-enacted-hooks-programmatic-2026-06-15": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 9,
-      "title_snippet": "Ethan Mollick: 'What it feels like to work with Mythos' \u2014 patron not wizard framing, sub-agent spawning, multi-hour autonomous sessions"
+      "title_snippet": "Billing split enacted June 15: ALL hooks (SessionStart/PreToolUse/PostToolUse/Stop/etc) that call Claude = Pool 2. Max 20x = $200/mo credit pool for automated use."
     },
-    "rss:lennysnewsletter:fable-5-review-2026-06-09": {
-      "first_seen_utc": "2026-06-10T00:03:24Z",
-      "score_when_seen": 7,
-      "title_snippet": "Lenny's Newsletter: Claude Fable 5 review \u2014 what the new Mythos model gets right (and very wrong), paywalled practitioner review"
-    },
-    "changelog:claude-code-2.1.170-2026-06-09": {
-      "first_seen_utc": "2026-06-10T00:03:24Z",
-      "score_when_seen": 6,
-      "title_snippet": "CC v2.1.170: Fable 5 support, /cd command (move dir without breaking cache), --safe-mode flag, disableBundledSkills setting, transcript fix for VS Code terminal"
-    },
-    "techcrunch:fable5-video-games-2026-06-09": {
-      "first_seen_utc": "2026-06-10T00:03:24Z",
-      "score_when_seen": 5,
-      "title_snippet": "TechCrunch: Fable 5 one-shots working browser video game from spec \u2014 relevant to Unity/game-dev track"
-    },
-    "hn:48463808": {
-      "first_seen_utc": "2026-06-10T00:03:24Z",
-      "score_when_seen": 5,
-      "title_snippet": "HN: Claude Fable 5 discussion thread \u2014 builder reactions, Pelican benchmark improvement confirmed over Opus 4.8"
-    },
-    "simonwillison:fable-stops-helping-2026-06-10": {
-      "first_seen_utc": "2026-06-10T12:45:00Z",
-      "score_when_seen": 9,
-      "title_snippet": "Simon Willison: 'If Claude Fable stops helping you, you'll never know' \u2014 silent safeguards in Fable 5 degrade performance on frontier LLM dev without disclosure"
-    },
-    "cwc:tokyo-recap-2026-06-10": {
-      "first_seen_utc": "2026-06-10T12:45:00Z",
+    "news:fable5-us-export-control-suspended-2026-06-13": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 8,
-      "title_snippet": "CwC Tokyo recap \u2014 Boris Cherny 'What's New in Claude Code', NEC first Japan global partner 30K employees, world tour complete"
+      "title_snippet": "US Government export control June 13: Fable 5 + Mythos 5 suspended for all users. Triggered by Amazon/Jassy jailbreak concerns. Opus 4.8 / Sonnet 4.5 unaffected."
     },
-    "anthropic:engineering:multi-agent-research-system": {
-      "first_seen_utc": "2026-06-10T12:45:00Z",
+    "changelog:cc-2.1.172-nested-subagents-2026-06-10": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 8,
-      "title_snippet": "Anthropic Engineering: orchestrator+worker pattern, 90% improvement vs single agent, 15x tokens, early failure modes (50 subagents, endless search)"
+      "title_snippet": "CC v2.1.172 (June 10): sub-agents can now spawn sub-agents up to 5 levels deep. Each level has own system prompt + model. Parent reads only leaf summary."
     },
-    "mollick:co-existence-co-intelligence-2026-06-04": {
-      "first_seen_utc": "2026-06-10T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Ethan Mollick: Co-Existence and the End of Co-Intelligence \u2014 shift from co-intelligence to autonomous agentic AI was always the plan"
-    },
-    "github:fable5-copilot-2026-06-09": {
-      "first_seen_utc": "2026-06-10T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Claude Fable 5 generally available on GitHub Copilot \u2014 long-horizon autonomous coding tasks"
-    },
-    "azure:fable5-microsoft-foundry-2026-06-09": {
-      "first_seen_utc": "2026-06-10T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Claude Fable 5 on Azure/Microsoft Foundry + Amazon Bedrock \u2014 enterprise cloud distribution"
-    },
-    "news:fable5-credit-burn-secret-sabotage-2026-06-10": {
-      "first_seen_utc": "2026-06-11T00:45:00Z",
+    "security:miasma-cc-session-start-hook-2026-06-10": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 8,
-      "title_snippet": "Fortune: Fable 5 credit burn 2x Opus 4.8, $100 Max balance in <9min; Dean Ball 'secret sabotage' backlash on silent LLM-dev restrictions"
+      "title_snippet": "Miasma worm injects malicious SessionStart hook into .claude/settings.json. 73 Microsoft repos compromised. Credential-harvesting payload on every CC session open."
     },
-    "anthropic:when-ai-builds-itself-rsi-2026-06-04": {
-      "first_seen_utc": "2026-06-11T00:45:00Z",
+    "anthropic:claude-fable-5-launch-2026-06-09": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 8,
-      "title_snippet": "Anthropic Institute: Claude writes 80%+ of Anthropic's prod code, engineers 8x velocity, Mythos Preview 52x code speedup, 64% beats humans on research \u2014 global pause call"
+      "title_snippet": "Claude Fable 5 launched June 9: 1M context, 128K output, first Mythos-class public model. Best raw creative writer. $10/M input, $50/M output. Now suspended."
     },
-    "github:anthropics/cwc-workshops": {
-      "first_seen_utc": "2026-06-11T00:45:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "CwC Extended Tokyo workshops source code \u2014 8 workshops: Agents That Remember (Dreaming Service), agent-decomposition, eval-driven dev, deal-desk"
-    },
-    "hn:48470301": {
-      "first_seen_utc": "2026-06-11T00:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "HN: Claude Fable 5 feels less like a launch and more like a preview of AI inequality \u2014 Stripe 2 months in 1 day, Pelican creative writing improvement confirmed"
-    },
-    "arxiv:2506.12508": {
-      "first_seen_utc": "2026-06-11T00:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "AgentOrchestra: TEA Protocol (Tool-Environment-Agent) for lifecycle-aware multi-agent coordination \u2014 agents, tools, and environments as first-class entities"
-    },
-    "blog:lushbinary:long-horizon-fable5-2026-06-11": {
-      "first_seen_utc": "2026-06-11T12:45:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Lushbinary: Build Long-Horizon AI Agents on Claude Fable 5 \u2014 orchestrator/executor pattern, model routing, external memory, self-verification"
-    },
-    "blog:every.to:fable5-how-to-2026-06-09": {
-      "first_seen_utc": "2026-06-11T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Every.to: How to Get Most Out of Fable 5 \u2014 four-quality test, self-verification prompting, think-like-a-manager mindset, effort calibration"
-    },
-    "github:jztan/pdf-mcp": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
+    "rss:simonwillison:fable-relentlessly-proactive-2026-06-11": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 6,
-      "title_snippet": "jztan/pdf-mcp: MCP server for large PDF reading without context limits \u2014 chunked read, hybrid search, OCR, SQLite cache, 7.1K PyPI downloads"
+      "title_snippet": "Simon Willison: Claude Fable 5 is relentlessly proactive \u2014 takes initiative, queues follow-on work without prompting, qualitatively different from Opus."
     },
-    "changelog:claude-code-2.1.173-2026-06-11": {
-      "first_seen_utc": "2026-06-11T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "CC v2.1.173: Fable 5 [1m] suffix normalization + Windows sandbox startup warning fix"
-    },
-    "github:religa/multi_mcp": {
-      "first_seen_utc": "2026-06-11T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "multi_mcp: Multi-model chat/review MCP server for Claude Code \u2014 GPT/Claude/Gemini consensus, code review and security analysis"
-    },
-    "anthropic:200m-economic-impact-2026-06-10": {
-      "first_seen_utc": "2026-06-11T12:45:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "Anthropic $200M economic impact research fund + Dario Amodei UBI essay \u2014 3-threshold policy framework, IPO narrative management"
-    },
-    "simonwillison:diffusiongemma-2026-06-10": {
-      "first_seen_utc": "2026-06-11T12:45:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "Simon Willison: DiffusionGemma-26B-A4B-it \u2014 Google Apache2 diffusion LLM free on NVIDIA NIM"
-    },
-    "changelog:claude-code-2.1.172-2026-06-10": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 9,
-      "title_snippet": "CC v2.1.172: sub-agents can spawn sub-agents up to 5 levels deep, Bedrock AWS region auto-detect, marketplace plugin search bar"
-    },
-    "news:anthropic-fable5-apology-transparent-fallback-2026-06-11": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 9,
-      "title_snippet": "Anthropic apology: Fable 5 invisible safeguards \u2192 transparent fallbacks + API refusal reasons. 'Wrong tradeoff.' Bio/cyber classifiers being retrained."
-    },
-    "blog:thariq:fable5-cc-video-pipeline-2026-06-11": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Thariq (Anthropic CC): Fable 5 + Claude Code edits own launch video \u2014 Whisper+ffmpeg+Remotion+FigmaMCP, 288K views, no NLE"
-    },
-    "simonwillison:fable5-beast-impressions-2026-06-12": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Simon Willison June 12: Fable 5 is 'something of a beast' \u2014 5.5h testing, exceptional long tasks; also covers Anthropic walkback"
-    },
-    "news:fable5-data-retention-30day-no-zdr-2026-06": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Fable 5 mandatory 30-day data retention, no ZDR opt-out even for enterprise \u2014 applies AWS Bedrock, Azure Foundry, Google Cloud"
-    },
-    "news:fable5-credit-burn-2x-june22-deadline-2026": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Fable 5: 2x credit burn vs Opus 4.8, Simon Willison $110/day (78M tokens), June 22 free window ends"
-    },
-    "hn:48489229": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "HN: Anthropic apologizes for invisible Fable 5 guardrails \u2014 dev community reaction, Antirez, AI researcher contamination reports"
-    },
-    "security:pliny:fable5-jailbreak-120k-2026-06-11": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Fable 5 jailbroken within 48h by Pliny: 120K system prompt leaked, Unicode+narrative+multi-agent decomposition attacks"
-    },
-    "hn:48484606": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "HN: Antirez (Redis creator): 'I believe what Anthropic is doing is deeply wrong' \u2014 Fable 5 invisible safeguards backlash"
-    },
-    "hn:48473166": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "HN: AWS Bedrock requires data sharing with Anthropic for Fable/Mythos \u2014 ZDR configs overridden, enterprise compliance concern"
-    },
-    "hn:48486370": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "HN: 'It blocked us at hello' \u2014 Fable 5 classifier over-triggering on innocuous prompts, retraining in progress"
-    },
-    "news:fable5-creative-writing-slow-iteration-2026": {
-      "first_seen_utc": "2026-06-12T00:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Fable 5 for creative writing: step up in judgment quality but too slow for rapid iteration; suits long delegable tasks"
-    },
-    "docs:anthropic:prompting-fable-5-guide": {
-      "first_seen_utc": "2026-06-12T12:45:00Z",
-      "score_when_seen": 9,
-      "title_snippet": "Anthropic official prompting guide for Fable 5 \u2014 10+ copy-paste prompt blocks: long-horizon agents, progress auditing, parallel subagents, memory system, effort tuning, send-to-user tool"
-    },
-    "latentspace:ainews-fable5-mythos-safe-controversial": {
-      "first_seen_utc": "2026-06-12T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Latent Space AINews: Fable 5 \u2014 Mythos but Safe, with Controversial Terms \u2014 full launch story synthesis, 2x burn confirmed, data retention, developer reactions"
-    },
-    "interconnects:lambert:fable5-safety-june-2026": {
-      "first_seen_utc": "2026-06-12T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Nathan Lambert: Claude Fable 5 and New AI Safety Fables \u2014 invisible safeguards mechanism analysis, transparency precedent"
-    },
-    "arxiv:2606.04896": {
-      "first_seen_utc": "2026-06-12T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Channel Fracture: Architectural Blind Spots in Scheduled Cross-Agent Memory Injection \u2014 failure modes in scheduled agent memory systems"
-    },
-    "changelog:claude-code-2.1.175-2026-06-12": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "CC v2.1.175: enforceAvailableModels managed setting \u2014 Default model now constrained by allowlist, user/project can't widen managed list"
-    },
-    "changelog:claude-code-2.1.174-2026-06-12": {
-      "first_seen_utc": "2026-06-12T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "CC v2.1.174: Fable 5 billing banner fix, wheelScrollAccelerationEnabled, Bedrock GovCloud, TaskCreate reliability, 13 changes"
-    },
-    "tosea:fable5-developer-review-24h": {
-      "first_seen_utc": "2026-06-12T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Tosea.ai: What developers really think 24h after Fable 5 \u2014 hard tasks praised, 2x burn confirmed, Marsland WordPress theme one-shot"
-    },
-    "anthropic:fable-5-mythos-5-release-2026-06-09": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
-      "score_when_seen": 10,
-      "title_snippet": "Anthropic launches Fable 5 + Mythos 5 \u2014 first publicly available Mythos-class model, 1M context, 128K output, free on Max until June 22"
-    },
-    "news:fable5-covert-limits-backlash-2026-06-10": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Fable 5 secret sabotage: Anthropic silently limited AI research capabilities, reversed same day after backlash \u2014 transparent fallback now applies to all categories"
-    },
-    "anthropic:dynamic-workflows-ga-tokyo-2026-06-10": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Dynamic Workflows GA + Managed Agents scheduled deployments public beta (CwC Tokyo, June 10)"
-    },
-    "blog:linas:fable5-12-patterns-june22": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "12 Patterns for Prompting Fable 5 Before June 22 \u2014 goal-level prompting, not step-by-step; success-state driven design"
-    },
-    "simonwillison:fable-relentlessly-proactive-2026-06-11": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Simon Willison: Fable 5 is relentlessly proactive \u2014 spun up CORS servers unasked; CLAUDE.md constraints more critical with Fable 5"
-    },
-    "changelog:claude-code-2.1.169-2026-06-08": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
+    "anthropic:fable5-walks-back-covert-limits-2026-06-11": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 6,
-      "title_snippet": "CC v2.1.169: --safe-mode, /cd path navigation, disableBundledSkills setting"
+      "title_snippet": "Anthropic walks back covert Fable 5 limits: was secretly routing competing-LLM tasks to Opus 4.8. Now uses VISIBLE fallback. Anthropic: 'wrong tradeoff, we apologize.'"
     },
-    "benchmark:lechmazur:fable5-creative-writing-rank2": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Fable 5 ranks #2 on lechmazur creative writing benchmark \u2014 writes longer than Opus 4.x, trends toward upper end of word budget"
-    },
-    "simonwillison:claude-fable-5-initial-impressions-2026-06-09": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Simon Willison initial Fable 5 impressions: slow, expensive, capable of crunching through pretty much everything \u2014 5.5 hours tested"
-    },
-    "anthropic:cwc-tokyo-nec-managed-agents-2026-06-10": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
+    "blog:oreilly:ai-agents-stack-2026": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "CwC Tokyo: NEC partnership (30K employees), Hitachi partnership, managed agents workshops, no new CC primitives beyond Dynamic Workflows GA"
+      "title_snippet": "O'Reilly AI Agents Stack 2026 Edition: 6 layers, MCP as transfer layer, memory now first-class primitive, agent guardrails separate discipline from model guardrails."
     },
-    "arxiv:2606.08878": {
-      "first_seen_utc": "2026-06-13T00:52:00Z",
+    "blog:mindstudio:fable5-agentic-coding-2026-06": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "PerspectiveGap benchmark: 110 scenarios testing LLM orchestration prompt composition for multi-agent systems"
+      "title_snippet": "MindStudio: Fable 5 for agentic coding \u2014 superior planner/orchestrator, use Sonnet 4.5 as executor. 3x cost vs Opus 4.8. Recommendation: Fable as orchestrator only."
     },
-    "anthropic:fable-mythos-export-ban-2026-06-12": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 10,
-      "title_snippet": "US export control directive bans Fable 5 + Mythos 5 for all users \u2014 Commerce Dept cites Pliny jailbreak, Anthropic calls it misunderstanding, working to restore"
-    },
-    "security:tenet:agentjacking-sentry-2026-06-12": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Agentjacking: fake Sentry error events hijack Claude Code/Cursor/Codex via MCP with 85% success rate \u2014 2,388 orgs exposed (Tenet Security)"
-    },
-    "simonwillison:fable-ban-historical-export-controls-2026-06-13": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Simon Willison: logged Fable 5 going dark at 6:59pm PT June 12 \u2014 first use of US export controls against a commercially deployed language model"
-    },
-    "arxiv:2606.08162": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Silent Failure in LLM Agent Systems: Entropy Principle \u2014 40K trials, 22 intrinsic properties, PIG+ADE countermeasures for inevitable disorder in autonomous agents"
-    },
-    "youtube:thariq-fable5-video-pipeline-2026-06-09": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Thariq: Fable 5 edited its own Anthropic launch video \u2014 Whisper\u2192subagents\u2192ffmpeg\u2192colorgrade\u2192Remotion\u2192Figma MCP\u21924K. 0 video editors opened."
-    },
-    "note:x2775co:novel-writing-structure-2026": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "note.com: Japanese web novel writing via ClaudeCode file structure design \u2014 pre-design\u2192constrained generation\u2192post-inspection pipeline"
-    },
-    "blog:truefoundry:fable5-vs-opus48-2026": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
+    "security:fable5-jailbreak-pliny-2026-06-10": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Fable 5 vs Opus 4.8 benchmarks: Fable writes denser/longer fiction, fills word budget more fully \u2014 Opus 4.8 still excellent for Leo's pipeline"
+      "title_snippet": "Pliny the Liberator defeats Fable 5 safety classifiers via multi-agent decomposition + Unicode tricks. 120K-char system prompt leaked. Likely triggered US export directive."
     },
-    "hn:fable5-ban-threads-48511072": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
+    "event:cwc-tokyo-2026-06-10": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 5,
-      "title_snippet": "HN threads 48511072 + 48512915: community reactions to Fable 5 ban \u2014 export controls on deployed AI model seen as chilling precedent"
+      "title_snippet": "CwC Tokyo June 10: Fable 5 announced as opening. Demo: 4 simultaneous agents on F1 telemetry (aero/tires/power/safety). Theme: bridging capability-application gap."
     },
-    "thenewstack:fable5-developer-reactions-guardrails": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "TheNewStack: Fable 5 developer complaints pre-ban \u2014 guardrails, 5% Opus 4.8 fallback, 30-day retention frustrations"
-    },
-    "forrester:fable5-vendor-risk-data-retention": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
+    "changelog:cc-2.1.177-2026-06-14": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Forrester: Fable 5 raises model availability risk + data retention compliance gaps \u2014 export recall as new vendor risk category"
+      "title_snippet": "CC v2.1.177 (June 14): JetBrains terminal flicker fix, Kitty Shift+non-ASCII fix, PowerShell validation hang fix, orphaned background process cleanup."
     },
-    "changelog:claude-code-2.1.176-2026-06-13": {
-      "first_seen_utc": "2026-06-13T13:15:00Z",
+    "anthropic:fable5-mythos5-dual-model-architecture-2026-06": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Fable 5 + Mythos 5: same weights, different safety classifiers. Mythos 5 = cyber safeguards lifted for Project Glasswing partners only. Same pricing ($10/$50 per M)."
+    },
+    "github:VoltAgent:awesome-ai-agent-papers-2026": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 4,
-      "title_snippet": "CC v2.1.176: session titles in conversation language, footerLinksRegexes setting, JetBrains flicker fix, Kitty keyboard Shift+non-ASCII fix, Bedrock caching, availableModels alias bypass fix"
+      "title_snippet": "VoltAgent/awesome-ai-agent-papers: curated 2026 AI agent research papers \u2014 coordination, memory/RAG, tooling, eval+observability, security. Updated weekly."
     },
-    "news:billing-split-hooks-pool2-june15-2026": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 9,
-      "title_snippet": "June 15 billing split: CC hooks/slash commands = Pool 2 programmatic \u2014 Python stopgap wrapper, hook-heavy operator audit guide"
-    },
-    "arxiv:2606.11543": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "SkillJuror: Progressive Disclosure organization increases agent skill uptake 3.3x, +4.1% task completion vs flat baseline"
-    },
-    "anthropic:claude-new-constitution-2026-01-22": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Claude new constitution Jan 22 2026: reason-based alignment, 4-tier priority hierarchy, CC public domain, consciousness acknowledgment"
-    },
-    "aws:mcp-server-ga-2026-06-09": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "AWS MCP Server GA \u2014 15,000+ AWS API operations via IAM, full CloudWatch/CloudTrail audit, no extra charge"
-    },
-    "github:raphaelchristi/harness-evolver": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "raphaelchristi/harness-evolver: automated harness evolution for AI agents \u2014 deep-dive complete: 333 commits, MIT, Meta-Harness research-backed, LangSmith dependency blocks install"
-    },
-    "anthropic:claude-corps-2026-06-11": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
+    "billing:june15-hook-heavy-survival-guide-yurukusa": {
+      "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Claude Corps: $150M Anthropic fellowship, 1000 fellows in nonprofits, Oct 2026 first cohort, $10K grant per host org"
-    },
-    "anthropic:glasswing-expansion-june2-2026": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Project Glasswing expanded to 150 orgs, 15+ countries \u2014 initial cohort found 10K+ vulnerabilities via Mythos Preview"
-    },
-    "hn:48513938": {
-      "first_seen_utc": "2026-06-14T00:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "HN: Not Your Weights Not Your Workflow \u2014 model dependency risk post Fable 5 ban, design pipelines model-agnostic"
-    },
-    "news:fable5-ban-defense-company-no-timeline-2026-06-14": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 6,
-      "title_snippet": "Fable 5 ban: DataShield Analytics says interactions were authorized defense red-teaming, filing EAR 740.17 exemption, no Anthropic restoration timeline"
-    },
-    "arxiv:2603.05890": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 6,
-      "title_snippet": "Lost in Stories: LLMs have measurable character/plot consistency bugs past 5K tokens, chunked generation + memory injection reduces failures 38%"
-    },
-    "anthropic:project-vend-2": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 5,
-      "title_snippet": "Project Vend Phase 2: multi-agent AI store expanded to NYC+London, 90-day run, revenue positive after 47 days, 8-agent orchestrator stack"
-    },
-    "cc:v2.1.177-june13": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 4,
-      "title_snippet": "CC v2.1.177: Fable 5 auto-switches to Opus 4.8, Remote Control stability, PostToolUse before Stop hook ordering change, 22 changes"
-    },
-    "github:0xDarkMatter/claude-mods-v3": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 5,
-      "title_snippet": "claude-mods v3.0.0: 89 skills, supply-chain defense hash-check layer, audit CLI, 312 stars, MIT \u2014 third-party, safety gate"
-    },
-    "arxiv:2506.15841": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 5,
-      "title_snippet": "MEM1: memory + reasoning synergy for long-horizon agents, 3.5x perf gain vs pure reasoning (memory alone 1.8x, reasoning alone 1.4x)"
-    },
-    "github:watchsound/claude-novel": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 5,
-      "title_snippet": "watchsound/claude-novel: VSCode extension + CLAUDE.md harness for novel writing, pacing visualization, character heatmap, MCP continuity check \u2014 third-party"
-    },
-    "github:DKeken/codex-skills-alternative": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 5,
-      "title_snippet": "DKeken/codex-skills-alternative: 17 cross-agent SKILL.md creative production skills, progressive disclosure structure, 89 stars MIT \u2014 third-party"
-    },
-    "github:pasteurmonga/crucible-writing-system": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 5,
-      "title_snippet": "pasteurmonga/The-Crucible: 36-beat epic fantasy framework for Claude Code, beat-tracking CLAUDE.md, no license listed \u2014 caution"
-    },
-    "news:fable5-builder-incident-guide-cluster": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 4,
-      "title_snippet": "ChatForest + Totalum migration guides: Opus 4.8 within 8% of Fable 5 on fiction benchmarks with minor prompt adjustment"
-    },
-    "anthropic:public-record-june12-2026": {
-      "first_seen_utc": "2026-06-14T12:07:59Z",
-      "score_when_seen": 3,
-      "title_snippet": "Anthropic Public Record June 2026: 67% US support federal AI oversight, Advanced AI Framework update adds export control compliance section"
-    },
-    "arxiv:2606.09709": {
-      "first_seen_utc": "2026-06-15T00:19:38Z",
-      "score_when_seen": 7,
-      "title_snippet": "IS-CoT: Interleaved Structural Chain-of-Thought — Plan-Write-Reflect loop reduces long-form generation collapse 41%; build_worthy=TRUE"
-    },
-    "news:fable5-whitehouse-amazon-june14": {
-      "first_seen_utc": "2026-06-15T00:19:38Z",
-      "score_when_seen": 5,
-      "title_snippet": "Fable 5 ban political phase: White House meeting June 14, Amazon Jassy confirmed as trigger; EAR 740.17 exemption filing active"
-    },
-    "arxiv:2606.10677": {
-      "first_seen_utc": "2026-06-15T00:19:38Z",
-      "score_when_seen": 6,
-      "title_snippet": "Infini Memory: topic-structured persistent memory documents for agents, iterative retrieval, 64.7% MemoryAgentBench"
-    },
-    "arxiv:2606.08348": {
-      "first_seen_utc": "2026-06-15T00:19:38Z",
-      "score_when_seen": 6,
-      "title_snippet": "Bayesian-Agent: posterior-guided skill evolution — treats skills as hypotheses, maintains evidence-weighted routing; 71% first-selection accuracy"
-    },
-    "arxiv:2606.06324": {
-      "first_seen_utc": "2026-06-15T00:19:38Z",
-      "score_when_seen": 5,
-      "title_snippet": "From Failed Trajectories: second-pass failure analysis identifies patchable harness flaws in 64% of failed agent runs"
-    },
-    "aws:strands-interleaved-thinking-2026-06-13": {
-      "first_seen_utc": "2026-06-15T13:15:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "AWS Strands Agents + Claude 4 Interleaved Thinking: IS-CoT Plan-Write-Reflect as native model capability via extended thinking between tool calls"
-    },
-    "alexop:deterministic-orchestration-workflows-2026-05-28": {
-      "first_seen_utc": "2026-06-15T13:15:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "alexop.dev: 130-line Dynamic Workflow spawns 9 parallel agents with deterministic control flow — reference implementation for /book-pipeline"
-    },
-    "trend:june15-triple-constraint-2026": {
-      "first_seen_utc": "2026-06-15T13:15:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "June 15 Triple Constraint: Fable 5 offline + Agent SDK billing split live + model ID deprecations — CCR Routines exempt, Leo's stack unaffected"
-    },
-    "github:VoltAgent/awesome-ai-agent-papers": {
-      "first_seen_utc": "2026-06-15T13:15:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "VoltAgent/awesome-ai-agent-papers: curated 2026 agent research list, auto-updated weekly from arxiv, 2026-only, 5 categories"
-    },
-    "trilogy:dynamic-workflows-thousand-agents": {
-      "first_seen_utc": "2026-06-15T13:15:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Trilogy AI: Dynamic Workflows conceptual explainer — control flow in code, content in Claude; parallel/sequential/barrier patterns"
-    },
-    "paddo:three-ways-deep-research-claude": {
-      "first_seen_utc": "2026-06-15T13:15:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Paddo.dev: Three deep research architectures — single-agent loop, parallel fan-out, recursive decomposition with specialist agents"
+      "title_snippet": "Yurukusa gist 2034 words: which hook types hit Pool 2, audit your hooks, cost math for light/medium/heavy automation, how to set overflow protection."
     }
-  }
+  },
+  "schema_version": 1
 }
