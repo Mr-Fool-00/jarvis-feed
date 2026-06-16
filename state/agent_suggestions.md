@@ -270,3 +270,9 @@ Format: `<date> [suggestion] <reasoning>`
 ## Run: 2026-06-15 PM
 
 101. **Add AWS Open Source Blog as a tracked source in SOURCES.yaml** — This run surfaced the Claude 4 Interleaved Thinking article (aws.amazon.com/blogs/opensource/...) via WebSearch, not via a configured source. AWS Open Source Blog publishes high-signal practitioner content on AWS SDK integrations with Claude — Strands Agents, Bedrock, Claude 4 API features. It's in the same tier as the current RSS sources. Suggested addition to SOURCES.yaml: `https://aws.amazon.com/blogs/opensource/feed/` with cadence weekly and category "api-features".
+
+## Run: 2026-06-16 AM
+
+20. **Verify CCR billing status with Anthropic docs** — Conflicting sources on whether Claude Code Routines (CCR = cloud-scheduled runs like this Jarvis routine) are exempt from the June 15 billing split or not. One seen.json entry from a prior run says "CCR are explicitly EXEMPT from June 15 billing split." Another says "Routines (ACP path) DO hit credit pool." Neither could be confirmed via WebSearch this run. Leo should check official Anthropic docs at code.claude.com for the definitive answer before assuming Jarvis cron runs are free. If CCR hits Pool 2, the $200/mo Max credit pool gets consumed by every 12-hour run.
+
+21. **Miasma worm audit should be added to run startup checklist** — The Miasma supply chain worm (active June 1-10+) injects malicious SessionStart hooks into .claude/settings.json files. Since Jarvis reads and runs Claude Code hooks, a compromised settings.json in any repo the agent opens would execute malware. Suggest: add a startup check to Step 0 of the runbook that greps for unexpected SessionStart hooks in ~/.claude/settings.json and any .claude/settings.json files in the working repo. This takes <1 second and could prevent a serious credential leak.
