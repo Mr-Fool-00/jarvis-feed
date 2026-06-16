@@ -110,3 +110,9 @@
 2026-06-16T00:55:00Z git_push_pat_failed: "Invalid username or token" — PAT auth rejected; using GitHub MCP push_files fallback
 2026-06-16T00:55:00Z slack-webhook-403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
 2026-06-16T00:55:00Z ccr_billing_status_unresolved: conflicting sources on whether CCR routines are exempt from June 15 billing split — needs Leo verification in official docs
+2026-06-16T12:45:00Z rss_feeds_403: all RSS feeds (simonwillison, anthropic, latent.space, lenny, pragmatic-engineer) HTTP 403 in CCR sandbox — content recovered via WebSearch
+2026-06-16T12:45:00Z youtube_403: all YouTube channel RSS/WebFetch endpoints blocked in CCR sandbox — 0 video items
+2026-06-16T12:45:00Z reddit_websearch: 0 indexed posts from r/ClaudeAI, r/LocalLLaMA, r/AI_Agents (consistent sandbox indexing gap)
+2026-06-16T12:45:00Z slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
+2026-06-16T12:45:00Z webfetch_403: github.blog, dev.to, github.github.com all 403; GitHub AW item sourced via WebSearch snippets only
+2026-06-16T12:45:00Z ccr_billing_unresolved_day2: CCR (this routine) billing classification still unresolved 12h after AM flag — no official Anthropic source found

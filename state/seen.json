@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-16T00:55:00Z",
-  "total_items_seen": 388,
+  "last_run_utc": "2026-06-16T12:45:00Z",
+  "total_items_seen": 394,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1941,6 +1941,36 @@
       "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 4,
       "title_snippet": "Yurukusa gist 2034 words: which hook types hit Pool 2, audit your hooks, cost math for light/medium/heavy automation, how to set overflow protection."
+    },
+    "github:agentic-workflows-public-preview-2026-06-11": {
+      "first_seen_utc": "2026-06-16T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "GitHub Agentic Workflows public preview (June 11): Markdown\u2192Actions YAML, Claude Code/Copilot/Codex agent engines, scheduled+event triggers, Actions minutes billing"
+    },
+    "arxiv:2606.10677": {
+      "first_seen_utc": "2026-06-16T12:45:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Infini Memory: topic-document architecture for LLM agent memory \u2014 64.7% MemoryAgentBench, iterative tool-call retrieval vs flat RAG"
+    },
+    "changelog:cc-2.1.178-2026-06-15": {
+      "first_seen_utc": "2026-06-16T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "CC v2.1.178 (June 15): Tool(param:value) permission syntax, subagent spawn classifier pre-check, /doctor improvements, fd exhaustion fix"
+    },
+    "news:fable5-sacks-fix-or-deploy-2026-06-15": {
+      "first_seen_utc": "2026-06-16T12:45:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "David Sacks (PCAST): US gov gave Anthropic 'fix jailbreak or de-deploy' choice before Fable 5 export ban \u2014 implies path back requires classifier fix"
+    },
+    "arxiv:2606.09709": {
+      "first_seen_utc": "2026-06-15T13:00:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "IS-CoT: Breaking Long-form Generation Collapse via Interleaved Structural Thinking \u2014 Plan-Write-Reflect per generation step (already briefed 2026-06-15)"
+    },
+    "github:AgentShekel:agentic-workflow-filtered": {
+      "first_seen_utc": "2026-06-16T12:45:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "AgentShekel/agentic-workflow: 59 agents/46 skills \u2014 FILTERED: 3 stars, Yandex API token dependency, Codex MCP external calls (safety gate fail)"
     }
   },
   "schema_version": 1
