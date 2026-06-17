@@ -288,3 +288,13 @@ Format: `<date> [suggestion] <reasoning>`
 105. **Tool(param:value) permission syntax in CC v2.1.178 should update the pipeline settings.json** — The new syntax allows `Bash(command:git*)` style scoping. Current settings.json likely uses broad tool allowances. Recommend updating to scope permissions to the minimal needed set per operation. Draft config change: allow `Bash(command:git*)` for git ops, `Write(path:chapters/*)` for chapter output, `Read(path:*)` globally. This adds meaningful supply-chain defense without blocking functionality.
 
 106. **CCR billing still unresolved after 2 runs and 24h — this is the #1 operational risk this week** — The $200 Max 20x credit pool hits $0 and stops silently if CCR runs are Pool 2. At 2 runs/day × 45 minutes × Opus 4.8 rates (~$0.02-0.05/min at rough estimate), the pool could drain in 40-100 days. Given daily Jarvis runs, this matters. Leo must verify this week before assuming the system is sustainable.
+
+## Run: 2026-06-17 PM
+
+107. **Billing concern CLOSED — suggestions #20, #102, #106 resolved** — The Pool 2 billing split was paused on June 15, 2026 (its own effective date) due to developer feedback. CCR runs are safe on current Max subscription. Close the loop on open billing tracking. No action needed from Leo except a one-time billing portal spot-check. Future watch: when Anthropic re-announces revised billing (30 days notice required), re-evaluate CCR classification at that time.
+
+108. **`git checkout main` STILL not in AGENT_RUNBOOK.md — 6th logged instance** — Suggestions #21, #23, #26, #79, #97, #103, and now #108. This run succeeded without hitting it only because of the prior-run pull/rebase fix. The fix is a single line: add `git checkout main 2>/dev/null || git checkout -b main` as the FIRST command in AGENT_RUNBOOK.md Step 0. At this point it should be treated as a known bug in the runbook, not a suggestion.
+
+109. **Monitor isfable5back.com as Fable 5 restoration signal** — Community-run status page for Fable 5 availability. When it flips from "not available" to "available," that's the signal to update CC auto-mode settings and verify Fable 5 is accessible in the CCR sandbox. Add to SOURCES.yaml as a lightweight status check item.
+
+110. **Washington DC talks = path to Fable 5 restoration** — Anthropic engineers are in active in-person talks with Commerce Dept (as of June 16). Watch for announcements in the Anthropic newsroom or on X/@AnthropicAI. A "classifier revision approved" announcement from Anthropic is the likely first signal. Model may come back with a version suffix (Fable 5.1 or similar).

@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-16T12:45:00Z",
-  "total_items_seen": 394,
+  "last_run_utc": "2026-06-17T12:21:15Z",
+  "total_items_seen": 397,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1971,6 +1971,21 @@
       "first_seen_utc": "2026-06-16T12:45:00Z",
       "score_when_seen": 3,
       "title_snippet": "AgentShekel/agentic-workflow: 59 agents/46 skills \u2014 FILTERED: 3 stars, Yandex API token dependency, Codex MCP external calls (safety gate fail)"
+    },
+    "news:anthropic-billing-pause-pool2-2026-06-15": {
+      "first_seen_utc": "2026-06-17T12:21:15Z",
+      "score_when_seen": 9,
+      "title_snippet": "Anthropic paused Pool 2 billing split on June 15 \u2014 effective date was same day as pause. CCR runs safe from programmatic billing charges. 30 days notice before any re-introduction."
+    },
+    "news:fable5-washington-dc-talks-2026-06-16": {
+      "first_seen_utc": "2026-06-17T12:21:15Z",
+      "score_when_seen": 6,
+      "title_snippet": "Anthropic engineers dispatched to Washington DC for in-person Commerce Dept talks (June 16) \u2014 first meeting since June 12 export control directive suspended Fable 5 + Mythos 5."
+    },
+    "news:g7-ai-ceos-summit-2026-06": {
+      "first_seen_utc": "2026-06-17T12:21:15Z",
+      "score_when_seen": 5,
+      "title_snippet": "G7 Evian-les-Bains (June 15-17): Altman, Amodei, Hassabis first joint appearance before world leaders. Amodei called for mandatory third-party AI audits + government block authority."
     }
   },
   "schema_version": 1
