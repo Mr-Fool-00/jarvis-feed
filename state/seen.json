@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-18T00:52:00Z",
-  "total_items_seen": 406,
+  "last_run_utc": "2026-06-18T13:15:00Z",
+  "total_items_seen": 413,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2031,6 +2031,41 @@
       "first_seen_utc": "2026-06-18T00:52:00Z",
       "score_when_seen": 3,
       "title_snippet": "Claude Corps: Anthropic $150M nonprofit fellowship for AI researchers/nonprofits. Off-profile for Leo's stack."
+    },
+    "arxiv:2602.16873": {
+      "first_seen_utc": "2026-06-18T13:15:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "AdaptOrch: meta-orchestrator selects multi-agent topology per task (chain/tree/star/mesh/debate). 12-23% improvement over static topology baselines using identical models. Key finding: topology selection > model selection."
+    },
+    "news:gemini-cli-retired-antigravity-2026-06-18": {
+      "first_seen_utc": "2026-06-18T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Google archives gemini-cli June 18, replaces with closed-source Antigravity CLI. 143 thumbs-down on GitHub. No MCP support in Antigravity. Migration discussions point explicitly to Claude Code."
+    },
+    "wwdc:apple-foundation-models-claude-2026-06-09": {
+      "first_seen_utc": "2026-06-18T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "WWDC 2026: iOS 27/macOS 27 LanguageModel protocol — Claude 4 supported as swappable backend via AnthropicLanguageModelAdapter. Xcode 27 dual-engine (Apple FM autocomplete + Claude Sonnet 4.6 for multi-file reasoning)."
+    },
+    "github:agent-reach-mcp-2026-06": {
+      "first_seen_utc": "2026-06-18T13:15:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Agent-Reach: 34K-star unified social MCP (Twitter/X, Instagram, LinkedIn, XiaoHongShu, YouTube, GitHub, RSS). Safety gate applied: unofficial platform access = ToS violations on Instagram/LinkedIn/XiaoHongShu/Twitter. Not recommended for install."
+    },
+    "news:fable5-korea-easing-2026-06-18": {
+      "first_seen_utc": "2026-06-18T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Digital Today (Korea, June 18): export controls on Fable 5 'expected to ease within days'. Kalshi: 57-59% July 1 return. BridgeMind 48h rumor expired without confirmation. Still offline."
+    },
+    "anthropic:claude-design-overhaul-2026-06": {
+      "first_seen_utc": "2026-06-18T13:15:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Claude Design: design system import (extract tokens from URL/file), /design command in Claude Code (split-pane live preview), 40-60% token efficiency fix on component generation tasks."
+    },
+    "news:anthropic-seoul-office-2026-06-17": {
+      "first_seen_utc": "2026-06-18T13:15:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Anthropic Seoul office opens June 17. MOUs: Samsung SDS, LG CNS, NAVER Cloud. MOU with Korea Ministry of Science and ICT for AI safety research. First NE Asia physical presence."
     }
   },
   "schema_version": 1
