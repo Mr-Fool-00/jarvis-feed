@@ -298,3 +298,13 @@ Format: `<date> [suggestion] <reasoning>`
 109. **Monitor isfable5back.com as Fable 5 restoration signal** — Community-run status page for Fable 5 availability. When it flips from "not available" to "available," that's the signal to update CC auto-mode settings and verify Fable 5 is accessible in the CCR sandbox. Add to SOURCES.yaml as a lightweight status check item.
 
 110. **Washington DC talks = path to Fable 5 restoration** — Anthropic engineers are in active in-person talks with Commerce Dept (as of June 16). Watch for announcements in the Anthropic newsroom or on X/@AnthropicAI. A "classifier revision approved" announcement from Anthropic is the likely first signal. Model may come back with a version suffix (Fable 5.1 or similar).
+
+## Run: 2026-06-18 AM
+
+111. **`git checkout main` STILL not in AGENT_RUNBOOK.md — 7th logged instance** — Suggestions #21, #23, #26, #79, #97, #103, #108, and now #111. This suggestion has been logged in every run since May 28. The fix is one line: `git checkout main 2>/dev/null || git checkout -b main` as the FIRST command in AGENT_RUNBOOK.md Step 0. If Leo is reading this, please add it manually — the agent cannot reliably update its own runbook mid-run without risking conflict.
+
+112. **Add Tenet Security to SOURCES.yaml blog discovery pass** — Suggestion #87 (June 13 PM) called for this. Still not actioned. Tenet Security's "Agentjacking" post (June 12) is the highest-quality Claude Code security research this month. Add: `WebSearch: "site:tenetsecurity.ai 2026"` to the blog discovery pass. Their research is responsible-disclosure quality and directly targets Leo's stack.
+
+113. **Adopt `fallbackModel` in CCR settings.json immediately** — CC v2.1.166 shipped `fallbackModel` (3-model chain for overload resilience). This is directly applicable to Jarvis CCR runs: if Opus 4.8 is overloaded, the routine fails silently. Adding `"fallbackModel": ["claude-sonnet-4-6", "claude-haiku-4-5-20251001"]` to .claude/settings.json would make runs resilient to API capacity spikes with zero code change. Suggest Leo enable this before the next high-load period.
+
+114. **Mid-execution human approval pattern (datasette-agent 0.2a0) is buildable as a PreToolUse hook** — Simon Willison's `context.ask_user()` pattern from datasette-agent 0.2a0 is directly portable to Claude Code as a `PreToolUse` hook. The hook would intercept `Write`, `Bash`, and `WebFetch` tool calls on sensitive paths and fire a confirmation prompt. This directly addresses the Agentjacking threat (Item #2 this run): if the agent tries to execute MCP output via Bash, the hook pauses and asks Leo before proceeding. Zero new dependencies — pure CC hook implementation. Suggest building when Leo approves.

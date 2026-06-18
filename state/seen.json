@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-17T12:21:15Z",
-  "total_items_seen": 397,
+  "last_run_utc": "2026-06-18T00:52:00Z",
+  "total_items_seen": 406,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1986,6 +1986,51 @@
       "first_seen_utc": "2026-06-17T12:21:15Z",
       "score_when_seen": 5,
       "title_snippet": "G7 Evian-les-Bains (June 15-17): Altman, Amodei, Hassabis first joint appearance before world leaders. Amodei called for mandatory third-party AI audits + government block authority."
+    },
+    "changelog:cc-2.1.181-2026-06-17": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "CC v2.1.181: /config key=value from prompt, auto-retry on mid-thinking API drops, subagent panel auto-hide + 5-row cap, CLAUDE_CLIENT_PRESENCE_FILE for push suppression, Bun 1.4, 5-level nesting enforced."
+    },
+    "security:tenet:agentjacking-sentry-mcp-2026-06": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Tenet Security: Agentjacking via fake Sentry error, 85% success rate across Claude Code/Cursor/Codex. 2,388 orgs targetable with single POST. Exfiltrates env vars + Git credentials. Sentry fix = denylist patch only."
+    },
+    "changelog:cc-week24-features-2026-06-08": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC Week 24 catch-up: fallbackModel (3-model overload chain), /cd (change dir without cache rebuild), --safe-mode (bypass all customizations for clean troubleshoot). Released June 8-12, v2.1.166-176."
+    },
+    "rss:simonwillison:datasette-agent-0.2a0-2026-06": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison datasette-agent 0.2a0: mid-execution human approval via context.ask_user(), execute_write_sql requires approval before write, save_query always requires approval. Pattern for agentic human-in-loop checkpoints."
+    },
+    "arxiv:2506.04180": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "SuperWriter: MCTS for long-form generation — 5 plans → 20 drafts → 60 refinements → judge backprop. 7B SuperWriter-LM beats larger models on coherence. Key insight: early plan lock-in is the coherence bottleneck."
+    },
+    "news:fable5-dc-resolution-path-2026-06-17": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Fable 5 resolution: Anthropic engineers in staff-level meetings with Commerce Dept + National Cyber Director June 16. Resolution condition: prove long-term safeguards. Prediction markets: July 1 return 59%, June 26 return 38%."
+    },
+    "changelog:cc-2.1.179-2026-06-16": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CC v2.1.179: mid-stream connection drop recovery (preserve partial responses), WSL2 mouse-wheel scroll fix, sandbox glob perf fix on large directory trees."
+    },
+    "news:claude-founder-house-berlin-2026-06-18": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Claude Founder House Berlin: live event June 18. Announcement-only, no content available yet."
+    },
+    "anthropic:claude-corps-fellowship-2026-06": {
+      "first_seen_utc": "2026-06-18T00:52:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Claude Corps: Anthropic $150M nonprofit fellowship for AI researchers/nonprofits. Off-profile for Leo's stack."
     }
   },
   "schema_version": 1
