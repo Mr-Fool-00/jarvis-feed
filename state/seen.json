@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-03T12:30:00Z",
-  "total_items_seen": 364,
+  "last_run_utc": "2026-06-19T12:05:00Z",
+  "total_items_seen": 355,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -451,131 +451,6 @@
       "first_seen_utc": "2026-05-21T02:00:48Z",
       "score_when_seen": 4,
       "title_snippet": "Simon Willison: llm-gemini 0.32 \u2014 Gemini 3.5 Flash support"
-    },
-    "anthropic:managed-agents-dreaming-outcomes-2026-05-06": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 10,
-      "title_snippet": "Claude Managed Agents: Dreaming, Outcomes, Multiagent Orchestration"
-    },
-    "docs:claude-code-agent-teams-2026": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 9,
-      "title_snippet": "Claude Code Agent Teams (official, experimental)"
-    },
-    "github:HadiFrt20/deepresearch": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 9,
-      "title_snippet": "Autonomous multi-session research agent for Claude Code"
-    },
-    "github:alirezarezvani/claude-skills": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "313+ Claude Code skills & agent plugins v2.7.3"
-    },
-    "rss:lennysnewsletter:boris-cherny-coding-solved": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Head of Claude Code: What happens after coding is solved"
-    },
-    "rss:simonwillison:5-minute-llms-2026-05-19": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "The last six months in LLMs in five minutes"
-    },
-    "rss:simonwillison:code-w-claude-2026-05-06": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Live blog: Code w/ Claude 2026"
-    },
-    "github:affaan-m/everything-claude-code": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Everything Claude Code v1.10.0 / 163K stars"
-    },
-    "github:rohitg00/awesome-claude-code-toolkit": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "135 agents, 176+ plugins, 14 MCP configs"
-    },
-    "hn:47099597": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "24 Simultaneous Claude Code agents on local hardware"
-    },
-    "github:wanshuiyin/Auto-claude-code-research-in-sleep": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "ARIS: Auto-Research-In-Sleep for Claude Code"
-    },
-    "anthropic:claude-mythos-restricted-2026-04": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Claude Mythos \u2014 restricted model, zero-day vulns"
-    },
-    "rss:simonwillison:playwright-mcp-claude-code": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Using Playwright MCP with Claude Code"
-    },
-    "github:Weizhena/Deep-Research-skills": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Structured deep research skill with human-in-the-loop"
-    },
-    "news:9to5mac:ios27-claude-choice-2026-05-05": {
-      "first_seen_utc": "2026-05-19T16:10:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "iOS 27 will let you choose Claude as AI engine"
-    },
-    "anthropic:claude-opus-4-7": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 9,
-      "title_snippet": "Claude Opus 4.7 \u2014 new model, 87.6% SWE-bench, 60% less task abandonment"
-    },
-    "rss:simonwillison:unreasonable-effectiveness-html": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Using Claude Code: The Unreasonable Effectiveness of HTML"
-    },
-    "anthropic:claude-code-fast-mode-opus-4-7": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Claude Code changelog: fast mode \u2192 Opus 4.7, new agent flags, SKILL.md fix"
-    },
-    "rss:simonwillison:vibe-coding-agentic-engineering": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Vibe coding and agentic engineering are getting closer than I'd like"
-    },
-    "github:VILA-Lab/Dive-into-Claude-Code": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Dive into Claude Code \u2014 systematic architecture analysis, 1.6% AI logic"
-    },
-    "arxiv:2605.02801": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "RL for LLM-based Multi-Agent Systems through Orchestration Traces"
-    },
-    "podcast:latentspace:felix-rieseberg-cowork": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Why Anthropic Thinks AI Should Have Its Own Computer \u2014 Felix Rieseberg"
-    },
-    "arxiv:2505.19591": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Multi-Agent Collaboration via Evolving Orchestration"
-    },
-    "blog:mindstudio:agentic-workflow-patterns": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "5 Claude Code Agentic Workflow Patterns"
-    },
-    "github:czlonkowski/n8n-mcp": {
-      "first_seen_utc": "2026-05-19T20:50:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "n8n-mcp: build n8n workflows via Claude Code (1.4K stars)"
     },
     "anthropic:stainless-acquisition-2026-05-18": {
       "first_seen_utc": "2026-05-20T01:50:34Z",
@@ -1780,7 +1655,7 @@
     "mindstudio:dynamic-vs-goal-vs-agent-teams-june-2026": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 7,
-      "title_snippet": "MindStudio: Dynamic Workflows vs /goal vs Agent Teams decision framework — depth-first vs width-first, cost ordering"
+      "title_snippet": "MindStudio: Dynamic Workflows vs /goal vs Agent Teams decision framework \u2014 depth-first vs width-first, cost ordering"
     },
     "anthropic:glasswing-150-orgs-expansion-2026-06-02": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
@@ -1790,22 +1665,22 @@
     "infoq:dynamic-workflows-claude-code-june-2026": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 5,
-      "title_snippet": "InfoQ: Dynamic Workflows practitioner analysis — investigation tasks, checkpointing, 16-concurrent/1000-total caps"
+      "title_snippet": "InfoQ: Dynamic Workflows practitioner analysis \u2014 investigation tasks, checkpointing, 16-concurrent/1000-total caps"
     },
     "mindstudio:goal-depth-vs-dynamic-width-june-2026": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 5,
-      "title_snippet": "MindStudio: /goal = depth-first (known path), Dynamic Workflows = width-first (discover path) — debugging is canonical DW use case"
+      "title_snippet": "MindStudio: /goal = depth-first (known path), Dynamic Workflows = width-first (discover path) \u2014 debugging is canonical DW use case"
     },
     "addyosmani:agentic-engine-optimization-apr-2026": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Addy Osmani AEO framework: structure docs so AI agents can use them — discoverability, parsability, token efficiency, capability signaling"
+      "title_snippet": "Addy Osmani AEO framework: structure docs so AI agents can use them \u2014 discoverability, parsability, token efficiency, capability signaling"
     },
     "hn:48373544": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
       "score_when_seen": 4,
-      "title_snippet": "HN: Anthropic scales Claude Mythos to critical infrastructure — community reaction, dual-use concerns"
+      "title_snippet": "HN: Anthropic scales Claude Mythos to critical infrastructure \u2014 community reaction, dual-use concerns"
     },
     "mindstudio:opus48-dynamic-workflows-hundreds-subagents": {
       "first_seen_utc": "2026-06-03T12:30:00Z",
@@ -1815,7 +1690,7 @@
     "billing:cowork-routines-exempt-june-15-2026": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 7,
-      "title_snippet": "CORRECTION: Claude Cowork scheduled routines (CCR) are explicitly EXEMPT from June 15 billing split — stay on subscription per official Anthropic docs"
+      "title_snippet": "CORRECTION: Claude Cowork scheduled routines (CCR) are explicitly EXEMPT from June 15 billing split \u2014 stay on subscription per official Anthropic docs"
     },
     "changelog:claude-code-2.1.162-2026-06-03": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
@@ -1825,7 +1700,7 @@
     "news:claude-code-subagent-bug-quota-reset-2026-06-01": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Opus 4.8 subagent multiplication bug draining Pro/Max quotas in minutes — Anthropic emergency reset all limits June 1, 2026"
+      "title_snippet": "Opus 4.8 subagent multiplication bug draining Pro/Max quotas in minutes \u2014 Anthropic emergency reset all limits June 1, 2026"
     },
     "news:uber-caps-ai-coding-1500-2026-06": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
@@ -1835,22 +1710,22 @@
     "news:microsoft-mai-7-models-build-2026": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Microsoft MAI 7 models at Build 2026 — MAI-Thinking-1 matches Claude Sonnet 4.6, MAI-Code-1-Flash (5B) in VS Code/Copilot"
+      "title_snippet": "Microsoft MAI 7 models at Build 2026 \u2014 MAI-Thinking-1 matches Claude Sonnet 4.6, MAI-Code-1-Flash (5B) in VS Code/Copilot"
     },
     "news:claude-partner-network-services-track-2026-06-03": {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 4,
-      "title_snippet": "Anthropic Claude Partner Network Services Track + Partner Hub — agencies/consultants, early access, revenue sharing"
+      "title_snippet": "Anthropic Claude Partner Network Services Track + Partner Hub \u2014 agencies/consultants, early access, revenue sharing"
     },
     "security:guan:comment-and-control-2026-06": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 7,
-      "title_snippet": "Comment and Control: Claude Code, Gemini CLI, GitHub Copilot all vulnerable to prompt injection via PR titles/comments — auto-trigger, zero sanitization, full credential dump"
+      "title_snippet": "Comment and Control: Claude Code, Gemini CLI, GitHub Copilot all vulnerable to prompt injection via PR titles/comments \u2014 auto-trigger, zero sanitization, full credential dump"
     },
     "security:flatttech:cc-github-action-hijack-2026-06-04": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 7,
-      "title_snippet": "GMO Flatt Security (RyotaK): broken checkWritePermissions [bot] trust + prompt injection → repo hijack via single GitHub Issue. CVSS 7.8. Fixed in claude-code-action v1.0.94"
+      "title_snippet": "GMO Flatt Security (RyotaK): broken checkWritePermissions [bot] trust + prompt injection \u2192 repo hijack via single GitHub Issue. CVSS 7.8. Fixed in claude-code-action v1.0.94"
     },
     "changelog:claude-code-2.1.163-2026-06-04": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
@@ -1860,14 +1735,48 @@
     "billing:june15-june8-claim-deadline-update": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 4,
-      "title_snippet": "June 15 billing: Anthropic sends $200 Max credit claim email around June 8 — must claim via account settings before June 15"
+      "title_snippet": "June 15 billing: Anthropic sends $200 Max credit claim email around June 8 \u2014 must claim via account settings before June 15"
     },
     "news:cwc-tokyo-june10-reminder": {
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 3,
       "title_snippet": "CwC Tokyo June 10 reminder: keynote 11 AM UTC (6 AM CDT), Boris Cherny + Ami Vora, 3 tracks, Extended June 11"
+    },
+    "anthropic:managed-agents-scheduled-vaults-june10": {
+      "first_seen_utc": "2026-06-19T12:05:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Claude Managed Agents: Scheduled Deployments + Credential Vaults (public beta) \u2014 CwC Tokyo June 10"
+    },
+    "anthropic:billing-agent-sdk-paused-june16": {
+      "first_seen_utc": "2026-06-19T12:05:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Agent SDK Billing Change PAUSED (June 16 2026) \u2014 Max plan users unaffected, no timeline given"
+    },
+    "borischerny:loop-engineering-june2026": {
+      "first_seen_utc": "2026-06-19T12:05:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Loop Engineering \u2014 Boris Cherny: I no longer prompt, I write loops (The New Stack + addyosmani.com June 2026)",
+      "build_worthy": true
+    },
+    "anthropic:fable5-mythos5-suspended-june12": {
+      "first_seen_utc": "2026-06-19T12:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Fable 5 / Mythos 5 suspended \u2014 US export control review, restoration expected in days"
+    },
+    "cc:v2.1.183-auto-mode-destructive-safety": {
+      "first_seen_utc": "2026-06-19T12:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Claude Code v2.1.183 \u2014 dangerously-skip-permissions now requires extra confirm for destructive ops"
+    },
+    "anthropic:cowork-limit-doubled-june5-july5": {
+      "first_seen_utc": "2026-06-19T12:05:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Cowork 5-hour limit doubled to 10h FREE for Max plan \u2014 June 5 to July 5"
+    },
+    "anthropic:seoul-office-june17": {
+      "first_seen_utc": "2026-06-19T12:05:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Anthropic Seoul office opened June 17 + Korean AI partnerships (Nexon game dialogue)"
     }
-  },
-  "last_run_utc": "2026-06-05T00:18:00Z",
-  "total_items_seen": 375
+  }
 }
