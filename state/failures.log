@@ -104,10 +104,34 @@
 2026-06-05T00:18:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
 2026-06-05T00:18:00Z flatt-tech-webfetch-403 — flatt.tech/research blocked; oddguan.com blocked; securityweek.com blocked. Security items covered via secondary search snippets + multi-source cross-reference.
 2026-06-05T00:18:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
+2026-06-16T00:55:00Z rss_feeds_403: all RSS feeds (simonwillison, anthropic, latent.space, lenny, pragmatic-engineer) HTTP 403 in CCR sandbox — content recovered via WebSearch
+2026-06-16T00:55:00Z youtube_403: all YouTube RSS/WebFetch endpoints blocked in CCR sandbox — 0 video items
+2026-06-16T00:55:00Z reddit_websearch: 0 indexed posts from r/ClaudeAI, r/LocalLLaMA, r/AI_Agents (consistent sandbox indexing gap)
+2026-06-16T00:55:00Z git_push_pat_failed: "Invalid username or token" — PAT auth rejected; using GitHub MCP push_files fallback
+2026-06-16T00:55:00Z slack-webhook-403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
+2026-06-16T00:55:00Z ccr_billing_status_unresolved: conflicting sources on whether CCR routines are exempt from June 15 billing split — needs Leo verification in official docs
+2026-06-16T12:45:00Z rss_feeds_403: all RSS feeds (simonwillison, anthropic, latent.space, lenny, pragmatic-engineer) HTTP 403 in CCR sandbox — content recovered via WebSearch
+2026-06-16T12:45:00Z youtube_403: all YouTube channel RSS/WebFetch endpoints blocked in CCR sandbox — 0 video items
+2026-06-16T12:45:00Z reddit_websearch: 0 indexed posts from r/ClaudeAI, r/LocalLLaMA, r/AI_Agents (consistent sandbox indexing gap)
+2026-06-16T12:45:00Z slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
+2026-06-16T12:45:00Z webfetch_403: github.blog, dev.to, github.github.com all 403; GitHub AW item sourced via WebSearch snippets only
+2026-06-16T12:45:00Z ccr_billing_unresolved_day2: CCR (this routine) billing classification still unresolved 12h after AM flag — no official Anthropic source found
+2026-06-17T12:21:15Z rss_feeds_403: all RSS feeds (simonwillison, anthropic, latent.space, lenny, pragmatic-engineer) HTTP 403 in CCR sandbox — content recovered via WebSearch
+2026-06-17T12:21:15Z youtube_403: all YouTube channel RSS/WebFetch endpoints blocked in CCR sandbox — 0 video items
+2026-06-17T12:21:15Z reddit_websearch: 0 indexed posts from r/ClaudeAI, r/LocalLLaMA, r/AI_Agents (consistent sandbox indexing gap)
+2026-06-17T12:21:15Z slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
+2026-06-17T12:21:15Z polymarket_fable5_odds: could not fetch live Polymarket probability — iframe 403 in CCR sandbox; approximate figure noted in digest item 2
+2026-06-17T12:21:15Z ccr_billing_resolved: Pool 2 billing split paused June 15 — this is a RESOLUTION entry, closing out ccr_billing_unresolved entries from 2026-06-16
+2026-06-19T07:00:00Z rss_feeds_403: all RSS feeds (simonwillison, anthropic, latent.space, lenny, pragmatic-engineer) HTTP 403 in CCR sandbox — content recovered via WebSearch
+2026-06-19T07:00:00Z youtube_403: all YouTube channel RSS/WebFetch endpoints blocked in CCR sandbox — 0 video items
+2026-06-19T07:00:00Z reddit_websearch: 0 indexed posts from r/ClaudeAI, r/LocalLLaMA, r/AI_Agents (consistent sandbox indexing gap)
+2026-06-19T07:00:00Z slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
+2026-06-19T07:00:00Z git_push_pat_failed: "Invalid username or token" — PAT auth rejected for github.com/Mr-Fool-00/jarvis-feed; using GitHub MCP push_files fallback
+2026-06-19T07:00:00Z webfetch_403: hidekazu-konishi.com, arxiv.org, pulsemcp.com all 403; content recovered via WebSearch snippet extraction
 2026-06-19T12:05:00Z RSS-all-sources webfetch-403 — simonwillison/anthropic/latentspace/lenny/pragmatic-engineer all 403. Fallback to WebSearch coverage.
 2026-06-19T12:05:00Z youtube-coverage-0 — All YouTube channel RSS feeds 403. No new video content this run.
 2026-06-19T12:05:00Z reddit-websearch-0 — 0 indexed posts from r/ClaudeAI,r/LocalLLaMA,r/AI_Agents (consistent sandbox indexing gap).
 2026-06-19T12:05:00Z pulsemcp-webfetch-403 — pulsemcp.com/servers blocked. No new MCP entries this run.
 2026-06-19T12:05:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
-2026-06-19T12:05:00Z github-pat-rejected — GITHUB_PAT in routine prompt rejected ("Invalid username or token"). Push via GitHub MCP push_files fallback.
-2026-06-19T12:05:00Z detached-head-pm-run — Session spawned with git in detached HEAD (50 commits ahead of origin/main; none reachable from origin/main). Switched to main (June 5 baseline). Orphaned June 6-19 run chain NOT merged — see agent_suggestions.md.
+2026-06-19T12:05:00Z github-pat-rejected — GITHUB_PAT rejected (Invalid username or token); git push origin main failed; using GitHub MCP push_files fallback.
+2026-06-19T12:05:00Z local-history-diverged — local main has no common ancestor with origin/main; PM session started from stale June 5 baseline (375 items) while origin/main had 420 items from AM run. State files merged before push.
