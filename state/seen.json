@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-18T13:15:00Z",
-  "total_items_seen": 413,
+  "last_run_utc": "2026-06-19T07:00:00Z",
+  "total_items_seen": 420,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2066,6 +2066,41 @@
       "first_seen_utc": "2026-06-18T13:15:00Z",
       "score_when_seen": 3,
       "title_snippet": "Anthropic Seoul office opens June 17. MOUs: Samsung SDS, LG CNS, NAVER Cloud. MOU with Korea Ministry of Science and ICT for AI safety research. First NE Asia physical presence."
+    },
+    "hidekazu-konishi:cc-plugins-complete-guide-2026-06-14": {
+      "first_seen_utc": "2026-06-19T07:00:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "hidekazu-konishi: Claude Code Plugins Complete Guide — plugin.yaml manifest schema, bundle skills/hooks/mcps/agents into versioned .tar.gz, plugin registry workflow, team distribution via private registry URL."
+    },
+    "github:back1ply/agent-skill-loader": {
+      "first_seen_utc": "2026-06-19T07:00:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Agent Skill Loader MCP (back1ply/agent-skill-loader, ~1.2K stars, Feb 2026) — bridges CC skills library to any MCP client. Safety gate applied: invoke_skill has subprocess/injection surface. Not recommended for install."
+    },
+    "changelog:cc-v2.1.183-2026-06-18": {
+      "first_seen_utc": "2026-06-19T07:00:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "CC v2.1.183 (June 18): /plugin search bar in marketplace, language-aware session titles, Bedrock credential caching (~/.aws/credentials), plugin loading 40% faster, startup UX fixes."
+    },
+    "hidekazu-konishi:cc-compaction-long-session-guide": {
+      "first_seen_utc": "2026-06-19T07:00:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "hidekazu-konishi: CC Compaction & Long-Session Operations Guide — PreCompact hook patterns for persisting session state, cross-session handoffs via PostCompact hook, /compact voluntary vs auto-compaction behavior."
+    },
+    "github:affaan-m/everything-claude-code-100k-stars": {
+      "first_seen_utc": "2026-06-19T07:00:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "affaan-m/everything-claude-code crosses 100K GitHub stars — curated index of 1,400+ CC skills, hooks, MCPs, CLAUDE.md templates. Writing/agent categories worth periodic check for fiction pipeline additions."
+    },
+    "news:fable5-status-no-change-2026-06-19": {
+      "first_seen_utc": "2026-06-19T07:00:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Fable 5 still offline (June 19). No new developments since June 18. Prediction markets 57-59% July 1 return. Korean Digital Today 'within days' article unconfirmed. Opus 4.8 = Max plan ceiling."
+    },
+    "news:claude-founder-house-berlin-2026-06-18-recap": {
+      "first_seen_utc": "2026-06-19T07:00:00Z",
+      "score_when_seen": 3,
+      "title_snippet": "Claude Founder House Berlin recap (June 18): Founder + Builder cohorts, structured office hours format. No product announcements. Attendee notes on orchestration patterns and long-horizon reliability. No new technical content."
     }
   },
   "schema_version": 1

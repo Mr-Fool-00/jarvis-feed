@@ -1,7 +1,1 @@
-last_run: 2026-06-18T12:17:00Z
-slot: PM
-status: complete
-items_surfaced: 7
-top_score: 6
-build_worthy: 0
-goodbye: PM run done. 7 new items, top score 6 (AdaptOrch topology insight). All informational. Digest pushed. No briefings this run — calibrated silence after a strong AM haul.
+2026-06-19T07:00:00Z

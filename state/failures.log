@@ -122,3 +122,9 @@
 2026-06-17T12:21:15Z slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
 2026-06-17T12:21:15Z polymarket_fable5_odds: could not fetch live Polymarket probability — iframe 403 in CCR sandbox; approximate figure noted in digest item 2
 2026-06-17T12:21:15Z ccr_billing_resolved: Pool 2 billing split paused June 15 — this is a RESOLUTION entry, closing out ccr_billing_unresolved entries from 2026-06-16
+2026-06-19T07:00:00Z rss_feeds_403: all RSS feeds (simonwillison, anthropic, latent.space, lenny, pragmatic-engineer) HTTP 403 in CCR sandbox — content recovered via WebSearch
+2026-06-19T07:00:00Z youtube_403: all YouTube channel RSS/WebFetch endpoints blocked in CCR sandbox — 0 video items
+2026-06-19T07:00:00Z reddit_websearch: 0 indexed posts from r/ClaudeAI, r/LocalLLaMA, r/AI_Agents (consistent sandbox indexing gap)
+2026-06-19T07:00:00Z slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
+2026-06-19T07:00:00Z git_push_pat_failed: "Invalid username or token" — PAT auth rejected for github.com/Mr-Fool-00/jarvis-feed; using GitHub MCP push_files fallback
+2026-06-19T07:00:00Z webfetch_403: hidekazu-konishi.com, arxiv.org, pulsemcp.com all 403; content recovered via WebSearch snippet extraction
