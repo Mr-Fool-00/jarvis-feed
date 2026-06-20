@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-20T00:05:00Z",
-  "total_items_seen": 428,
+  "last_run_utc": "2026-06-20T12:05:00Z",
+  "total_items_seen": 434,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2142,6 +2142,36 @@
       "first_seen_utc": "2026-06-20T00:05:00Z",
       "score_when_seen": 5,
       "title_snippet": "Enterprise-Managed MCP Authorization: zero-touch SSO via Okta for Team/Enterprise plans. Connectors: Asana, Atlassian, Canva, Figma, Granola, Linear, Supabase. Slack coming soon."
+    },
+    "security:helpnet:lowskilled-attacker-claude-codex": {
+      "first_seen_utc": "2026-06-20T12:05:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Help Net Security June 17: low-skilled attacker chained Claude + Codex in agentic offensive loop to breach 14 companies — recon, exploit selection, persistence without step-by-step human direction."
+    },
+    "mindstudio:orchestrator-skill-wiring-june2026": {
+      "first_seen_utc": "2026-06-20T12:05:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "MindStudio June 13: Orchestrator Skill pattern — master coordinator owns routing/sequencing/error-recovery; child skills operate in isolation with zero peer-to-peer visibility."
+    },
+    "youtube:indydevdan:fable5-opus-sonnet-price-per-agent-hour": {
+      "first_seen_utc": "2026-06-20T12:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "IndyDevDan ~June 9-18: 15-sandbox Fable 5 vs Opus 4.8 comparison — Fable 2x cost but 20% faster; use Fable as orchestrator not worker; 'price-per-intelligent-agent-hour' metric."
+    },
+    "arxiv:2606.00510": {
+      "first_seen_utc": "2026-06-20T12:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "SelSkill: Selective Skill Invocation via Dual-Granularity Preference Learning — invoke-vs-skip decisions at token and segment granularity; reduces unnecessary skill calls."
+    },
+    "arxiv:2606.13669": {
+      "first_seen_utc": "2026-06-20T12:05:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Agents-K1: Agent-native Knowledge Orchestration — 2.46M paper knowledge graph pipeline for research agents."
+    },
+    "simonwillison:datasette-apps-june18": {
+      "first_seen_utc": "2026-06-20T12:05:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Simon Willison June 18: Datasette Apps — Claude Artifacts pattern for HTML+JS apps with live database access via Datasette."
     }
   },
   "schema_version": 1
