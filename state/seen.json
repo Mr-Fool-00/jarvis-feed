@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-19T12:05:00Z",
-  "total_items_seen": 427,
+  "last_run_utc": "2026-06-20T00:05:00Z",
+  "total_items_seen": 428,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2137,6 +2137,11 @@
       "first_seen_utc": "2026-06-19T12:05:00Z",
       "score_when_seen": 3,
       "title_snippet": "Anthropic Seoul office opened June 17 + Korean AI partnerships (Nexon game dialogue)"
+    },
+    "anthropic:enterprise-mcp-auth-okta-june19": {
+      "first_seen_utc": "2026-06-20T00:05:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Enterprise-Managed MCP Authorization: zero-touch SSO via Okta for Team/Enterprise plans. Connectors: Asana, Atlassian, Canva, Figma, Granola, Linear, Supabase. Slack coming soon."
     }
   },
   "schema_version": 1
