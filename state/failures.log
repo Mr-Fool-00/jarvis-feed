@@ -135,3 +135,9 @@
 2026-06-19T12:05:00Z slack-webhook-403 — hooks.slack.com blocked by sandbox proxy. Delivery via GitHub commit prefix bridge.
 2026-06-19T12:05:00Z github-pat-rejected — GITHUB_PAT rejected (Invalid username or token); git push origin main failed; using GitHub MCP push_files fallback.
 2026-06-19T12:05:00Z local-history-diverged — local main has no common ancestor with origin/main; PM session started from stale June 5 baseline (375 items) while origin/main had 420 items from AM run. State files merged before push.
+2026-06-21T12:06:23Z rss_feeds_403: all RSS feeds (simonwillison, anthropic, latent.space, lenny, pragmatic-engineer) HTTP 403 in CCR sandbox — content recovered via WebSearch
+2026-06-21T12:06:23Z youtube_403: all YouTube channel RSS/WebFetch endpoints blocked in CCR sandbox — 0 video items
+2026-06-21T12:06:23Z reddit_websearch_0: 0 indexed posts from r/ClaudeAI, r/LocalLLaMA, r/AI_Agents (consistent sandbox indexing gap)
+2026-06-21T12:06:23Z pulsemcp_403: pulsemcp.com blocked in CCR sandbox — no new MCP entries this run
+2026-06-21T12:06:23Z slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy; delivery via GitHub commit prefix bridge
+2026-06-21T12:06:23Z git_detached_head_10: session started with HEAD detached; recovered via git checkout -B main

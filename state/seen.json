@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-20T12:05:00Z",
-  "total_items_seen": 434,
+  "last_run_utc": "2026-06-21T12:06:23Z",
+  "total_items_seen": 442,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2172,6 +2172,46 @@
       "first_seen_utc": "2026-06-20T12:05:00Z",
       "score_when_seen": 4,
       "title_snippet": "Simon Willison June 18: Datasette Apps — Claude Artifacts pattern for HTML+JS apps with live database access via Datasette."
+    },
+    "blog:x2775co:novel-writing-structure-claudecode": {
+      "first_seen_utc": "2026-06-21T12:06:23Z",
+      "score_when_seen": 7,
+      "title_snippet": "note.com/x2775co June 2026: novel writing template for ClaudeCode — freeze world/characters/timeline/viewpoint/plot files BEFORE writing; AI drift is structural not prompt-level."
+    },
+    "cc:v2.1.185:auto-mode-destructive-git-blocks": {
+      "first_seen_utc": "2026-06-21T12:06:23Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.185 June 20: auto mode blocks git reset --hard, git commit --amend (non-agent commits), terraform/pulumi/cdk destroy; JetBrains 2026.1+ flickering fix."
+    },
+    "fable5:status:trump-dario-g7-june20": {
+      "first_seen_utc": "2026-06-21T12:06:23Z",
+      "score_when_seen": 5,
+      "title_snippet": "Fable 5 Day 9 status update June 20: Trump met Dario at G7 (June 17-19), no longer views Anthropic as nat-sec threat; directive still in force; refund deadline June 20; 57% market for July 1 restoration."
+    },
+    "github:piebald-ai:cc-system-prompts-v185-update": {
+      "first_seen_utc": "2026-06-21T12:06:23Z",
+      "score_when_seen": 5,
+      "title_snippet": "piebald-ai/claude-code-system-prompts update June 20: 350→515 prompts for v2.1.185; adds Plan/Explore/Task sub-agent prompts, 27 tool descriptions, utility prompts. 11.3K stars."
+    },
+    "gist:nolanlawson:triple-agent-code-review": {
+      "first_seen_utc": "2026-06-21T12:06:23Z",
+      "score_when_seen": 5,
+      "title_snippet": "nolanlawson gist June 2026: triple-agent code review — Cursor Bugbot + Claude sub-agent + Codex independently, no human investigation until all 3 return; 2+ of 3 = real bug, 1 of 3 = likely hallucination."
+    },
+    "security:register:fable5-fix-this-code-not-jailbreak": {
+      "first_seen_utc": "2026-06-21T12:06:23Z",
+      "score_when_seen": 4,
+      "title_snippet": "The Register June 15: Katie Moussouris (Luta Security) — government misclassified 'fix this code' request as jailbreak; no actual guardrail bypass; Fable 5 answered legitimate developer question."
+    },
+    "fortune:amazon-jassy-triggered-fable5-ban": {
+      "first_seen_utc": "2026-06-21T12:06:23Z",
+      "score_when_seen": 4,
+      "title_snippet": "Fortune June 18: Andy Jassy told Treasury Sec Bessent + White House June 11 that Amazon researchers found Fable 5 could generate cyberattack content; export control directive issued within 24h — first explicit US AI model limitation."
+    },
+    "hn:48517973:fable5-vs-gpt55-better-planning": {
+      "first_seen_utc": "2026-06-21T12:06:23Z",
+      "score_when_seen": 4,
+      "title_snippet": "HN id:48517973 community comparison: Fable 5 vs GPT-5.5 — Fable better at complex planning/architecture, similar on medium-complexity execution, worse on backend tasks (confidently wrong)."
     }
   },
   "schema_version": 1
