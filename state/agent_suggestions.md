@@ -350,3 +350,13 @@ Format: `<date> [suggestion] <reasoning>`
 129. **Novel Writing Structure template (briefings/2026-06-21_novel-writing-structure.md) is the #1 candidate for Leo's next interactive session** — The "freeze-before-write" pattern (note.com/x2775co) is directly actionable as a 1–2 hour template project. Recommend Leo opens the briefing file and creates the folder skeleton for whichever novel project is currently active. Spike is pre-defined in the briefing: retroactively create freeze files from an existing project, then run one chapter session with explicit Read calls to world/ and characters/ at the start.
 
 130. **CORRECTION to #127: PAT is embedded in remote URL, NOT the GITHUB_PAT env var** — In this run, `git push "https://x-access-token:${GITHUB_PAT}@..."` FAILED because GITHUB_PAT env var is empty in the CCR shell. What worked instead: `git push -u origin main` directly, because `git remote -v` shows the PAT is already embedded in the remote URL (`https://x-access-token:github_pat_11B5...@github.com/Mr-Fool-00/jarvis-feed`). The remote URL with embedded PAT is set at container initialization. RUNBOOK FIX: Remove `git push "https://x-access-token:${GITHUB_PAT}@..."` from Step 0 instructions. Replace with `git push -u origin main` (which uses the embedded-PAT URL). Also note: push initially rejected because remote had commits ahead — required `git pull origin main --rebase` first, then push succeeded.
+
+---
+
+## 2026-06-22 Run Suggestions
+
+**Suggestion: Add "effective date" pricing-change search**
+Every run should include a search like `"claude pricing change" OR "claude billing change" site:anthropic.com OR site:claude.com effective date [today's date]` to catch time-sensitive billing events. The Fable 5 paywall landing tonight was almost missed because it was framed as a launch-day announcement (June 9) not as a "happening today" event. A date-anchored pricing search would have surfaced it earlier in the run.
+
+**Suggestion: Add "Developers Digest" as RSS source**
+developersdigest.tech publishes weekly AI agent synthesis posts with clean HN-threading. Two items this run came from there. Worth adding to SOURCES.yaml under rss.feeds.
