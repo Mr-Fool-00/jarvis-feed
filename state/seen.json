@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-23T00:41:00Z",
-  "total_items_seen": 303,
+  "last_run_utc": "2026-06-23T13:30:00Z",
+  "total_items_seen": 311,
   "items": {
     "blog:kenhuang:cc-orchestration-primitives-2026-05-28": {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1382,6 +1382,48 @@
       "first_seen_utc": "2026-06-23T00:41:00Z",
       "score_when_seen": 5,
       "title_snippet": "forsonny/Claude-Code-Novel-Writer: 7-agent autonomous 100K-word fantasy generator, 65 stars — low trust due to star count; haowjy/autonovel are better-vetted alternatives"
+    },
+    "anthropic:research:agentic-coding-expertise-2026-06": {
+      "first_seen_utc": "2026-06-23T13:30:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Anthropic research: domain expertise > coding background; debugging -50%; task value +25%; persistent returns 6+ months; ~400K sessions, ~235K users",
+      "build_worthy": true
+    },
+    "github:affaan-m/ecc:v2.0.0": {
+      "first_seen_utc": "2026-06-23T13:30:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "affaan-m/ECC v2.0.0: 271 skills, 67 subagents, AgentShield integration, 211K stars, subagent composition YAML manifest, MIT license — third-party, Type B briefing",
+      "build_worthy": true
+    },
+    "glm-5.2-open-weights-zhipu-2026-06": {
+      "first_seen_utc": "2026-06-23T13:30:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "GLM-5.2: Zhipu AI 744B MoE, MIT license, $1.40/$4.40 per MTok, beats GPT-5.5 on MMLU-Pro/LiveCodeBench — API-only, 1/6 Opus cost"
+    },
+    "news:fable5-paywall-day1-june23-reaction": {
+      "first_seen_utc": "2026-06-23T13:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Fable 5 exits Max/Pro free tier June 23 — $10/$50 per M tokens while still suspended; ~40% community calling for extension; refund deadline June 20 passed"
+    },
+    "news:open-weights-fable5-gap-response-june23": {
+      "first_seen_utc": "2026-06-23T13:30:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "The New Stack: 4 open-weight models filled Fable 5 gap — GLM-5.2, North Mini Code, Kimi K2.7, Qwen4-Max — all shipped/updated within 11 days of Fable 5 ban"
+    },
+    "anthropic:id-verification-persona-vendor-security-june22": {
+      "first_seen_utc": "2026-06-23T13:30:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "Persona (July 8 ID vendor) had Feb 2026 codebase exposure + BIPA compliance gap — Max plan users exempt from ID verification regardless"
+    },
+    "github:cobusgreyling/loop-engineering": {
+      "first_seen_utc": "2026-06-23T13:30:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "cobusgreyling/loop-engineering: 369 stars, loop-audit/loop-init/loop-cost CLI tools — follow-on to Loop Engineering briefing June 19"
+    },
+    "github:alchaincyf/loop-engineering-guide": {
+      "first_seen_utc": "2026-06-23T13:30:00Z",
+      "score_when_seen": 4,
+      "title_snippet": "alchaincyf loop-engineering orange book: 840 stars, English+Chinese, 8 loop archetypes including tournament loop and quality-gate loop — follow-on to June 19 briefing"
     }
   },
   "schema_version": 1
