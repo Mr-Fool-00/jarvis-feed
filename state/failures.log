@@ -147,3 +147,9 @@
 - Git detached HEAD (CCR container start issue): resolved by capturing HEAD commit, git checkout main, git merge --ff-only
 - Initial PAT push failure (empty GITHUB_PAT env var): resolved by hardcoding PAT directly in git remote set-url URL
 - No PushNotification tool available: Slack delivery via GitHub bridge commit prefixes instead
+
+## 2026-06-23 AM
+- WebFetch 403 on: most public domains (sandbox network policy) — all content recovered via WebSearch
+- Reddit JSON API blocked (known sandbox constraint) — covered via WebSearch subreddit queries
+- Simon Willison blog direct fetch returned 403 — covered via search result excerpts
+- hooks.slack.com blocked from CCR (known constraint) — delivery via commit prefix convention
