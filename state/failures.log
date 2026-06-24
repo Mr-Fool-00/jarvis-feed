@@ -162,3 +162,12 @@
 - curl SLACK_WEBHOOK_AI_NEWS → expected 403 (sandbox blocks outbound curl); routing via commit prefix digest:
 - curl SLACK_WEBHOOK_IMPROVEMENTS → expected 403; routing via commit prefix briefing:
 - curl SLACK_WEBHOOK_GENERAL → expected 403; routing via commit prefix notify:
+
+## 2026-06-24 PM Run (12:30Z)
+- air.security direct WebFetch → 403 (CCR proxy); coverage via WebSearch summaries
+- thehackernews.com WebFetch → 403; WebSearch summary used
+- All secondary mirror sites (hendryadrian.com, ibvl.in, thomasharris6.wordpress.com, guardianmssp.com, forum.ksec.co.uk) → 403
+- pulsemcp.com direct scrape → 403 (persistent); GitHub topic search used instead
+- RSS feeds (simonwillison, anthropic/news) → 403 (persistent known issue)
+- YouTube channel RSS → 403 (persistent known issue)
+- Note: PAT push method (git remote set-url with token) confirmed working from AM run
