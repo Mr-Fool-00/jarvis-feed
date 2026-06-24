@@ -360,3 +360,9 @@ Every run should include a search like `"claude pricing change" OR "claude billi
 
 **Suggestion: Add "Developers Digest" as RSS source**
 developersdigest.tech publishes weekly AI agent synthesis posts with clean HN-threading. Two items this run came from there. Worth adding to SOURCES.yaml under rss.feeds.
+
+**Suggestion: Add Cloudflare Agents Week / blog.cloudflare.com as monitored source**
+Cloudflare ran an "Agents Week" June 19–23, 2026 with multiple product launches relevant to AI agent infrastructure (temporary accounts, Workers AI, Durable Objects for agents). The blog.cloudflare.com/tag/agents feed should be added to SOURCES.yaml. This run discovered the Temporary Accounts post via WebSearch rather than a direct feed — a feed would catch it earlier.
+
+**Suggestion: Track Claude Tag as an ongoing product (Team/Enterprise plans)**
+Claude Tag (anthropic.com/news/introducing-claude-tag) launched June 23 as a research preview. It retires the old per-user Slack integration on August 3, 2026. Add to SOURCES.yaml or a products-to-watch list: monitor for GA announcement, pricing changes, and expansion from research preview. The old integration's August 3 retirement is a hard deadline Leo needs to act before.

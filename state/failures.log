@@ -153,3 +153,12 @@
 - Reddit JSON API blocked (known sandbox constraint) — covered via WebSearch subreddit queries
 - Simon Willison blog direct fetch returned 403 — covered via search result excerpts
 - hooks.slack.com blocked from CCR (known constraint) — delivery via commit prefix convention
+
+--- 2026-06-24T01:30:00Z AM run ---
+- simonwillison.net/atom.xml RSS → 403 (blocked by sandbox proxy)
+- anthropic.com/news/rss → 403 (blocked by sandbox proxy)
+- pulsemcp.com/servers → 403 (blocked by sandbox proxy)
+- GitHub PAT git push → 403 (GITHUB_PAT env var empty in CCR container); using MCP push_files fallback
+- curl SLACK_WEBHOOK_AI_NEWS → expected 403 (sandbox blocks outbound curl); routing via commit prefix digest:
+- curl SLACK_WEBHOOK_IMPROVEMENTS → expected 403; routing via commit prefix briefing:
+- curl SLACK_WEBHOOK_GENERAL → expected 403; routing via commit prefix notify:
