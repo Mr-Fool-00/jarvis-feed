@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-24T12:30:00Z",
-  "total_items_seen": 311,
+  "last_run_utc": "2026-06-25T00:06:37Z",
+  "total_items_seen": 275,
   "items": [
     {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -76,91 +76,6 @@
       "first_seen_utc": "2026-05-30T12:28:00Z",
       "score_when_seen": 4,
       "title_snippet": "Anthropic $65B Series H at $965B valuation \u2014 surpasses OpenAI, $47B ARR, led by Altimeter/Dragoneer/Greenoaks/Sequoia, IPO signal"
-    },
-    {
-      "first_seen_utc": "2026-05-25T01:20:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "NVIDIA Verified Agent Skills: SkillSpector security scanner + cryptographic signing + skill cards, cross-harness (Claude Code/Codex/Cursor)"
-    },
-    {
-      "first_seen_utc": "2026-05-25T01:20:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "NVIDIA AI-Q: portable deep research agent skill for Claude Code harnesses \u2014 delegate research, get structured reports with citations"
-    },
-    {
-      "first_seen_utc": "2026-05-25T01:20:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "CoEvoSkills: Self-Evolving Agent Skills via Co-Evolutionary Verification \u2014 71.1% pass rate on SkillsBench (+40.5pp over baseline)"
-    },
-    {
-      "first_seen_utc": "2026-05-25T01:20:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "EvoAgent: Evolvable Agent Framework with Skill Learning and Multi-Agent Delegation \u2014 evolutionary metadata, 3-stage matching, 28% improvement"
-    },
-    {
-      "first_seen_utc": "2026-05-25T01:20:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "PARNESS: Paper Harness for End-to-End Automated Scientific Research \u2014 declarative YAML pipeline, pluggable agent modules, cross-run knowledge"
-    },
-    {
-      "first_seen_utc": "2026-05-25T01:20:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "GitLab: Claude Code + GitLab Three Workflows That Ship \u2014 bug fix, CI pipeline, feature implementation"
-    },
-    {
-      "first_seen_utc": "2026-05-25T01:20:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "glebis/claude-skills: Collection of Claude Code skills \u2014 deep-research, daydream, gmail, pdf, decision-toolkit, youtube-transcript"
-    },
-    {
-      "first_seen_utc": "2026-05-25T01:20:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "CC v2.1.150: internal infrastructure only, no user-facing changes"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Cole Medin: 22-skill second brain system, 24/7 content engine, Obsidian memory, progressive disclosure of context, 739 stars"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Skill Retrieval Augmentation for Agentic AI \u2014 enumeration breaks at scale, dynamic retrieval paradigm + SRA-Bench"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "mattpocock/skills: 105K stars, 20 production engineering skills (TDD, diagnose, improve-architecture, to-prd), MIT"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "SkillRet: 17,810-skill benchmark for LLM agent skill retrieval \u2014 fine-tuning improves NDCG@10 +13.1pp over best prior retriever"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "LangGraph v1.2: per-node timeouts, DeltaChannel (delta-only checkpoints), NodeError handlers, async only"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Anthropic Project Glasswing: 10,000+ critical vulns found with Mythos, closer to general release pending stronger safeguards"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "claude-blog v1.9.0: 30 sub-skills, 5 agents, 5-gate Blog Delivery Contract \u2014 SEO/fact-check/format/review pipeline"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Simon Willison: 1983 Usborne 'Mad House' game rebuilt from scanned PDF via Claude artifacts \u2014 PDF-to-interactive pattern"
-    },
-    {
-      "first_seen_utc": "2026-05-25T12:45:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "JanBussieck/hn-skill: HN post optimizer skill (hn-optimize, hn-spin, hn-score), 5yr front-page data, 2 stars"
     },
     {
       "first_seen_utc": "2026-05-26T00:55:00Z",
@@ -1537,6 +1452,237 @@
         "safety-gate"
       ],
       "run": "2026-06-24_PM"
+    },
+    {
+      "id": "changelog:cc-v2.1.191",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "title": "Claude Code v2.1.191 \u2014 /rewind command, 37% CPU reduction, MCP retry",
+      "source": "anthropic-changelog",
+      "published": "2026-06-24",
+      "score": 7,
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "changelog",
+        "hooks"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "cve:CVE-2025-59536+CVE-2026-21852",
+      "url": "https://research.checkpoint.com/2026/rce-and-api-token-exfiltration-through-claude-code-project-files-cve-2025-59536/",
+      "title": "Check Point: RCE + API Token Exfiltration via Claude Code Project Files",
+      "source": "checkpoint-research",
+      "published": "2026-02-01",
+      "score": 7,
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "cve",
+        "claude-code",
+        "hooks"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "rss:mindstudio:hybrid-ai-memory",
+      "url": "https://www.mindstudio.ai/blog/hybrid-ai-memory-system-claude-code-storage-injection-recall",
+      "title": "MindStudio: Hybrid AI Memory System for Claude Code",
+      "source": "mindstudio-blog",
+      "published": "2026-06-11",
+      "score": 7,
+      "build_worthy": true,
+      "tags": [
+        "claude-code",
+        "memory",
+        "hooks",
+        "mcp",
+        "buildable"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "news:anthropic-alibaba-lawsuit",
+      "url": "https://www.anthropic.com/news",
+      "title": "Anthropic Sues Alibaba: 28.8M Training Exchanges, Distillation Theft",
+      "source": "tech-news",
+      "published": "2026-06-24",
+      "score": 6,
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "legal",
+        "distillation"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "security:mitiga-mcp-jacking",
+      "url": "https://www.mitiga.io/blog",
+      "title": "Mitiga Labs: MCP Token Theft via MITM \u2014 MCP-Jacking",
+      "source": "mitiga-security",
+      "published": "2026-06-24",
+      "score": 6,
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "mcp",
+        "oauth"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "github:steipete/claude-code-mcp-archived",
+      "url": "https://github.com/steipete/claude-code-mcp",
+      "title": "steipete/claude-code-mcp \u2014 Archived May 2026 (1300 stars)",
+      "source": "github",
+      "published": "2026-05-15",
+      "score": 6,
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "mcp",
+        "third-party",
+        "archived",
+        "safety-gate"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "github:MJbae/awesome-novel-studio",
+      "url": "https://github.com/MJbae/awesome-novel-studio",
+      "title": "MJbae/awesome-novel-studio \u2014 18-agent 10-skill novel pipeline (133 stars)",
+      "source": "github",
+      "published": "2026-06-20",
+      "score": 6,
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "writing",
+        "multi-agent",
+        "third-party",
+        "safety-gate"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "github:karpathy-claude-md-4rules",
+      "url": "https://github.com/karpathy",
+      "title": "Karpathy's 4-Rule CLAUDE.md \u2014 Think, Simplicity, Surgical, Goal-Driven",
+      "source": "github",
+      "published": "2026-06-23",
+      "score": 6,
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "best-practices",
+        "claude-md"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "arxiv:2503.08275",
+      "url": "https://arxiv.org/abs/2503.08275",
+      "title": "Beyond Outlining: Heterogeneous Recursive Planning for Long-Form Writing",
+      "source": "arxiv",
+      "published": "2026-03-11",
+      "score": 6,
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "writing",
+        "planning",
+        "longform"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "security:postmark-mcp-exfil",
+      "url": "https://github.com/search?q=postmark-mcp",
+      "title": "postmark-mcp: Malicious MCP Server Silent Email Exfiltration PoC",
+      "source": "security-disclosure",
+      "published": "2026-06-22",
+      "score": 5,
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "mcp",
+        "exfiltration"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "changelog:cc-v2.1.190",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "title": "Claude Code v2.1.190 \u2014 Bug Fixes (hook reliability, terminal rendering)",
+      "source": "anthropic-changelog",
+      "published": "2026-06-24",
+      "score": 5,
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "changelog"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "news:darkreading-mcp-rce",
+      "url": "https://www.darkreading.com/application-security/flaws-claude-code-developer-machines-risk",
+      "title": "Dark Reading: RCE Flaws in Microsoft and Anthropic MCP Server Implementations",
+      "source": "dark-reading",
+      "published": "2026-06-24",
+      "score": 5,
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "mcp",
+        "rce"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "arxiv:2506.21343",
+      "url": "https://arxiv.org/abs/2506.21343",
+      "title": "DynamicBench: Benchmark for Evaluating LLMs on Rapidly-Changing Knowledge",
+      "source": "arxiv",
+      "published": "2026-06-24",
+      "score": 5,
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "knowledge-recency"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "web:isfableback-fable5-offline",
+      "url": "https://isfableback.org",
+      "title": "Fable 5 Still Offline \u2014 isfableback.org Tracker",
+      "source": "community-tracker",
+      "published": "2026-06-25",
+      "score": 4,
+      "build_worthy": false,
+      "tags": [
+        "fable",
+        "status"
+      ],
+      "run": "2026-06-25_AM"
+    },
+    {
+      "id": "news:anthropic-amazon-5gw",
+      "url": "https://aws.amazon.com/anthropic",
+      "title": "Anthropic + Amazon: 5GW Compute Expansion Deal",
+      "source": "tech-news",
+      "published": "2026-06-24",
+      "score": 4,
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "aws",
+        "infrastructure"
+      ],
+      "run": "2026-06-25_AM"
     }
   ],
   "schema_version": 1
