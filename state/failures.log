@@ -178,3 +178,4 @@
 - pulsemcp_webfetch_403: pulsemcp.com/servers blocked — server listing recovered via WebSearch
 - rss_feeds_403: simonwillison.net/atom, anthropic.com/news/rss, latent.space/feed all 403 — content recovered via WebSearch
 - slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy (known persistent constraint) — delivery via GitHub commit prefix bridge
+2026-06-26T12:21:53Z slack_direct_curl_blocked source=ai-news reason='CCR sandbox blocks hooks.slack.com — using commit-prefix GitHub bridge as primary'
