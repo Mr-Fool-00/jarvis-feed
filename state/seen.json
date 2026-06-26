@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-25T12:14:14Z",
-  "total_items_seen": 290,
+  "last_run_utc": "2026-06-26T00:35:00Z",
+  "total_items_seen": 296,
   "items": [
     {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1937,6 +1937,111 @@
         "safety-gate"
       ],
       "run": "2026-06-25_PM"
+    },
+    {
+      "id": "anthropic:managed-agents-dreaming-outcomes-2026-05-06",
+      "title": "Anthropic Managed Agents: Dreaming + Outcomes — CwC SF May 6 (late catch)",
+      "url": "https://claude.com/blog/new-in-claude-managed-agents",
+      "source": "claude.com/blog",
+      "published": "2026-05-06",
+      "score": 8,
+      "build_worthy": true,
+      "first_seen_utc": "2026-06-26T00:35:00Z",
+      "tags": [
+        "managed-agents",
+        "memory",
+        "quality-gate",
+        "external-critic",
+        "buildable"
+      ],
+      "run": "2026-06-26_AM"
+    },
+    {
+      "id": "anthropic:cwc-sre-incident-webinar-2026-06-25",
+      "title": "Cooking with Claude: SRE Incident Response Agent Webinar (June 25 2026)",
+      "url": "https://www.anthropic.com/webinars/cooking-with-claude-how-to-build-an-sre-incident-response-agent",
+      "source": "anthropic.com/webinars",
+      "published": "2026-06-25",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-26T00:35:00Z",
+      "tags": [
+        "webinar",
+        "managed-agents",
+        "skills",
+        "human-in-loop"
+      ],
+      "run": "2026-06-26_AM"
+    },
+    {
+      "id": "github:nwiizo/ccswarm-v0.9.1",
+      "title": "nwiizo/ccswarm v0.9.1 — Multi-Agent with Consensus Step + Full NDJSON Audit Trails",
+      "url": "https://github.com/nwiizo/ccswarm",
+      "source": "github.com/nwiizo",
+      "published": "2026-06-10",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-26T00:35:00Z",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "audit-trail",
+        "third-party",
+        "safety-gate"
+      ],
+      "run": "2026-06-26_AM"
+    },
+    {
+      "id": "news:fable5-day14-liccardo-deadline-2026-06-26",
+      "title": "Fable 5 Day 14 — Liccardo bipartisan letter June 26 deadline, Tom Brown leading Commerce negotiations",
+      "url": "https://liccardo.house.gov/media/press-releases/bipartisan-members-congress-seek-transparency-frontier-ai-export-controls",
+      "source": "liccardo.house.gov + multiple",
+      "published": "2026-06-26",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-26T00:35:00Z",
+      "tags": [
+        "fable5",
+        "export-control",
+        "congress",
+        "status"
+      ],
+      "run": "2026-06-26_AM"
+    },
+    {
+      "id": "github:zircote/claude-team-orchestration-rlm",
+      "title": "zircote/claude-team-orchestration — 7 patterns + RLM for large manuscript analysis",
+      "url": "https://github.com/zircote/claude-team-orchestration",
+      "source": "github.com/zircote",
+      "published": "2026-02",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-26T00:35:00Z",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "writing",
+        "rlm",
+        "third-party",
+        "safety-gate"
+      ],
+      "run": "2026-06-26_AM"
+    },
+    {
+      "id": "anthropic:ai-for-science-event-2026-06-30",
+      "title": "Anthropic 'AI for Science' Virtual Event — June 30 (John Jumper connection)",
+      "url": "https://www.anthropic.com/news",
+      "source": "anthropic.com",
+      "published": "2026-06-26",
+      "score": 4,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-26T00:35:00Z",
+      "tags": [
+        "anthropic",
+        "event",
+        "science"
+      ],
+      "run": "2026-06-26_AM"
     }
   ],
   "schema_version": 1
