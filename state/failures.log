@@ -179,3 +179,11 @@
 - rss_feeds_403: simonwillison.net/atom, anthropic.com/news/rss, latent.space/feed all 403 — content recovered via WebSearch
 - slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy (known persistent constraint) — delivery via GitHub commit prefix bridge
 2026-06-26T12:21:53Z slack_direct_curl_blocked source=ai-news reason='CCR sandbox blocks hooks.slack.com — using commit-prefix GitHub bridge as primary'
+
+## 2026-06-27 PM Run (12:05Z)
+- reddit_json_api_blocked: r/ClaudeAI, r/AI_Agents, r/LocalLLaMA all 403 from sandbox proxy — WebSearch fallback used
+- arxiv_webfetch_403: arxiv.org direct WebFetch blocked — summaries recovered via WebSearch
+- pulsemcp_webfetch_403: pulsemcp.com/servers blocked — catalog count from June 26 blog post via WebSearch
+- rss_feeds_403: simonwillison.net/atom, anthropic.com/news/rss, latent.space/feed, lenny.substack.com, pragmaticengineer.substack.com all 403 — content recovered via WebSearch
+- youtube_channel_rss_403: all 9 YouTube channel handles in SOURCES.yaml blocked — no YouTube content this run
+- slack_webhook_403: hooks.slack.com blocked by CCR sandbox proxy (known persistent constraint) — delivery via GitHub commit prefix bridge (digest:, briefing:, notify:)
