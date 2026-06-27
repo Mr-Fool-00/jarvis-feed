@@ -366,3 +366,8 @@ Cloudflare ran an "Agents Week" June 19–23, 2026 with multiple product launche
 
 **Suggestion: Track Claude Tag as an ongoing product (Team/Enterprise plans)**
 Claude Tag (anthropic.com/news/introducing-claude-tag) launched June 23 as a research preview. It retires the old per-user Slack integration on August 3, 2026. Add to SOURCES.yaml or a products-to-watch list: monitor for GA announcement, pricing changes, and expansion from research preview. The old integration's August 3 retirement is a hard deadline Leo needs to act before.
+
+## 2026-06-27 PM Run suggestions
+
+**#129 — Replace `git pull --ff-only` with `git fetch + git rebase` in push loop**
+The jarvis-listener Cloudflare Worker pushes `state: slack reaction logged` commits concurrently during the discovery run. These cause `--ff-only` pulls to abort with "diverging branches" and then require a separate rebase anyway. Pattern that works: `git fetch origin main && git rebase origin/main && git push`. Should be in AGENT_RUNBOOK.md Step 7 to replace the current `git pull --ff-only` recommendation.
