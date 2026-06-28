@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-28T01:05:00Z",
-  "total_items_seen": 250,
+  "last_run_utc": "2026-06-28T12:48:00Z",
+  "total_items_seen": 258,
   "items": [
     {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -1930,6 +1930,102 @@
       "first_seen_utc": "2026-06-28T01:05:00Z",
       "tags": ["anthropic", "amazon", "infrastructure"],
       "run": "2026-06-28_AM"
+    },
+    {
+      "id": "osmani:claude-code-agent-teams-swarm-2026-06",
+      "title": "Addy Osmani: Claude Code Agent Teams — Swarm Coordination Pattern (coordinator + shared task list + file locking)",
+      "url": "https://addyosmani.com/blog/claude-code-agent-teams/",
+      "source": "addyosmani.com",
+      "published": "2026-06-28",
+      "score": 8,
+      "build_worthy": true,
+      "first_seen_utc": "2026-06-28T12:48:00Z",
+      "tags": ["claude-code", "multi-agent", "orchestration", "file-locking", "book-pipeline"],
+      "run": "2026-06-28_PM"
+    },
+    {
+      "id": "anthropic:alibaba-qwen-distillation-senate-letter-june24",
+      "title": "Anthropic Formally Accuses Alibaba of Largest-Ever Claude Distillation Attack — 28.8M interactions, 7-week campaign April–June 2026",
+      "url": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
+      "source": "CNBC / Anthropic Senate letter",
+      "published": "2026-06-24",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T12:48:00Z",
+      "tags": ["anthropic", "alibaba", "qwen", "distillation", "policy", "security"],
+      "run": "2026-06-28_PM"
+    },
+    {
+      "id": "hidekazu-konishi:cc-extension-layer-decision-guide-june11",
+      "title": "Hidekazu-Konishi: Claude Code Extension Layer Decision Guide — Skills vs Subagents vs Hooks vs Plugins framework",
+      "url": "https://hidekazu-konishi.com/entry/claude_code_extension_layers_decision_guide.html",
+      "source": "hidekazu-konishi.com",
+      "published": "2026-06-11",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T12:48:00Z",
+      "tags": ["claude-code", "skills", "subagents", "hooks", "plugins", "architecture"],
+      "run": "2026-06-28_PM"
+    },
+    {
+      "id": "isfable5back:fable5-day16-offline-mythos5-100orgs",
+      "title": "Fable 5 Day 16 — Still Offline; Mythos 5 Approved for ~100 US Annex A Orgs via Lutnick/BIS letter",
+      "url": "https://isfable5back.com/",
+      "source": "isfable5back.com / TechTimes / CNBC",
+      "published": "2026-06-28",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T12:48:00Z",
+      "tags": ["fable5", "export-controls", "mythos5", "anthropic", "regulatory"],
+      "run": "2026-06-28_PM"
+    },
+    {
+      "id": "dicklesworthstone:claude-code-agent-farm-847stars",
+      "title": "Dicklesworthstone/claude_code_agent_farm — 20-50 Parallel Agents with Distributed File Locking + Work Registry",
+      "url": "https://github.com/Dicklesworthstone/claude_code_agent_farm",
+      "source": "github.com",
+      "published": "2026-04",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T12:48:00Z",
+      "tags": ["claude-code", "multi-agent", "orchestration", "file-locking", "python", "safety-gate"],
+      "run": "2026-06-28_PM"
+    },
+    {
+      "id": "nextgov:nsa-loses-mythos5-anthropic-supply-chain-june2026",
+      "title": "NSA Parts Lose Mythos 5 Access — Anthropic Supply Chain Dispute Escalates (Pentagon Feb 2026 designation + Anthropic federal suit)",
+      "url": "https://www.nextgov.com/artificial-intelligence/2026/06/parts-nsa-lose-mythos-5-access-amid-anthropic-supply-chain-dispute/414366/",
+      "source": "Nextgov / SecurityAffairs",
+      "published": "2026-06-28",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T12:48:00Z",
+      "tags": ["anthropic", "nsa", "mythos5", "supply-chain", "regulatory"],
+      "run": "2026-06-28_PM"
+    },
+    {
+      "id": "hn:almanac-mcp-inline-research-no-context-break",
+      "title": "Almanac MCP — Deep Research Without Breaking Agent Context (Show HN, item 47855284)",
+      "url": "https://news.ycombinator.com/item?id=47855284",
+      "source": "Show HN",
+      "published": "2026-06-28",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T12:48:00Z",
+      "tags": ["mcp", "research", "context", "claude-code", "safety-gate"],
+      "run": "2026-06-28_PM"
+    },
+    {
+      "id": "arxiv:2606.03115-spoq-specialist-orchestrated-queuing",
+      "title": "SPOQ: Specialist Orchestrated Queuing for Multi-Agent Systems — quality control at handoff boundaries (arxiv 2606.03115)",
+      "url": "https://arxiv.org/abs/2606.03115",
+      "source": "arxiv",
+      "published": "2026-06",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T12:48:00Z",
+      "tags": ["multi-agent", "orchestration", "paper", "handoff", "quality-control"],
+      "run": "2026-06-28_PM"
     }
   ],
   "schema_version": 1
