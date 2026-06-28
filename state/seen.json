@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-06-27T12:05:46Z",
+  "last_run_utc": "2026-06-28T01:05:00Z",
   "total_items_seen": 250,
   "items": [
     {
@@ -1774,6 +1774,162 @@
         "ecosystem"
       ],
       "run": "2026-06-27_PM"
+    },
+    {
+      "id": "axios:fable5-return-imminent-june27",
+      "title": "Axios scoop: Fable 5 on track to return soon — Trump admin close to approving (June 27)",
+      "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
+      "source": "axios.com",
+      "published": "2026-06-27",
+      "score": 8,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["fable5", "export-control", "policy", "breaking"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "techtimes:mirrorcode-benchmark-60k-lines-june27",
+      "title": "MirrorCode Benchmark: autonomous coding clears 60K-line ceiling — Opus 4.7 rewrites 16K-line Go toolkit in 14h/$251",
+      "url": "https://www.techtimes.com/articles/319180/20260627/autonomous-ai-coding-clears-60000-line-ceiling-mirrorcode-benchmark-released.htm",
+      "source": "techtimes.com",
+      "published": "2026-06-27",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["benchmark", "autonomous-coding", "scale", "writing-pipeline"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "github:anthropics/claude-code/releases/v2.1.191-195-bundle",
+      "title": "CC v2.1.191-195: /rewind checkpointing, claude mcp login/logout, voice fixes, autoMode.classifyAllShell",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
+      "source": "github.com",
+      "published": "2026-06-24",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["claude-code", "changelog", "rewind", "checkpointing", "mcp-auth"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "explainx:fable5-garbarino-demo-mythos-irony-june27",
+      "title": "Garbarino Demo + Mythos Irony: Congressional oversight angle on Fable 5 (explainx.ai Day 15-16)",
+      "url": "https://explainx.ai/blog/is-fable-5-back-2026",
+      "source": "explainx.ai",
+      "published": "2026-06-27",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["fable5", "export-control", "congress", "mythos5"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "docker:desktop-4.58-microvm-sandboxes-claude-code",
+      "title": "Docker Desktop 4.58+ Sandboxes: hardware-enforced microVM isolation for Claude Code agents (unsupervised-safe)",
+      "url": "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
+      "source": "docker.com/blog",
+      "published": "2026-06",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["docker", "sandbox", "security", "microvm", "claude-code"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "github:dsifry/metaswarm",
+      "title": "dsifry/metaswarm: 18-agent full-SDLC framework, recursive orchestration, SkillOpt-style skill evolution",
+      "url": "https://github.com/dsifry/metaswarm",
+      "source": "github.com/dsifry",
+      "published": "2026-06",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["multi-agent", "orchestration", "third-party", "safety-gate"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "level1techs:book-agent-epistemic-control-fiction",
+      "title": "Level1Techs: Book-Agent — Epistemically Controlled Long-Form Fiction (custom novel pipeline with logic consistency enforcement)",
+      "url": "https://forum.level1techs.com/t/my-ai-powered-novel-writing-pipeline-book-agent-generating-epistemically-controlled-long-form-fiction/243193",
+      "source": "forum.level1techs.com",
+      "published": "2026-06",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["writing-pipeline", "fiction", "epistemic", "consistency"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "hn:44507963-agentic-mcp-server-manager",
+      "title": "Show HN: Agentic MCP Server Manager — multi-server lifecycle orchestration for agent environments",
+      "url": "https://news.ycombinator.com/item?id=44507963",
+      "source": "hn",
+      "published": "2026-06",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["mcp", "orchestration", "third-party"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "arxiv:2503.08275-beyond-outlining-recursive-planning",
+      "title": "arxiv 2503.08275: Beyond Outlining — Heterogeneous Recursive Planning for Adaptive Long-form Writing (March 2025)",
+      "url": "https://arxiv.org/pdf/2503.08275",
+      "source": "arxiv.org",
+      "published": "2025-03",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["arxiv", "writing", "planning", "long-form"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "arxiv:2603.13258-code-agent-structured-memory",
+      "title": "arxiv 2603.13258: Your Code Agent Can Grow Alongside You with Structured Memory (March 2026)",
+      "url": "https://arxiv.org/pdf/2603.13258",
+      "source": "arxiv.org",
+      "published": "2026-03",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["arxiv", "memory", "code-agent", "persistent"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "explainx:ue58-mcp-plugin-2026",
+      "title": "Unreal Engine 5.8 experimental MCP plugin for Editor — agents can control UE Editor via MCP tools",
+      "url": "https://www.explainx.ai/blog/unreal-engine-5-8-claude-codex-mcp-ai-integration-2026",
+      "source": "explainx.ai",
+      "published": "2026-06",
+      "score": 4,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["mcp", "unreal-engine", "editor", "tooling"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "anthropic:release-trusted-devices-team-enterprise",
+      "title": "CC Trusted Devices for Remote Control Admins (Team/Enterprise) — admin-designated devices bypass per-session approval",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "source": "anthropic.com",
+      "published": "2026-06",
+      "score": 4,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["claude-code", "security", "enterprise", "remote-control"],
+      "run": "2026-06-28_AM"
+    },
+    {
+      "id": "anthropic:amazon-5gw-compute-expansion-june2026",
+      "title": "Anthropic + Amazon expand for up to 5GW new compute — infrastructure announcement",
+      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
+      "source": "anthropic.com",
+      "published": "2026-06",
+      "score": 3,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-28T01:05:00Z",
+      "tags": ["anthropic", "amazon", "infrastructure"],
+      "run": "2026-06-28_AM"
     }
   ],
   "schema_version": 1
