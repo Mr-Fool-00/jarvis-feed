@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-29T00:52:00Z",
-  "total_items_seen": 249,
+  "last_run_utc": "2026-06-29T12:30:00Z",
+  "total_items_seen": 258,
   "items": [
     {
       "first_seen_utc": "2026-05-30T12:28:00Z",
@@ -2137,6 +2137,173 @@
         "settings"
       ],
       "run": "2026-06-29_AM"
+    },
+    {
+      "id": "mcp:stateless-migration-wave-june29",
+      "title": "MCP Stateless Migration Wave — 5 Practitioner Guides in 24h (channel.tel, mcpplaygroundonline.com, dev.to, Medium)",
+      "url": "https://channel.tel/blog/mcp-stateless-spec-2026-guide",
+      "source": "channel.tel + practitioner blogs",
+      "published": "2026-06-28",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "mcp",
+        "stateless",
+        "migration",
+        "protocol",
+        "spec"
+      ],
+      "run": "2026-06-29_PM"
+    },
+    {
+      "id": "arxiv:2606.05724-narrative-knowledge-weaver",
+      "title": "Narrative Knowledge Weaver — Story-World Reasoning Framework for Long-Form Narrative (arXiv:2606.05724)",
+      "url": "https://arxiv.org/abs/2606.05724",
+      "source": "arXiv",
+      "published": "2026-06-04",
+      "score": 7,
+      "build_worthy": true,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "arxiv",
+        "fiction",
+        "narrative",
+        "memory",
+        "knowledge-graph",
+        "long-form",
+        "pipeline"
+      ],
+      "run": "2026-06-29_PM"
+    },
+    {
+      "id": "pragmaticengineer:ai-tooling-2026",
+      "title": "Pragmatic Engineer AI Tooling 2026 Survey — Claude Code #1 for 8 Months, 73% Loop-Driven Development",
+      "url": "https://pragmaticengineer.com/ai-tooling-2026",
+      "source": "pragmaticengineer.com",
+      "published": "2026-06-29",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "claude-code",
+        "survey",
+        "loop-driven",
+        "adoption",
+        "ai-tooling"
+      ],
+      "run": "2026-06-29_PM"
+    },
+    {
+      "id": "github:google-mcp-servers",
+      "title": "Google MCP Servers — BigQuery, Cloud SQL, Firestore, GKE, Cloud Run (Official, Apache 2.0)",
+      "url": "https://github.com/google/mcp",
+      "source": "GitHub (google/mcp)",
+      "published": "2026-05-28",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "mcp",
+        "google",
+        "cloud",
+        "bigquery",
+        "gcp",
+        "official"
+      ],
+      "run": "2026-06-29_PM"
+    },
+    {
+      "id": "anthropic:fable-mythos-official-statement",
+      "title": "Official Anthropic Statement on Fable 5 / Mythos 5 — Mythos 5 Annex A for ~100 Critical Infra Orgs, Fable 5 Still Offline",
+      "url": "https://www.anthropic.com/news/fable-mythos-access",
+      "source": "anthropic.com",
+      "published": "2026-06-27",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "fable5",
+        "mythos5",
+        "export-controls",
+        "anthropic",
+        "official"
+      ],
+      "run": "2026-06-29_PM"
+    },
+    {
+      "id": "latentspace:redteam-after-mythos",
+      "title": "Latent Space: Red-Teaming Post-Mythos with Zico Kolter + Matt Fredrikson (Gray Swan AI)",
+      "url": "https://www.latent.space/p/redteam-after-mythos",
+      "source": "latent.space",
+      "published": "2026-06-28",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "safety",
+        "red-teaming",
+        "fable5",
+        "mythos5",
+        "podcast",
+        "latent-space"
+      ],
+      "run": "2026-06-29_PM"
+    },
+    {
+      "id": "cybersecuritynews:mythos5-critical-infra",
+      "title": "Cybersecuritynews: Mythos 5 for Critical Infra — CISA Quarterly Audits, No Credential Sharing",
+      "url": "https://cybersecuritynews.com/mythos-5-critical-infrastructure-access",
+      "source": "cybersecuritynews.com",
+      "published": "2026-06-28",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "mythos5",
+        "critical-infra",
+        "cisa",
+        "export-controls",
+        "security"
+      ],
+      "run": "2026-06-29_PM"
+    },
+    {
+      "id": "lennys:catwu-product-timelines",
+      "title": "Lenny's Newsletter: Cat Wu on AI-Compressed Product Timelines — 6 Months → 1 Month → 1 Day (April 23)",
+      "url": "https://www.lennysnewsletter.com/p/ai-product-timelines-cat-wu",
+      "source": "lennysnewsletter.com",
+      "published": "2026-04-23",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "product",
+        "pm",
+        "ai-timelines",
+        "lenny",
+        "loop-driven"
+      ],
+      "run": "2026-06-29_PM"
+    },
+    {
+      "id": "euractiv:austria-eu-anthropic",
+      "title": "Austria Urges EU Commission to Establish Anthropic European Presence Post-Export Controls",
+      "url": "https://www.euractiv.com/section/artificial-intelligence/news/austria-eu-anthropic-europe-access",
+      "source": "euractiv.com",
+      "published": "2026-06-28",
+      "score": 4,
+      "build_worthy": false,
+      "first_seen_utc": "2026-06-29T12:30:00Z",
+      "tags": [
+        "eu",
+        "policy",
+        "export-controls",
+        "fable5",
+        "austria",
+        "anthropic"
+      ],
+      "run": "2026-06-29_PM"
     }
   ],
   "schema_version": 1
