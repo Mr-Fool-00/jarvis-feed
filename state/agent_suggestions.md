@@ -382,3 +382,11 @@ This run required detached HEAD recovery at Step 7: the heartbeat commit from St
 
 **#133 — Multi-source convergence on lock-based coordination is the signal to build `/book-pipeline` V2**
 Three independent sources in one run (Osmani agent teams, Dicklesworthstone/agent_farm, SPOQ paper) all converge on the same architecture: shared task registry + file locking for parallel agent coordination. This is unusually strong signal — three blind sources agreeing on the same primitive means it's the convergent answer, not a trend. The companion resource (Hidekazu-Konishi extension layer guide) covers exactly which CC abstractions to use for each piece. The design is complete enough to build without further research. When Leo is ready, the implementation plan is: Skills-based coordinator → JSON task registry → Subagent chapter writers with file-lock claims → synthesis step. Waiting on Leo's signal.
+
+## 2026-06-29 AM Run suggestions
+
+**#134 — Sunday night thin-run is normal; 12h gap following a Saturday-evening run produces 8 items max**
+This run (2026-06-29 AM, 00:52 UTC) found only 8 genuinely new items — the lowest count in recent memory. Root cause: the previous run was ~12h prior (2026-06-28 PM), Sunday night UTC is the quietest publication window globally, Reddit/HN still show no indexed June 28-29 results (persistent sandbox gap). No false positives included. This is expected behavior for Sunday midnight UTC. Future improvement: when the run anchors to Sunday between 22:00-06:00 UTC, reduce the breadth pass and invest more in trend synthesis from the prior 48h of items already in seen.json. No config change needed — this is a runtime awareness note.
+
+**#135 — MCP RC (July 28 final spec) warrants a dedicated statelessness readiness check in next interactive session**
+The official MCP RC (2026-06-28) marks the protocol stable with stateless servers required. Any MCP server that maintains session state (sticky server selection, server-side session stores, session-aware tool routing) will need refactoring before the July 28 final. Leo should audit his MCP server list against the RC's statelessness requirement before July 28. The Tasks extension (tool calls return handles, poll via tasks/get) is directly applicable to the book-pipeline chapter-write flow — worth building when Leo next touches the pipeline.
