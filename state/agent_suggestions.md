@@ -390,3 +390,17 @@ This run (2026-06-29 AM, 00:52 UTC) found only 8 genuinely new items — the low
 
 **#135 — MCP RC (July 28 final spec) warrants a dedicated statelessness readiness check in next interactive session**
 The official MCP RC (2026-06-28) marks the protocol stable with stateless servers required. Any MCP server that maintains session state (sticky server selection, server-side session stores, session-aware tool routing) will need refactoring before the July 28 final. Leo should audit his MCP server list against the RC's statelessness requirement before July 28. The Tasks extension (tool calls return handles, poll via tasks/get) is directly applicable to the book-pipeline chapter-write flow — worth building when Leo next touches the pipeline.
+
+## 2026-06-30 PM Run suggestions
+
+**#136 — Upgrade CC to v2.1.196 TODAY before next overnight fiction run**
+CC v2.1.196 (June 30) ships resilient background sessions: agents survive daemon restarts and auto-resume mid-task. This directly fixes the most painful overnight failure mode — daemon hiccup = dead writer agents = empty morning output. The 25% code review token reduction is also free savings on every quality-check agent call. Upgrade command: `npm update -g @anthropic-ai/claude-code`. This is the highest-priority action item from this run, not just an informational note.
+
+**#137 — `git checkout main` fix STILL not in AGENT_RUNBOOK.md — 14th logged instance**
+Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, and now #137 — fourteen instances. This run used `git pull origin main --rebase` twice to recover from remote-ahead rejections. The one-line prevention: `git fetch origin main && git checkout -B main origin/main` as the ABSOLUTE FIRST command in AGENT_RUNBOOK.md Step 0. Leo: if you read one suggestion this week, make it this one. The pattern is proven; the runbook just needs the line.
+
+**#138 — MJbae/awesome-novel-studio warrants a manual review session (character voice tracker role)**
+The awesome-novel-studio repo (18 specialist novel-writing agents) surfaced this run as a safety-gated read-only reference. The character voice tracker and consistency checker roles are the highest-value patterns — both are currently single-prompt heuristics in Leo's Council, not dedicated agent roles. Manual review recommended: read the character-voice-tracker prompt structure, assess if it's adaptable as a new Council advisor slot. Do NOT clone or install — read-only pattern extraction only. URL: https://github.com/MJbae/awesome-novel-studio
+
+**#139 — Fable 5 prediction market at ~41.5% for June 30 restoration (down from 72% yesterday)**
+"As early as this week" (Axios June 27) is looking less likely. TechTimes "nearing return" also missed. The softened Trump/Dario signal may be overstated. If Fable 5 doesn't return by July 4, the prediction market will likely shift to mid-July. Watch for Anthropic newsroom announcement — that remains the first reliable signal.
