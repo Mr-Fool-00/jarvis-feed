@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-30T00:47:00Z",
-  "total_items_seen": 251,
+  "last_run_utc": "2026-06-30T12:07:00Z",
+  "total_items_seen": 261,
   "items": [
     {
       "first_seen_utc": "2026-05-31T00:55:00Z",
@@ -2283,6 +2283,71 @@
       "id": "github:voltAgent-awesome-cc-subagents",
       "title_snippet": "VoltAgent/awesome-claude-code-subagents \u2014 100+ Specialized Subagents Catalog",
       "first_seen_utc": "2026-06-30T00:47:00Z",
+      "score_when_seen": 4,
+      "build_worthy": false
+    },
+    {
+      "id": "github:anthropics-cc-v2.1.196",
+      "title_snippet": "Claude Code v2.1.196 \u2014 Resilient Background Sessions, 25% Token Cut in Code Review, Streaming Watchdog Default-On",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "arxiv:2606.18837",
+      "title_snippet": "Skill-MAS: Evolving Meta-Skills for Automatic Multi-Agent Systems",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "github:MJbae-awesome-novel-studio",
+      "title_snippet": "MJbae/awesome-novel-studio \u2014 18 Specialist Agents for Web Novel Production",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false,
+      "tags": ["third-party-code", "safety-gate"]
+    },
+    {
+      "id": "arxiv:2606.24775",
+      "title_snippet": "Are We Ready For An Agent-Native Memory System? Survey arXiv:2606.24775",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
+      "score_when_seen": 5,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:ai-for-science-event-2026-06-30",
+      "title_snippet": "Anthropic AI for Science Event June 30 2026 + VirBench arXiv:2606.06749",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
+      "score_when_seen": 5,
+      "build_worthy": false
+    },
+    {
+      "id": "hn:47402125",
+      "title_snippet": "Context Drift + Persistent Markdown CONTEXT.md pattern for long Claude Code sessions",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
+      "score_when_seen": 5,
+      "build_worthy": false
+    },
+    {
+      "id": "hn:47759035",
+      "title_snippet": "CodeBurn \u2014 Analyze Claude Code token usage by task type",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
+      "score_when_seen": 5,
+      "build_worthy": false,
+      "tags": ["third-party-code", "safety-gate"]
+    },
+    {
+      "id": "fable5:day19-2026-06-30",
+      "title_snippet": "Fable 5 Day 19 \u2014 still offline, prediction market ~41.5% for June 30 restoration",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
+      "score_when_seen": 4,
+      "build_worthy": false
+    },
+    {
+      "id": "github:ponytail-44k-stars",
+      "title_snippet": "Ponytail \u2014 AI agent that reasons like the laziest senior developer, 44K stars",
+      "first_seen_utc": "2026-06-30T12:07:00Z",
       "score_when_seen": 4,
       "build_worthy": false
     }
