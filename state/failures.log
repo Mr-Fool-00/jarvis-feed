@@ -5,3 +5,8 @@
 2026-06-28T01:05:00Z git:push non_fast_forward push on digest commit 7894ab6 — resolved via git fetch + rebase, re-pushed successfully
 2026-06-28T01:10:00Z slack:ai-news curl_blocked exit_code=56 — Block Kit POST to #ai-news failed; delivery via GitHub commit prefix (digest:) is primary
 2026-06-28T01:10:00Z slack:general curl_blocked — heartbeat POST to #general failed; notify: goodbye wave covers this
+
+--- 2026-06-30T00:47:00Z ---
+curl_blocked: SLACK_WEBHOOK_AI_NEWS POST → exit 000 (connection refused via sandbox proxy)
+curl_blocked: SLACK_WEBHOOK_GENERAL POST → exit 000 (connection refused via sandbox proxy)
+Resolution: Digest delivered to #ai-news via GitHub Actions commit prefix (digest: prefix on main branch push). Slack direct POST blocked as documented.

@@ -1,1 +1,1 @@
-2026-06-30T00:07:10Z
+2026-06-30T00:47:00Z — AM run complete. 8 items surfaced. CVE-2026-LGTM tops at 8/10. 0 build_worthy. Digest pushed.
