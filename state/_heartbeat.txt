@@ -1,9 +1,2 @@
-last_run_utc: 2026-07-01T00:01:40Z
-run_slot: AM
-items_fetched: 30+
-items_surfaced: 7
-top_score: 9
-top_item: KAIROS autoDream steganographic telemetry
-briefings_filed: 3
-sources_blocked: reddit, simonwillison atom, arxiv direct, youtube
-status: OK
+2026-07-01T12:13:46Z
+completed

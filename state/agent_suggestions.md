@@ -409,3 +409,11 @@ The awesome-novel-studio repo (18 specialist novel-writing agents) surfaced this
 
 **#140 — `git checkout main` fix STILL not in AGENT_RUNBOOK.md — 15th logged instance**
 Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, #137, and now #140 — fifteen instances across 40+ days. This run's CCR container again started in detached HEAD state. The hello-wave commit (ee62a29) was made in detached HEAD, requiring recovery via: `git checkout -B main-temp && git branch -D main && git checkout -B main origin/main && git cherry-pick ee62a29`. This is preventable with one line: `git fetch origin main && git checkout -B main origin/main` as the ABSOLUTE FIRST command in AGENT_RUNBOOK.md Step 0, before any commits. Leo: this is a standing bug in the runbook. At fifteen instances it's not a suggestion, it's an unfixed regression. Please add this line manually.
+
+## Run: 2026-07-01 PM
+
+**#141 — AM run needs a "breaking news check" at END of run to catch overnight announcements**
+The 2026-07-01 AM run incorrectly logged "Fable 5 Day 20 — still offline" because Anthropic's export control lift happened just before midnight UTC — the search queries at run-start found no restoration announcement, so the run concluded it hadn't happened. The PM run corrected the record. Fix: add a final WebSearch pass at the END of every AM run (after all other sources): `WebSearch: "anthropic fable 5 restored OR anthropic announcement site:anthropic.com [today's date]"`. This "last-minute sweep" catches announcements that land between the run's source queries and its commit. Would have caught the Fable 5 restoration 12 hours earlier. Low cost (1 query), high value when overnight announcements land between midnight and 00:15 UTC.
+
+**#142 — `git checkout main` fix STILL not in AGENT_RUNBOOK.md — 16th logged instance**
+Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, #137, #140, and now #142 — sixteen instances. PM run again required recovery via `git pull origin main`. The fix remains unchanged: `git fetch origin main && git checkout -B main origin/main` as the ABSOLUTE FIRST command in AGENT_RUNBOOK.md Step 0. Leo: sixteen instances. Please add this line.
