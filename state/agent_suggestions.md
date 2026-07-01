@@ -404,3 +404,8 @@ The awesome-novel-studio repo (18 specialist novel-writing agents) surfaced this
 
 **#139 — Fable 5 prediction market at ~41.5% for June 30 restoration (down from 72% yesterday)**
 "As early as this week" (Axios June 27) is looking less likely. TechTimes "nearing return" also missed. The softened Trump/Dario signal may be overstated. If Fable 5 doesn't return by July 4, the prediction market will likely shift to mid-July. Watch for Anthropic newsroom announcement — that remains the first reliable signal.
+
+## Run: 2026-07-01 AM
+
+**#140 — `git checkout main` fix STILL not in AGENT_RUNBOOK.md — 15th logged instance**
+Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, #137, and now #140 — fifteen instances across 40+ days. This run's CCR container again started in detached HEAD state. The hello-wave commit (ee62a29) was made in detached HEAD, requiring recovery via: `git checkout -B main-temp && git branch -D main && git checkout -B main origin/main && git cherry-pick ee62a29`. This is preventable with one line: `git fetch origin main && git checkout -B main origin/main` as the ABSOLUTE FIRST command in AGENT_RUNBOOK.md Step 0, before any commits. Leo: this is a standing bug in the runbook. At fifteen instances it's not a suggestion, it's an unfixed regression. Please add this line manually.

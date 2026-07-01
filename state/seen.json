@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-06-30T12:07:00Z",
-  "total_items_seen": 261,
+  "last_run_utc": "2026-07-01T00:01:40Z",
+  "total_items_seen": 267,
   "items": [
     {
       "first_seen_utc": "2026-05-31T00:55:00Z",
@@ -2306,7 +2306,10 @@
       "first_seen_utc": "2026-06-30T12:07:00Z",
       "score_when_seen": 6,
       "build_worthy": false,
-      "tags": ["third-party-code", "safety-gate"]
+      "tags": [
+        "third-party-code",
+        "safety-gate"
+      ]
     },
     {
       "id": "arxiv:2606.24775",
@@ -2335,7 +2338,10 @@
       "first_seen_utc": "2026-06-30T12:07:00Z",
       "score_when_seen": 5,
       "build_worthy": false,
-      "tags": ["third-party-code", "safety-gate"]
+      "tags": [
+        "third-party-code",
+        "safety-gate"
+      ]
     },
     {
       "id": "fable5:day19-2026-06-30",
@@ -2349,6 +2355,59 @@
       "title_snippet": "Ponytail \u2014 AI agent that reasons like the laziest senior developer, 44K stars",
       "first_seen_utc": "2026-06-30T12:07:00Z",
       "score_when_seen": 4,
+      "build_worthy": false
+    },
+    {
+      "id": "github:anthropics-claude-code-v2.1.197",
+      "title_snippet": "CC v2.1.197: Claude Sonnet 5 is now the default model (1M context, promo pricing through Aug 31)",
+      "first_seen_utc": "2026-07-01T00:01:40Z",
+      "score_when_seen": 8,
+      "build_worthy": false
+    },
+    {
+      "id": "hn:48735113",
+      "title_snippet": "KAIROS persistent daemon + autoDream 4-phase memory + steganographic Chinese-user detection in CC source leak (ultraworkers/claw-code, 194.4K stars)",
+      "first_seen_utc": "2026-07-01T00:01:40Z",
+      "score_when_seen": 9,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:privacy-policy-july8-nowarrant-2026",
+      "title_snippet": "Anthropic privacy policy July 8 2026: voluntary no-warrant law enforcement disclosure \u2014 Free/Pro/Max affected (Enterprise/API exempt)",
+      "first_seen_utc": "2026-07-01T00:01:40Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "github:multica-ai-andrej-karpathy-skills",
+      "title_snippet": "Karpathy CLAUDE.md grows to 10 rules: 4 edit-time + 6 runtime (no silent budget overruns, judgment-only model routing)",
+      "first_seen_utc": "2026-07-01T00:01:40Z",
+      "score_when_seen": 6,
+      "build_worthy": false,
+      "tags": [
+        "third-party-code",
+        "safety-gate"
+      ]
+    },
+    {
+      "id": "arxiv:2506.12689",
+      "title_snippet": "SciSage: multi-agent MapReduce-v2 with entropy-driven test-time scaling for long-form generation \u2014 mapper/reducer orchestration pattern",
+      "first_seen_utc": "2026-07-01T00:01:40Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "fable5:day20-2026-07-01",
+      "title_snippet": "Fable 5 Day 20 \u2014 July 1 passes without restoration, prediction market shifts to mid-July, Opus 4.8 remains Max ceiling",
+      "first_seen_utc": "2026-07-01T00:01:40Z",
+      "score_when_seen": 4,
+      "build_worthy": false
+    },
+    {
+      "id": "event:ai-coding-summit-london-2026-07-06",
+      "title_snippet": "AI Coding Summit London July 6-7: Cole Medin + Kent C. Dodds headlining, Claude Code Templates talk, hybrid event",
+      "first_seen_utc": "2026-07-01T00:01:40Z",
+      "score_when_seen": 3,
       "build_worthy": false
     }
   ],
