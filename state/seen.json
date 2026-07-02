@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-02T00:01:15Z",
-  "total_items_seen": 268,
+  "last_run_utc": "2026-07-02T12:35:00Z",
+  "total_items_seen": 273,
   "items": [
     {
       "first_seen_utc": "2026-06-02T00:01:51Z",
@@ -2685,6 +2685,102 @@
         "arXiv"
       ],
       "run": "2026-07-02_AM"
+    },
+    {
+      "id": "cc:v2.1.198-postsession-dataviz-features",
+      "title": "CC v2.1.198 — PostSession Hook, /dataviz skill, /cd command, --safe-mode, disableBundledSkills",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
+      "source": "GitHub Releases",
+      "published": "2026-07-01",
+      "score": 8,
+      "build_worthy": true,
+      "first_seen_utc": "2026-07-02T12:35:00Z",
+      "tags": [
+        "claude-code",
+        "postsession-hook",
+        "lifecycle-hook",
+        "dataviz",
+        "safe-mode",
+        "skills",
+        "release"
+      ],
+      "run": "2026-07-02_PM"
+    },
+    {
+      "id": "anthropic:managed-agents-aws-ga-july2026",
+      "title": "Anthropic Self-Hosted Sandboxes GA on AWS + MCP Tunnels (Research Preview)",
+      "url": "https://the-decoder.com/anthropic-adds-self-hosted-sandboxes-and-mcp-tunnels-to-claude-managed-agents/",
+      "source": "The Decoder",
+      "published": "2026-07-01",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-02T12:35:00Z",
+      "tags": [
+        "managed-agents",
+        "self-hosted-sandboxes",
+        "mcp-tunnels",
+        "aws",
+        "infrastructure",
+        "anthropic"
+      ],
+      "run": "2026-07-02_PM"
+    },
+    {
+      "id": "anthropic:steganography-fix-confirmed",
+      "title": "Anthropic Officially Confirms Steganography Removed in v2.1.197 — Silent Fix",
+      "url": "https://www.techtimes.com/articles/319415/20260701/claude-code-hid-proxy-fingerprints-system-prompts-anthropic-promises-fix.htm",
+      "source": "TechTimes",
+      "published": "2026-07-01",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-02T12:35:00Z",
+      "tags": [
+        "claude-code",
+        "steganography",
+        "security",
+        "v2.1.197",
+        "anthropic",
+        "confirmation"
+      ],
+      "run": "2026-07-02_PM"
+    },
+    {
+      "id": "github:aws-samples-claude-code-agent-team",
+      "title": "aws-samples/sample-claude-code-agent-team — Spec-Driven Multi-Agent CC Orchestration",
+      "url": "https://github.com/aws-samples/sample-claude-code-agent-team",
+      "source": "GitHub",
+      "published": "2026-06-30",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-02T12:35:00Z",
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "aws-samples",
+        "claude-code",
+        "task-queue",
+        "github"
+      ],
+      "run": "2026-07-02_PM"
+    },
+    {
+      "id": "anthropic:fable5-july7-50pct-cap",
+      "title": "Fable 5 Post-Restoration Detail: 50% Weekly Cap Through July 7 on Max Plan",
+      "url": "https://www.mindstudio.ai/blog/claude-fable-5-pricing-access-usage-limits",
+      "source": "MindStudio",
+      "published": "2026-07-01",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-02T12:35:00Z",
+      "tags": [
+        "fable-5",
+        "pricing",
+        "max-plan",
+        "weekly-cap",
+        "anthropic",
+        "time-limited"
+      ],
+      "run": "2026-07-02_PM"
     }
   ],
   "schema_version": 1
