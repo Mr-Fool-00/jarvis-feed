@@ -433,3 +433,14 @@ git checkout -B main origin/main
 This fixes the detached HEAD state that CCR containers always start in. It has been documented in suggestions #126, #130, #132, and #142 (among others). Every run encounters this. The AGENT_RUNBOOK.md Step 0 or Step 1 should include this as a mandatory first step before any other git operation.
 
 Additionally: GITHUB_PAT env var was again empty (length 0) in this container. The PAT should be embedded in the remote URL at container init via the CCR environment configuration. Per suggestion #130, the pattern `git remote set-url origin "https://x-access-token:${GITHUB_PAT}@github.com/Mr-Fool-00/jarvis-feed"` only works if the env var is populated. When it's empty, all git push attempts fail with "Invalid username or token." Fallback: GitHub MCP push_files (Step 7b) is reliable but slower. Consider adding an early check: `if [ -z "$GITHUB_PAT" ]; then echo "PAT empty — will use MCP push"; fi`.
+
+## Run: 2026-07-03 PM
+
+**#144 — Add addyosmani.com/blog as tracked WebSearch source (3rd confirmed request)**
+Osmani published at least 2 high-signal posts this week (agentic code review, agent teams swarm patterns) that were only found via accident. Prior suggestions #10 (May 22 AM) and #52 (June 3 PM) called for this but it hasn't been added to SOURCES.yaml. Suggest: add `WebSearch: "site:addyosmani.com claude OR agent 2026"` to the blog/practitioner discovery pass each run. Briefing filed: `briefings/2026-07-03_self-suggestions.md`.
+
+**#145 — Expand arXiv window from 7 days to 30 days (2nd confirmed request)**
+AutoMem (2607.01224) and Loom (2607.00009) surfaced within hours of publication this run — good. But May-June papers keep appearing as new because community discussion lags weeks behind arXiv submission. Prior suggestion #13 (May 22 PM) and #64 (June 6 PM) both called for this. Suggest: set `arxiv: hours_window: 720` in SOURCES.yaml. Briefing filed: `briefings/2026-07-03_self-suggestions.md`.
+
+**#146 — Sonnet 5 model regression for fiction/roleplay should inform INTEREST_PROFILE scoring**
+Community consensus from r/ClaudeAI: Sonnet 5 (now the CC default as of v2.1.197) is "less warm, less playful, more literal" than Sonnet 4.6 for creative tasks. Leo should set `--model claude-opus-4-8` or `--model claude-fable-5` explicitly in his fiction pipeline sessions, not rely on CC auto-mode default. Suggest adding a line to INTEREST_PROFILE.md: "Any digest item comparing Sonnet 5 vs prior models for creative writing: score +1 if the finding is non-obvious or contradicts expected behavior."
