@@ -14,3 +14,21 @@ Resolution: Digest delivered to #ai-news via GitHub Actions commit prefix (diges
 --- 2026-07-02T12:35:00Z ---
 curl_blocked: SLACK_WEBHOOK_GENERAL POST → exit 000 (curl exit 56, proxy CONNECT aborted)
 Resolution: Heartbeat via notify: commit prefix on main branch push. Digest delivered to #ai-news via digest: commit prefix.
+
+---
+run: 2026-07-03_AM (2026-07-03T01:15:00Z)
+failures:
+  - type: git_push_failed
+    cause: GITHUB_PAT env var empty (length 0) in CCR container
+    commits_affected: [356c8a3 (heartbeat notify), all AM run commits]
+    resolution: GitHub MCP push_files fallback (Step 7b)
+  - type: detached_head
+    cause: CCR container starts in detached HEAD (17th instance)
+    fix_applied: git checkout -B main origin/main
+    runbook_status: NOT YET FIXED IN AGENT_RUNBOOK.md (suggestion #143)
+  - type: webhook_blocked
+    cause: Slack direct POST blocked by sandbox proxy (ongoing since 2026-06-28)
+    resolution: GitHub commit prefix bridge (digest:, briefing:, notify: prefixes)
+  - type: webfetch_403
+    urls: [pulsemcp.com, anthropic.com/news, releasebot.io]
+    resolution: WebSearch fallback used, coverage maintained

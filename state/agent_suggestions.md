@@ -417,3 +417,19 @@ The 2026-07-01 AM run incorrectly logged "Fable 5 Day 20 — still offline" beca
 
 **#142 — `git checkout main` fix STILL not in AGENT_RUNBOOK.md — 16th logged instance**
 Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, #137, #140, and now #142 — sixteen instances. PM run again required recovery via `git pull origin main`. The fix remains unchanged: `git fetch origin main && git checkout -B main origin/main` as the ABSOLUTE FIRST command in AGENT_RUNBOOK.md Step 0. Leo: sixteen instances. Please add this line.
+
+---
+
+**Suggestion #143** — 2026-07-03 AM run
+
+**Issue:** `git checkout main` detached HEAD fix still not in AGENT_RUNBOOK.md (17th instance).
+
+The correct sequence is:
+```
+git fetch origin main
+git checkout -B main origin/main
+```
+
+This fixes the detached HEAD state that CCR containers always start in. It has been documented in suggestions #126, #130, #132, and #142 (among others). Every run encounters this. The AGENT_RUNBOOK.md Step 0 or Step 1 should include this as a mandatory first step before any other git operation.
+
+Additionally: GITHUB_PAT env var was again empty (length 0) in this container. The PAT should be embedded in the remote URL at container init via the CCR environment configuration. Per suggestion #130, the pattern `git remote set-url origin "https://x-access-token:${GITHUB_PAT}@github.com/Mr-Fool-00/jarvis-feed"` only works if the env var is populated. When it's empty, all git push attempts fail with "Invalid username or token." Fallback: GitHub MCP push_files (Step 7b) is reliable but slower. Consider adding an early check: `if [ -z "$GITHUB_PAT" ]; then echo "PAT empty — will use MCP push"; fi`.

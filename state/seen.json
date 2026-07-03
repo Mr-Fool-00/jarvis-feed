@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-02T12:35:00Z",
-  "total_items_seen": 273,
+  "last_run_utc": "2026-07-03T01:15:00Z",
+  "total_items_seen": 280,
   "items": [
     {
       "first_seen_utc": "2026-06-02T00:01:51Z",
@@ -2688,7 +2688,7 @@
     },
     {
       "id": "cc:v2.1.198-postsession-dataviz-features",
-      "title": "CC v2.1.198 — PostSession Hook, /dataviz skill, /cd command, --safe-mode, disableBundledSkills",
+      "title": "CC v2.1.198 \u2014 PostSession Hook, /dataviz skill, /cd command, --safe-mode, disableBundledSkills",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.198",
       "source": "GitHub Releases",
       "published": "2026-07-01",
@@ -2727,7 +2727,7 @@
     },
     {
       "id": "anthropic:steganography-fix-confirmed",
-      "title": "Anthropic Officially Confirms Steganography Removed in v2.1.197 — Silent Fix",
+      "title": "Anthropic Officially Confirms Steganography Removed in v2.1.197 \u2014 Silent Fix",
       "url": "https://www.techtimes.com/articles/319415/20260701/claude-code-hid-proxy-fingerprints-system-prompts-anthropic-promises-fix.htm",
       "source": "TechTimes",
       "published": "2026-07-01",
@@ -2746,7 +2746,7 @@
     },
     {
       "id": "github:aws-samples-claude-code-agent-team",
-      "title": "aws-samples/sample-claude-code-agent-team — Spec-Driven Multi-Agent CC Orchestration",
+      "title": "aws-samples/sample-claude-code-agent-team \u2014 Spec-Driven Multi-Agent CC Orchestration",
       "url": "https://github.com/aws-samples/sample-claude-code-agent-team",
       "source": "GitHub",
       "published": "2026-06-30",
@@ -2781,6 +2781,145 @@
         "time-limited"
       ],
       "run": "2026-07-02_PM"
+    },
+    {
+      "id": "anthropic:sonnet5-cc-default-1m-context",
+      "title": "Claude Sonnet 5 is Now the Default Model in Claude Code \u2014 1M Context, 30% Tokenizer Change",
+      "url": "https://www.anthropic.com/changelog/claude-sonnet-5-default-cc",
+      "source": "Anthropic Changelog",
+      "published": "2026-07-02",
+      "score": 9,
+      "build_worthy": true,
+      "first_seen_utc": "2026-07-03T01:15:00Z",
+      "tags": [
+        "claude-code",
+        "sonnet-5",
+        "default-model",
+        "1m-context",
+        "tokenizer",
+        "pricing",
+        "anthropic"
+      ],
+      "run": "2026-07-03_AM"
+    },
+    {
+      "id": "arxiv:2607.00918-personas-to-plot-magnet-atlas",
+      "title": "From Personas to Plot: Character-Grounded Multi-Agent Story Generation (MAGNET + ATLAS)",
+      "url": "https://arxiv.org/abs/2607.00918",
+      "source": "arXiv",
+      "published": "2026-07-01",
+      "score": 8,
+      "build_worthy": true,
+      "first_seen_utc": "2026-07-03T01:15:00Z",
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "fiction-pipeline",
+        "world-state",
+        "hallucination-reduction",
+        "long-form-narrative",
+        "magnet",
+        "atlas"
+      ],
+      "run": "2026-07-03_AM"
+    },
+    {
+      "id": "anthropic:cc-rate-limits-doubled-spacex-colossus",
+      "title": "CC Rate Limits Doubled for All Plans + SpaceX Colossus 1 Compute Deal ($1.25B/month, May 2029)",
+      "url": "https://the-decoder.com/anthropic-doubles-claude-code-rate-limits-spacex-deal/",
+      "source": "The Decoder",
+      "published": "2026-07-02",
+      "score": 8,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T01:15:00Z",
+      "tags": [
+        "claude-code",
+        "rate-limits",
+        "spacex",
+        "compute",
+        "max-plan",
+        "infrastructure",
+        "anthropic"
+      ],
+      "run": "2026-07-03_AM"
+    },
+    {
+      "id": "arxiv:2605.27878-narrative-flattening-post-training",
+      "title": "Narrative Flattening: How Post-Training Compresses Thematic, Affective, and Stylistic Variation in LLM Fiction",
+      "url": "https://arxiv.org/abs/2605.27878",
+      "source": "arXiv",
+      "published": "2026-05-27",
+      "score": 7,
+      "build_worthy": true,
+      "first_seen_utc": "2026-07-03T01:15:00Z",
+      "tags": [
+        "arxiv",
+        "narrative-flattening",
+        "post-training",
+        "rlhf",
+        "fiction",
+        "stylistic-diversity",
+        "model-selection"
+      ],
+      "run": "2026-07-03_AM"
+    },
+    {
+      "id": "arxiv:2606.23525-self-compacting-agents",
+      "title": "Self-Compacting Language Model Agents (SelfCompact) \u2014 Model-Driven, Rubric-Guided Context Management",
+      "url": "https://arxiv.org/abs/2606.23525",
+      "source": "arXiv",
+      "published": "2026-06-27",
+      "score": 7,
+      "build_worthy": true,
+      "first_seen_utc": "2026-07-03T01:15:00Z",
+      "tags": [
+        "arxiv",
+        "context-compaction",
+        "self-compacting",
+        "agents",
+        "token-efficiency",
+        "long-running-agents",
+        "fiction-pipeline"
+      ],
+      "run": "2026-07-03_AM"
+    },
+    {
+      "id": "register:claude-desktop-mcp-double-agent-july1",
+      "title": "Red Teamers Turned Claude Desktop Into a Double Agent via MCP Tool Injection (The Register, July 1)",
+      "url": "https://www.theregister.com/2026/07/01/",
+      "source": "The Register",
+      "published": "2026-07-01",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T01:15:00Z",
+      "tags": [
+        "mcp",
+        "security",
+        "tool-injection",
+        "claude-desktop",
+        "prompt-injection",
+        "double-agent",
+        "the-register"
+      ],
+      "run": "2026-07-03_AM"
+    },
+    {
+      "id": "arxiv:2606.20058-dyntaskmas-dynamic-task-allocation",
+      "title": "DynTaskMas: Dynamic Task Allocation for Multi-Agent Systems",
+      "url": "https://arxiv.org/abs/2606.20058",
+      "source": "arXiv",
+      "published": "2026-06-28",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T01:15:00Z",
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "task-allocation",
+        "dynamic",
+        "orchestration"
+      ],
+      "run": "2026-07-03_AM"
     }
   ],
   "schema_version": 1
