@@ -32,3 +32,4 @@ failures:
   - type: webfetch_403
     urls: [pulsemcp.com, anthropic.com/news, releasebot.io]
     resolution: WebSearch fallback used, coverage maintained
+2026-07-03T12:22:20Z slack_webhook_unavailable reason="SLACK_WEBHOOK env vars empty in CCR container — using GitHub commit prefix routing as primary delivery"
