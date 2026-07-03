@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-03T01:15:00Z",
-  "total_items_seen": 280,
+  "last_run_utc": "2026-07-03T12:48:00Z",
+  "total_items_seen": 289,
   "items": [
     {
       "first_seen_utc": "2026-06-02T00:01:51Z",
@@ -2920,7 +2920,175 @@
         "orchestration"
       ],
       "run": "2026-07-03_AM"
+    },
+    {
+      "id": "cc:v2.1.199-stacked-skills",
+      "title": "CC v2.1.199 — Stacked Skills (/skill-a /skill-b do XYZ loads up to 5 simultaneously) + SSL fail-fast + subagent partial-work return + 429 retry watchdog",
+      "url": "https://github.com/anthropics/claude-code/releases",
+      "source": "GitHub Releases",
+      "published": "2026-07-03",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "claude-code",
+        "stacked-skills",
+        "retry-hardening",
+        "subagent",
+        "changelog"
+      ],
+      "run": "2026-07-03_PM"
+    },
+    {
+      "id": "anthropic:launch-your-agent-repo",
+      "title": "anthropics/launch-your-agent — Official Idea-to-Managed-Agent Skill (4 stages: Interview/Stage+Launch/Grade+Iterate/Schedule)",
+      "url": "https://github.com/anthropics/launch-your-agent",
+      "source": "github.com/anthropics",
+      "published": "2026-07",
+      "score": 7,
+      "build_worthy": true,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "anthropic",
+        "managed-agents",
+        "skill",
+        "official",
+        "deploy",
+        "buildable"
+      ],
+      "run": "2026-07-03_PM"
+    },
+    {
+      "id": "simon-willison:dspy-prompt-eval",
+      "title": "Simon Willison: DSPy for Agent Prompt Evaluation — schema granularity mismatch causes column-name hallucination + retry loops",
+      "url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/",
+      "source": "simonwillison.net",
+      "published": "2026-07-02",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "simon-willison",
+        "dspy",
+        "prompt-eval",
+        "agent-testing",
+        "systematic-testing",
+        "fiction-pipeline"
+      ],
+      "run": "2026-07-03_PM"
+    },
+    {
+      "id": "arxiv:2607.01224-automem",
+      "title": "AutoMem: Memory as Trainable Cognitive Skill — two meta-LLM optimization loops, 2x-4x improvement on LOCOMO/MemoryBench",
+      "url": "https://arxiv.org/abs/2607.01224",
+      "source": "arXiv",
+      "published": "2026-07-02",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "arxiv",
+        "memory",
+        "meta-optimization",
+        "long-horizon",
+        "agent-memory"
+      ],
+      "run": "2026-07-03_PM"
+    },
+    {
+      "id": "arxiv:2607.00009-loom-narrative",
+      "title": "Loom: Controllable Narrative Rendering via Intent-Centered Semiotic CoT — fixes remedial-polishing vs. destructive-expansion oscillation in writing agents",
+      "url": "https://arxiv.org/abs/2607.00009",
+      "source": "arXiv",
+      "published": "2026-07-01",
+      "score": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "arxiv",
+        "writing-pipeline",
+        "fiction",
+        "intent-layer",
+        "oscillation",
+        "long-form"
+      ],
+      "run": "2026-07-03_PM"
+    },
+    {
+      "id": "simon-willison:llm-coding-agent-0.1a0",
+      "title": "Simon Willison: llm-coding-agent 0.1a0 — model-agnostic CC-style agent, CodingTools_edit_file (exact-string diff), CodingTools_execute_command, Python CodingAgent class",
+      "url": "https://pypi.org/project/llm-coding-agent/",
+      "source": "simonwillison.net / PyPI",
+      "published": "2026-07-02",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "simon-willison",
+        "coding-agent",
+        "python",
+        "model-agnostic",
+        "reference-architecture"
+      ],
+      "run": "2026-07-03_PM"
+    },
+    {
+      "id": "reddit:sonnet5-worse-fiction-roleplay",
+      "title": "Reddit r/ClaudeAI: Sonnet 5 worse for fiction/roleplay — 'less warm, less playful, more literal'; use Opus 4.8 or Fable 5 for writing pipeline",
+      "url": "https://www.reddit.com/r/ClaudeAI/",
+      "source": "reddit:ClaudeAI",
+      "published": "2026-07-02",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "sonnet-5",
+        "fiction",
+        "roleplay",
+        "model-selection",
+        "writing-pipeline",
+        "community"
+      ],
+      "run": "2026-07-03_PM"
+    },
+    {
+      "id": "manufact:mcp-cloud-yc-s25",
+      "title": "Manufact MCP Cloud (YC S25) — $6.3M, managed MCP deployment, GitHub repo → live MCP URL, 'Vercel for MCP servers'",
+      "url": "https://manufact.ai",
+      "source": "Manufact.ai / TechCrunch",
+      "published": "2026-07-02",
+      "score": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "mcp",
+        "hosting",
+        "managed",
+        "yc",
+        "infrastructure",
+        "third-party"
+      ],
+      "run": "2026-07-03_PM"
+    },
+    {
+      "id": "youtube:wes-roth-dont-waste-fable5-july7",
+      "title": "Wes Roth: Don't Waste Fable 5 Before July 7 — 5 use cases, Fable as orchestrator pattern, 4 days left on free window",
+      "url": "https://www.youtube.com/@WesRoth",
+      "source": "YouTube/@WesRoth",
+      "published": "2026-07-03",
+      "score": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-03T12:48:00Z",
+      "tags": [
+        "youtube",
+        "fable-5",
+        "time-sensitive",
+        "orchestrator-pattern",
+        "wes-roth"
+      ],
+      "run": "2026-07-03_PM"
     }
   ],
+  "last_run_utc": "2026-07-03T12:48:00Z",
   "schema_version": 1
 }
