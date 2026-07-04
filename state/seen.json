@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-04T00:01:43Z",
-  "total_items_seen": 272,
+  "last_run_utc": "2026-07-04T12:15:00Z",
+  "total_items_seen": 280,
   "items": [
     {
       "first_seen_utc": "2026-06-04T00:32:00Z",
@@ -3002,6 +3002,46 @@
       "first_seen_utc": "2026-07-04T00:01:43Z",
       "score_when_seen": 4,
       "title_snippet": "Claude Science workbench \u2014 Anthropic program for scientific computing; applications through July 15, 2026"
+    },
+    {
+      "title_snippet": "Addy Osmani Agentic Code Review 33707 PRs comprehension debt evidence gate fresh-window self-review circuit breaker",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-04T12:15:00Z"
+    },
+    {
+      "title_snippet": "CJS Framework Cyber Jailbreak Severity CVSS for AI jailbreaks Anthropic Amazon Microsoft Google Mythos classifier",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-04T12:15:00Z"
+    },
+    {
+      "title_snippet": "Axios How the Worlds AI Models Were Revived Jassy Tom Brown NSA NIST Fable restoration behind-the-scenes",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-04T12:15:00Z"
+    },
+    {
+      "title_snippet": "Anthropic AI Espionage Report Chinese state actor used Claude Code autonomously attack 30 targets task fragmentation",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-04T12:15:00Z"
+    },
+    {
+      "title_snippet": "DeepWriter arxiv 2507.14189 fact-grounded multimodal knowledge base generation paragraph-level citations",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-04T12:15:00Z"
+    },
+    {
+      "title_snippet": "WriteHERE principia-ai heterogeneous recursive planning EMNLP 2025 oral 951 stars",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-04T12:15:00Z"
+    },
+    {
+      "title_snippet": "Claude in Chrome GA launch browser extension select markets",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-04T12:15:00Z"
+    },
+    {
+      "title_snippet": "Claude Security public beta Opus 4.7 repo vulnerability scanning Enterprise April 2026",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-04T12:15:00Z"
     }
   ],
   "schema_version": 1

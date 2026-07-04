@@ -452,3 +452,12 @@ Confirmed this run: CC silently deletes transcripts >30 days via `unlink()`, byp
 
 **#148 — Algolia HN API as fallback when news.ycombinator.com returns 403 (19th run with this issue)**
 HN direct WebFetch continues to return 403 for all item pages (https://news.ycombinator.com/item?id=XXXXX). The Algolia HN Search API (`https://hn.algolia.com/api/v1/items/XXXXX`) returned 403 this run too but WebSearch successfully recovered content. Suggest adding to AGENT_RUNBOOK.md fetch strategy: "For HN item pages: try `hn.algolia.com/api/v1/items/<id>` first; if 403, fall back to WebSearch with query `site:hnrss.org OR 'hntoplinks.com' '<title keywords>'`." This is the most reliable pattern found this run.
+
+**#149 — Write research scratch file at end of Step 4 to survive context compaction (2026-07-04 PM)**
+This run hit context window limits between the research phase and the write phase. The summary mechanism preserved all research results, but this has happened twice now. Suggest adding a Step 4.9 to AGENT_RUNBOOK.md: "Write candidate items with scores and notes to `state/pm_scratch.json` (or `state/am_scratch.json`). If context compaction occurs before Step 5, the write phase can read this file and resume without re-fetching." Acts as a crash recovery checkpoint between the two most expensive phases.
+
+**#150 — Detached HEAD fix STILL not in AGENT_RUNBOOK.md Step 0 (18th+ instance, 2026-07-04 PM)**
+Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, #137, #140, #142, #143, and now #150 — 18+ instances documented. The detached HEAD fix has never been added to Step 0. Command: `git fetch origin main && git checkout -B main origin/main`. This is the single highest-recurrence failure mode in the entire run history. Leo please add this to AGENT_RUNBOOK.md Step 0.
+
+**#151 — Evidence gate pattern: add to fiction pipeline scene acceptance (from Addy Osmani post, 2026-07-04 PM)**
+Osmani's "Agentic Code Review" post documents an evidence gate pattern: before accepting agent output, require a structured evidence artifact. Maps directly to fiction pipeline scene acceptance. Suggest adding to Jarvis fiction pipeline: after each scene generation, prompt the writer agent to produce a 100-word evidence artifact (what happened, what continuity facts were established, what was verified). Store as `<scene>_evidence.md`. Makes the Continuity Auditor's input machine-readable.
