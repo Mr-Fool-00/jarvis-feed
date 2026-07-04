@@ -1,147 +1,7 @@
 {
-  "last_run_utc": "2026-07-03T12:48:00Z",
-  "total_items_seen": 289,
+  "last_run_utc": "2026-07-04T00:01:43Z",
+  "total_items_seen": 272,
   "items": [
-    {
-      "first_seen_utc": "2026-06-02T00:01:51Z",
-      "score_when_seen": 8,
-      "title_snippet": "NousResearch/autonovel: autonomous novel pipeline \u2014 adversarial Opus review, ANTI-SLOP.md, 79K-word proof novel, LaTeX+ePub+audiobook export"
-    },
-    {
-      "first_seen_utc": "2026-06-02T00:01:51Z",
-      "score_when_seen": 7,
-      "title_snippet": "StoryWriter: 3-agent long story generation framework \u2014 outline\u2192planning\u2192writing with dynamic history compression"
-    },
-    {
-      "first_seen_utc": "2026-06-02T00:01:51Z",
-      "score_when_seen": 5,
-      "title_snippet": "CwC Tokyo = June 10 (main) + June 11 Extended \u2014 prior PM digest had wrong date June 5-6"
-    },
-    {
-      "first_seen_utc": "2026-06-02T00:01:51Z",
-      "score_when_seen": 5,
-      "title_snippet": "virgiliojr94/book-to-skill: 3.3K stars \u2014 PDF/EPUB\u2192Claude Code skill with chapter-granular loading, craft book reference pattern"
-    },
-    {
-      "first_seen_utc": "2026-06-02T00:01:51Z",
-      "score_when_seen": 4,
-      "title_snippet": "Anthropic confidential S-1 filed June 1, 2026 \u2014 $1.75-1.8T valuation target, October IPO possible, enterprise hiring shift"
-    },
-    {
-      "first_seen_utc": "2026-06-02T00:01:51Z",
-      "score_when_seen": 4,
-      "title_snippet": "Pimzino/claude-code-spec-workflow: 3.8K stars, SDD workflow Requirements\u2192Design\u2192Tasks\u2192Implementation, 14 slash commands"
-    },
-    {
-      "first_seen_utc": "2026-06-02T12:45:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "June 15 billing split: programmatic usage (claude -p, Routines, Agent SDK) moves to separate $200 Max credit pool at full API rates \u2014 action required before June 8"
-    },
-    {
-      "first_seen_utc": "2026-06-02T12:45:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "CC v2.1.160: dynamic-workflow keyword renamed workflow\u2192ultracode, acceptEdits shell startup + build config security prompts, WSL clipboard fix, bg session history fix"
-    },
-    {
-      "first_seen_utc": "2026-06-02T12:45:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "HN: Microsoft starts canceling Claude Code licenses \u2014 $500-2000/engineer/month, switching to GitHub Copilot CLI $39 flat"
-    },
-    {
-      "first_seen_utc": "2026-06-02T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "FindSkill.ai: June 15 pricing decision table \u2014 interactive vs programmatic use cases, cost math for light/medium/heavy automation"
-    },
-    {
-      "first_seen_utc": "2026-06-02T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "CwC Tokyo: June 10 main (livestreamed) + June 11 Extended for indie devs, Boris Cherny + Ami Vora confirmed speakers"
-    },
-    {
-      "first_seen_utc": "2026-06-02T12:45:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "YouTube: Claude Code v2.1.160 \u2014 Ultracode, Safer Edits & WSL Fix walkthrough video"
-    },
-    {
-      "first_seen_utc": "2026-06-02T12:45:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "ant CLI: Anthropic official Go CLI for Claude API, YAML resource management, GitOps agent config versioning, launched April 2026"
-    },
-    {
-      "first_seen_utc": "2026-06-02T12:45:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "HN: Anthropic surpasses OpenAI as most valuable AI startup \u2014 $965B vs OpenAI $730B after $65B Series H"
-    },
-    {
-      "first_seen_utc": "2026-06-03T00:42:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Hermes Agent Tool Search for MCP: 49%\u219274% accuracy on Opus 4 with large catalogs, 85% token reduction via deferred schema loading"
-    },
-    {
-      "first_seen_utc": "2026-06-03T00:42:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "CC v2.1.161: MCP secrets fix, Agent View done/total progress, parallel Bash fix, OTEL custom dimensions, unused connectors collapse"
-    },
-    {
-      "first_seen_utc": "2026-06-03T00:42:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "Single-Agent LLMs Outperform Multi-Agent Under Equal Token Budget \u2014 4-15x overhead, 515% unoptimized coordination cost"
-    },
-    {
-      "first_seen_utc": "2026-06-03T00:42:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "When Single-Agent with Skills Replace Multi-Agent: 54% fewer tokens, 50% less latency, comparable accuracy on bounded tasks"
-    },
-    {
-      "first_seen_utc": "2026-06-03T00:42:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "Simon Willison: Meta AI bypassed all account recovery security \u2014 default FAIL contract lesson for agentic support systems"
-    },
-    {
-      "first_seen_utc": "2026-06-03T00:42:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "June 15 billing: interactive CLI in terminal stays on subscription; Routines (ACP path) DO hit credit pool"
-    },
-    {
-      "first_seen_utc": "2026-06-03T00:42:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "Ultracode for Codex: cross-agent dynamic workflow pattern as a Codex CLI skill"
-    },
-    {
-      "first_seen_utc": "2026-06-03T12:30:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "MindStudio: Dynamic Workflows vs /goal vs Agent Teams decision framework \u2014 depth-first vs width-first, cost ordering"
-    },
-    {
-      "first_seen_utc": "2026-06-03T12:30:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Project Glasswing expands to 150 orgs in 15+ countries + Claude Security public launch (Opus 4.8 codebase scanning)"
-    },
-    {
-      "first_seen_utc": "2026-06-03T12:30:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "InfoQ: Dynamic Workflows practitioner analysis \u2014 investigation tasks, checkpointing, 16-concurrent/1000-total caps"
-    },
-    {
-      "first_seen_utc": "2026-06-03T12:30:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "MindStudio: /goal = depth-first (known path), Dynamic Workflows = width-first (discover path) \u2014 debugging is canonical DW use case"
-    },
-    {
-      "first_seen_utc": "2026-06-03T12:30:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Addy Osmani AEO framework: structure docs so AI agents can use them \u2014 discoverability, parsability, token efficiency, capability signaling"
-    },
-    {
-      "first_seen_utc": "2026-06-03T12:30:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "HN: Anthropic scales Claude Mythos to critical infrastructure \u2014 community reaction, dual-use concerns"
-    },
-    {
-      "first_seen_utc": "2026-06-03T12:30:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "MindStudio: Opus 4.8 + Dynamic Workflows practical walkthrough, 12-18x speedup on investigation tasks, ultracode mode"
-    },
     {
       "first_seen_utc": "2026-06-04T00:32:00Z",
       "score_when_seen": 7,
@@ -2923,7 +2783,7 @@
     },
     {
       "id": "cc:v2.1.199-stacked-skills",
-      "title": "CC v2.1.199 — Stacked Skills (/skill-a /skill-b do XYZ loads up to 5 simultaneously) + SSL fail-fast + subagent partial-work return + 429 retry watchdog",
+      "title": "CC v2.1.199 \u2014 Stacked Skills (/skill-a /skill-b do XYZ loads up to 5 simultaneously) + SSL fail-fast + subagent partial-work return + 429 retry watchdog",
       "url": "https://github.com/anthropics/claude-code/releases",
       "source": "GitHub Releases",
       "published": "2026-07-03",
@@ -2941,7 +2801,7 @@
     },
     {
       "id": "anthropic:launch-your-agent-repo",
-      "title": "anthropics/launch-your-agent — Official Idea-to-Managed-Agent Skill (4 stages: Interview/Stage+Launch/Grade+Iterate/Schedule)",
+      "title": "anthropics/launch-your-agent \u2014 Official Idea-to-Managed-Agent Skill (4 stages: Interview/Stage+Launch/Grade+Iterate/Schedule)",
       "url": "https://github.com/anthropics/launch-your-agent",
       "source": "github.com/anthropics",
       "published": "2026-07",
@@ -2960,7 +2820,7 @@
     },
     {
       "id": "simon-willison:dspy-prompt-eval",
-      "title": "Simon Willison: DSPy for Agent Prompt Evaluation — schema granularity mismatch causes column-name hallucination + retry loops",
+      "title": "Simon Willison: DSPy for Agent Prompt Evaluation \u2014 schema granularity mismatch causes column-name hallucination + retry loops",
       "url": "https://simonwillison.net/2026/Jul/2/dspy-datasette-agent-prompts/",
       "source": "simonwillison.net",
       "published": "2026-07-02",
@@ -2979,7 +2839,7 @@
     },
     {
       "id": "arxiv:2607.01224-automem",
-      "title": "AutoMem: Memory as Trainable Cognitive Skill — two meta-LLM optimization loops, 2x-4x improvement on LOCOMO/MemoryBench",
+      "title": "AutoMem: Memory as Trainable Cognitive Skill \u2014 two meta-LLM optimization loops, 2x-4x improvement on LOCOMO/MemoryBench",
       "url": "https://arxiv.org/abs/2607.01224",
       "source": "arXiv",
       "published": "2026-07-02",
@@ -2997,7 +2857,7 @@
     },
     {
       "id": "arxiv:2607.00009-loom-narrative",
-      "title": "Loom: Controllable Narrative Rendering via Intent-Centered Semiotic CoT — fixes remedial-polishing vs. destructive-expansion oscillation in writing agents",
+      "title": "Loom: Controllable Narrative Rendering via Intent-Centered Semiotic CoT \u2014 fixes remedial-polishing vs. destructive-expansion oscillation in writing agents",
       "url": "https://arxiv.org/abs/2607.00009",
       "source": "arXiv",
       "published": "2026-07-01",
@@ -3016,7 +2876,7 @@
     },
     {
       "id": "simon-willison:llm-coding-agent-0.1a0",
-      "title": "Simon Willison: llm-coding-agent 0.1a0 — model-agnostic CC-style agent, CodingTools_edit_file (exact-string diff), CodingTools_execute_command, Python CodingAgent class",
+      "title": "Simon Willison: llm-coding-agent 0.1a0 \u2014 model-agnostic CC-style agent, CodingTools_edit_file (exact-string diff), CodingTools_execute_command, Python CodingAgent class",
       "url": "https://pypi.org/project/llm-coding-agent/",
       "source": "simonwillison.net / PyPI",
       "published": "2026-07-02",
@@ -3034,7 +2894,7 @@
     },
     {
       "id": "reddit:sonnet5-worse-fiction-roleplay",
-      "title": "Reddit r/ClaudeAI: Sonnet 5 worse for fiction/roleplay — 'less warm, less playful, more literal'; use Opus 4.8 or Fable 5 for writing pipeline",
+      "title": "Reddit r/ClaudeAI: Sonnet 5 worse for fiction/roleplay \u2014 'less warm, less playful, more literal'; use Opus 4.8 or Fable 5 for writing pipeline",
       "url": "https://www.reddit.com/r/ClaudeAI/",
       "source": "reddit:ClaudeAI",
       "published": "2026-07-02",
@@ -3053,7 +2913,7 @@
     },
     {
       "id": "manufact:mcp-cloud-yc-s25",
-      "title": "Manufact MCP Cloud (YC S25) — $6.3M, managed MCP deployment, GitHub repo → live MCP URL, 'Vercel for MCP servers'",
+      "title": "Manufact MCP Cloud (YC S25) \u2014 $6.3M, managed MCP deployment, GitHub repo \u2192 live MCP URL, 'Vercel for MCP servers'",
       "url": "https://manufact.ai",
       "source": "Manufact.ai / TechCrunch",
       "published": "2026-07-02",
@@ -3072,7 +2932,7 @@
     },
     {
       "id": "youtube:wes-roth-dont-waste-fable5-july7",
-      "title": "Wes Roth: Don't Waste Fable 5 Before July 7 — 5 use cases, Fable as orchestrator pattern, 4 days left on free window",
+      "title": "Wes Roth: Don't Waste Fable 5 Before July 7 \u2014 5 use cases, Fable as orchestrator pattern, 4 days left on free window",
       "url": "https://www.youtube.com/@WesRoth",
       "source": "YouTube/@WesRoth",
       "published": "2026-07-03",
@@ -3087,8 +2947,62 @@
         "wes-roth"
       ],
       "run": "2026-07-03_PM"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 9,
+      "title_snippet": "HN:48734373 \u2014 Claude Code steganographically marking requests via Unicode homoglyphs in system prompt (2425 pts, 740 comments); fixed in v2.1.197"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 7,
+      "title_snippet": "HN:48735113 \u2014 Anthropic embedded spyware-like code in Claude Code framing; same finding as 48734373; KAIROS persistent daemon revealed from source map leak"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 8,
+      "title_snippet": "arxiv:2607.00918 \u2014 MAGNET + ATLAS multi-agent character-grounded story generation; 41% plot continuity error reduction, 50% character hallucination reduction"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 8,
+      "title_snippet": "HN:48732846 \u2014 CC silently deletes >30 day transcripts via unlink(); Anthropic closed issue #62959 as 'not planned'; workaround: cleanupPeriodDays:36500 (NOT 0)"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 7,
+      "title_snippet": "HN:48664814 \u2014 Anthropic accuses Alibaba of 25,000 fake accounts + 28.8M exchanges to distill Claude (April-June 2026); July 10 ban on Chinese users"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison 'Fable's Judgement' July 3 \u2014 model-dispatch heuristic for multi-agent pipelines: Fable=creative, Sonnet=engineering, Haiku=extraction"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 6,
+      "title_snippet": "CC v2.1.198-201 changelog \u2014 background subagents default on, /dataviz skill, Manual permission mode default, stacked slash-skills up to 5"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 6,
+      "title_snippet": "MindStudio production telemetry: Sonnet 5 uses ~30% more tokens than Sonnet 4.6; can exceed Opus 4.8 cost on verbose tasks"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 6,
+      "title_snippet": "Latent Space AINews: Anthropic rolling out programmatic usage metering; CC usage limits +50% through July 13 summer promotion"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 5,
+      "title_snippet": "HN:48762862 \u2014 Manufact (YC S25) MCP Cloud launch; raised $6.3M; 108 pts, 66 comments; 'Vercel for MCP' \u2014 60s GitHub-to-production MCP URL"
+    },
+    {
+      "first_seen_utc": "2026-07-04T00:01:43Z",
+      "score_when_seen": 4,
+      "title_snippet": "Claude Science workbench \u2014 Anthropic program for scientific computing; applications through July 15, 2026"
     }
   ],
-  "last_run_utc": "2026-07-03T12:48:00Z",
   "schema_version": 1
 }

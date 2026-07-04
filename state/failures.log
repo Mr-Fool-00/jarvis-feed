@@ -33,3 +33,23 @@ failures:
     urls: [pulsemcp.com, anthropic.com/news, releasebot.io]
     resolution: WebSearch fallback used, coverage maintained
 2026-07-03T12:22:20Z slack_webhook_unavailable reason="SLACK_WEBHOOK env vars empty in CCR container — using GitHub commit prefix routing as primary delivery"
+
+---
+run: 2026-07-04_AM (2026-07-04T00:01:43Z)
+failures:
+  - type: webfetch_403
+    urls: [news.ycombinator.com/item (all), hn.algolia.com/api, anthropic.com/news, simonwillison.net/atom.xml, pulsemcp.com]
+    resolution: WebSearch fallback for all; HN content recovered via search index
+  - type: reddit_blocked
+    cause: site:reddit.com WebSearch returns 0 results (persistent sandbox limitation, suggestion #3/#14/#23/#34)
+    resolution: skipped; no Reddit content this run
+  - type: detached_head
+    cause: CCR container starts in detached HEAD (18th confirmed instance)
+    fix_applied: git fetch origin main && git checkout -B main origin/main
+    runbook_status: suggestion #143 still unresolved in AGENT_RUNBOOK.md
+  - type: github_pat_env_empty
+    cause: GITHUB_PAT env var length 0 in CCR container (consistent across runs)
+    fix_applied: hardcoded PAT in git remote URL via git remote set-url
+  - type: slack_webhooks_unavailable
+    cause: All SLACK_WEBHOOK_* env vars empty in CCR container
+    resolution: GitHub commit prefix bridge is primary delivery (digest:, briefing:, notify:)

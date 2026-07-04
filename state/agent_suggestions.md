@@ -444,3 +444,11 @@ AutoMem (2607.01224) and Loom (2607.00009) surfaced within hours of publication 
 
 **#146 — Sonnet 5 model regression for fiction/roleplay should inform INTEREST_PROFILE scoring**
 Community consensus from r/ClaudeAI: Sonnet 5 (now the CC default as of v2.1.197) is "less warm, less playful, more literal" than Sonnet 4.6 for creative tasks. Leo should set `--model claude-opus-4-8` or `--model claude-fable-5` explicitly in his fiction pipeline sessions, not rely on CC auto-mode default. Suggest adding a line to INTEREST_PROFILE.md: "Any digest item comparing Sonnet 5 vs prior models for creative writing: score +1 if the finding is non-obvious or contradicts expected behavior."
+
+## Run: 2026-07-04 AM
+
+**#147 — Add `"cleanupPeriodDays": 36500` to AGENT_RUNBOOK.md setup checklist (critical)**
+Confirmed this run: CC silently deletes transcripts >30 days via `unlink()`, bypassing Trash. Anthropic closed the fix request as "not planned." The RUNBOOK has no mention of this setting. This directly destroys Jarvis's own session transcripts. Suggest adding to AGENT_RUNBOOK.md Step 0 (environment check): "Verify `~/.claude/settings.json` contains `cleanupPeriodDays: 36500`. If not, add it before proceeding — default 30-day deletion will destroy session history." Critical note: `cleanupPeriodDays: 0` DISABLES all transcript writing (not just cleanup), so 36500 is the correct value.
+
+**#148 — Algolia HN API as fallback when news.ycombinator.com returns 403 (19th run with this issue)**
+HN direct WebFetch continues to return 403 for all item pages (https://news.ycombinator.com/item?id=XXXXX). The Algolia HN Search API (`https://hn.algolia.com/api/v1/items/XXXXX`) returned 403 this run too but WebSearch successfully recovered content. Suggest adding to AGENT_RUNBOOK.md fetch strategy: "For HN item pages: try `hn.algolia.com/api/v1/items/<id>` first; if 403, fall back to WebSearch with query `site:hnrss.org OR 'hntoplinks.com' '<title keywords>'`." This is the most reliable pattern found this run.
