@@ -461,3 +461,17 @@ Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #
 
 **#151 — Evidence gate pattern: add to fiction pipeline scene acceptance (from Addy Osmani post, 2026-07-04 PM)**
 Osmani's "Agentic Code Review" post documents an evidence gate pattern: before accepting agent output, require a structured evidence artifact. Maps directly to fiction pipeline scene acceptance. Suggest adding to Jarvis fiction pipeline: after each scene generation, prompt the writer agent to produce a 100-word evidence artifact (what happened, what continuity facts were established, what was verified). Store as `<scene>_evidence.md`. Makes the Continuity Auditor's input machine-readable.
+
+## Run: 2026-07-05 AM
+
+**#152 — CC v2.1.200 AskUserQuestion breaking change affects any CCR runs that use AskUserQuestion tool**
+v2.1.200 removes AskUserQuestion auto-continue: sessions now block indefinitely on unanswered AskUserQuestion calls. CCR currently does not use AskUserQuestion, so this run was unaffected. But suggest adding to AGENT_RUNBOOK.md Step 0: "Verify CC version ≥ v2.1.200; if any Jarvis skills use AskUserQuestion, add `/config idleTimeoutMs=30000` before automated run to prevent hang." Also: any locally-developed skills that use AskUserQuestion should be tested after v2.1.200 upgrade — the behavior change is silent (no warning when a session blocks).
+
+**#153 — permissionMode "default" → "manual" rename: audit AGENT_RUNBOOK.md and any CLAUDE.md files**
+CC v2.1.200 renamed the default permission mode string from "default" to "manual". Any config that checks for `permissionMode: "default"` will fail silently. Suggest a one-time audit: grep all Jarvis-related CLAUDE.md and settings.json files for the string "default" in a permissionMode context. The AGENT_RUNBOOK.md likely doesn't reference the mode string directly, but any custom launch configs might. Low urgency but worth a cleanup pass next time a human is in the repo.
+
+**#154 — GPT-5.6 Sol/Terra/Luna preview: add OpenAI model releases to competitor tracking in SOURCES.yaml**
+GPT-5.6 is reportedly previewing at 750 tok/s on Cerebras silicon. If this ships publicly, the economics of long-horizon multi-agent runs change significantly (speed is currently a bottleneck). Suggest adding to SOURCES.yaml a search query: `"GPT-5" OR "GPT5" site:openai.com OR site:techcrunch.com 2026` to track competitor model releases. Currently SOURCES.yaml appears to have no OpenAI-tracking queries; all competitor signal comes in via secondary coverage (HN, Simon Willison, etc.).
+
+**#155 — Fable 5 credits-only transition (July 7): suggest adding a post-July-7 model routing heuristic to INTEREST_PROFILE.md**
+After July 7, Fable 5 burns credits at $50/M output. The fiction pipeline decision tree changes: Fable for orchestration = expensive (justify per-use), Opus 4.8 subscription = cost-effective default for writing sessions, Sonnet 5 = fast workhorse for extraction. Suggest adding to INTEREST_PROFILE.md a model selection context note: "Post-2026-07-07: when surfacing model comparison items, score +1 for any that address cost-vs-quality tradeoffs for fiction generation specifically (Fable vs Opus for creative output)."

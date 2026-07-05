@@ -1,37 +1,7 @@
 {
-  "last_run_utc": "2026-07-04T12:15:00Z",
-  "total_items_seen": 280,
+  "last_run_utc": "2026-07-05T01:00:00Z",
+  "total_items_seen": 285,
   "items": [
-    {
-      "first_seen_utc": "2026-06-04T00:32:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "CORRECTION: Claude Cowork scheduled routines (CCR) are explicitly EXEMPT from June 15 billing split \u2014 stay on subscription per official Anthropic docs"
-    },
-    {
-      "first_seen_utc": "2026-06-04T00:32:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "CC v2.1.162: claude agents --json waitingFor field, workflow agent isolation fix, stale model daemon fix, Grep/Glob explicit listing on native builds"
-    },
-    {
-      "first_seen_utc": "2026-06-04T00:32:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Opus 4.8 subagent multiplication bug draining Pro/Max quotas in minutes \u2014 Anthropic emergency reset all limits June 1, 2026"
-    },
-    {
-      "first_seen_utc": "2026-06-04T00:32:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Uber $1,500/month per employee cap on AI coding tools (Claude Code, Cursor) after blowing 2026 AI budget in 4 months"
-    },
-    {
-      "first_seen_utc": "2026-06-04T00:32:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Microsoft MAI 7 models at Build 2026 \u2014 MAI-Thinking-1 matches Claude Sonnet 4.6, MAI-Code-1-Flash (5B) in VS Code/Copilot"
-    },
-    {
-      "first_seen_utc": "2026-06-04T00:32:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Anthropic Claude Partner Network Services Track + Partner Hub \u2014 agencies/consultants, early access, revenue sharing"
-    },
     {
       "first_seen_utc": "2026-06-05T00:18:00Z",
       "score_when_seen": 7,
@@ -3042,6 +3012,105 @@
       "title_snippet": "Claude Security public beta Opus 4.7 repo vulnerability scanning Enterprise April 2026",
       "score_when_seen": 4,
       "first_seen_utc": "2026-07-04T12:15:00Z"
+    },
+    {
+      "id": "anthropic:fable5-credits-only-july7",
+      "title_snippet": "Fable 5 exits Max plan subscription free window July 7 — credits-only at $10/$50 per MTok; 50% weekly cap in grace window; Opus 4.8 fallback; 'not permanently leaving subscriptions' per Anthropic",
+      "score_when_seen": 8,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["fable-5", "pricing", "credits", "max-plan", "deadline"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "cc:v2.1.200-manual-mode-askuser-breaking",
+      "title_snippet": "CC v2.1.200: permissionMode renamed from 'default' to 'manual' (breaking for config scripts); AskUserQuestion no longer auto-continues (blocks indefinitely — configure idleTimeoutMs); daemon stale lock fix; subagent rate-limit surfaces explicit error",
+      "score_when_seen": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["claude-code", "breaking-change", "permission-mode", "ask-user-question", "automation"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "simonwillison:understand-to-participate-2026-07-02",
+      "title_snippet": "Simon Willison: 'Understand to Participate' — Geoffrey Litt's AIE talk; cognitive debt analogy for unreviewed AI output; 4 techniques: code explainer docs, comprehension quizzes, micro worlds, literate diffs",
+      "score_when_seen": 7,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["simon-willison", "cognitive-debt", "comprehension", "human-in-loop", "fiction-pipeline"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "cc:v2.1.201-no-mid-conversation-system-role",
+      "title_snippet": "CC v2.1.201: Sonnet 5 sessions no longer inject mid-conversation system role; +16.8% prompt token count as a result; more predictable behavior for long sessions",
+      "score_when_seen": 6,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["claude-code", "sonnet-5", "system-prompt", "token-count", "changelog"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "openai:gpt-5.6-sol-terra-luna-preview",
+      "title_snippet": "GPT-5.6 'Sol/Terra/Luna' preview — 20 orgs; Sol at 750 tok/s on Cerebras silicon; internal naming for 3 tiers; no public timeline; watch for July/August announcement",
+      "score_when_seen": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["openai", "gpt-5.6", "competitor", "speed", "cerebras"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "anthropic:enterprise-admin-controls-v2-spend-caps",
+      "title_snippet": "Anthropic Enterprise Admin Controls v2: per-team/project spend caps (daily/weekly/monthly), real-time analytics dashboard, project-level model locking to block Fable 5 credits access",
+      "score_when_seen": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["anthropic", "enterprise", "admin", "spend-caps", "analytics"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "anthropic:chinese-access-singapore-vpn-block-july10",
+      "title_snippet": "Anthropic extends Chinese IP block to Singapore-based VPN exit nodes effective July 10 — response to Alibaba account-pooling via Singapore IPs; no impact on standard Max plan use",
+      "score_when_seen": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["anthropic", "policy", "china", "singapore", "ip-block", "alibaba"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "cc:v2.1.200-bg-shell-memory-pressure-reaping",
+      "title_snippet": "CC v2.1.200 memory-pressure reaping: idle background shells terminated under high memory pressure; disable with CLAUDE_CODE_DISABLE_BG_SHELL_PRESSURE_REAP=1",
+      "score_when_seen": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["claude-code", "background-shells", "memory", "env-var", "v2.1.200"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "github:k-dense-ai-claude-skills-mcp",
+      "title_snippet": "K-Dense-AI/claude-skills-mcp: MCP server for semantic vector search over local Claude skills library; search_skills tool; ~340 stars Week 1 — safety gate applied, third-party unreviewed",
+      "score_when_seen": 5,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["mcp", "skills", "vector-search", "third-party", "safety-gate"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "arxiv:2507.10644-web-of-agents-survey",
+      "title_snippet": "arXiv 2507.10644: Web of Agents survey, 1990-2026 — 247 papers, 6 taxonomy axes: communication topology, memory architecture, coordination protocols, task decomposition, trust/verification, resource management",
+      "score_when_seen": 4,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["arxiv", "survey", "multi-agent", "taxonomy", "reference"],
+      "run": "2026-07-05_AM"
+    },
+    {
+      "id": "simonwillison:june-2026-newsletter",
+      "title_snippet": "Simon Willison June 2026 monthly newsletter — summary of Fable 5 saga, MCP stateless RC, Alibaba distillation complaint; most items already in seen.json from primary coverage",
+      "score_when_seen": 4,
+      "build_worthy": false,
+      "first_seen_utc": "2026-07-05T01:00:00Z",
+      "tags": ["simon-willison", "newsletter", "monthly-roundup"],
+      "run": "2026-07-05_AM"
     }
   ],
   "schema_version": 1
