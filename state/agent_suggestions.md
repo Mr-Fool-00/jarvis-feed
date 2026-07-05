@@ -475,3 +475,20 @@ GPT-5.6 is reportedly previewing at 750 tok/s on Cerebras silicon. If this ships
 
 **#155 — Fable 5 credits-only transition (July 7): suggest adding a post-July-7 model routing heuristic to INTEREST_PROFILE.md**
 After July 7, Fable 5 burns credits at $50/M output. The fiction pipeline decision tree changes: Fable for orchestration = expensive (justify per-use), Opus 4.8 subscription = cost-effective default for writing sessions, Sonnet 5 = fast workhorse for extraction. Suggest adding to INTEREST_PROFILE.md a model selection context note: "Post-2026-07-07: when surfacing model comparison items, score +1 for any that address cost-vs-quality tradeoffs for fiction generation specifically (Fable vs Opus for creative output)."
+
+## Run: 2026-07-05 PM
+
+**#156 — Build native Jarvis engagement-ranked search skill (from mvanhorn/last30days-skill, 2026-07-05 PM)**
+mvanhorn/last30days-skill (#1 trending Claude tool July 4) implements the research-aggregation pattern Jarvis does manually: WebSearch across Reddit/HN/GitHub → score by engagement signal (comment count, upvote estimate) → rank. If the pattern holds up on review, build a native Jarvis equivalent. This cuts dependence on editorial indexing for discovery and would directly improve the AM/PM run quality. Estimate: 2-3 hours to prototype as a Jarvis sub-skill.
+
+**#157 — Design a memory sycophancy test for the fiction pipeline (from MemSyco-Bench arXiv:2607.01071, 2026-07-05 PM)**
+MemSyco-Bench shows that existing memory benchmarks don't test whether agents *reject* memory when it conflicts with ground truth — agents over-align with stored preferences at the cost of factual accuracy. Design a test for the fiction pipeline: after storing a false character-history fact in memory, does the agent helpfully confirm it or push back? If the memory layer is a sycophancy amplifier, it makes character consistency worse over time, not better. Run this test before deploying any memory layer to the manuscript pipeline.
+
+**#158 — Tool-schema adherence regression test for Jarvis skills (from Willison "Better Models Worse Tools," 2026-07-05 PM)**
+Opus 4.8 and Sonnet 5 are adding spurious fields to tool call schemas. Run a regression test against any MCP tool schemas currently in the Jarvis skills library using both models. Add `additionalProperties: false` to schemas where strict adherence matters. Log raw tool calls at debug level for one week to catch spurious field injection. Willison's specific failure was in nested array schemas — audit any Jarvis skills with nested structured inputs first.
+
+**#159 — Verify Google agents-cli repo provenance before next evaluation (2026-07-05 PM)**
+"Google released" agents-cli may mean a Google employee's personal project, not an official Google product. Before next scoring cycle, identify the exact GitHub repo URL (github.com/google/ org vs. personal account). This determines trust level and appropriate score. Currently logged at 6/10 with safety gate; score could move to 4/10 if personal project with no org backing.
+
+**#160 — Add post-session context audit to Jarvis runbook (from GitHub #74066 CC leakage bug, 2026-07-05 PM)**
+GitHub #74066 (CC session/cache leakage, 272 HN pts) is open and unresolved. Add a post-session audit step to AGENT_RUNBOOK.md: "After each PM run, spot-check last 3 session transcripts for context fragments that don't belong to this session — unfamiliar code, references not in this session's inputs, context that 'knows' things from prior sessions." This is a low-cost canary for cross-account bleed. Until #74066 is resolved, treat CCR sessions as potentially non-isolated.
