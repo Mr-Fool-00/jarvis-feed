@@ -1,32 +1,7 @@
 {
-  "last_run_utc": "2026-07-05T12:01:00Z",
-  "total_items_seen": 304,
+  "last_run_utc": "2026-07-06T00:01:27Z",
+  "total_items_seen": 310,
   "items": [
-    {
-      "first_seen_utc": "2026-06-05T00:18:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Comment and Control: Claude Code, Gemini CLI, GitHub Copilot all vulnerable to prompt injection via PR titles/comments \u2014 auto-trigger, zero sanitization, full credential dump"
-    },
-    {
-      "first_seen_utc": "2026-06-05T00:18:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "GMO Flatt Security (RyotaK): broken checkWritePermissions [bot] trust + prompt injection \u2192 repo hijack via single GitHub Issue. CVSS 7.8. Fixed in claude-code-action v1.0.94"
-    },
-    {
-      "first_seen_utc": "2026-06-05T00:18:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "CC v2.1.163: /plugin list --enabled/--disabled, requiredMinimumVersion/Maximum managed settings, $ escape for skills, bg session task loss fix, keyboard fix"
-    },
-    {
-      "first_seen_utc": "2026-06-05T00:18:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "June 15 billing: Anthropic sends $200 Max credit claim email around June 8 \u2014 must claim via account settings before June 15"
-    },
-    {
-      "first_seen_utc": "2026-06-05T00:18:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "CwC Tokyo June 10 reminder: keynote 11 AM UTC (6 AM CDT), Boris Cherny + Ami Vora, 3 tracks, Extended June 11"
-    },
     {
       "first_seen_utc": "2026-06-16T00:55:00Z",
       "score_when_seen": 9,
@@ -3015,29 +2990,47 @@
     },
     {
       "id": "anthropic:fable5-credits-only-july7",
-      "title_snippet": "Fable 5 exits Max plan subscription free window July 7 — credits-only at $10/$50 per MTok; 50% weekly cap in grace window; Opus 4.8 fallback; 'not permanently leaving subscriptions' per Anthropic",
+      "title_snippet": "Fable 5 exits Max plan subscription free window July 7 \u2014 credits-only at $10/$50 per MTok; 50% weekly cap in grace window; Opus 4.8 fallback; 'not permanently leaving subscriptions' per Anthropic",
       "score_when_seen": 8,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["fable-5", "pricing", "credits", "max-plan", "deadline"],
+      "tags": [
+        "fable-5",
+        "pricing",
+        "credits",
+        "max-plan",
+        "deadline"
+      ],
       "run": "2026-07-05_AM"
     },
     {
       "id": "cc:v2.1.200-manual-mode-askuser-breaking",
-      "title_snippet": "CC v2.1.200: permissionMode renamed from 'default' to 'manual' (breaking for config scripts); AskUserQuestion no longer auto-continues (blocks indefinitely — configure idleTimeoutMs); daemon stale lock fix; subagent rate-limit surfaces explicit error",
+      "title_snippet": "CC v2.1.200: permissionMode renamed from 'default' to 'manual' (breaking for config scripts); AskUserQuestion no longer auto-continues (blocks indefinitely \u2014 configure idleTimeoutMs); daemon stale lock fix; subagent rate-limit surfaces explicit error",
       "score_when_seen": 7,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["claude-code", "breaking-change", "permission-mode", "ask-user-question", "automation"],
+      "tags": [
+        "claude-code",
+        "breaking-change",
+        "permission-mode",
+        "ask-user-question",
+        "automation"
+      ],
       "run": "2026-07-05_AM"
     },
     {
       "id": "simonwillison:understand-to-participate-2026-07-02",
-      "title_snippet": "Simon Willison: 'Understand to Participate' — Geoffrey Litt's AIE talk; cognitive debt analogy for unreviewed AI output; 4 techniques: code explainer docs, comprehension quizzes, micro worlds, literate diffs",
+      "title_snippet": "Simon Willison: 'Understand to Participate' \u2014 Geoffrey Litt's AIE talk; cognitive debt analogy for unreviewed AI output; 4 techniques: code explainer docs, comprehension quizzes, micro worlds, literate diffs",
       "score_when_seen": 7,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["simon-willison", "cognitive-debt", "comprehension", "human-in-loop", "fiction-pipeline"],
+      "tags": [
+        "simon-willison",
+        "cognitive-debt",
+        "comprehension",
+        "human-in-loop",
+        "fiction-pipeline"
+      ],
       "run": "2026-07-05_AM"
     },
     {
@@ -3046,16 +3039,28 @@
       "score_when_seen": 6,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["claude-code", "sonnet-5", "system-prompt", "token-count", "changelog"],
+      "tags": [
+        "claude-code",
+        "sonnet-5",
+        "system-prompt",
+        "token-count",
+        "changelog"
+      ],
       "run": "2026-07-05_AM"
     },
     {
       "id": "openai:gpt-5.6-sol-terra-luna-preview",
-      "title_snippet": "GPT-5.6 'Sol/Terra/Luna' preview — 20 orgs; Sol at 750 tok/s on Cerebras silicon; internal naming for 3 tiers; no public timeline; watch for July/August announcement",
+      "title_snippet": "GPT-5.6 'Sol/Terra/Luna' preview \u2014 20 orgs; Sol at 750 tok/s on Cerebras silicon; internal naming for 3 tiers; no public timeline; watch for July/August announcement",
       "score_when_seen": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["openai", "gpt-5.6", "competitor", "speed", "cerebras"],
+      "tags": [
+        "openai",
+        "gpt-5.6",
+        "competitor",
+        "speed",
+        "cerebras"
+      ],
       "run": "2026-07-05_AM"
     },
     {
@@ -3064,16 +3069,29 @@
       "score_when_seen": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["anthropic", "enterprise", "admin", "spend-caps", "analytics"],
+      "tags": [
+        "anthropic",
+        "enterprise",
+        "admin",
+        "spend-caps",
+        "analytics"
+      ],
       "run": "2026-07-05_AM"
     },
     {
       "id": "anthropic:chinese-access-singapore-vpn-block-july10",
-      "title_snippet": "Anthropic extends Chinese IP block to Singapore-based VPN exit nodes effective July 10 — response to Alibaba account-pooling via Singapore IPs; no impact on standard Max plan use",
+      "title_snippet": "Anthropic extends Chinese IP block to Singapore-based VPN exit nodes effective July 10 \u2014 response to Alibaba account-pooling via Singapore IPs; no impact on standard Max plan use",
       "score_when_seen": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["anthropic", "policy", "china", "singapore", "ip-block", "alibaba"],
+      "tags": [
+        "anthropic",
+        "policy",
+        "china",
+        "singapore",
+        "ip-block",
+        "alibaba"
+      ],
       "run": "2026-07-05_AM"
     },
     {
@@ -3082,58 +3100,94 @@
       "score_when_seen": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["claude-code", "background-shells", "memory", "env-var", "v2.1.200"],
+      "tags": [
+        "claude-code",
+        "background-shells",
+        "memory",
+        "env-var",
+        "v2.1.200"
+      ],
       "run": "2026-07-05_AM"
     },
     {
       "id": "github:k-dense-ai-claude-skills-mcp",
-      "title_snippet": "K-Dense-AI/claude-skills-mcp: MCP server for semantic vector search over local Claude skills library; search_skills tool; ~340 stars Week 1 — safety gate applied, third-party unreviewed",
+      "title_snippet": "K-Dense-AI/claude-skills-mcp: MCP server for semantic vector search over local Claude skills library; search_skills tool; ~340 stars Week 1 \u2014 safety gate applied, third-party unreviewed",
       "score_when_seen": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["mcp", "skills", "vector-search", "third-party", "safety-gate"],
+      "tags": [
+        "mcp",
+        "skills",
+        "vector-search",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_AM"
     },
     {
       "id": "arxiv:2507.10644-web-of-agents-survey",
-      "title_snippet": "arXiv 2507.10644: Web of Agents survey, 1990-2026 — 247 papers, 6 taxonomy axes: communication topology, memory architecture, coordination protocols, task decomposition, trust/verification, resource management",
+      "title_snippet": "arXiv 2507.10644: Web of Agents survey, 1990-2026 \u2014 247 papers, 6 taxonomy axes: communication topology, memory architecture, coordination protocols, task decomposition, trust/verification, resource management",
       "score_when_seen": 4,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["arxiv", "survey", "multi-agent", "taxonomy", "reference"],
+      "tags": [
+        "arxiv",
+        "survey",
+        "multi-agent",
+        "taxonomy",
+        "reference"
+      ],
       "run": "2026-07-05_AM"
     },
     {
       "id": "simonwillison:june-2026-newsletter",
-      "title_snippet": "Simon Willison June 2026 monthly newsletter — summary of Fable 5 saga, MCP stateless RC, Alibaba distillation complaint; most items already in seen.json from primary coverage",
+      "title_snippet": "Simon Willison June 2026 monthly newsletter \u2014 summary of Fable 5 saga, MCP stateless RC, Alibaba distillation complaint; most items already in seen.json from primary coverage",
       "score_when_seen": 4,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T01:00:00Z",
-      "tags": ["simon-willison", "newsletter", "monthly-roundup"],
+      "tags": [
+        "simon-willison",
+        "newsletter",
+        "monthly-roundup"
+      ],
       "run": "2026-07-05_AM"
     },
     {
       "id": "github:anthropics-cc-74066-session-cache-leakage",
-      "title": "Claude Code session/cache leakage — cross-account context bleed (GitHub #74066, 272 HN pts)",
+      "title": "Claude Code session/cache leakage \u2014 cross-account context bleed (GitHub #74066, 272 HN pts)",
       "url": "https://github.com/anthropics/claude-code/issues/74066",
       "source": "github.com/anthropics + Hacker News",
       "published": "2026-07-05",
       "score": 9,
       "build_worthy": true,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["claude-code", "security", "leakage", "cache", "cross-account", "ccr", "urgent"],
+      "tags": [
+        "claude-code",
+        "security",
+        "leakage",
+        "cache",
+        "cross-account",
+        "ccr",
+        "urgent"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "simonwillison:sqlite-utils-fable-sprint-149",
-      "title": "Simon Willison: sqlite-utils 4.0rc2 mostly written by Claude Fable for $149.25 — Fable sprint economics before July 7 cutoff",
+      "title": "Simon Willison: sqlite-utils 4.0rc2 mostly written by Claude Fable for $149.25 \u2014 Fable sprint economics before July 7 cutoff",
       "url": "https://simonwillison.net/2026/Jul/5/sqlite-utils-fable/",
       "source": "simonwillison.net",
       "published": "2026-07-05",
       "score": 8,
       "build_worthy": true,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["simon-willison", "fable5", "sprint-economics", "sqlite-utils", "july7-deadline"],
+      "tags": [
+        "simon-willison",
+        "fable5",
+        "sprint-economics",
+        "sqlite-utils",
+        "july7-deadline"
+      ],
       "run": "2026-07-05_PM"
     },
     {
@@ -3145,211 +3199,335 @@
       "score": 8,
       "build_worthy": true,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["arxiv", "memory", "governance", "pre-action-gate", "event-log", "fiction-pipeline", "safety-gate"],
+      "tags": [
+        "arxiv",
+        "memory",
+        "governance",
+        "pre-action-gate",
+        "event-log",
+        "fiction-pipeline",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:anthropics-cc-38335-max-plan-limits",
-      "title": "Claude Max plan limits exhausted abnormally fast — long autonomous runs burning through quota in hours (GitHub #38335, 793 comments)",
+      "title": "Claude Max plan limits exhausted abnormally fast \u2014 long autonomous runs burning through quota in hours (GitHub #38335, 793 comments)",
       "url": "https://github.com/anthropics/claude-code/issues/38335",
       "source": "github.com/anthropics",
       "published": "2026-07-05",
       "score": 8,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["claude-code", "max-plan", "rate-limits", "agentic-runs", "monitoring"],
+      "tags": [
+        "claude-code",
+        "max-plan",
+        "rate-limits",
+        "agentic-runs",
+        "monitoring"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "simonwillison:better-models-worse-tools-schema-adherence",
-      "title": "Simon Willison: Better Models Worse Tools — Opus 4.8 and Sonnet 5 add spurious fields to tool call schemas (schema adherence regression)",
+      "title": "Simon Willison: Better Models Worse Tools \u2014 Opus 4.8 and Sonnet 5 add spurious fields to tool call schemas (schema adherence regression)",
       "url": "https://simonwillison.net/2026/Jul/4/better-models-worse-tools/",
       "source": "simonwillison.net",
       "published": "2026-07-04",
       "score": 7,
       "build_worthy": true,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["simon-willison", "tool-schema", "opus-4-8", "sonnet-5", "regression", "mcp"],
+      "tags": [
+        "simon-willison",
+        "tool-schema",
+        "opus-4-8",
+        "sonnet-5",
+        "regression",
+        "mcp"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "producthunt:scritty-structured-critique-fiction",
-      "title": "scritty — structured critique tool for AI-assisted writing; integrates with CC as critique orchestration skill layer (PH July 4, 124 votes)",
+      "title": "scritty \u2014 structured critique tool for AI-assisted writing; integrates with CC as critique orchestration skill layer (PH July 4, 124 votes)",
       "url": "https://www.producthunt.com/posts/scritty",
       "source": "Product Hunt",
       "published": "2026-07-04",
       "score": 8,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["writing", "fiction", "critique", "skill", "third-party", "safety-gate"],
+      "tags": [
+        "writing",
+        "fiction",
+        "critique",
+        "skill",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "producthunt:retrace-session-replay-agent-debugging",
-      "title": "Retrace — session replay for agentic debugging; full tool call trace + intermediate state capture with post-hoc inspection (PH July 4, 101 votes)",
+      "title": "Retrace \u2014 session replay for agentic debugging; full tool call trace + intermediate state capture with post-hoc inspection (PH July 4, 101 votes)",
       "url": "https://www.producthunt.com/posts/retrace",
       "source": "Product Hunt",
       "published": "2026-07-04",
       "score": 7,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["debugging", "session-replay", "agent", "audit-log", "third-party", "safety-gate"],
+      "tags": [
+        "debugging",
+        "session-replay",
+        "agent",
+        "audit-log",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "scmp:alibaba-bans-claude-code-employees-july2026",
-      "title": "Alibaba issues internal directive banning employee use of Claude Code on company devices — cites security policy and cross-account leakage concern (SCMP July 4)",
+      "title": "Alibaba issues internal directive banning employee use of Claude Code on company devices \u2014 cites security policy and cross-account leakage concern (SCMP July 4)",
       "url": "https://www.scmp.com/tech/big-tech/article/2026/alibaba-claude-code-ban",
       "source": "South China Morning Post",
       "published": "2026-07-04",
       "score": 7,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["alibaba", "claude-code", "policy", "ban", "security", "enterprise"],
+      "tags": [
+        "alibaba",
+        "claude-code",
+        "policy",
+        "ban",
+        "security",
+        "enterprise"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:mvanhorn-last30days-skill-v3.10.0",
-      "title": "mvanhorn/last30days-skill v3.10.0 — #1 trending Claude tool July 4; cross-platform engagement-ranked research skill (Reddit/X/YouTube/TikTok/HN/Polymarket/GitHub, 49k stars)",
+      "title": "mvanhorn/last30days-skill v3.10.0 \u2014 #1 trending Claude tool July 4; cross-platform engagement-ranked research skill (Reddit/X/YouTube/TikTok/HN/Polymarket/GitHub, 49k stars)",
       "url": "https://github.com/mvanhorn/last30days-skill",
       "source": "github.com",
       "published": "2026-07-04",
       "score": 7,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["skill", "research", "aggregation", "engagement-ranking", "third-party", "safety-gate"],
+      "tags": [
+        "skill",
+        "research",
+        "aggregation",
+        "engagement-ranking",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "gitnation:cole-medin-context-driven-development-london",
-      "title": "Cole Medin: Context-Driven Development — GitNation London 2026; CLAUDE.md structure, PRP templates, multi-subagent workflows for reliable agentic engineering",
+      "title": "Cole Medin: Context-Driven Development \u2014 GitNation London 2026; CLAUDE.md structure, PRP templates, multi-subagent workflows for reliable agentic engineering",
       "url": "https://gitnation.com/contents/cole-medin-context-driven-development",
       "source": "GitNation London 2026",
       "published": "2026-07-05",
       "score": 7,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["claude-code", "context", "prp", "multi-agent", "agentic-engineering"],
+      "tags": [
+        "claude-code",
+        "context",
+        "prp",
+        "multi-agent",
+        "agentic-engineering"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:thedotmack-claude-mem-v13.10.1",
-      "title": "thedotmack/claude-mem v13.10.1 — persistent cross-session memory with hybrid FTS5+vector search, 85.9k stars, point release July 4",
+      "title": "thedotmack/claude-mem v13.10.1 \u2014 persistent cross-session memory with hybrid FTS5+vector search, 85.9k stars, point release July 4",
       "url": "https://github.com/thedotmack/claude-mem",
       "source": "github.com",
       "published": "2026-07-04",
       "score": 6,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["memory", "cross-session", "vector-search", "lifecycle-hooks", "third-party", "safety-gate"],
+      "tags": [
+        "memory",
+        "cross-session",
+        "vector-search",
+        "lifecycle-hooks",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "arxiv:2607.01071-memsyco-bench-memory-sycophancy",
-      "title": "MemSyco-Bench: benchmarking sycophancy in agent memory — retrieved memories cause agents to over-align with user preferences at cost of factual accuracy (arXiv:2607.01071)",
+      "title": "MemSyco-Bench: benchmarking sycophancy in agent memory \u2014 retrieved memories cause agents to over-align with user preferences at cost of factual accuracy (arXiv:2607.01071)",
       "url": "https://arxiv.org/abs/2607.01071",
       "source": "arxiv.org",
       "published": "2026-07-01",
       "score": 6,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["arxiv", "memory", "sycophancy", "benchmark", "fiction-pipeline"],
+      "tags": [
+        "arxiv",
+        "memory",
+        "sycophancy",
+        "benchmark",
+        "fiction-pipeline"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:deusdata-codebase-memory-mcp-v0.8.1",
-      "title": "DeusData/codebase-memory-mcp v0.8.1 — tree-sitter AST code intelligence MCP, 26.4k stars, 158 languages, sub-ms queries, active PRs July 1-5",
+      "title": "DeusData/codebase-memory-mcp v0.8.1 \u2014 tree-sitter AST code intelligence MCP, 26.4k stars, 158 languages, sub-ms queries, active PRs July 1-5",
       "url": "https://github.com/DeusData/codebase-memory-mcp",
       "source": "github.com",
       "published": "2026-06-12",
       "score": 6,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["mcp", "code-intelligence", "tree-sitter", "ast", "third-party", "safety-gate"],
+      "tags": [
+        "mcp",
+        "code-intelligence",
+        "tree-sitter",
+        "ast",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "techtimes:google-agents-cli-lifecycle-skills",
-      "title": "Google agents-cli — single-command agent lifecycle skill bundles for Claude Code and Codex (session management, handoff, monitoring); provenance unverified",
+      "title": "Google agents-cli \u2014 single-command agent lifecycle skill bundles for Claude Code and Codex (session management, handoff, monitoring); provenance unverified",
       "url": "https://www.techtimes.com/articles/google-agents-cli-claude-code",
       "source": "TechTimes",
       "published": "2026-07-01",
       "score": 6,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["cli", "skills", "lifecycle", "agent", "third-party", "safety-gate", "provenance-uncertain"],
+      "tags": [
+        "cli",
+        "skills",
+        "lifecycle",
+        "agent",
+        "third-party",
+        "safety-gate",
+        "provenance-uncertain"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:nousresearch-hermes-agent-v0.18.0",
-      "title": "NousResearch/hermes-agent v0.18.0 'The Judgment Release' — self-improving agent with LLM-based cross-session skill recall, 209k stars",
+      "title": "NousResearch/hermes-agent v0.18.0 'The Judgment Release' \u2014 self-improving agent with LLM-based cross-session skill recall, 209k stars",
       "url": "https://github.com/NousResearch/hermes-agent",
       "source": "github.com",
       "published": "2026-07-01",
       "score": 6,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["self-improving", "skills", "memory", "multi-platform", "cron", "third-party", "safety-gate"],
+      "tags": [
+        "self-improving",
+        "skills",
+        "memory",
+        "multi-platform",
+        "cron",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:nextlevelbuilder-ui-ux-pro-max-skill-v2.10.1",
-      "title": "nextlevelbuilder/ui-ux-pro-max-skill v2.10.1 — AI design intelligence skill, 101k stars, 67 UI styles, 161 color palettes, released July 4",
+      "title": "nextlevelbuilder/ui-ux-pro-max-skill v2.10.1 \u2014 AI design intelligence skill, 101k stars, 67 UI styles, 161 color palettes, released July 4",
       "url": "https://github.com/nextlevelbuilder/ui-ux-pro-max-skill",
       "source": "github.com",
       "published": "2026-07-04",
       "score": 6,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["skill", "ui-ux", "design", "third-party", "safety-gate"],
+      "tags": [
+        "skill",
+        "ui-ux",
+        "design",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:graphify-labs-graphify-v0.9.6",
-      "title": "Graphify-Labs/graphify v0.9.6 — zero-LLM-cost codebase knowledge graph via tree-sitter AST, 77.9k stars, top LOCOMO recall",
+      "title": "Graphify-Labs/graphify v0.9.6 \u2014 zero-LLM-cost codebase knowledge graph via tree-sitter AST, 77.9k stars, top LOCOMO recall",
       "url": "https://github.com/Graphify-Labs/graphify",
       "source": "github.com",
       "published": "2026-07-04",
       "score": 6,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["knowledge-graph", "tree-sitter", "ast", "zero-token", "third-party", "safety-gate"],
+      "tags": [
+        "knowledge-graph",
+        "tree-sitter",
+        "ast",
+        "zero-token",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "pulsemcp:reflexmcp-token-efficient-browser-automation",
-      "title": "ReflexMCP — token-efficient browser automation MCP via compressed page snapshots and batched actions (PulseMCP June 25)",
+      "title": "ReflexMCP \u2014 token-efficient browser automation MCP via compressed page snapshots and batched actions (PulseMCP June 25)",
       "url": "https://pulsemcp.com/servers/reflexmcp",
       "source": "PulseMCP",
       "published": "2026-06-25",
       "score": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["mcp", "browser-automation", "token-efficient", "third-party", "safety-gate"],
+      "tags": [
+        "mcp",
+        "browser-automation",
+        "token-efficient",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:ruflo-v3.23.0-swarm-harness",
-      "title": "Ruflo v3.23.0 — multi-agent swarm meta-harness, 63.1k stars, GOAP A* task decomposition, HNSW vector memory, inter-agent trust scoring (routine maintenance release)",
+      "title": "Ruflo v3.23.0 \u2014 multi-agent swarm meta-harness, 63.1k stars, GOAP A* task decomposition, HNSW vector memory, inter-agent trust scoring (routine maintenance release)",
       "url": "https://github.com/ruflo/ruflo",
       "source": "github.com",
       "published": "2026-07-04",
       "score": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["multi-agent", "swarm", "goap", "vector-memory", "trust-scoring", "third-party", "safety-gate"],
+      "tags": [
+        "multi-agent",
+        "swarm",
+        "goap",
+        "vector-memory",
+        "trust-scoring",
+        "third-party",
+        "safety-gate"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "latentspace:aie-europe-databricks-cofounders",
-      "title": "Latent Space: AIE Europe Debrief — swyx interviews Matei Zaharia and Reynold Xin on agent infrastructure, Omnigent, LTAP, Lakebase at Data+AI Summit 2026",
+      "title": "Latent Space: AIE Europe Debrief \u2014 swyx interviews Matei Zaharia and Reynold Xin on agent infrastructure, Omnigent, LTAP, Lakebase at Data+AI Summit 2026",
       "url": "https://www.latent.space/p/aie-europe-2026",
       "source": "Latent Space podcast",
       "published": "2026-07-05",
       "score": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["podcast", "databricks", "agent-infrastructure", "persistence", "multi-agent"],
+      "tags": [
+        "podcast",
+        "databricks",
+        "agent-infrastructure",
+        "persistence",
+        "multi-agent"
+      ],
       "run": "2026-07-05_PM"
     },
     {
@@ -3361,56 +3539,109 @@
       "score": 5,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["anthropic", "enterprise", "mcp", "okta", "auth", "connectors"],
+      "tags": [
+        "anthropic",
+        "enterprise",
+        "mcp",
+        "okta",
+        "auth",
+        "connectors"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "github:shanraisshan-claude-code-best-practice",
-      "title": "shanraisshan/claude-code-best-practice — 'Vibe Coding to Agentic Engineering' reference, 62k stars, 83 practical tips, Boris Cherny contributions, updated July 5",
+      "title": "shanraisshan/claude-code-best-practice \u2014 'Vibe Coding to Agentic Engineering' reference, 62k stars, 83 practical tips, Boris Cherny contributions, updated July 5",
       "url": "https://github.com/shanraisshan/claude-code-best-practice",
       "source": "github.com",
       "published": "2026-07-05",
       "score": 4,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["claude-code", "best-practices", "reference", "agentic-engineering"],
+      "tags": [
+        "claude-code",
+        "best-practices",
+        "reference",
+        "agentic-engineering"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "snaplogic:mcp-builder-ga-enterprise-integration",
-      "title": "SnapLogic MCP Builder GA — expose enterprise integration pipelines as governed MCP tools via templates (July 1)",
+      "title": "SnapLogic MCP Builder GA \u2014 expose enterprise integration pipelines as governed MCP tools via templates (July 1)",
       "url": "https://www.snaplogic.com/press-releases/snaplogic-mcp-builder-ga",
       "source": "snaplogic.com",
       "published": "2026-07-01",
       "score": 4,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["mcp", "enterprise", "integration", "templates"],
+      "tags": [
+        "mcp",
+        "enterprise",
+        "integration",
+        "templates"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "arxiv:2607.00627-agi-maze-benchmark-world-modeling",
-      "title": "AGI Maze Benchmark — world-modeling in partially observable environments; LLMs require persistent world representations and structured hypotheses about hidden state (arXiv:2607.00627)",
+      "title": "AGI Maze Benchmark \u2014 world-modeling in partially observable environments; LLMs require persistent world representations and structured hypotheses about hidden state (arXiv:2607.00627)",
       "url": "https://arxiv.org/abs/2607.00627",
       "source": "arxiv.org",
       "published": "2026-07",
       "score": 4,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["arxiv", "benchmark", "world-modeling", "partially-observable", "academic"],
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "world-modeling",
+        "partially-observable",
+        "academic"
+      ],
       "run": "2026-07-05_PM"
     },
     {
       "id": "various:alibaba-distillation-followon-coverage",
-      "title": "Alibaba distillation story follow-on coverage July 5 — no material new developments beyond June 24 Senate letter; completeness marker",
+      "title": "Alibaba distillation story follow-on coverage July 5 \u2014 no material new developments beyond June 24 Senate letter; completeness marker",
       "url": "https://www.reuters.com/technology/alibaba-anthropic-distillation-followup-2026-07-05/",
       "source": "Various",
       "published": "2026-07-05",
       "score": 3,
       "build_worthy": false,
       "first_seen_utc": "2026-07-05T12:01:00Z",
-      "tags": ["alibaba", "anthropic", "distillation", "followon"],
+      "tags": [
+        "alibaba",
+        "anthropic",
+        "distillation",
+        "followon"
+      ],
       "run": "2026-07-05_PM"
+    },
+    {
+      "first_seen_utc": "2026-07-06T00:01:27Z",
+      "score_when_seen": 7,
+      "title_snippet": "Sonnet 5 Token Efficiency Problem: Why It Can Cost More Than Opus 4.8 in multi-step agentic pipelines"
+    },
+    {
+      "first_seen_utc": "2026-07-06T00:01:27Z",
+      "score_when_seen": 6,
+      "title_snippet": "Fable 5 free window expires July 7 \u2014 credits-only at $10/$50 per MTok starting July 8"
+    },
+    {
+      "first_seen_utc": "2026-07-06T00:01:27Z",
+      "score_when_seen": 5,
+      "title_snippet": "AI Coding Summit London July 6-7 \u2014 Cole Medin + Kent C. Dodds + Boris Cherny streaming live"
+    },
+    {
+      "first_seen_utc": "2026-07-06T00:01:27Z",
+      "score_when_seen": 5,
+      "title_snippet": "Simon Willison: Agentic Engineering Patterns living guide \u2014 TDD-first, context-hoarding, subagent delegation"
+    },
+    {
+      "first_seen_utc": "2026-07-06T00:01:27Z",
+      "score_when_seen": 4,
+      "title_snippet": "Latent Space Ep 212: Genesis Molecular AI \u2014 The Coolest Diffusion Research Isnt in LLMs (July 1)"
     }
   ],
   "schema_version": 1
