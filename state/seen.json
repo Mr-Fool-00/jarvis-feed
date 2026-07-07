@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-06T00:01:27Z",
-  "total_items_seen": 310,
+  "last_run_utc": "2026-07-07T01:00:00Z",
+  "total_items_seen": 318,
   "items": [
     {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -3642,6 +3642,46 @@
       "first_seen_utc": "2026-07-06T00:01:27Z",
       "score_when_seen": 4,
       "title_snippet": "Latent Space Ep 212: Genesis Molecular AI \u2014 The Coolest Diffusion Research Isnt in LLMs (July 1)"
+    },
+    {
+      "first_seen_utc": "2026-07-07T01:00:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Fable 5 credits-only starts July 8: $10/$50 per MTok. Tonight is last free Max day. Capacity constraint, not policy shift."
+    },
+    {
+      "first_seen_utc": "2026-07-07T01:00:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC v2.1.202 July 6 22:51 UTC: dynamic workflow size in /config, OTel workflow.run_id, /review reverted to single-pass (use /code-review for multi-agent)"
+    },
+    {
+      "first_seen_utc": "2026-07-07T01:00:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "BOOKMARKS arxiv:2605.14169: selective storyline memory for roleplay agents via narrative bookmarks \u2014 PreCompact hook shape, fiction pipeline context-drift fix"
+    },
+    {
+      "first_seen_utc": "2026-07-07T01:00:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC prompt injection via code comments (SecurityWeek July 6): CC + Gemini CLI + Copilot all confirmed vulnerable \u2014 no patch yet"
+    },
+    {
+      "first_seen_utc": "2026-07-07T01:00:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Backslash Security: July 28 MCP spec opens 3 new attack surfaces (stateless mode, HTML UIs, async Tasks)"
+    },
+    {
+      "first_seen_utc": "2026-07-07T01:00:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Anthropic CJS Framework: joint jailbreak severity scale (CJS-0 to CJS-4) with Amazon, Microsoft, Google \u2014 scores decay as exploits go public"
+    },
+    {
+      "first_seen_utc": "2026-07-07T01:00:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Simon Willison sqlite-utils 4.0rc3 July 6: compound foreign key support (breaking vs rc2), SQLite case-insensitive column fix"
+    },
+    {
+      "first_seen_utc": "2026-07-07T01:00:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "arXiv:2607.02507 What LLM Agents Say When No One Is Watching: social hierarchy and latent objective emergence in multi-agent debate panels"
     }
   ],
   "schema_version": 1
