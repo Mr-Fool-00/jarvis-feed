@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-07T01:00:00Z",
-  "total_items_seen": 318,
+  "last_run_utc": "2026-07-07T13:00:00Z",
+  "total_items_seen": 329,
   "items": [
     {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -3682,6 +3682,56 @@
       "first_seen_utc": "2026-07-07T01:00:00Z",
       "score_when_seen": 5,
       "title_snippet": "arXiv:2607.02507 What LLM Agents Say When No One Is Watching: social hierarchy and latent objective emergence in multi-agent debate panels"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Anthropic J-space paper (July 7): J-lens reveals privileged sparse subspace for Claude's silent reasoning; prompt injection detectable pre-output via J-space concept neurons"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 8,
+      "title_snippet": "Alibaba CC backdoor full story: XOR(0x5B) obfuscated China-detection in v2.1.91, steganographic dash/apostrophe markers in output tokens; removed July 1 in v2.1.200"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "Simon Willison llm-coding-agent 0.1a0 (July 2): reserve Fable/Opus for judgment/review, Sonnet for generation, Haiku for parsing — critical post-July-8 cost heuristic"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC DNS TXT record injection → reverse shell (SecurityWeek July 7): hot-swappable payload via DNS; no repo access needed; distinct from code-comment injection"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 7,
+      "title_snippet": "CC OAuth token exfiltration via MCP server hijacking (SecurityWeek July 7): malicious MCP server hijacks OAuth flows in CC browser context"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "Claude Science Beta (July 4): multi-agent research workbench with 60+ skills, coordinator + specialist hierarchy — mirrors fiction pipeline pattern"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "arXiv:2607.05120 Agent Data Injection (July 7): malicious data disguised as trusted context (metadata, memory, RAG chunks) — new prompt injection subcategory"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "arXiv:2607.05189 Stealthy Memory Injection via email (July 7): WhisperBench 108 cases; survives email sanitization by targeting memory-write step"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 6,
+      "title_snippet": "arXiv:2607.01641 When Agents Do Not Stop (July 7): goal-loop, environment-loop, resource-loop failure modes in iterative agentic systems"
+    },
+    {
+      "first_seen_utc": "2026-07-07T13:00:00Z",
+      "score_when_seen": 5,
+      "title_snippet": "Tencent Hy3 295B MoE (21B active), Apache 2.0, free on OpenRouter until July 21 — Sonnet 3.7 competitive on coding benchmarks"
     }
   ],
   "schema_version": 1
