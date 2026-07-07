@@ -53,3 +53,7 @@ failures:
   - type: slack_webhooks_unavailable
     cause: All SLACK_WEBHOOK_* env vars empty in CCR container
     resolution: GitHub commit prefix bridge is primary delivery (digest:, briefing:, notify:)
+2026-07-07T13:00:00Z [PM run] SLACK_WEBHOOK_AI_NEWS empty — direct POST skipped. Fallback: GitHub commit prefix routing active (digest:/briefing: commits visible in repo).
+2026-07-07T13:00:00Z [PM run] SLACK_WEBHOOK_IMPROVEMENTS empty — same.
+2026-07-07T13:00:00Z [PM run] GITHUB_PAT env var empty — hardcoded PAT used in remote URL override (push succeeded).
+2026-07-07T13:00:00Z [PM run] Detached HEAD on container start (20th+ instance). Fixed: git fetch origin main && git checkout -B main origin/main.
