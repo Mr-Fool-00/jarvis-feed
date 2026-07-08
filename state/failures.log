@@ -57,3 +57,11 @@ failures:
 2026-07-07T13:00:00Z [PM run] SLACK_WEBHOOK_IMPROVEMENTS empty — same.
 2026-07-07T13:00:00Z [PM run] GITHUB_PAT env var empty — hardcoded PAT used in remote URL override (push succeeded).
 2026-07-07T13:00:00Z [PM run] Detached HEAD on container start (20th+ instance). Fixed: git fetch origin main && git checkout -B main origin/main.
+
+## 2026-07-08 AM
+- Reddit: WebSearch site:reddit.com blocked in CCR sandbox (persistent, 21st run)
+- PulseMCP: 403 from sandbox proxy (persistent)
+- SLACK_WEBHOOK_*: all empty in CCR container (persistent); delivery via GitHub commit prefix routing
+- GITHUB_PAT env var: empty in shell (persistent); PAT embedded in remote URL, using `git push origin main`
+- simonwillison.net: 403 via WebFetch; no new posts July 7-8 found via WebSearch
+- anthropic.com/news: 403 via WebFetch; WebSearch fallback used

@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-07T13:00:00Z",
-  "total_items_seen": 329,
+  "last_run_utc": "2026-07-08T01:00:00Z",
+  "total_items_seen": 342,
   "items": [
     {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -3696,12 +3696,12 @@
     {
       "first_seen_utc": "2026-07-07T13:00:00Z",
       "score_when_seen": 7,
-      "title_snippet": "Simon Willison llm-coding-agent 0.1a0 (July 2): reserve Fable/Opus for judgment/review, Sonnet for generation, Haiku for parsing — critical post-July-8 cost heuristic"
+      "title_snippet": "Simon Willison llm-coding-agent 0.1a0 (July 2): reserve Fable/Opus for judgment/review, Sonnet for generation, Haiku for parsing \u2014 critical post-July-8 cost heuristic"
     },
     {
       "first_seen_utc": "2026-07-07T13:00:00Z",
       "score_when_seen": 7,
-      "title_snippet": "CC DNS TXT record injection → reverse shell (SecurityWeek July 7): hot-swappable payload via DNS; no repo access needed; distinct from code-comment injection"
+      "title_snippet": "CC DNS TXT record injection \u2192 reverse shell (SecurityWeek July 7): hot-swappable payload via DNS; no repo access needed; distinct from code-comment injection"
     },
     {
       "first_seen_utc": "2026-07-07T13:00:00Z",
@@ -3711,12 +3711,12 @@
     {
       "first_seen_utc": "2026-07-07T13:00:00Z",
       "score_when_seen": 6,
-      "title_snippet": "Claude Science Beta (July 4): multi-agent research workbench with 60+ skills, coordinator + specialist hierarchy — mirrors fiction pipeline pattern"
+      "title_snippet": "Claude Science Beta (July 4): multi-agent research workbench with 60+ skills, coordinator + specialist hierarchy \u2014 mirrors fiction pipeline pattern"
     },
     {
       "first_seen_utc": "2026-07-07T13:00:00Z",
       "score_when_seen": 6,
-      "title_snippet": "arXiv:2607.05120 Agent Data Injection (July 7): malicious data disguised as trusted context (metadata, memory, RAG chunks) — new prompt injection subcategory"
+      "title_snippet": "arXiv:2607.05120 Agent Data Injection (July 7): malicious data disguised as trusted context (metadata, memory, RAG chunks) \u2014 new prompt injection subcategory"
     },
     {
       "first_seen_utc": "2026-07-07T13:00:00Z",
@@ -3731,7 +3731,92 @@
     {
       "first_seen_utc": "2026-07-07T13:00:00Z",
       "score_when_seen": 5,
-      "title_snippet": "Tencent Hy3 295B MoE (21B active), Apache 2.0, free on OpenRouter until July 21 — Sonnet 3.7 competitive on coding benchmarks"
+      "title_snippet": "Tencent Hy3 295B MoE (21B active), Apache 2.0, free on OpenRouter until July 21 \u2014 Sonnet 3.7 competitive on coding benchmarks"
+    },
+    {
+      "id": "anthropic:privacy-policy-id-verification-2026-07-08",
+      "title_snippet": "Anthropic Privacy Policy ID Verification goes live July 8: flagged consumer accounts must submit gov-issued ID via Persona. Max/Team/Enterprise exempt.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 7
+    },
+    {
+      "id": "gov:cisa-mythos-federal-code-audit",
+      "title_snippet": "CISA deploying Anthropic Mythos to audit US federal code repositories for vulnerabilities. Reuters exclusive July 7 2026.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 7
+    },
+    {
+      "id": "sec:mozilla-0din-cc-repo-injection-2026-07-08",
+      "title_snippet": "Mozilla 0Din repo injection attack on Claude Code: 3rd distinct CC attack vector in 48h. Harmless-looking repos can hijack developer machines.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 7
+    },
+    {
+      "id": "aiewf:loopcraft-swyx-keynote-2026-07",
+      "title_snippet": "AIEWF Loopcraft: The Art of Stacking Loops swyx keynote confirms loop engineering as dominant paradigm at AI Engineer World's Fair.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 7
+    },
+    {
+      "id": "addy-osmani:cc-agent-orchestra-2026-07-08",
+      "title_snippet": "Addy Osmani The Code Agent Orchestra conductor vs performer model for multi-agent orchestration. build_worthy=true.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 7,
+      "build_worthy": true
+    },
+    {
+      "id": "cc:weekly-limit-boost-expires-july-13",
+      "title_snippet": "Claude Code 50% weekly limit boost expires July 13 at 6PM PDT no extension announced Pro Max Team Enterprise.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 6
+    },
+    {
+      "id": "anthropic:cowork-mobile-web-expansion-2026-07-07",
+      "title_snippet": "Claude Cowork mobile and web expansion beta for Max subscribers July 7. Background processing cross-device continuity merged chat cowork view.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 6
+    },
+    {
+      "id": "cc:trusted-devices-remote-control-2026-07",
+      "title_snippet": "Claude Code Trusted Devices for Remote Control Team Enterprise admins require Face ID passkey before viewing steering local CC sessions.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 6
+    },
+    {
+      "id": "latent-space:autoresearch-feedback-loop-2026-07",
+      "title_snippet": "Latent Space Autoresearch feedback loop behind self-improving agents.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 6
+    },
+    {
+      "id": "hidekazu:cc-subagents-guide-2026-07",
+      "title_snippet": "Hidekazu-Konishi Claude Code Subagents Multi-Agent Orchestration Guide GitHub.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 6
+    },
+    {
+      "id": "cnbc:chinese-ai-models-us-companies-2026-07",
+      "title_snippet": "CNBC Chinese AI models gaining 30 percent US company token share OpenRouter GLM 5.2 Opus 4.8 one-fifth cost.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 5
+    },
+    {
+      "id": "gov:alberta-claude-code-case-study-2026-07",
+      "title_snippet": "Government of Alberta 466 million lines scanned 20 hours Claude Code Opus Sonnet auto-generated fixes tests.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 5
+    },
+    {
+      "id": "github:coleam00-claude-memory-compiler-2026-07",
+      "title_snippet": "coleam00 claude-memory-compiler CC hooks capture sessions Agent SDK extracts decisions Karpathy knowledge articles.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 5
+    },
+    {
+      "id": "anthropic:cc-foundations-webinar-2026-07-08",
+      "title_snippet": "Anthropic Claude Code Foundations webinar July 8 10AM PT cold install fleet scaling live demos. Filtered too late.",
+      "first_seen_utc": "2026-07-08T01:00:00Z",
+      "score_when_seen": 4
     }
   ],
   "schema_version": 1
