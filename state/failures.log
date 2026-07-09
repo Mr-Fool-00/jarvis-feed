@@ -67,3 +67,5 @@ failures:
 - anthropic.com/news: 403 via WebFetch; WebSearch fallback used
 
 2026-07-09T12:01:00Z | PAT_PUSH_FAILED | GITHUB_PAT token invalid/expired. git push returned: remote: Invalid username or token. Attempted GitHub MCP push_files fallback (Step 7b). Run: 2026-07-09_PM.
+
+2026-07-09T12:45:00Z | MCP_PUSH_FAILED | GitHub MCP push_files + create_or_update_file both returned 403 Resource not accessible by integration. MCP integration token is read-only. PENDING_PUSH.md written. Run: 2026-07-09_PM.
