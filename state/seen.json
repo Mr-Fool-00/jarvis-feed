@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-08T01:00:00Z",
-  "total_items_seen": 342,
+  "last_run_utc": "2026-07-09T12:01:00Z",
+  "total_items_seen": 357,
   "items": [
     {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -3817,6 +3817,111 @@
       "title_snippet": "Anthropic Claude Code Foundations webinar July 8 10AM PT cold install fleet scaling live demos. Filtered too late.",
       "first_seen_utc": "2026-07-08T01:00:00Z",
       "score_when_seen": 4
+    },
+    {
+      "id": "willison:bun-rewrite-64-claudes-2026-07-08",
+      "title_snippet": "Simon Willison: Rewriting Bun in Rust with 64 Claude instances, 11 days, $165K. Dynamic fleet sizing + adversarial-per-struct review pattern. All Bun tests pass.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 9,
+      "build_worthy": true
+    },
+    {
+      "id": "cc:steganographic-tracking-china-ban-2026-07-08",
+      "title_snippet": "CC v2.1.91-2.1.196 hidden Unicode markers in system prompts detected Chinese-timezone users (March-July 1). China MIIT backdoor alert. Alibaba bans CC. Fix in v2.1.197.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 8,
+      "build_worthy": false
+    },
+    {
+      "id": "cc:v2-1-205-2026-07-08",
+      "title_snippet": "CC v2.1.205 July 8: auto-mode rm -rf guard, /doctor diagnostic command, colored agent states, streaming auto-update 400MB memory savings, transcript protection.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 8,
+      "build_worthy": true
+    },
+    {
+      "id": "mcp:2026-07-28-rc-stateless-2026-07",
+      "title_snippet": "MCP 2026-07-28 RC: stateless HTTP core (no sticky sessions), MCP Apps server-rendered UI, Tasks extension, OAuth/OIDC auth. 12-month deprecation window from July 28.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 8,
+      "build_worthy": true
+    },
+    {
+      "id": "vscode:1128-multi-chat-agents-2026-07-08",
+      "title_snippet": "VS Code 1.128 July 8: Multi-Chat Claude Agents GA (branch from any turn, parallel agentic workstreams) + Copilot Vision GA (images/PDFs in chat).",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:fable5-billing-starts-2026-07-08",
+      "title_snippet": "Fable 5 billing begins July 8: $10/M input $50/M output for Claude Pro. Promotional window extended to July 12 per HN #48821102.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "cc:system-prompts-515-piebald-2026-07-08",
+      "title_snippet": "Piebald-AI CC system prompts repo expanded 350→515 prompts: main, sub-agent (Plan/Explore/Task/Orchestrator), utility, hook context. CHANGELOG covers 231 versions since v2.0.14.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "arxiv:2607-07321-sop-synthesis-2026-07-08",
+      "title_snippet": "arXiv 2607.07321: LLM agents self-evolve by synthesizing recurring atomic tool-call sequences into named Standard Operating Procedures (SOPs). Reduces reasoning overhead.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:fable5-nerfed-backlash-2026-07-09",
+      "title_snippet": "Post-restoration Fable 5 backlash: refuses C/Rust/memory-level code, blocks 'dead code' searches, silent Opus fallbacks mid-session. r/ClaudeAI HN #48812424.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:claude-science-launch-2026-07",
+      "title_snippet": "Anthropic launches Claude Science: AI research workbench for scientists. Automate research workflows, data analysis, computing tasks. Launched alongside Sonnet 5.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "cc:admin-console-analytics-2026-07",
+      "title_snippet": "CC Admin Console: new Usage tab (per-user/team token consumption, tool-call breakdowns) and Value tab (ROI estimation) added July 2026.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "cc:dataviz-skill-2026-07-08",
+      "title_snippet": "/dataviz skill added July 8: chart/dashboard design guidance + runnable WCAG color-palette validator. Supports D3, Plotly, Observable, Vega.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "cc:polars-skill-2026-07-08",
+      "title_snippet": "Polars team CC skill released July 8: teaches Sonnet 4.6/Opus 4.8 idiomatic Polars patterns (lazy evaluation, correct scan/collect sequencing) after non-idiomatic defaults.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "mcp:ema-enterprise-auth-stable-2026-07",
+      "title_snippet": "MCP Enterprise-Managed Authorization (EMA) promoted to stable: zero-touch SSO for orgs, IDP-managed auth replaces per-server consent prompts.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:opus-47-fast-mode-deprecated-2026-07",
+      "title_snippet": "Claude Opus 4.7 Fast Mode deprecated, removal July 24 2026. Migrate claude-opus-4-7 fast-mode API callers to claude-opus-4-8 before deadline.",
+      "first_seen_utc": "2026-07-09T12:01:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
     }
   ],
   "schema_version": 1

@@ -65,3 +65,5 @@ failures:
 - GITHUB_PAT env var: empty in shell (persistent); PAT embedded in remote URL, using `git push origin main`
 - simonwillison.net: 403 via WebFetch; no new posts July 7-8 found via WebSearch
 - anthropic.com/news: 403 via WebFetch; WebSearch fallback used
+
+2026-07-09T12:01:00Z | PAT_PUSH_FAILED | GITHUB_PAT token invalid/expired. git push returned: remote: Invalid username or token. Attempted GitHub MCP push_files fallback (Step 7b). Run: 2026-07-09_PM.
