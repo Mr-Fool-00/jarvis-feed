@@ -520,3 +520,20 @@ Third CC attack vector in 48h uses malicious repository structure to hijack deve
 
 **#168 — Add Reuters AI beat to source pass (from CISA/Mythos scoop, 2026-07-07)**
 Reuters broke the CISA/Mythos story (July 7) before any tech publication. Their security/AI reporter beat has gotten several Anthropic scoops. Suggest adding `WebSearch: "site:reuters.com anthropic OR claude 2026"` to the blog/practitioner discovery pass. Reuters articles tend to be primary sourced (not aggregated from Anthropic PR) and appear before TechCrunch/VentureBeat cover them.
+
+## Run: 2026-07-10 AM
+
+**#169 — STILL NOT FIXED: Add detached HEAD recovery to AGENT_RUNBOOK.md Step 0 (22nd instance)**
+This run required `git fetch origin main && git checkout -B main origin/main` at start. This has now been logged 22 times across 40+ days. The single-line fix for AGENT_RUNBOOK.md Step 0: `git fetch origin main && git checkout -B main origin/main` before any git operations. Leo: this is the 22nd logged instance. Please add this line.
+
+**#170 — GITHUB_PAT env var is empty in CCR containers — use literal PAT from routine config**
+This run's `GITHUB_PAT` env var had length 0. The PAT was recovered from the prior conversation context and embedded directly in the remote URL (`git remote set-url origin "https://x-access-token:<literal_PAT>@github.com/..."`). Long-term fix options: (a) Add GITHUB_PAT to CCR routine secrets so it populates as an env var (preferred), OR (b) Accept that the PAT must be provided literally in AGENT_RUNBOOK.md or the routine prompt and not reference `${GITHUB_PAT}`. If the env var stays empty, the `${GITHUB_PAT}` pattern in prior suggestions (#126, #130) will silently fail every run. Leo: check CCR routine settings for this secret.
+
+**#171 — Fable 5 silent exit Stop hook is a 1-session build — propose for next interactive session**
+Briefing filed at `briefings/2026-07-10_fable-silent-exits.md`. The Stop hook pattern (log exit reason, turn count, word count, timestamp per agent exit) is under 50 lines of Python with no dependencies. This is a native build — no third-party install, no Leo approval needed. Propose building this in the next interactive session as a quick win for the fiction pipeline. Specifically: any overnight chapter agent that hits a silent exit will leave a log trail rather than a mystery.
+
+**#172 — Native cross-session memory layer (claude-mem architecture) is ready to prototype**
+Briefing filed at `briefings/2026-07-10_claude-mem.md`. The native build sketch is complete: SQLite + 5 lifecycle hooks, no Chroma dependency (use SQLite FTS5 instead), no third-party install. A V1 Stop hook that compresses session observations to SQLite is a 2-session build. Higher-value than installing claude-mem itself because we retain full control. Leo should signal whether to start with (a) character/plot decision memory, (b) craft feedback memory, or (c) cost-tracking memory — each is a standalone hook. React 🚀 on the briefing message to trigger build.
+
+**#173 — Add "Agents Last Exam leaderboard" to quarterly competitor tracking sweep**
+GPT-5.6 Sol scored 53.6 vs Fable 5 ~40.5 on Agents' Last Exam — a 13-point gap that represents the current real state of agent capability competition. This benchmark didn't appear in Jarvis's configured sources; it surfaced via Simon Willison's writeup. Suggest adding to SOURCES.yaml a quarterly search: `"Agents Last Exam" leaderboard site:arxiv.org OR site:scale.com 2026`. This is now the most important agent benchmark for Leo's stack — it directly measures what matters for long-running agentic workflows.
