@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-09T12:01:00Z",
-  "total_items_seen": 357,
+  "last_run_utc": "2026-07-10T00:09:00Z",
+  "total_items_seen": 372,
   "items": [
     {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -3921,6 +3921,111 @@
       "title_snippet": "Claude Opus 4.7 Fast Mode deprecated, removal July 24 2026. Migrate claude-opus-4-7 fast-mode API callers to claude-opus-4-8 before deadline.",
       "first_seen_utc": "2026-07-09T12:01:00Z",
       "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:j-space-global-workspace-2026-07-10",
+      "title_snippet": "Anthropic J-Space paper: global workspace cluster in Claude — suppressing it collapses multi-hop reasoning; correlates with prompt-injection awareness. Strongest mechanistic interpretability finding to date.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 8,
+      "build_worthy": false
+    },
+    {
+      "id": "cc:v2-1-206-2026-07-09",
+      "title_snippet": "CC v2.1.206: MCP request_timeout_ms fix (was silently ignored), /doctor CLAUDE.md trim check, background agents auto-upgrade, gateway login support, bug fixes (expired login, OAuth MCP re-auth).",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 8,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:claude-plugins-official-2026-07-10",
+      "title_snippet": "anthropics/claude-plugins-official: official managed plugin directory 200+ plugins — 20 first-party (dev-workflow, frontend-design, skill-creator, mcp-server-dev, 11 language servers). Install via /plugin install.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 8,
+      "build_worthy": false
+    },
+    {
+      "id": "openai:gpt-5-6-luna-terra-sol-2026-07-09",
+      "title_snippet": "OpenAI GPT-5.6 GA: Luna/Terra/Sol three-tier family. Sol scores 53.6 on Agents' Last Exam (vs Fable 5 ~40.5). Multi-agent as first-class API primitive. Prompt cache breakpoints.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "simonwillison:fable-judgement-silent-exits-2026-07-03",
+      "title_snippet": "Simon Willison essay: Fable 5 silently exits agent loops when it decides done/out-of-scope — no exit code, no message, no status flag. Fix: explicit Stop hook logging exit reason + turn count.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "github:claude-mem-v13-2026-07-10",
+      "title_snippet": "claude-mem v13.10.2: persistent cross-session memory for CC via 5 lifecycle hooks + SQLite + Chroma vector DB. TYPE B — third-party code, safety gate applied, deep-dive blocked. Native build recommended.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:claude-reflect-dashboard-2026-07-09",
+      "title_snippet": "Anthropic 'Reflect' usage analytics dashboard beta: Spotify Wrapped meets Screen Time, 4D AI Fluency Framework categorization, wellbeing nudges. Available with Memory enabled.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "alibaba:cc-ban-july-10-qoder-2026-07-10",
+      "title_snippet": "Alibaba banned CC for all ~100K engineers effective July 10 (steganographic tracker fallout). Mandating switch to in-house Qoder. Largest single corporate CC defection.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 5,
+      "build_worthy": false
+    },
+    {
+      "id": "simonwillison:llm-coding-agent-2026-07-02",
+      "title_snippet": "Simon Willison llm-coding-agent 0.1a0: minimal coding agent (<300 lines) with edit_file + execute_command tools. Reference architecture for understanding CC scaffolding.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "simonwillison:sqlite-utils-4-fable-2026-07-05",
+      "title_snippet": "Simon Willison: sqlite-utils 4.0rc2 written by Claude Fable 5 at $149.25 in API fees. Schema migration support, passed all tests. Reference cost data point for agent-delegated library work.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "arxiv:2605.29790-collaborative-self-evolution",
+      "title_snippet": "arXiv 2605.29790: Evolve as a Team — post-task collaborative review loop for multi-agent systems at agent/interaction/team scope. Targets distributed failure root-cause analysis.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "arxiv:2604.23853-clawtrace-cost-tracing",
+      "title_snippet": "arXiv 2604.23853: ClawTrace — TraceCard YAML per LLM call with USD cost + redundancy flags. Distillation: Preserve/Prune/Repair patches from session traces.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "arxiv:2606.02355-siri-self-internalizing-rl",
+      "title_snippet": "arXiv 2606.02355: SIRI — agents discover/validate/internalize skills from own successful trajectories without external skill generators. GiGPO warmup + skill mining + distillation.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "agiflow:cc-internals-july-2026",
+      "title_snippet": "Agiflow July 2026 CC internals reverse-engineering: CLAUDE.md + skills + hooks + subagents + plugins + MCP runtime context assembly. Custom commands merged into skills.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "cc:v2-1-203-macos-startup-2026-07-07",
+      "title_snippet": "CC v2.1.203: 15-20s macOS startup stall fix (false low-memory detection), background session responsiveness fix, subagent silent re-run fix, -7MB startup memory.",
+      "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 5,
       "build_worthy": false
     }
   ],
