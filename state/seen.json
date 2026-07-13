@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-13T00:01:45Z",
-  "total_items_seen": 386,
+  "last_run_utc": "2026-07-13T12:30:00Z",
+  "total_items_seen": 388,
   "items": [
     {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -4124,6 +4124,20 @@
       "title_snippet": "Claude Design beta: AI-assisted UI/UX tool in Claude.ai. React component generation + design system variants. Pro/Max/Team/Enterprise. MCP integration for existing design systems.",
       "first_seen_utc": "2026-07-13T00:01:45Z",
       "score_when_seen": 5,
+      "build_worthy": false
+    },
+    {
+      "id": "cc:v2-1-198-background-agents-draft-pr-2026-07-01",
+      "title_snippet": "CC v2.1.198 (July 1): background agents in worktrees auto-commit, push branch, open GitHub draft PR on completion. Two new Notification hooks: agent_needs_input + agent_completed. No off-switch yet — Issue #73197 open.",
+      "first_seen_utc": "2026-07-13T12:30:00Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "github:code-yeongyu-oh-my-openagent-2026-07",
+      "title_snippet": "oh-my-openagent (omo/lazycodex): agent harness for tokenmaxxers; 65.7k stars, OpenCode-primary. Hash-anchored edits prevent stale-line errors, 11 specialized agents, 5 built-in MCPs, 54+ lifecycle hooks, Team Mode parallel execution.",
+      "first_seen_utc": "2026-07-13T12:30:00Z",
+      "score_when_seen": 6,
       "build_worthy": false
     }
   ],
