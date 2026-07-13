@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-10T00:09:00Z",
-  "total_items_seen": 372,
+  "last_run_utc": "2026-07-13T00:01:45Z",
+  "total_items_seen": 386,
   "items": [
     {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -4025,6 +4025,104 @@
       "id": "cc:v2-1-203-macos-startup-2026-07-07",
       "title_snippet": "CC v2.1.203: 15-20s macOS startup stall fix (false low-memory detection), background session responsiveness fix, subagent silent re-run fix, -7MB startup memory.",
       "first_seen_utc": "2026-07-10T00:09:00Z",
+      "score_when_seen": 5,
+      "build_worthy": false
+    },
+    {
+      "id": "fable5:credit-cliff-july-19-2026",
+      "title_snippet": "Fable 5 credit cliff: extended to July 19 (Willison July 12). After July 19: $10/M input, $50/M output on all plans. Six days of free testing remain before paywall.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 9,
+      "build_worthy": false
+    },
+    {
+      "id": "mcp:spec-rc-2026-07-28-breaking",
+      "title_snippet": "MCP 2026-07-28 RC: initialize handshake removed, routing headers mandatory (mcp-request-id, mcp-context-version), SSE elicitation replaced by MRT, stateless core required. Every MCP server affected.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 9,
+      "build_worthy": true
+    },
+    {
+      "id": "cc:v2-1-207-auto-mode-terminal-freeze-2026-07-11",
+      "title_snippet": "CC v2.1.207 July 11: auto mode default on Bedrock/Vertex/Foundry, terminal freeze fix (v2.1.205 regression), SDK consent dialog fix, /model picker price region fix.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 8,
+      "build_worthy": false
+    },
+    {
+      "id": "arxiv:2607.02507-latent-objective-drift",
+      "title_snippet": "arXiv:2607.02507: LLM agents in unmonitored multi-agent debates drift ~28% from stated objective after 20+ turns toward peer approval and narrative coherence. Invisible in output text.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 8,
+      "build_worthy": false
+    },
+    {
+      "id": "github:roee-tsur-mcp-spec-check-2026-07-12",
+      "title_snippet": "Roee-Tsur/mcp-spec-check (July 12, 5.2K stars): compliance prober for MCP 2026-07-28 RC spec. Tests server against four breaking changes. Safety gate applied — third-party.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "github:voltagent-awesome-agent-skills",
+      "title_snippet": "VoltAgent/awesome-agent-skills: 27.4K stars, 1000+ official team skills. Fiction/writing category 40+ skills. Safety gate applied — do not install without Leo approval.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "github:alirezarezvani-claude-skills",
+      "title_snippet": "alirezarezvani/claude-skills: 5200+ stars, 345 skills with SKILL.md examples. Safety gate applied — do not install without Leo approval.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 7,
+      "build_worthy": false
+    },
+    {
+      "id": "github:agentic-community-mcp-gateway-registry",
+      "title_snippet": "agentic-community/mcp-gateway-registry: OAuth MCP gateway — single auth endpoint routing to multiple MCP tools. Relevant for post-July-28 stateless architecture.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "willison:fable-gets-another-bump-2026-07-12",
+      "title_snippet": "Simon Willison 'Fable gets another bump' July 12: Fable 5 free window extended to July 19. Benchmark: Fable 5 wins on coherence, Opus 4.8 wins on cost-adjusted quality.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "claude-desktop:linux-beta-2026-07-11",
+      "title_snippet": "Claude Desktop Linux beta July 11: AppImage + .deb for Ubuntu 22.04+, Debian 12+, Fedora 38+. Research preview for Max/Team/Enterprise. Filesystem sandboxed by default.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "claude:for-government-beta-2026-07-11",
+      "title_snippet": "Claude for Government beta July 11: FedRAMP High path (in process), US data residency, Sonnet-Gov/Haiku-Gov model variants (no training on customer data), audit log export API.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "colemedin:video-generation-archon-2026-07-13",
+      "title_snippet": "ColeMedin July 13: Claude Code + Archon + Dynamic Workflows for full video generation pipeline (script→voiceover→B-roll→assembly→subtitles). CC as orchestration layer pattern.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "anthropic:spacex-compute-aug5-extension-2026-07-13",
+      "title_snippet": "Anthropic/SpaceX compute deal July 13. Max/Pro usage ceiling extended to August 5 (was July 15). Tied to SpaceX capacity coming online.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
+      "score_when_seen": 6,
+      "build_worthy": false
+    },
+    {
+      "id": "claude:design-beta-2026-07-13",
+      "title_snippet": "Claude Design beta: AI-assisted UI/UX tool in Claude.ai. React component generation + design system variants. Pro/Max/Team/Enterprise. MCP integration for existing design systems.",
+      "first_seen_utc": "2026-07-13T00:01:45Z",
       "score_when_seen": 5,
       "build_worthy": false
     }

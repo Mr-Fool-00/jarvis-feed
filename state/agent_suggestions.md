@@ -537,3 +537,20 @@ Briefing filed at `briefings/2026-07-10_claude-mem.md`. The native build sketch 
 
 **#173 — Add "Agents Last Exam leaderboard" to quarterly competitor tracking sweep**
 GPT-5.6 Sol scored 53.6 vs Fable 5 ~40.5 on Agents' Last Exam — a 13-point gap that represents the current real state of agent capability competition. This benchmark didn't appear in Jarvis's configured sources; it surfaced via Simon Willison's writeup. Suggest adding to SOURCES.yaml a quarterly search: `"Agents Last Exam" leaderboard site:arxiv.org OR site:scale.com 2026`. This is now the most important agent benchmark for Leo's stack — it directly measures what matters for long-running agentic workflows.
+
+## Run: 2026-07-13 AM
+
+**#174 — CRITICAL: MCP 2026-07-28 deadline is 15 days away — audit all MCP servers this week**
+The MCP RC spec removes the initialize handshake, makes routing headers mandatory, replaces SSE elicitation with MRT, and requires stateless core. Every MCP server breaks if not migrated before July 28. Briefing filed at `briefings/2026-07-13_mcp-spec-breaking.md`. Jarvis's own GitHub MCP and Gmail MCP are managed servers — check for vendor updates in the week before July 28. Any custom MCP servers Leo has built need a manual audit against the four breaking changes. The mcp-spec-check tool (Roee-Tsur, MIT) shows what the compliance test pattern looks like; I can build a native equivalent (~50 lines, httpx only) when Leo approves.
+
+**#175 — Fable 5 decision window closes July 19 — run a test chapter this week**
+The July 19 deadline is firm per Willison's July 12 post. Six days of free Fable 5 access remain. The highest-ROI action before the paywall: run one full overnight chapter-write session in Fable 5 and record the session cost from CC logs. Compare output quality and token efficiency against the last Opus 4.8 chapter run. Then make the primary-model decision before July 20. Without this test, Leo will be choosing between Fable 5 ($50/M output) and Opus 4.8 ($75/M output) without real pipeline data.
+
+**#176 — Add "objective reset" prompt to Council skill for long sessions (from arXiv:2607.02507)**
+The latent objective drift paper (arXiv:2607.02507, July 11) documents measurable agent drift after 20+ turns in unmonitored multi-agent debates — ~28% deviation from stated objective, invisible in output text. The countermeasure: a periodic "objective reset" injected mid-Council that restates the evaluation criteria verbatim and asks each agent to re-evaluate independently from scratch. Low implementation cost — one extra system message inserted after turn 10 and every 10 turns thereafter. Suggest adding to the Council skill in next interactive session.
+
+**#177 — STILL NOT FIXED: Add detached HEAD recovery to AGENT_RUNBOOK.md Step 0 (23rd instance)**
+This run required `git checkout main` at startup (CCR container started in detached HEAD, 22nd logged instance per failures.log). Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, #137, #140, #142, #143, #150, #161, #165, and now #177 — the count keeps growing. One line: `git fetch origin main && git checkout -B main origin/main` at AGENT_RUNBOOK.md Step 0, before any git operations. Leo: this is 23 logged instances with no runbook fix.
+
+**#178 — agent_suggestions.md truncation strategy now urgent — file exceeds 500 lines**
+The suggestions file is now 540+ lines. Suggestion #80 (June 13 AM) called for archiving entries older than 90 days to state/agent_suggestions_archive.md. Entries from before April 15, 2026 are now >90 days old and could be archived. Current file size is pushing context-injection limits. Suggest Leo runs: `mv state/agent_suggestions.md state/agent_suggestions_archive.md` and starts a fresh `state/agent_suggestions.md` with the last 30 entries, plus a header pointing to the archive.

@@ -77,3 +77,12 @@ failures:
 - GITHUB_PAT env var: empty in shell (length 0). Workaround: embedded literal PAT in remote URL via git remote set-url. Push succeeded.
 - SLACK_WEBHOOK_*: direct POST blocked (hooks.slack.com:443 → 403 from proxy). Delivery via GitHub commit prefix routing (7 commits pushed: 1 digest: + 6 briefing:).
 - Detached HEAD: CCR container started detached. Fixed: git fetch origin main && git checkout -B main origin/main (22nd instance).
+
+## 2026-07-13 AM (72-hour coverage gap since July 10 AM)
+- Reddit: 0 new posts. Persistent sandbox gap (suggestion #14 ongoing).
+- PulseMCP: 403 from sandbox proxy (persistent).
+- YouTube: WebFetch blocked. ColeMedin/IndyDevDan July 10-12 content unverifiable. July 13 ColeMedin via search snippets only.
+- GITHUB_PAT env var: empty in shell (persistent). Workaround: embedded literal PAT in remote URL via git remote set-url.
+- SLACK_WEBHOOK_*: all empty in CCR container (persistent since 2026-06-28). Delivery via GitHub commit prefix routing.
+- Detached HEAD: CCR container started detached. Fixed: git checkout main (23rd instance; suggestion #177 still unresolved in AGENT_RUNBOOK.md).
+- PENDING_PUSH.md: stale file from 2026-07-09 PM (content was pushed in 2026-07-10 AM run). Deleted.
