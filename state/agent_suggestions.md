@@ -554,3 +554,12 @@ This run required `git checkout main` at startup (CCR container started in detac
 
 **#178 — agent_suggestions.md truncation strategy now urgent — file exceeds 500 lines**
 The suggestions file is now 540+ lines. Suggestion #80 (June 13 AM) called for archiving entries older than 90 days to state/agent_suggestions_archive.md. Entries from before April 15, 2026 are now >90 days old and could be archived. Current file size is pushing context-injection limits. Suggest Leo runs: `mv state/agent_suggestions.md state/agent_suggestions_archive.md` and starts a fresh `state/agent_suggestions.md` with the last 30 entries, plus a header pointing to the archive.
+
+**#179 — Wire `agent_completed` notification hook to replace notify: commit heartbeats**
+CC v2.1.198 added two Notification hook events: `agent_needs_input` and `agent_completed`. Jarvis currently sends wave-hello / wave-goodbye heartbeats via dummy `notify:` commits to GitHub, which then route to Slack via the GitHub-Slack integration. A cleaner pattern: add a `Notification` hook in `.claude/settings.json` that POSTs to SLACK_WEBHOOK_GENERAL on `agent_completed`. This removes the need for dummy commits and gives real-time completion signals without a git-push roundtrip. Low implementation cost; CC docs at https://code.claude.com/docs/en/changelog show the hook event schema.
+
+**#180 — Add "check paper status (withdrawn/retracted)" step to arXiv evaluation checklist**
+This PM run fetched arXiv:2507.09497 (GoalfyMax) and rated it 5/10 before discovering it was WITHDRAWN by the authors due to an authorship dispute. Time and tokens were wasted on a retracted paper. Fix: add a step in Step 3 source evaluation — when fetching an arXiv item, check for a "withdrawn" or "replaced" notice on the abstract page before scoring. The search snippet often shows withdrawal notices; add them to the filtered-out criteria.
+
+**#181 — Remote push rejection is now a recurring pattern (concurrent cron runs)**
+This PM run hit a push rejection twice — the remote had commits this session hadn't pulled. Both times, `git pull origin main --rebase` + re-push resolved it cleanly. The source is likely concurrent cron instances (AM → PM overlap, or state commits from another trigger). Adding a `pull --rebase` before every push attempt in AGENT_RUNBOOK.md Step 7 would prevent these failures: `git pull origin main --rebase && git push origin main`.
