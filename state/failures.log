@@ -86,3 +86,4 @@ failures:
 - SLACK_WEBHOOK_*: all empty in CCR container (persistent since 2026-06-28). Delivery via GitHub commit prefix routing.
 - Detached HEAD: CCR container started detached. Fixed: git checkout main (23rd instance; suggestion #177 still unresolved in AGENT_RUNBOOK.md).
 - PENDING_PUSH.md: stale file from 2026-07-09 PM (content was pushed in 2026-07-10 AM run). Deleted.
+2026-07-14T00:01:38Z | Slack POST blocked | hooks.slack.com:443 policy-denied by CCR proxy (connect_rejected) | Channels: #ai-news, #improvements, #general | Fallback: digest: git commit routed via GitHub-Slack integration
