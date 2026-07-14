@@ -563,3 +563,9 @@ This PM run fetched arXiv:2507.09497 (GoalfyMax) and rated it 5/10 before discov
 
 **#181 — Remote push rejection is now a recurring pattern (concurrent cron runs)**
 This PM run hit a push rejection twice — the remote had commits this session hadn't pulled. Both times, `git pull origin main --rebase` + re-push resolved it cleanly. The source is likely concurrent cron instances (AM → PM overlap, or state commits from another trigger). Adding a `pull --rebase` before every push attempt in AGENT_RUNBOOK.md Step 7 would prevent these failures: `git pull origin main --rebase && git push origin main`.
+
+**#182 — Jarvis sweeps individual CC version changelogs but not weekly summary pages (browser pane slipped for 8 days)** (2026-07-14 AM)
+The CC Week 28 sandboxed browser pane (Cmd+Shift+B) was live since July 6 but not surfaced until July 14. Individual changelog entries for v2.1.202–206 in seen.json don't mention the browser — it only appears in the weekly-summary aggregated doc at `code.claude.com/docs/en/whats-new/2026-w28`. Fix: add the weekly summary URL pattern to SOURCES.yaml (either weekly scrape of `https://code.claude.com/docs/en/whats-new` or an RSS feed if available). A weekly-summary sweep would catch week-level rollup features that individual patch notes omit.
+
+**#183 — MemAgent (BytedTsinghua-SIA/MemAgent) slipped due to arxiv.org 403 + narrow GitHub keyword sweep** (2026-07-14 AM)
+arXiv:2507.02259 was published July 3 and not surfaced until July 14. Root cause: arxiv.org direct fetch returns 403; GitHub repo name (BytedTsinghua-SIA/MemAgent) doesn't match any of the current keyword patterns ("claude", "mcp", "agent-skills", etc.). Fix: expand GitHub topic/keyword sweep to include "long-context", "memory-agent", "rl-memory", or "memagent". Alternatively, add a "long context memory RL" term to the arXiv WebSearch fallback queries so papers with GitHub repos surface via search snippets.
