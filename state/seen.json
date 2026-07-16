@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-15T12:01:53Z",
-  "total_items_seen": 403,
+  "last_run_utc": "2026-07-16T00:01:40Z",
+  "total_items_seen": 419,
   "items": {
     "legacy:0": {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -4354,6 +4354,248 @@
         "safety-gate"
       ],
       "run": "2026-07-15_PM"
+    },
+    "cc:v2.1.211": {
+      "title": "CC v2.1.211 \u2014 --forward-subagent-text flag, Unicode bidirectional security hardening, 30+ fixes (July 15 2026)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.211",
+      "source": "github.com/anthropics/claude-code",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "changelog",
+        "security",
+        "subagent",
+        "streaming"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "cc:agent-view-goal-command-2026-07": {
+      "title": "Claude Code Agent View dashboard + /goal autonomous-completion command (research preview, July 13-14 2026)",
+      "url": "https://www.geeky-gadgets.com/claude-code-agent-view-update/",
+      "source": "geeky-gadgets.com / youtube",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "background-sessions",
+        "agent-orchestration",
+        "jarvis-relevant"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "hn:48842904-honeycomb-eap-opus5-1m-context": {
+      "title": "Claude Honeycomb EAP spotted in Cursor \u2014 1M context, xhigh reasoning, possible Opus 5 (HN:48842904, July 10-11 2026)",
+      "url": "https://news.ycombinator.com/item?id=48842904",
+      "source": "HN",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-model",
+        "opus",
+        "context-window",
+        "unconfirmed",
+        "watch"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "security:chrome-flaw-unpatched-gmail-2026-07": {
+      "title": "Claude for Chrome v1.0.80 unpatched flaw \u2014 rogue extensions can silently read Gmail/Docs/Calendar; 8 weeks open (July 14 2026)",
+      "url": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+      "source": "The Hacker News / Manifold Security",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "claude-chrome",
+        "vulnerability",
+        "unpatched"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "youtube:indydevdan-changed-completely-2026-07-15": {
+      "title": "IndyDevDan: Claude Just Changed Completely \u2014 How It Works In 2026 (YouTube, July 15 2026)",
+      "url": "https://www.youtube.com/watch?v=bj04doEDOY4",
+      "source": "youtube/@indydevdan",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "youtube",
+        "indydevdan"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "anthropic:ipo-investor-meetings-965b-2026-07": {
+      "title": "Anthropic begins investor meetings for October Nasdaq IPO \u2014 valuation ~$965B, $60B+ raise (July 15 2026)",
+      "url": "https://www.pymnts.com/news/investment-tracker/ipo/2026/anthropic-begin-investor-meetings-potential-october-ipo/",
+      "source": "PYMNTS / GuruFocus",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "ipo",
+        "company-news"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "youtube:colemedin-master-claude-agents-2026-07-12": {
+      "title": "Cole Medin: Master Claude AI Agents in 2026 \u2014 5 Real Examples, PIV Loop (YouTube, July 12 2026)",
+      "url": "https://www.youtube.com/watch?v=COLE_VIDEO_ID",
+      "source": "youtube/@ColeMedin",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "agentic",
+        "youtube",
+        "colemedin",
+        "piv-loop"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "arxiv:2607.08010-tool-making-self-evolving-agents": {
+      "title": "Tool-Making and Self-Evolving LLM Agents in Low-Latency Systems (arxiv:2607.08010, July 9 2026)",
+      "url": "https://arxiv.org/abs/2607.08010",
+      "source": "arxiv.org",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "tool-use",
+        "self-evolving",
+        "claude-opus",
+        "sop"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "security:friendly-fire-readme-payload-2026-07": {
+      "title": "Friendly Fire \u2014 Claude Code and Codex execute README-planted payloads in auto-approve mode (AI Now research, ~July 2026)",
+      "url": "https://thehackernews.com/2026/07/friendly-fire-ai-agents-built-to-catch.html",
+      "source": "The Hacker News / AI Now",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "claude-code",
+        "prompt-injection",
+        "auto-approve"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "vscode:1.128-multi-chat-sessions": {
+      "title": "VS Code 1.128 \u2014 multiple related Claude chat sessions, branch from earlier turns (July 8 2026)",
+      "url": "https://code.visualstudio.com/updates/v1_128",
+      "source": "VS Code blog",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "vscode",
+        "claude-code",
+        "ide",
+        "multi-chat"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "technology.org:steganography-alibaba-rivalry-2026-07-15": {
+      "title": "Claude Code's Hidden Logic Exposes the Anthropic-Alibaba Rivalry (Technology.org analysis, July 15 2026)",
+      "url": "https://www.technology.org/2026/07/15/claude-codes-hidden-logic-exposes-the-anthropic-alibaba-rivalry/",
+      "source": "technology.org",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "steganography",
+        "alibaba",
+        "geopolitics",
+        "claude-code",
+        "analysis"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "bgr:amateur-hacker-claude-14-companies": {
+      "title": "Amateur hacker used Claude + OpenAI agents to breach 14 companies (BGR, ~July 2026)",
+      "url": "https://www.bgr.com/2200632/claude-ai-cybsersecurity-attack-amateur-hacker/",
+      "source": "BGR",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "agentic",
+        "claude",
+        "threat-intelligence"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "fli:ai-safety-index-summer-2026": {
+      "title": "FLI AI Safety Index Summer 2026 \u2014 Anthropic tops at C+, no lab earns passing grade (July 7 2026)",
+      "url": "https://futureoflife.org/ai-safety-index-summer-2026/",
+      "source": "Future of Life Institute",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "ai-safety",
+        "industry-context",
+        "fli"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "anthropic:claude-for-teachers-2026-07": {
+      "title": "Claude for Teachers \u2014 free premium Claude for US K-12 educators (July 14 2026) [filtered: off-profile]",
+      "url": "https://www.anthropic.com/news/claude-for-teachers",
+      "source": "anthropic.com",
+      "score_when_seen": 2,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "education",
+        "filtered"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "anthropic:hipaa-self-serve-2026-07": {
+      "title": "Anthropic self-serve HIPAA configuration for Enterprise/API (July 15 2026) [filtered: off Leo's Max stack]",
+      "url": "https://releasebot.io/updates/anthropic/claude",
+      "source": "anthropic / releasebot.io",
+      "score_when_seen": 2,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "enterprise",
+        "hipaa",
+        "filtered"
+      ],
+      "run": "2026-07-16_AM"
+    },
+    "simonwillison:uvx-github-actions-2026-07-14": {
+      "title": "Simon Willison: uvx in GitHub Actions cache-friendly (July 14 2026) [filtered: off-AI-core]",
+      "url": "https://simonwillison.net/2026/Jul/14/",
+      "source": "simonwillison.net",
+      "score_when_seen": 1,
+      "first_seen_utc": "2026-07-16T00:01:40Z",
+      "build_worthy": false,
+      "tags": [
+        "simonwillison",
+        "python",
+        "devops",
+        "filtered"
+      ],
+      "run": "2026-07-16_AM"
     }
   },
   "schema_version": 1
