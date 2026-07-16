@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-16T00:01:40Z",
-  "total_items_seen": 419,
+  "last_run_utc": "2026-07-16T12:01:00Z",
+  "total_items_seen": 427,
   "items": {
     "legacy:0": {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -4596,6 +4596,141 @@
         "filtered"
       ],
       "run": "2026-07-16_AM"
+    },
+    "cc:fable-july19-honeycomb-countdown-2026-07": {
+      "title": "Fable July 19 countdown — Honeycomb/Opus 5 launch window opens Saturday",
+      "url": "https://news.ycombinator.com/item?id=48882730",
+      "source": "HN + The New Stack",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-16T12:01:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "anthropic",
+        "honeycomb",
+        "opus5",
+        "fable",
+        "model-launch",
+        "watch"
+      ],
+      "run": "2026-07-16_PM"
+    },
+    "arxiv:2607.00918-personas-to-plot-magnet": {
+      "title": "From Personas to Plot: MAGNET multi-agent narrative generation with ATLAS hallucination detector",
+      "url": "https://arxiv.org/abs/2607.00918",
+      "source": "arxiv",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-16T12:01:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "fiction",
+        "story-generation",
+        "hallucination",
+        "long-form",
+        "briefing"
+      ],
+      "run": "2026-07-16_PM"
+    },
+    "anthropic:managed-agents-cron-beta-2026-07": {
+      "title": "Claude Managed Agents public beta — memory, multi-agent, outcomes + cron scheduling",
+      "url": "https://linas.substack.com/p/claude-managed-agents-update",
+      "source": "linas.substack.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-16T12:01:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "managed-agents",
+        "cron",
+        "architecture",
+        "beta",
+        "briefing"
+      ],
+      "run": "2026-07-16_PM"
+    },
+    "github:github-mcp-server-v1.6.0-2026-07": {
+      "title": "github-mcp-server v1.6.0 — token-efficient fields parameter, MCP spec RC alignment",
+      "url": "https://github.com/github/github-mcp-server/releases/tag/v1.6.0",
+      "source": "github.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-16T12:01:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "github",
+        "github-mcp-server",
+        "v1.6.0",
+        "token-efficiency",
+        "briefing"
+      ],
+      "run": "2026-07-16_PM"
+    },
+    "security:claude-webfetch-exfiltration-patched-2026-07": {
+      "title": "Simon Willison: Claude web_fetch exfiltration vulnerability — patched by Anthropic",
+      "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/",
+      "source": "simonwillison.net",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-16T12:01:00Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "claude",
+        "web-fetch",
+        "simonwillison",
+        "patched"
+      ],
+      "run": "2026-07-16_PM"
+    },
+    "arxiv:2607.08662-webswarm-recursive-multiagent": {
+      "title": "WebSwarm: recursive multi-agent web search via progressive delegation",
+      "url": "https://arxiv.org/abs/2607.08662",
+      "source": "arxiv",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-16T12:01:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "web-search",
+        "discovery",
+        "recursive"
+      ],
+      "run": "2026-07-16_PM"
+    },
+    "simonwillison:xai-grok-cli-privacy-2026-07": {
+      "title": "Simon Willison: xAI Grok CLI silently uploaded SSH keys, passwords, photos to GCP buckets",
+      "url": "https://simonwillison.net/2026/Jul/16/",
+      "source": "simonwillison.net",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-16T12:01:00Z",
+      "build_worthy": false,
+      "tags": [
+        "xai",
+        "grok",
+        "privacy",
+        "security",
+        "cli",
+        "simonwillison"
+      ],
+      "run": "2026-07-16_PM"
+    },
+    "mindstudio:obsidian-claude-llm-wiki-2026-07-15": {
+      "title": "MindStudio: Obsidian + Claude self-updating LLM wiki / AI second brain",
+      "url": "https://www.mindstudio.ai/blog/ai-second-brain-obsidian-claude-llm-wiki",
+      "source": "mindstudio.ai",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-16T12:01:00Z",
+      "build_worthy": false,
+      "tags": [
+        "obsidian",
+        "claude",
+        "knowledge-management",
+        "workflow",
+        "filtered"
+      ],
+      "run": "2026-07-16_PM"
     }
   },
   "schema_version": 1
