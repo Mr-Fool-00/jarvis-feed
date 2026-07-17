@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-17T00:02:05Z",
-  "total_items_seen": 427,
+  "last_run_utc": "2026-07-17T12:35:00Z",
+  "total_items_seen": 446,
   "items": {
     "legacy:0": {
       "first_seen_utc": "2026-06-16T00:55:00Z",
@@ -4598,7 +4598,7 @@
       "run": "2026-07-16_AM"
     },
     "cc:fable-july19-honeycomb-countdown-2026-07": {
-      "title": "Fable July 19 countdown — Honeycomb/Opus 5 launch window opens Saturday",
+      "title": "Fable July 19 countdown \u2014 Honeycomb/Opus 5 launch window opens Saturday",
       "url": "https://news.ycombinator.com/item?id=48882730",
       "source": "HN + The New Stack",
       "score_when_seen": 8,
@@ -4634,7 +4634,7 @@
       "run": "2026-07-16_PM"
     },
     "anthropic:managed-agents-cron-beta-2026-07": {
-      "title": "Claude Managed Agents public beta — memory, multi-agent, outcomes + cron scheduling",
+      "title": "Claude Managed Agents public beta \u2014 memory, multi-agent, outcomes + cron scheduling",
       "url": "https://linas.substack.com/p/claude-managed-agents-update",
       "source": "linas.substack.com",
       "score_when_seen": 7,
@@ -4651,7 +4651,7 @@
       "run": "2026-07-16_PM"
     },
     "github:github-mcp-server-v1.6.0-2026-07": {
-      "title": "github-mcp-server v1.6.0 — token-efficient fields parameter, MCP spec RC alignment",
+      "title": "github-mcp-server v1.6.0 \u2014 token-efficient fields parameter, MCP spec RC alignment",
       "url": "https://github.com/github/github-mcp-server/releases/tag/v1.6.0",
       "source": "github.com",
       "score_when_seen": 7,
@@ -4668,7 +4668,7 @@
       "run": "2026-07-16_PM"
     },
     "security:claude-webfetch-exfiltration-patched-2026-07": {
-      "title": "Simon Willison: Claude web_fetch exfiltration vulnerability — patched by Anthropic",
+      "title": "Simon Willison: Claude web_fetch exfiltration vulnerability \u2014 patched by Anthropic",
       "url": "https://simonwillison.net/2026/Jul/15/claude-web-fetch-exfiltration/",
       "source": "simonwillison.net",
       "score_when_seen": 6,
@@ -4735,7 +4735,7 @@
     "arxiv:2607.01418-microsoft-cc-study": {
       "title": "Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
       "url": "https://arxiv.org/abs/2607.01418",
-      "source": "arXiv (cs.SE) — Murphy-Hill, Butler, Savelieva (Microsoft Research)",
+      "source": "arXiv (cs.SE) \u2014 Murphy-Hill, Butler, Savelieva (Microsoft Research)",
       "score_when_seen": 8,
       "first_seen_utc": "2026-07-17T00:02:05Z",
       "build_worthy": false,
@@ -4855,7 +4855,7 @@
     "arxiv:2607.01523-multi-head-recurrent-memory": {
       "title": "Multi-Head Recurrent Memory Agents",
       "url": "https://arxiv.org/abs/2607.01523",
-      "source": "arXiv (cs.LG/cs.MA) — U Wisconsin-Madison",
+      "source": "arXiv (cs.LG/cs.MA) \u2014 U Wisconsin-Madison",
       "score_when_seen": 7,
       "first_seen_utc": "2026-07-17T00:02:05Z",
       "build_worthy": false,
@@ -4919,6 +4919,144 @@
         "multi-agent"
       ],
       "run": "2026-07-17_AM"
+    },
+    "cc:july16-stability-fork-caps-2026-07": {
+      "title": "CC July 16-17: /fork Background Sessions + WebSearch/Subagent Caps + MCP Auto-BG",
+      "url": "https://www.releasebot.io/changelog/claude-code",
+      "source": "Claude Code changelog / releasebot.io",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-17T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "release",
+        "fork",
+        "subagents",
+        "mcp",
+        "session-caps",
+        "resume"
+      ],
+      "run": "2026-07-17_PM"
+    },
+    "arxiv:2607.05577-narrative-world-model": {
+      "title": "Narrative World Model: Narratology-Grounded Writer Memory",
+      "url": "https://arxiv.org/abs/2607.05577",
+      "source": "arXiv (cs.CL)",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-17T12:35:00Z",
+      "build_worthy": true,
+      "tags": [
+        "arxiv",
+        "narrative",
+        "memory",
+        "fiction-pipeline",
+        "epistemics",
+        "graph",
+        "retrieval",
+        "worldbuilding"
+      ],
+      "run": "2026-07-17_PM"
+    },
+    "security:friendly-fire-exploit-2026-07": {
+      "title": "Friendly Fire: Defensive CC Agents Hijacked via Prompt Injection for RCE",
+      "url": "https://ainowinstitute.org/publications/friendly-fire-prompt-injection-agentic-coding",
+      "source": "AI Now Institute",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "prompt-injection",
+        "claude-code",
+        "rce",
+        "auto-mode",
+        "agentic-coding"
+      ],
+      "run": "2026-07-17_PM"
+    },
+    "arxiv:2605.27878-narrative-flattening": {
+      "title": "Narrative Flattening: Post-Training Compresses Stylistic Variation in LLM Fiction",
+      "url": "https://arxiv.org/abs/2605.27878",
+      "source": "arXiv (cs.CL) / Knowledge Lab, U Chicago",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "fiction",
+        "post-training",
+        "style",
+        "sft",
+        "dpo",
+        "rlvr",
+        "literary-ai"
+      ],
+      "run": "2026-07-17_PM"
+    },
+    "cc:honeycomb-opus5-status-2026-07": {
+      "title": "Claude Honeycomb EAP Leak + Fable 5 July 19 Free Deadline",
+      "url": "https://community.anthropic.com/",
+      "source": "Community reports / Cursor model picker observation",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "honeycomb",
+        "fable-5",
+        "model-release",
+        "watch-item"
+      ],
+      "run": "2026-07-17_PM"
+    },
+    "arxiv:2605.22502-compiling-workflows-llm": {
+      "title": "Compiling Agentic Workflows into LLM Weights (100x cheaper at runtime)",
+      "url": "https://arxiv.org/abs/2605.22502",
+      "source": "arXiv (cs.CL)",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-17T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "fine-tuning",
+        "agentic-workflows",
+        "distillation",
+        "cost-efficiency"
+      ],
+      "run": "2026-07-17_PM"
+    },
+    "model:kimi-k3-2026-07-16": {
+      "title": "Kimi K3 \u2014 2.8T MoE, 1M Context, Open Weights July 27",
+      "url": "https://kimi.moonshot.cn/",
+      "source": "Moonshot AI",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-17T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "model-release",
+        "moonshot",
+        "moe",
+        "open-weights",
+        "long-context"
+      ],
+      "run": "2026-07-17_PM"
+    },
+    "cc:v2.1.208-211-bundle-2026-07": {
+      "title": "CC v2.1.208-211: Screen Reader, Vim Remaps, Live Counter, Subagent Text Stream",
+      "url": "https://www.releasebot.io/changelog/claude-code",
+      "source": "Claude Code changelog / releasebot.io",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-17T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "release",
+        "screen-reader",
+        "vim",
+        "subagents",
+        "accessibility"
+      ],
+      "run": "2026-07-17_PM"
     }
   },
   "schema_version": 1
