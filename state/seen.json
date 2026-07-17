@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-16T12:01:00Z",
+  "last_run_utc": "2026-07-17T00:02:05Z",
   "total_items_seen": 427,
   "items": {
     "legacy:0": {
@@ -4731,6 +4731,194 @@
         "filtered"
       ],
       "run": "2026-07-16_PM"
+    },
+    "arxiv:2607.01418-microsoft-cc-study": {
+      "title": "Adoption and Impact of Command-Line AI Coding Agents: A Study of Microsoft's Early 2026 Rollout of Claude Code and GitHub Copilot CLI",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "source": "arXiv (cs.SE) — Murphy-Hill, Butler, Savelieva (Microsoft Research)",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "claude-code",
+        "empirical-study",
+        "microsoft",
+        "productivity",
+        "pr-merge-rate",
+        "enterprise"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "tds:context-rot-2026-07-13": {
+      "title": "Context Rot: Why Claude Code Sessions Decay, and How to Govern Them",
+      "url": "https://towardsdatascience.com/governed-context-managing-context-rot-in-claude-code/",
+      "source": "Towards Data Science / daton.app",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": true,
+      "tags": [
+        "claude-code",
+        "context-management",
+        "context-rot",
+        "session-governance",
+        "hooks",
+        "fiction-pipeline"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "daton:orchestrate-100-agents-2026-07": {
+      "title": "How to Orchestrate 100+ Agents With Claude Code",
+      "url": "https://www.daton.app/2026/07/how-to-orchestrate-100-agents-with.html",
+      "source": "daton.app / Towards Data Science",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": true,
+      "tags": [
+        "claude-code",
+        "multi-agent",
+        "orchestration",
+        "git-worktrees",
+        "parallel",
+        "fiction-pipeline"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "arxiv:2506.16445-storywriter-multiagent": {
+      "title": "StoryWriter: A Multi-Agent Framework for Long Story Generation",
+      "url": "https://arxiv.org/abs/2506.16445",
+      "source": "arXiv (cs.CL)",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": true,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "story-generation",
+        "fiction-pipeline",
+        "story-bible",
+        "continuity-checking"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "hn:48883275-33k-tokens-opencode": {
+      "title": "Claude Code sends 33k tokens before reading your prompt; OpenCode sends 7k",
+      "url": "https://news.ycombinator.com/item?id=48883275",
+      "source": "Hacker News / Piebald-AI / multiple analyses",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "tokens",
+        "overhead",
+        "opencode",
+        "cost-optimization",
+        "system-prompt"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "daton:dont-let-claude-grade-2026-07-15": {
+      "title": "Don't Let Claude Grade Its Own Homework",
+      "url": "https://www.daton.app/2026/07/dont-let-claude-grade-its-own-homework.html",
+      "source": "daton.app / Towards Data Science",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "evaluation",
+        "self-grading",
+        "antipattern",
+        "fiction-pipeline",
+        "agent-design"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "mindstudio:5-workflow-patterns-2026-07-13": {
+      "title": "Beyond One-Shot Prompts: 5 Claude Code Workflow Patterns Explained",
+      "url": "https://www.mindstudio.ai/blog/claude-code-agentic-workflow-patterns",
+      "source": "MindStudio Blog",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "workflow-patterns",
+        "settings-json",
+        "hooks",
+        "plan-mode",
+        "subagents"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "arxiv:2607.01523-multi-head-recurrent-memory": {
+      "title": "Multi-Head Recurrent Memory Agents",
+      "url": "https://arxiv.org/abs/2607.01523",
+      "source": "arXiv (cs.LG/cs.MA) — U Wisconsin-Madison",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "memory",
+        "recurrent",
+        "context-length",
+        "multi-agent",
+        "fiction-pipeline"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "arxiv:2607.05690-memory-in-the-loop": {
+      "title": "Memory in the Loop: In-Process Retrieval as Extended Working Memory for Language Agents",
+      "url": "https://arxiv.org/pdf/2607.05690",
+      "source": "arXiv",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "memory",
+        "retrieval",
+        "working-memory",
+        "multi-agent",
+        "rag"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "arxiv:2606.08151-decision-aware-memory-cards": {
+      "title": "Decision-Aware Memory Cards: Counterfactual-Inspired Context Selection and Compression for Tool-Using LLM Agents",
+      "url": "https://arxiv.org/pdf/2606.08151",
+      "source": "arXiv",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "memory",
+        "context-compression",
+        "token-efficiency",
+        "tool-use",
+        "agent-design"
+      ],
+      "run": "2026-07-17_AM"
+    },
+    "hackernoon:cc-subagents-done-right-2026-07": {
+      "title": "Navigating Claude Code: Subagents Done Right",
+      "url": "https://hackernoon.com/navigating-claude-code-subagents-done-right",
+      "source": "HackerNoon",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-17T00:02:05Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "subagents",
+        "agent-tool",
+        "context-passing",
+        "foreground-background",
+        "multi-agent"
+      ],
+      "run": "2026-07-17_AM"
     }
   },
   "schema_version": 1

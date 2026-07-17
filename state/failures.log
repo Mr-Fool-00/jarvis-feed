@@ -89,3 +89,12 @@ failures:
 2026-07-14T00:01:38Z | Slack POST blocked | hooks.slack.com:443 policy-denied by CCR proxy (connect_rejected) | Channels: #ai-news, #improvements, #general | Fallback: digest: git commit routed via GitHub-Slack integration
 2026-07-16T00:xx:xxZ AM run Slack delivery: all webhooks blocked (HTTP 000) — sandbox network policy. ai-news, general, errors all unreachable. Digest on GitHub: a14e7f8.
 2026-07-16T00:xx:xxZ AM run source failures: arxiv.org 403 (persistent), reddit.com blocked (persistent), PulseMCP 403 (persistent), YouTube RSS 403 (persistent).
+
+## 2026-07-17 AM
+- Reddit: WebSearch site:reddit.com blocked in CCR sandbox (persistent, 25th+ run). Reddit agent found content via 3rd-party aggregators.
+- PulseMCP: 403 from sandbox proxy (persistent).
+- SLACK_WEBHOOK_*: all empty in CCR container (persistent since 2026-06-28); delivery via GitHub commit prefix routing.
+- GITHUB_PAT env var: empty in shell (persistent); PAT embedded in remote URL workaround.
+- arxiv.org: 403 via WebFetch; WebSearch fallback used (papers found via HN/search index).
+- simonwillison.net: 403 via WebFetch; no new posts found.
+- anthropic.com/news: 403 via WebFetch; WebSearch fallback used.
