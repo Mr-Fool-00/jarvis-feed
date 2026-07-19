@@ -1,87 +1,7 @@
 {
-  "last_run_utc": "2026-07-18T13:12:00Z",
+  "last_run_utc": "2026-07-19T00:01:18Z",
   "total_items_seen": 437,
   "items": {
-    "legacy:24": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "CC v2.1.181: /config key=value from prompt, auto-retry on mid-thinking API drops, subagent panel auto-hide + 5-row cap, CLAUDE_CLIENT_PRESENCE_FILE for push suppression, Bun 1.4, 5-level nesting enforced."
-    },
-    "legacy:25": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 8,
-      "title_snippet": "Tenet Security: Agentjacking via fake Sentry error, 85% success rate across Claude Code/Cursor/Codex. 2,388 orgs targetable with single POST. Exfiltrates env vars + Git credentials. Sentry fix = denylist patch only."
-    },
-    "legacy:26": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "CC Week 24 catch-up: fallbackModel (3-model overload chain), /cd (change dir without cache rebuild), --safe-mode (bypass all customizations for clean troubleshoot). Released June 8-12, v2.1.166-176."
-    },
-    "legacy:27": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 7,
-      "title_snippet": "Simon Willison datasette-agent 0.2a0: mid-execution human approval via context.ask_user(), execute_write_sql requires approval before write, save_query always requires approval. Pattern for agentic human-in-loop checkpoints."
-    },
-    "legacy:28": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "SuperWriter: MCTS for long-form generation \u2014 5 plans \u2192 20 drafts \u2192 60 refinements \u2192 judge backprop. 7B SuperWriter-LM beats larger models on coherence. Key insight: early plan lock-in is the coherence bottleneck."
-    },
-    "legacy:29": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Fable 5 resolution: Anthropic engineers in staff-level meetings with Commerce Dept + National Cyber Director June 16. Resolution condition: prove long-term safeguards. Prediction markets: July 1 return 59%, June 26 return 38%."
-    },
-    "legacy:30": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "CC v2.1.179: mid-stream connection drop recovery (preserve partial responses), WSL2 mouse-wheel scroll fix, sandbox glob perf fix on large directory trees."
-    },
-    "legacy:31": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "Claude Founder House Berlin: live event June 18. Announcement-only, no content available yet."
-    },
-    "legacy:32": {
-      "first_seen_utc": "2026-06-18T00:52:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "Claude Corps: Anthropic $150M nonprofit fellowship for AI researchers/nonprofits. Off-profile for Leo's stack."
-    },
-    "legacy:33": {
-      "first_seen_utc": "2026-06-18T13:15:00Z",
-      "score_when_seen": 6,
-      "title_snippet": "AdaptOrch: meta-orchestrator selects multi-agent topology per task (chain/tree/star/mesh/debate). 12-23% improvement over static topology baselines using identical models. Key finding: topology selection > model selection."
-    },
-    "legacy:34": {
-      "first_seen_utc": "2026-06-18T13:15:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Google archives gemini-cli June 18, replaces with closed-source Antigravity CLI. 143 thumbs-down on GitHub. No MCP support in Antigravity. Migration discussions point explicitly to Claude Code."
-    },
-    "legacy:35": {
-      "first_seen_utc": "2026-06-18T13:15:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "WWDC 2026: iOS 27/macOS 27 LanguageModel protocol \u2014 Claude 4 supported as swappable backend via AnthropicLanguageModelAdapter. Xcode 27 dual-engine (Apple FM autocomplete + Claude Sonnet 4.6 for multi-file reasoning)."
-    },
-    "legacy:36": {
-      "first_seen_utc": "2026-06-18T13:15:00Z",
-      "score_when_seen": 5,
-      "title_snippet": "Agent-Reach: 34K-star unified social MCP (Twitter/X, Instagram, LinkedIn, XiaoHongShu, YouTube, GitHub, RSS). Safety gate applied: unofficial platform access = ToS violations on Instagram/LinkedIn/XiaoHongShu/Twitter. Not recommended for install."
-    },
-    "legacy:37": {
-      "first_seen_utc": "2026-06-18T13:15:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Digital Today (Korea, June 18): export controls on Fable 5 'expected to ease within days'. Kalshi: 57-59% July 1 return. BridgeMind 48h rumor expired without confirmation. Still offline."
-    },
-    "legacy:38": {
-      "first_seen_utc": "2026-06-18T13:15:00Z",
-      "score_when_seen": 4,
-      "title_snippet": "Claude Design: design system import (extract tokens from URL/file), /design command in Claude Code (split-pane live preview), 40-60% token efficiency fix on component generation tasks."
-    },
-    "legacy:39": {
-      "first_seen_utc": "2026-06-18T13:15:00Z",
-      "score_when_seen": 3,
-      "title_snippet": "Anthropic Seoul office opens June 17. MOUs: Samsung SDS, LG CNS, NAVER Cloud. MOU with Korea Ministry of Science and ICT for AI safety research. First NE Asia physical presence."
-    },
     "legacy:40": {
       "first_seen_utc": "2026-06-19T07:00:00Z",
       "score_when_seen": 6,
@@ -5185,6 +5105,71 @@
         "llm-output"
       ],
       "run": "2026-07-18_PM"
+    },
+    "anthropic:j-space-interpretability-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 8,
+      "title_snippet": "Anthropic Found Claude's Hidden Internal Workspace \u2014 J-Space (MIT Tech Review + AI Explained)"
+    },
+    "mcp:2026-07-28-rc-stateless-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 8,
+      "title_snippet": "MCP 2026-07-28 RC \u2014 Stateless Core: session IDs gone, _meta per-request, Extensions framework"
+    },
+    "anthropic:agent-autonomy-study-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 7,
+      "title_snippet": "Anthropic Research: Measuring AI Agent Autonomy \u2014 73% HIL, 0.8% irreversible, median 45s turns"
+    },
+    "latent-space:aiewf26-trends-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 7,
+      "title_snippet": "Latent Space: 5 Trends from AI Engineer World's Fair 2026 \u2014 orchestration > model selection now primary challenge"
+    },
+    "anthropic:fable5-promo-ends-july19-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 6,
+      "title_snippet": "Fable 5 promo (50% extra limits) ends tonight 11:59 PM PT; Max gets Fable 5 permanent starting July 20"
+    },
+    "anthropic:managed-agents-brain-hands-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 6,
+      "title_snippet": "Anthropic Engineering: Managed Agents brain/hands decoupling; dreaming mechanism for async self-improvement"
+    },
+    "yt:cole-medin-archon-video-pipeline-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 5,
+      "title_snippet": "Cole Medin: Claude Code + Archon Video Generation Pipeline (CC as multi-agent director)"
+    },
+    "hn:fable-disappear-thread-july19-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 5,
+      "title_snippet": "Ask HN: Did Fable Disappear From Your Usage? (live tracking thread July 19)"
+    },
+    "anthropic:ode-enterprise-firm-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 4,
+      "title_snippet": "Ode with Anthropic \u2014 $1.5B enterprise AI services firm (Anthropic + Blackstone + H&F)"
+    },
+    "github:ThomasHoussin-claude-book-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 7,
+      "title_snippet": "ThomasHoussin/Claude-Book \u2014 perplexity-gate novel pipeline (101 stars); SAFETY-GATE: needs Leo approval"
+    },
+    "github:howells-fiction-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 5,
+      "title_snippet": "howells/fiction \u2014 22-agent craft personas (9 stars); SAFETY-GATE: third-party code"
+    },
+    "anthropic:code-migrations-blog-july16-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 6,
+      "title_snippet": "Anthropic Engineering: Code Migrations at Scale (July 16 2026)"
+    },
+    "arxiv:alignment-frontier-sabotage-2026-07": {
+      "first_seen_utc": "2026-07-19T00:01:18Z",
+      "score_when_seen": 5,
+      "title_snippet": "Alignment Research: Frontier Model Sabotage Detection (arXiv July 2026)"
     }
   },
   "schema_version": 1

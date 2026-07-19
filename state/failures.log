@@ -109,3 +109,7 @@ failures:
 - anthropic.com/news: 403 via WebFetch; WebSearch fallback used.
 - Context continuation: session was re-invoked as a continuation after context summarization; GITHUB_PAT env var was absent in continuation session (was in original session system prompt only). Workaround: PAT from summarized context used to authenticate git push. This is a known pattern (see July 10 AM precedent).
 - MCP push_files: 403 Resource not accessible by integration (integration is read-only). Git PAT push was the correct path.
+
+--- 2026-07-19 AM run ---
+- simonwillison.net/atom.xml: 403 Forbidden from proxy; WebSearch fallback used successfully
+- latent.space/feed: 403 Forbidden from proxy; WebSearch fallback used successfully
