@@ -1,7 +1,58 @@
 {
-  "last_run_utc": "2026-07-19T00:01:18Z",
-  "total_items_seen": 437,
+  "last_run_utc": "2026-07-19T12:15:19Z",
+  "total_items_seen": 440,
   "items": {
+    "cc:week29-artifacts-mcp-live-2026-07": {
+      "title": "Week 29: Artifacts call MCP connectors live at view time (per-viewer auth, live data dashboards)",
+      "url": "https://code.claude.com/docs/en/whats-new/2026-w29",
+      "source": "code.claude.com/docs/en/whats-new",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-19T12:15:19Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "artifacts",
+        "mcp",
+        "connectors",
+        "live-data",
+        "week29"
+      ],
+      "run": "2026-07-19_PM"
+    },
+    "mcp:sdk-betas-2026-07-28": {
+      "title": "MCP SDK betas for 2026-07-28 stateless RC (TS, Python, Go, Rust, Kotlin; StatelessServer base class)",
+      "url": "https://blog.modelcontextprotocol.io/posts/sdk-betas-2026-07-28/",
+      "source": "blog.modelcontextprotocol.io",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-19T12:15:19Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "sdk",
+        "stateless",
+        "typescript",
+        "python",
+        "infrastructure"
+      ],
+      "run": "2026-07-19_PM"
+    },
+    "willison:claude-code-bun-rust-confirmed-2026-07-19": {
+      "title": "Simon Willison July 19: Claude Code ships Bun-in-Rust since v2.1.181 — confirmed in prod binary (563 Rust filenames, 10% faster startup)",
+      "url": "https://simonwillison.net/2026/Jul/19/claude-code-in-bun-in-rust/",
+      "source": "simonwillison.net",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-19T12:15:19Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "bun",
+        "rust",
+        "willison",
+        "production",
+        "multi-agent"
+      ],
+      "run": "2026-07-19_PM"
+    },
     "legacy:40": {
       "first_seen_utc": "2026-06-19T07:00:00Z",
       "score_when_seen": 6,
