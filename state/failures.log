@@ -113,3 +113,11 @@ failures:
 --- 2026-07-19 AM run ---
 - simonwillison.net/atom.xml: 403 Forbidden from proxy; WebSearch fallback used successfully
 - latent.space/feed: 403 Forbidden from proxy; WebSearch fallback used successfully
+
+## 2026-07-21 AM
+- simonwillison.net/atom.xml: 403 Forbidden from proxy (persistent, 30th+ run). WebSearch fallback used.
+- latent.space/feed: 403 Forbidden from proxy (persistent). WebSearch fallback used.
+- anthropic.com/news direct: 403 from proxy. Secondary sources used successfully.
+- reddit.com: WebSearch site:reddit.com blocked (persistent). Community signals via aggregators.
+- Slack webhooks: All blocked (persistent since 2026-06-28). Delivery via GitHub commit prefix.
+- developersdigest.tech: 403. MCP breaking changes from MCP official blog + 6 secondary sources.
