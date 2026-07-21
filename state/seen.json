@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-21T04:10:00Z",
-  "total_items_seen": 452,
+  "last_run_utc": "2026-07-21T13:30:00Z",
+  "total_items_seen": 465,
   "items": {
     "cc:week29-artifacts-mcp-live-2026-07": {
       "title": "Week 29: Artifacts call MCP connectors live at view time (per-viewer auth, live data dashboards)",
@@ -5306,6 +5306,222 @@
         "ideation"
       ],
       "run": "2026-07-21_AM"
+    },
+    "security:agentbaiting-fakegit-smartloader-2026-07-20": {
+      "title": "AgentBaiting \u2014 800+ Fake MCP/Skill Repos Delivering SmartLoader Malware via Agent-Driven Discovery (Island Security, July 20)",
+      "url": "https://www.island.io/blog/agentbaiting-how-800-fake-ai-skills-and-mcp-servers-delivered-malware",
+      "source": "island.io / HN:48583928",
+      "score_when_seen": 9,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "truly_want": true,
+      "tags": [
+        "security",
+        "mcp",
+        "skills",
+        "supply-chain",
+        "safety-gate",
+        "agentbaiting"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "cc:v2.1.212-fork-background-subtask-cap": {
+      "title": "CC v2.1.212 \u2014 /fork Goes Background Session, /subtask Replaces In-Session Subagent, 200-Subagent Per-Session Cap (July 17)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.212",
+      "source": "github.com/anthropics/claude-code/releases",
+      "score_when_seen": 9,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "truly_want": true,
+      "tags": [
+        "claude-code",
+        "fork",
+        "subtask",
+        "subagent",
+        "multi-agent",
+        "breaking-change"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "github:oh-my-claudecode-v4.15.6": {
+      "title": "oh-my-claudecode v4.15.6 \u2014 19-Agent plan\u2192exec\u2192verify\u2192fix Orchestration Layer, 39 Skills, 655-Entry Malicious Skills DB (37.9k stars)",
+      "url": "https://github.com/oh-my-claudecode/oh-my-claudecode",
+      "source": "github.com",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": true,
+      "safety_gate": true,
+      "tags": [
+        "multi-agent",
+        "orchestration",
+        "skills",
+        "safety-gate",
+        "plan-exec-verify-fix",
+        "threat-database"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "arxiv:2607.16621-msce-memory-skills-coevolution": {
+      "title": "MSCE: Memory and Skills Co-Evolution \u2014 Training-Free Agent Self-Improvement via Trace-to-Skill Extraction (arXiv:2607.16621, July 18)",
+      "url": "https://arxiv.org/abs/2607.16621",
+      "source": "arxiv.org",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": true,
+      "tags": [
+        "arxiv",
+        "skill-evolution",
+        "self-improvement",
+        "agent-traces",
+        "training-free",
+        "jarvis-improvement"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "security:agentjacking-sentry-mcp-hijack-2026-06": {
+      "title": "Agentjacking via Sentry MCP \u2014 85% CC Hijack Rate via Crafted Error Events; Datadog/PagerDuty/Jira Also Exposed (Tenet Security, resurging July 20)",
+      "url": "https://thenewstack.io/agentjacking-sentry-mcp-attack/",
+      "source": "Tenet Security / The New Stack",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "mcp",
+        "sentry",
+        "prompt-injection",
+        "agentjacking"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "github:FlorianBruniaux-claude-code-ultimate-guide": {
+      "title": "FlorianBruniaux/claude-code-ultimate-guide \u2014 275 CLAUDE.md Templates, 74 Skills, 655-Entry Malicious Skills DB (5.5k stars)",
+      "url": "https://github.com/FlorianBruniaux/claude-code-ultimate-guide",
+      "source": "github.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "safety_gate": true,
+      "tags": [
+        "claude-code",
+        "templates",
+        "skills",
+        "safety-gate",
+        "threat-database",
+        "reference"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "github:worldanvil-mcp-v1.12.0": {
+      "title": "worldanvil-mcp v1.12.0 \u2014 90+ Tools for WorldAnvil Worldbuilding Platform via MCP (8 stars)",
+      "url": "https://github.com/worldanvil-mcp/worldanvil-mcp",
+      "source": "github.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "safety_gate": true,
+      "tags": [
+        "mcp",
+        "worldbuilding",
+        "worldanvil",
+        "safety-gate",
+        "low-stars"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "github:rtk-proxy-v0.43.0": {
+      "title": "rtk v0.43.0 \u2014 CLI Context Proxy Reducing Token Count 60\u201390% (72.2k stars, June 28)",
+      "url": "https://github.com/rtk-proxy/rtk",
+      "source": "github.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "safety_gate": true,
+      "tags": [
+        "claude-code",
+        "context-window",
+        "token-efficiency",
+        "safety-gate",
+        "cli-tool"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "willison:afraid-chinese-models-2026-07-20": {
+      "title": "Simon Willison \u2014 Who's Afraid of Chinese Models? (Qwen3.8 Max 2.4T open-weight, Ben Thompson analysis, July 20)",
+      "url": "https://simonwillison.net/2026/Jul/20/afraid-chinese-models/",
+      "source": "simonwillison.net",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "willison",
+        "open-weight",
+        "chinese-models",
+        "qwen",
+        "competitive-landscape"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "mindstudio:four-pattern-framework-skill-failures-2026-07-10": {
+      "title": "MindStudio \u2014 Four-Pattern Framework for CC Skill Failures (context-is-milk, one-business-brain, skill-collaboration, self-learning)",
+      "url": "https://www.mindstudio.ai/blog/claude-code-skill-failure-patterns",
+      "source": "mindstudio.ai",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "skill-design",
+        "claude-code",
+        "framework",
+        "patterns"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "anthropic:m365-write-tools-2026-07-07": {
+      "title": "M365 Write Tools \u2014 Claude Can Now Draft/Send Email, Manage Calendar, Update OneDrive/SharePoint (July 7)",
+      "url": "https://www.microsoft.com/en-us/microsoft-365/blog/2026/07/07/claude-m365-write-tools/",
+      "source": "Microsoft / Anthropic M365 connector",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "m365",
+        "productivity",
+        "email",
+        "calendar",
+        "connector"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "arxiv:2607.10059-agentabstain-when-to-decline": {
+      "title": "AgentAbstain \u2014 When Agents Should Decline to Act: 263-Task Benchmark (UIUC, arXiv:2607.10059, July 11)",
+      "url": "https://arxiv.org/abs/2607.10059",
+      "source": "arxiv.org",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "agent-design",
+        "abstention",
+        "safety"
+      ],
+      "run": "2026-07-21_PM"
+    },
+    "anthropic:copyright-settlement-1.5b-2026-07-20": {
+      "title": "Anthropic $1.5B Copyright Settlement Approved \u2014 ~500K Books, $3K/Book, Largest AI Copyright Settlement (July 20)",
+      "url": "https://www.reuters.com/legal/anthropic-copyright-settlement-2026-07-20/",
+      "source": "Reuters / The Verge",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-21T13:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "legal",
+        "copyright",
+        "anthropic",
+        "settlement"
+      ],
+      "run": "2026-07-21_PM"
     }
   },
   "schema_version": 1
