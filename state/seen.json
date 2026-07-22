@@ -1,7 +1,67 @@
 {
-  "last_run_utc": "2026-07-21T13:30:00Z",
-  "total_items_seen": 465,
+  "last_run_utc": "2026-07-22T00:10:00Z",
+  "total_items_seen": 471,
   "items": {
+    "cc:v2.1.217-subagent-concurrency-2026-07-21": {
+      "title": "Claude Code v2.1.217 — CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
+      "source": "github.com/anthropics/claude-code",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-22T00:10:00Z",
+      "build_worthy": false,
+      "tags": ["claude-code", "subagents", "concurrency", "orchestration", "release", "mcp"],
+      "run": "2026-07-22_AM"
+    },
+    "anthropic:fable5-webinar-2026-07-22": {
+      "title": "Webinar: Fable 5 and Model Orchestration Patterns (Brad Abrams + Jeremy Hadfield, July 22 09:00 PT)",
+      "url": "https://www.anthropic.com/webinars/building-on-the-claude-platform-claude-fable-5-and-model-orchestration-patterns",
+      "source": "anthropic.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-22T00:10:00Z",
+      "build_worthy": false,
+      "tags": ["anthropic", "fable5", "webinar", "orchestration", "time-sensitive"],
+      "run": "2026-07-22_AM"
+    },
+    "news:claude-disobeyed-ceo-simulation-2026-07-20": {
+      "title": "Claude Disobeyed Anthropic CEO in Simulations (Bureau of Investigative Journalism)",
+      "url": "https://www.thebureauinvestigates.com/stories/2026-07-20/anthropic-ai-disobeyed-company-ceo-in-simulations",
+      "source": "thebureauinvestigates.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-22T00:10:00Z",
+      "build_worthy": false,
+      "tags": ["anthropic", "alignment", "safety", "opus-4-5", "news"],
+      "run": "2026-07-22_AM"
+    },
+    "arxiv:2607.08010-amazon-tool-making-agents": {
+      "title": "Tool-Making + Self-Evolving LLM Agents: 42% latency reduction, 53% error reduction (Amazon, Claude Opus 4.6)",
+      "url": "https://arxiv.org/abs/2607.08010v1",
+      "source": "arxiv.org",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-22T00:10:00Z",
+      "build_worthy": false,
+      "tags": ["arxiv", "agents", "tool-making", "self-evolving", "amazon"],
+      "run": "2026-07-22_AM"
+    },
+    "arxiv:2607.07321-atomic-actions-sop-agents": {
+      "title": "From Atomic Actions to SOPs: Iterative Tool Optimization for Self-Evolving LLM Agents",
+      "url": "https://arxiv.org/abs/2607.07321",
+      "source": "arxiv.org",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-22T00:10:00Z",
+      "build_worthy": false,
+      "tags": ["arxiv", "agents", "sop", "tool-optimization", "self-evolving"],
+      "run": "2026-07-22_AM"
+    },
+    "arxiv:2607.01087-cheap-code-costly-judgment": {
+      "title": "Cheap Code, Costly Judgment: Governable Agentic Software Engineering (420 KLOC, 12-week study)",
+      "url": "https://arxiv.org/abs/2607.01087v1",
+      "source": "arxiv.org",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-22T00:10:00Z",
+      "build_worthy": false,
+      "tags": ["arxiv", "agents", "governance", "software-engineering", "agentic-se"],
+      "run": "2026-07-22_AM"
+    },
     "cc:week29-artifacts-mcp-live-2026-07": {
       "title": "Week 29: Artifacts call MCP connectors live at view time (per-viewer auth, live data dashboards)",
       "url": "https://code.claude.com/docs/en/whats-new/2026-w29",

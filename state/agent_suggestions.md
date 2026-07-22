@@ -569,3 +569,14 @@ The CC Week 28 sandboxed browser pane (Cmd+Shift+B) was live since July 6 but no
 
 **#183 — MemAgent (BytedTsinghua-SIA/MemAgent) slipped due to arxiv.org 403 + narrow GitHub keyword sweep** (2026-07-14 AM)
 arXiv:2507.02259 was published July 3 and not surfaced until July 14. Root cause: arxiv.org direct fetch returns 403; GitHub repo name (BytedTsinghua-SIA/MemAgent) doesn't match any of the current keyword patterns ("claude", "mcp", "agent-skills", etc.). Fix: expand GitHub topic/keyword sweep to include "long-context", "memory-agent", "rl-memory", or "memagent". Alternatively, add a "long context memory RL" term to the arXiv WebSearch fallback queries so papers with GitHub repos surface via search snippets.
+
+## Run: 2026-07-22 AM
+
+**#184 — Anthropic "AI Code Migration" methodology article was under-scored at 6/10 in July 19 AM run**
+The article at claude.com/blog/ai-code-migration was scored 6/10 and surfaced only in "Also Notable." On deeper read, the article's core value is the structured runbook methodology for migrating production codebases: incremental migration gates, automatic rollback criteria, and a quality-bar framework that parallels how Jarvis's own AGENT_RUNBOOK.md is structured. That methodology pattern — not the migration outcome — is the reusable insight. Revised estimated score: 8/10. Leo may want to revisit this article as a reference framework for designing migration-style workflows in his own projects. URL: https://www.anthropic.com/blog/ai-code-migration
+
+**#185 — v2.1.217 concurrency controls require explicit pipeline configuration — add CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS to Jarvis settings**
+v2.1.217 set a default cap of 20 concurrent subagents and disabled nested subagents by default. Jarvis's own cron runs (this session) may be affected: if any step spawns >20 subagents, they queue silently rather than erroring. More importantly, `--max-budget-usd` enforcement now covers background subagents — if Leo's fiction pipeline runs overnight with `--max-budget-usd 5`, all background chapter-write agents now contribute toward that cap and will halt when it's hit. Recommend: add `CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS=10` to the fiction pipeline launch command as a conservative guard. Without it, a 12-writer parallel pipeline saturates the default cap, causing unpredictable queue behavior.
+
+**#186 — `git checkout main` STILL not in AGENT_RUNBOOK.md — 24th logged instance**
+This run started in detached HEAD state (CCR container standard behavior). Recovery: `git checkout -B main origin/main`. Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, #137, #140, #142, #143, #150, #161, #165, #177, and now #186 — twenty-four instances without a runbook fix. The one-line fix: `git fetch origin main && git checkout -B main origin/main` as the ABSOLUTE FIRST command in AGENT_RUNBOOK.md Step 0.
