@@ -1,15 +1,22 @@
 {
-  "last_run_utc": "2026-07-22T00:10:00Z",
-  "total_items_seen": 471,
+  "last_run_utc": "2026-07-22T13:00:00Z",
+  "total_items_seen": 481,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
-      "title": "Claude Code v2.1.217 — CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
+      "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.217",
       "source": "github.com/anthropics/claude-code",
       "score_when_seen": 8,
       "first_seen_utc": "2026-07-22T00:10:00Z",
       "build_worthy": false,
-      "tags": ["claude-code", "subagents", "concurrency", "orchestration", "release", "mcp"],
+      "tags": [
+        "claude-code",
+        "subagents",
+        "concurrency",
+        "orchestration",
+        "release",
+        "mcp"
+      ],
       "run": "2026-07-22_AM"
     },
     "anthropic:fable5-webinar-2026-07-22": {
@@ -19,7 +26,13 @@
       "score_when_seen": 7,
       "first_seen_utc": "2026-07-22T00:10:00Z",
       "build_worthy": false,
-      "tags": ["anthropic", "fable5", "webinar", "orchestration", "time-sensitive"],
+      "tags": [
+        "anthropic",
+        "fable5",
+        "webinar",
+        "orchestration",
+        "time-sensitive"
+      ],
       "run": "2026-07-22_AM"
     },
     "news:claude-disobeyed-ceo-simulation-2026-07-20": {
@@ -29,7 +42,13 @@
       "score_when_seen": 6,
       "first_seen_utc": "2026-07-22T00:10:00Z",
       "build_worthy": false,
-      "tags": ["anthropic", "alignment", "safety", "opus-4-5", "news"],
+      "tags": [
+        "anthropic",
+        "alignment",
+        "safety",
+        "opus-4-5",
+        "news"
+      ],
       "run": "2026-07-22_AM"
     },
     "arxiv:2607.08010-amazon-tool-making-agents": {
@@ -39,7 +58,13 @@
       "score_when_seen": 5,
       "first_seen_utc": "2026-07-22T00:10:00Z",
       "build_worthy": false,
-      "tags": ["arxiv", "agents", "tool-making", "self-evolving", "amazon"],
+      "tags": [
+        "arxiv",
+        "agents",
+        "tool-making",
+        "self-evolving",
+        "amazon"
+      ],
       "run": "2026-07-22_AM"
     },
     "arxiv:2607.07321-atomic-actions-sop-agents": {
@@ -49,7 +74,13 @@
       "score_when_seen": 5,
       "first_seen_utc": "2026-07-22T00:10:00Z",
       "build_worthy": false,
-      "tags": ["arxiv", "agents", "sop", "tool-optimization", "self-evolving"],
+      "tags": [
+        "arxiv",
+        "agents",
+        "sop",
+        "tool-optimization",
+        "self-evolving"
+      ],
       "run": "2026-07-22_AM"
     },
     "arxiv:2607.01087-cheap-code-costly-judgment": {
@@ -59,7 +90,13 @@
       "score_when_seen": 5,
       "first_seen_utc": "2026-07-22T00:10:00Z",
       "build_worthy": false,
-      "tags": ["arxiv", "agents", "governance", "software-engineering", "agentic-se"],
+      "tags": [
+        "arxiv",
+        "agents",
+        "governance",
+        "software-engineering",
+        "agentic-se"
+      ],
       "run": "2026-07-22_AM"
     },
     "cc:week29-artifacts-mcp-live-2026-07": {
@@ -5582,6 +5619,163 @@
         "settlement"
       ],
       "run": "2026-07-21_PM"
+    },
+    "fable5:permanent-paid-plans-july20-2026": {
+      "title": "Fable 5 Now Permanent on Max/Team Premium \u2014 Billing Chaos Ends (July 20, 2026)",
+      "url": "https://basic-tutorials.com/news/claude-fable-5-anthropic-puts-an-end-to-the-access-chaos-and-makes-the-ai-model-firmly-available-in-the-pricing-plan/",
+      "source": "basic-tutorials.com",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "fable5",
+        "billing",
+        "max-plan",
+        "pricing",
+        "permanent"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "excellentprompts:fiction-cowork-skill-2026": {
+      "title": "4 AI Prompts + 1 Skill to Write and Edit Fiction with Claude Cowork",
+      "url": "https://excellentprompts.substack.com/p/fiction-writing-claude-cowork",
+      "source": "excellentprompts.substack.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "fiction",
+        "cowork",
+        "skills",
+        "writing-pipeline",
+        "folder-instructions"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "aws:mcp-server-ga-2026-07": {
+      "title": "AWS MCP Server Generally Available (official, July 2026)",
+      "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
+      "source": "aws.amazon.com/blogs",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "aws",
+        "infrastructure",
+        "ga",
+        "ecosystem"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "thehackernews:claude-chrome-flaw-rogue-ext-2026-07": {
+      "title": "Claude for Chrome v1.0.80 Security Flaw \u2014 Rogue Extensions Trigger Gmail/Docs Reads",
+      "url": "https://thehackernews.com/2026/07/claude-for-chrome-flaw-lets-other.html",
+      "source": "thehackernews.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "chrome",
+        "security",
+        "vulnerability",
+        "extensions",
+        "gmail"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "hn:48734373-claude-code-steganographic": {
+      "title": "HN: Claude Code Steganographically Marking Requests (item 48734373)",
+      "url": "https://news.ycombinator.com/item?id=48734373",
+      "source": "hacker-news",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "privacy",
+        "controversy",
+        "hn",
+        "fingerprinting"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "github:open-multi-agent-ts-dag-2026": {
+      "title": "open-multi-agent: TypeScript Runtime DAG Orchestration (Cross-LLM, Claude/GPT/Gemini)",
+      "url": "https://github.com/open-multi-agent/open-multi-agent",
+      "source": "github.com/open-multi-agent",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "multi-agent",
+        "typescript",
+        "dag",
+        "third-party-code",
+        "cross-llm"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "aicentral:three-novels-n8n-claude-2026": {
+      "title": "\"i let AI write three complete novels\" \u2014 n8n + Claude autonomous pipeline experiment",
+      "url": "https://aicentral.substack.com/p/i-let-ai-write-three-complete-novels",
+      "source": "aicentral.substack.com",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "fiction",
+        "writing-pipeline",
+        "n8n",
+        "experiment",
+        "autonomous"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "ode-with-anthropic:enterprise-firm-july15-2026": {
+      "title": "Ode with Anthropic \u2014 Enterprise AI Services Firm (Blackstone + Hellman & Friedman, July 15)",
+      "url": "https://www.hpcwire.com/aiwire/2026/07/15/anthropic-blackstone-and-hellman-friedman-introduce-ode-with-anthropic-an-enterprise-ai-services-firm/",
+      "source": "hpcwire.com",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "enterprise",
+        "business",
+        "blackstone"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "anthropic:off-switch-dual-use-knowledge-2026-07-08": {
+      "title": "Anthropic Research: Off Switch for Dual-Use Knowledge in AI Models (July 8)",
+      "url": "https://www.anthropic.com/research/off-switch-dual-use",
+      "source": "anthropic.com/research",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "safety",
+        "research",
+        "capability-suppression",
+        "dual-use"
+      ],
+      "run": "2026-07-22_PM"
+    },
+    "anthropic:reflect-with-claude-beta-2026-07-09": {
+      "title": "Reflect with Claude (Beta) \u2014 Metacognitive Usage Review Layer (July 9)",
+      "url": "https://www.anthropic.com/news/reflect-with-claude",
+      "source": "anthropic.com",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-22T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "product",
+        "meta",
+        "personal-productivity",
+        "beta"
+      ],
+      "run": "2026-07-22_PM"
     }
   },
   "schema_version": 1

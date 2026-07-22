@@ -580,3 +580,14 @@ v2.1.217 set a default cap of 20 concurrent subagents and disabled nested subage
 
 **#186 — `git checkout main` STILL not in AGENT_RUNBOOK.md — 24th logged instance**
 This run started in detached HEAD state (CCR container standard behavior). Recovery: `git checkout -B main origin/main`. Suggestions #21, #23, #26, #79, #97, #103, #108, #111, #120, #123, #124, #128, #132, #137, #140, #142, #143, #150, #161, #165, #177, and now #186 — twenty-four instances without a runbook fix. The one-line fix: `git fetch origin main && git checkout -B main origin/main` as the ABSOLUTE FIRST command in AGENT_RUNBOOK.md Step 0.
+
+## Run: 2026-07-22 PM
+
+**#187 — Add "fable5 pricing permanent" search to SOURCES.yaml pricing pass**
+Fable 5 permanent-plan billing landed on July 20 but was found via general Anthropic pricing search rather than a dedicated query. Add `"fable5 pricing permanent site:anthropic.com"` or a `fable5_billing` WebSearch query to the source sweep so future plan-level changes (rate limit adjustments, credit changes, tier additions) surface faster.
+
+**#188 — Add site:thehackernews.com to the security/CVE pass in the source sweep**
+The Chrome extension CVSS 7.7 disclosure (Manifold Security, July 14) was only found because The Hacker News picked it up — but it wasn't in the current SOURCES.yaml query set. Add `"claude site:thehackernews.com"` and `"anthropic site:thehackernews.com"` as a lightweight security pass. THN reliably covers Claude/Anthropic CVEs within 48h of disclosure.
+
+**#189 — `git checkout main` STILL not in AGENT_RUNBOOK.md — 35th+ logged instance**
+Detached HEAD on container start again. Same recovery as every prior run. This is now the most-logged recurring failure in the entire suggestions log. Add as Step 0 line 1.

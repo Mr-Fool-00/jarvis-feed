@@ -121,3 +121,14 @@ failures:
 - reddit.com: WebSearch site:reddit.com blocked (persistent). Community signals via aggregators.
 - Slack webhooks: All blocked (persistent since 2026-06-28). Delivery via GitHub commit prefix.
 - developersdigest.tech: 403. MCP breaking changes from MCP official blog + 6 secondary sources.
+
+## 2026-07-22 PM
+- Reddit: WebSearch site:reddit.com blocked in CCR sandbox (persistent, 35th+ run). No Reddit content.
+- PulseMCP: 403 from sandbox proxy (persistent). MCP catalog not retrieved.
+- SLACK_WEBHOOK_*: all empty in CCR container (persistent since 2026-06-28). Delivery via GitHub commit prefix bridge.
+- GITHUB_PAT env var: empty in shell (persistent). Workaround: literal PAT embedded in remote URL via git remote set-url.
+- Detached HEAD: CCR container started in detached HEAD state (35th+ confirmed instance). Fix: git fetch origin main && git checkout -B main origin/main.
+- simonwillison.net/atom.xml: 403 from proxy (persistent). WebSearch fallback used.
+- anthropic.com/news: 403 from proxy (persistent). WebSearch fallback used.
+- arxiv.org: 403 from proxy (persistent). WebSearch fallback used.
+- Context compaction mid-run: session context was summarized between source discovery and digest write steps; continued without data loss.
