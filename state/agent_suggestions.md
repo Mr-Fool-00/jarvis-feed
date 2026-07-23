@@ -591,3 +591,9 @@ The Chrome extension CVSS 7.7 disclosure (Manifold Security, July 14) was only f
 
 **#189 — `git checkout main` STILL not in AGENT_RUNBOOK.md — 35th+ logged instance**
 Detached HEAD on container start again. Same recovery as every prior run. This is now the most-logged recurring failure in the entire suggestions log. Add as Step 0 line 1.
+
+## 2026-07-23 AM run suggestions
+
+- **RSS → WebSearch permanently**: simonwillison.net, anthropic.com, latent.space all 403 from CCR sandbox. WebSearch is the effective fetch path for these. Update SOURCES.yaml to mark these as WebSearch-only (no direct WebFetch) so future runs don't waste attempts.
+- **Late-arriving items gap**: The "Record a Skill" Anthropic feature (9/10) arrived in the final research agent AFTER the digest was written. It was added retroactively before commit. Runbook should specify: final agent results must be integrated before writing the digest, not after. Consider a "late items" collection pass at the end of research, before Step 6.
+- **Record a Skill creates a workflow shortcut**: Before building any new Jarvis skill from scratch, try the screen-recording route first. Compresses authoring from hours to 45 minutes.

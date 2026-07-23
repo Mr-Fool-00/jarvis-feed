@@ -132,3 +132,6 @@ failures:
 - anthropic.com/news: 403 from proxy (persistent). WebSearch fallback used.
 - arxiv.org: 403 from proxy (persistent). WebSearch fallback used.
 - Context compaction mid-run: session context was summarized between source discovery and digest write steps; continued without data loss.
+2026-07-23T00:01:31Z | direct_slack_webhook | Slack webhook POST blocked from CCR sandbox (curl exit 56, HTTP 000). Delivery routed via commit prefix bridge as designed.
+2026-07-23T00:01:31Z | rss_fetch_blocked | simonwillison.net, anthropic.com, latent.space — RSS feeds return 403 from sandbox network egress. Used WebSearch fallback; titles/summaries recovered, full article text limited to snippets.
+2026-07-23T00:01:31Z | reddit_blocked | reddit.com direct API/HTML blocked from sandbox. Used WebSearch for community signal aggregation.
