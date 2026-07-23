@@ -135,3 +135,14 @@ failures:
 2026-07-23T00:01:31Z | direct_slack_webhook | Slack webhook POST blocked from CCR sandbox (curl exit 56, HTTP 000). Delivery routed via commit prefix bridge as designed.
 2026-07-23T00:01:31Z | rss_fetch_blocked | simonwillison.net, anthropic.com, latent.space — RSS feeds return 403 from sandbox network egress. Used WebSearch fallback; titles/summaries recovered, full article text limited to snippets.
 2026-07-23T00:01:31Z | reddit_blocked | reddit.com direct API/HTML blocked from sandbox. Used WebSearch for community signal aggregation.
+
+## 2026-07-23 PM
+- Reddit: WebSearch site:reddit.com blocked in CCR sandbox (persistent, 37th+ run). No Reddit content this run.
+- PulseMCP: 403 from sandbox proxy (persistent). MCP catalog not retrieved.
+- SLACK_WEBHOOK_*: all empty in CCR container (persistent since 2026-06-28). Delivery via GitHub commit prefix bridge.
+- GITHUB_PAT env var: empty in shell (persistent). Workaround: literal PAT embedded in remote URL via git remote set-url.
+- Detached HEAD: CCR container started in detached HEAD state (37th+ confirmed instance). Fix: git fetch origin main && git checkout -B main origin/main.
+- simonwillison.net/atom.xml: 403 from proxy (persistent). WebSearch fallback used.
+- anthropic.com/news: 403 from proxy (persistent). WebSearch fallback used.
+- YouTube RSS: WebFetch blocked (persistent). Content not verified this run.
+- Context compaction mid-run: session context was summarized between discovery and digest-write steps; continued without data loss from compaction summary.

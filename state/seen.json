@@ -5907,6 +5907,89 @@
         "informational"
       ],
       "run": "2026-07-23_AM"
+    },
+    "anthropic:claude-security-plugin-beta-2026-07-22": {
+      "title": "Claude Security Plugin — Official Anthropic Beta, Multi-Agent Vulnerability Scanner in Claude Code Terminal",
+      "url": "https://claude.com/blog/claude-security-public-beta",
+      "source": "claude.com / x.com/claudeai",
+      "score_when_seen": 9,
+      "first_seen_utc": "2026-07-23T12:30:00Z",
+      "build_worthy": true,
+      "tags": [
+        "anthropic",
+        "claude-code",
+        "security",
+        "multi-agent",
+        "official",
+        "buildable"
+      ],
+      "run": "2026-07-23_PM"
+    },
+    "anthropic:managed-agents-july22-updates": {
+      "title": "Claude Managed Agents July 22 Release Notes: Effort Settings, Expanded Webhooks, Session Seeding",
+      "url": "https://platform.claude.com/docs/en/release-notes",
+      "source": "platform.claude.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-23T12:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "managed-agents",
+        "api",
+        "webhooks",
+        "effort-settings"
+      ],
+      "run": "2026-07-23_PM"
+    },
+    "github:simota-agent-skills-nexus-hub-spoke": {
+      "title": "simota/agent-skills — 124 Specialist AI Agents with Nexus Hub-Spoke Orchestrator for Claude Code/Codex",
+      "url": "https://github.com/simota/agent-skills",
+      "source": "github.com (third-party — safety gate active)",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-23T12:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "github",
+        "third-party",
+        "agent-skills",
+        "orchestration",
+        "hub-spoke",
+        "safety-gate"
+      ],
+      "run": "2026-07-23_PM"
+    },
+    "security:sophos-ai-agents-endpoint-rules-july08-2026": {
+      "title": "Sophos: AI Coding Agents (Claude Code, Cursor, Codex) Triggering Endpoint Security Rules Built for Human Attackers",
+      "url": "https://thehackernews.com/2026/07/ai-coding-agents-found-triggering.html",
+      "source": "Sophos / The Hacker News",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-23T12:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "claude-code",
+        "endpoint",
+        "sophos",
+        "informational"
+      ],
+      "run": "2026-07-23_PM"
+    },
+    "arxiv:2606.14411-fabula-narrative-sidekick": {
+      "title": "Fabula: Building a Narrative Storytelling Sidekick with the Writers' Community (Google DeepMind, Gemini)",
+      "url": "https://arxiv.org/abs/2606.14411",
+      "source": "arXiv / Google DeepMind",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-23T12:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "fiction",
+        "storytelling",
+        "google-deepmind",
+        "gemini",
+        "informational"
+      ],
+      "run": "2026-07-23_PM"
     }
   },
   "schema_version": 1
