@@ -6253,6 +6253,146 @@
         "informational"
       ],
       "run": "2026-07-24_AM"
+    },
+    "voice:claude-voice-sonnet-opus-crossapp-2026-07-23": {
+      "title": "Claude Voice Mode: Sonnet/Opus + Cross-App Automation (Gmail, Calendar, Slack, Canva, Notion, 10 languages)",
+      "url": "https://techcrunch.com/2026/07/23/claude-voice-mode-sonnet-opus-cross-app",
+      "source": "TechCrunch / Dataconomy / Anthropic Blog",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-24T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "voice-mode",
+        "cross-app",
+        "sonnet",
+        "opus",
+        "automation",
+        "slack-integration",
+        "informational"
+      ],
+      "run": "2026-07-24_PM"
+    },
+    "cve:cowork-sharedroot-vm-escape-2026-46331": {
+      "title": "Cowork SharedRoot VM Escape CVE-2026-46331 — ~500K macOS, act_pedit TC bypass, patched July 22",
+      "url": "https://thehackernews.com/2026/07/cowork-sharedroot-vm-escape-cve-2026-46331.html",
+      "source": "The Hacker News / Accomplish AI / gbhackers",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-24T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "cve",
+        "cowork",
+        "vm-escape",
+        "macos",
+        "patched",
+        "informational"
+      ],
+      "run": "2026-07-24_PM"
+    },
+    "news:cc-33k-token-overhead-vs-opencode-7k": {
+      "title": "Claude Code 33K Token Overhead vs OpenCode 6.9K — Real-world cost breakdown (Gigazine/HN 48883275)",
+      "url": "https://news.ycombinator.com/item?id=48883275",
+      "source": "Gigazine (July 13) / HN (July 22) / PromptZone",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-24T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "token-cost",
+        "opencode",
+        "benchmarks",
+        "cost-efficiency",
+        "informational"
+      ],
+      "run": "2026-07-24_PM"
+    },
+    "substack:osmani-harness-loop-engineering-2026-07": {
+      "title": "Addy Osmani: Harness vs. Loop Engineering — two-level vocabulary for pipeline architecture",
+      "url": "https://addyo.substack.com/p/loop-harness-engineering",
+      "source": "addyo.substack.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-24T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "osmani",
+        "architecture",
+        "pipeline",
+        "loop-engineering",
+        "harness",
+        "vocabulary",
+        "informational"
+      ],
+      "run": "2026-07-24_PM"
+    },
+    "substack:osmani-long-running-agents-2026-07": {
+      "title": "Addy Osmani: Long-Running Agents — state survival, checkpoint granularity, fleet supervision",
+      "url": "https://addyo.substack.com/p/long-running-agents",
+      "source": "addyo.substack.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-24T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "osmani",
+        "long-running",
+        "agents",
+        "state-management",
+        "checkpoints",
+        "fleet",
+        "informational"
+      ],
+      "run": "2026-07-24_PM"
+    },
+    "security:fakeagent-malvertising-claude-artifacts-2026-07-21": {
+      "title": "FakeAgent: Malvertising via Real claude.ai Artifacts — SectopRAT, 29 orgs, Huntress July 21",
+      "url": "https://www.huntress.com/blog/fakeagent-malvertising-claude-artifacts",
+      "source": "Huntress Security Blog",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-24T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "malvertising",
+        "artifacts",
+        "sectoprat",
+        "huntress",
+        "informational"
+      ],
+      "run": "2026-07-24_PM"
+    },
+    "arxiv:2607.01418-microsoft-cc-adoption": {
+      "title": "Microsoft Study: Claude Code → 24% More PRs Merged, Social Network Adoption Effect (arXiv 2607.01418)",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "source": "arXiv",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-24T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "productivity",
+        "microsoft",
+        "research",
+        "adoption",
+        "informational"
+      ],
+      "run": "2026-07-24_PM"
+    },
+    "arxiv:2607.11250-mace-multi-agent": {
+      "title": "MACE: Structured Multi-Agent Peer Selection — LLMs fail to explore each other without structured critique (arXiv 2607.11250)",
+      "url": "https://arxiv.org/abs/2607.11250",
+      "source": "arXiv",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-24T13:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "multi-agent",
+        "peer-selection",
+        "adversarial",
+        "groupthink",
+        "research",
+        "informational"
+      ],
+      "run": "2026-07-24_PM"
     }
   },
   "schema_version": 1
