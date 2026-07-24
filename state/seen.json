@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-23T00:01:31Z",
-  "total_items_seen": 453,
+  "last_run_utc": "2026-07-24T00:45:00Z",
+  "total_items_seen": 468,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 — CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -5990,6 +5990,269 @@
         "informational"
       ],
       "run": "2026-07-23_PM"
+    },
+    "anthropic:opus-4-7-fast-mode-removal-2026-07-24": {
+      "title": "Claude Opus 4.7 Fast Mode Removed — Effective Today July 24; Migrate to Opus 4.8 (Hard Error, No Fallback)",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "platform.claude.com/docs/en/release-notes",
+      "score_when_seen": 10,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "opus-4-7",
+        "opus-4-8",
+        "deprecation",
+        "breaking-change",
+        "fast-mode",
+        "time-sensitive"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "anthropic:opus-5-honeycomb-1m-context-eap-2026-07-09": {
+      "title": "Claude Opus 5 'Honeycomb' — 1M Context Window EAP Sighted in Cursor (Per-Turn Reasoning Controls, Extra-High Effort Tier)",
+      "url": "https://aireiter.com/blog/claude-opus-5",
+      "source": "aireiter.com + multiple aggregators",
+      "score_when_seen": 9,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "opus-5",
+        "honeycomb",
+        "eap",
+        "1m-context",
+        "per-turn-reasoning",
+        "informational"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "willison:fireside-cc-team-cat-thariq-2026-07-21": {
+      "title": "Simon Willison: Fireside Chat with Claude Code Team (Cat & Thariq, AIE Event — July 21)",
+      "url": "https://simonwillison.net/2026/Jul/21/",
+      "source": "simonwillison.net",
+      "score_when_seen": 9,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "simonwillison",
+        "claude-code",
+        "orchestration",
+        "subagents",
+        "model-tier",
+        "informational"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "beam-ai:6-orchestration-patterns-production-2026-07": {
+      "title": "Beam.ai: 6 Multi-Agent Orchestration Patterns for Production (Council, Critic/Judge Separation, Fixer Pipeline with Cost Math)",
+      "url": "https://beam.ai/agentic-insights/multi-agent-orchestration-patterns-production",
+      "source": "beam.ai",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": true,
+      "tags": [
+        "orchestration",
+        "multi-agent",
+        "council-pattern",
+        "judge",
+        "critic",
+        "fixer",
+        "book-pipeline",
+        "build-worthy"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "arxiv:2606.13598-orchrm-reward-modeling-orchestration": {
+      "title": "OrchRM: Self-Supervised Reward Modeling for Multi-Agent Orchestration Quality Judgement (arXiv:2606.13598, June 2026)",
+      "url": "https://arxiv.org/abs/2606.13598",
+      "source": "arxiv.org",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "orchestration",
+        "reward-modeling",
+        "judge",
+        "self-supervised",
+        "research"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "cc:v2.1.218-code-review-background-subagent-2026-07-22": {
+      "title": "Claude Code v2.1.218: /code-review Runs as Background Subagent, Per-Session Caps (WebSearch + Subagents), Windows Path Bug Fix",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "source": "code.claude.com/docs/en/changelog",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "release",
+        "code-review",
+        "subagents",
+        "background",
+        "caps",
+        "websearch"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "anthropic:cowork-record-a-skill-2026-07-21": {
+      "title": "Claude Cowork: Record a Skill Feature Ships July 21 — Screen-Record a Task, Auto-Generate Reusable Skill (Pro/Max/Team)",
+      "url": "https://explainx.ai/blog/claude-cowork-record-a-skill-screen-recording-july-2026",
+      "source": "explainx.ai (Cowork feature)",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "cowork",
+        "skills",
+        "screen-recording",
+        "automation",
+        "pro-max-team"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "comparison:fable5-vs-gpt55-creative-writing-2026-07": {
+      "title": "Fable 5 vs GPT-5.5: Best AI for Creative Writing — July 2026 Comparison (Fable 5 Ranked #1 for Prose Voice and Continuity)",
+      "url": "https://www.buildmvpfast.com/articles/best-llms-2026-guide/creative-writing-ai",
+      "source": "buildmvpfast.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "fable5",
+        "creative-writing",
+        "comparison",
+        "model-tier",
+        "fiction",
+        "informational"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "cole-medin:piv-loop-1000-hours-cc-2026-07": {
+      "title": "Cole Medin: 1000 Hours in Claude Code — PIV Loop (Plan/Implement/Validate), Sub-Agent Validation, Reusable Custom Skills",
+      "url": "https://www.skool.com/ai-automation-society/new-video-1000-hours-in-claude-code-in-60-mins",
+      "source": "Skool / AI Automation Society (Cole Medin)",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "cole-medin",
+        "claude-code",
+        "piv-loop",
+        "subagents",
+        "validation",
+        "pipeline",
+        "informational"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "github:agricidaniel-claude-blog-v211-5gate-2026-07-23": {
+      "title": "AgriciDaniel/claude-blog v2.1.1 — 5-Gate Delivery Contract: 30 Sub-Skills + 5 Agents, 100-Point Rubric, Auto-Retry Below 90 (July 23)",
+      "url": "https://github.com/AgriciDaniel/claude-blog",
+      "source": "github.com/AgriciDaniel/claude-blog (third-party — safety gate active)",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "github",
+        "third-party",
+        "quality-gate",
+        "delivery-contract",
+        "rubric",
+        "architecture-reference",
+        "safety-gate"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "github:aaddrick-claude-pipeline-quality-gate": {
+      "title": "aaddrick/claude-pipeline — Portable Multi-Agent Quality-Gate Pipeline for Claude Code (Skills + Agents + Hooks + Orchestration Scripts)",
+      "url": "https://github.com/aaddrick/claude-pipeline",
+      "source": "github.com/aaddrick/claude-pipeline (third-party — safety gate active)",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "github",
+        "third-party",
+        "pipeline",
+        "quality-gate",
+        "orchestration",
+        "hooks",
+        "architecture-reference",
+        "safety-gate"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "news:openai-agent-hugging-face-hack-2026-07-21": {
+      "title": "OpenAI Autonomous Agent Escapes Sandbox, Exploits Zero-Day, Hacks Hugging Face Production (GPT-5.6 Sol Red Team, July 21-22)",
+      "url": "https://fortune.com/2026/07/21/openai-says-ai-models-escaped-control-hacked-hugging-face/",
+      "source": "Fortune / Hugging Face official disclosure",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "openai",
+        "security",
+        "sandbox",
+        "autonomous-agent",
+        "hugging-face",
+        "informational"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "news:amd-5b-anthropic-investment-2026-07-20": {
+      "title": "AMD to Invest Up to $5B in Anthropic, MI-Series Chips in Training and Inference Infrastructure",
+      "url": "https://www.anthropic.com/news",
+      "source": "anthropic.com/news",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "amd",
+        "infrastructure",
+        "investment",
+        "informational"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "news:ode-with-anthropic-enterprise-2026-07-15": {
+      "title": "Ode with Anthropic: Enterprise AI Services Firm (Anthropic + Blackstone + Hellman & Friedman, July 15)",
+      "url": "https://www.hpcwire.com/aiwire/2026/07/15/anthropic-blackstone-and-hellman-friedman-introduce-ode-with-anthropic-an-enterprise-ai-services-firm/",
+      "source": "hpcwire.com",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "enterprise",
+        "services",
+        "partnership",
+        "informational"
+      ],
+      "run": "2026-07-24_AM"
+    },
+    "news:white-house-ostp-kimi-k3-distillation-2026-07-23": {
+      "title": "White House OSTP: Moonshot AI Distilled Anthropic's Fable Model to Build Kimi K3 — First Official US Accusation of AI Model Theft",
+      "url": "https://finance.biggo.com/news/8f314d6e-317b-40e3-a591-567ddec4c054",
+      "source": "multiple news sources / White House OSTP",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-24T00:45:00Z",
+      "build_worthy": false,
+      "tags": [
+        "geopolitical",
+        "fable",
+        "kimi-k3",
+        "distillation",
+        "moonshot-ai",
+        "export-control",
+        "informational"
+      ],
+      "run": "2026-07-24_AM"
     }
   },
   "schema_version": 1

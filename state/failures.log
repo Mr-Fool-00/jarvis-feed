@@ -146,3 +146,15 @@ failures:
 - anthropic.com/news: 403 from proxy (persistent). WebSearch fallback used.
 - YouTube RSS: WebFetch blocked (persistent). Content not verified this run.
 - Context compaction mid-run: session context was summarized between discovery and digest-write steps; continued without data loss from compaction summary.
+
+## 2026-07-24 AM
+- Reddit: WebSearch site:reddit.com blocked in CCR sandbox (persistent, 38th+ run). No Reddit content this run.
+- PulseMCP: 403 from sandbox proxy (persistent). MCP catalog not retrieved.
+- SLACK_WEBHOOK_*: all empty in CCR container (persistent since 2026-06-28). Delivery via GitHub commit prefix bridge.
+- GITHUB_PAT env var: empty in shell (persistent). Workaround: literal PAT embedded in remote URL via git remote set-url.
+- Detached HEAD: CCR container started in detached HEAD state (38th+ confirmed instance). Fix: git fetch origin main && git checkout -B main origin/main.
+- simonwillison.net/atom.xml: 403 from proxy (persistent). WebSearch fallback used.
+- anthropic.com/news: 403 from proxy (persistent). WebSearch fallback used.
+- arxiv.org direct: 403 from proxy (persistent). Papers found via search index.
+- YouTube RSS: WebFetch blocked (persistent). ColeMedin/IndyDevDan/AnthropicAI channels not verified this run.
+- Context compaction mid-run: session context was summarized between digest-write and delivery steps; continued without data loss from compaction summary.
