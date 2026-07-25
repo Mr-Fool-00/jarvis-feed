@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-25T01:00:00Z",
-  "total_items_seen": 481,
+  "last_run_utc": "2026-07-25T13:05:00Z",
+  "total_items_seen": 493,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 — CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6478,6 +6478,213 @@
         "informational"
       ],
       "run": "2026-07-25_AM"
+    },
+    "anthropic:claude-voice-opus-2026-07-23": {
+      "title": "Claude Voice Mode: Opus/Sonnet/Haiku + Gmail/Calendar/Slack/Canva/Notion Cross-App Automation",
+      "url": "https://claude.com/blog/think-through-hard-problems-in-voice-mode",
+      "source": "anthropic official (claude.com/blog) + TechCrunch",
+      "score_when_seen": 9,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": true,
+      "tags": [
+        "anthropic",
+        "voice",
+        "opus",
+        "cross-app",
+        "gmail",
+        "calendar",
+        "slack",
+        "p3",
+        "buildable"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "anthropic:fable5-max-permanent-2026-07-20": {
+      "title": "Fable 5 Permanently in All Max Plans at 50% Limits + Claude Code Limits +50%",
+      "url": "https://x.com/claudeai/status/2078302415804379218",
+      "source": "@claudeai official (X) + Android Authority",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "fable5",
+        "max-plan",
+        "subscription",
+        "claude-code",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "openai:sandbox-escape-zero-day-2026-07-21": {
+      "title": "OpenAI Agent Escaped Sandbox, Discovered Real Zero-Day CVE-2026-14646, Hacked Hugging Face to Cheat on Eval",
+      "url": "https://simonwillison.net/2026/Jul/23/the-first-known-runaway-ai-agent/",
+      "source": "Simon Willison (simonwillison.net) + Hugging Face security disclosure + Axios + Fortune",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "ai-safety",
+        "openai",
+        "sandbox-escape",
+        "zero-day",
+        "agentic-confinement",
+        "hugging-face",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "github:vshulcz-deja-vu-memory-mcp": {
+      "title": "vshulcz/deja-vu — Cross-Harness Agent Memory MCP, 84.9% Recall, Fully Local",
+      "url": "https://github.com/vshulcz/deja-vu",
+      "source": "github.com/vshulcz/deja-vu",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": true,
+      "tags": [
+        "mcp",
+        "memory",
+        "cross-harness",
+        "local",
+        "third-party",
+        "buildable",
+        "safety-gate-yellow"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "hn:mcp-server-grades-tengli-2026-07-22": {
+      "title": "Teng Li Graded 36 MCP Servers on Agent Usability — A Third Got D or F (D004: No Parameter Descriptions)",
+      "url": "https://tengli.dev/posts/mcp-servers-failing-agents.html",
+      "source": "tengli.dev + HN item 49002358",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "agent-usability",
+        "grading",
+        "d004",
+        "practitioner",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "arxiv:2606.04896-channel-fracture": {
+      "title": "Channel Fracture: Silent Memory Injection Failures in Multi-Agent Pipelines (CADVP v1.1)",
+      "url": "https://arxiv.org/abs/2606.04896",
+      "source": "arxiv",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "memory-injection",
+        "failure-mode",
+        "cadvp",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "github:mjbae-awesome-novel-studio": {
+      "title": "MJbae/awesome-novel-studio — 18-Agent Web Novel Pipeline, CC Plugin, Publishing Deal",
+      "url": "https://github.com/MJbae/awesome-novel-studio",
+      "source": "github.com/MJbae/awesome-novel-studio",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": true,
+      "tags": [
+        "fiction-pipeline",
+        "18-agent",
+        "cc-plugin",
+        "third-party",
+        "buildable",
+        "safety-gate-green"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "github:thomashoussin-claude-book": {
+      "title": "ThomasHoussin/Claude-Book — Perplexity Gate + Multi-Agent Novel + EPUB Output",
+      "url": "https://github.com/ThomasHoussin/Claude-Book",
+      "source": "github.com/ThomasHoussin/Claude-Book",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "fiction-pipeline",
+        "perplexity-gate",
+        "epub",
+        "third-party",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "arxiv:2607.19038-filmworld": {
+      "title": "FilmWorld: Two-Phase World Construction + Scene Evolution for Narrative (Huazhong + Alibaba)",
+      "url": "https://arxiv.org/abs/2607.19038",
+      "source": "arxiv (Huazhong University + Alibaba)",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "world-modeling",
+        "entity-graph",
+        "narrative",
+        "film",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "arxiv:2607.17250-evolvingworld": {
+      "title": "EvolvingWorld: Co-Evolving Character Agents + World Model for Interactive Literary World Generation",
+      "url": "https://arxiv.org/abs/2607.17250",
+      "source": "arxiv",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "character-agents",
+        "world-model",
+        "interactive",
+        "narrative",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "arxiv:2605.27878-narrative-flattening": {
+      "title": "Narrative Flattening: How RLHF Compresses Thematic and Stylistic Variation in LLM Fiction",
+      "url": "https://arxiv.org/pdf/2605.27878",
+      "source": "arxiv",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "rlhf",
+        "fiction",
+        "prose-quality",
+        "perplexity-gate",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
+    },
+    "cc:v2.1.220-prompt-size-delta-2026-07-25": {
+      "title": "Claude Code v2.1.220 — Stability Patch with +14% Internal Prompt Size (+6,256 tokens vs v2.1.219)",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.220",
+      "source": "github.com/anthropics/claude-code/releases",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-25T13:05:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "release",
+        "prompt-size",
+        "behavioral-change",
+        "informational"
+      ],
+      "run": "2026-07-25_PM"
     }
   },
   "schema_version": 1
