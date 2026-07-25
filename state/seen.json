@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-24T00:45:00Z",
-  "total_items_seen": 468,
+  "last_run_utc": "2026-07-25T01:00:00Z",
+  "total_items_seen": 481,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 — CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6393,6 +6393,91 @@
         "informational"
       ],
       "run": "2026-07-24_PM"
+    }
+  ,
+    "anthropic:claude-opus-5-july-24-2026": {
+      "title": "Claude Opus 5 Official GA — $5/$25/M, 1M context, 5-tier effort ladder, Frontier-Bench 43.3% (July 24, 2026)",
+      "url": "https://platform.claude.com/docs/en/about-claude/models/whats-new-opus-5",
+      "source": "platform.claude.com",
+      "score_when_seen": 9,
+      "first_seen_utc": "2026-07-25T01:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "opus-5",
+        "model-launch",
+        "1m-context",
+        "effort-ladder",
+        "max-plan",
+        "informational"
+      ],
+      "run": "2026-07-25_AM"
+    },
+    "anthropic:code-migration-parallel-subagents-july-24": {
+      "title": "Anthropic: AI Code Migration at Scale — 8-Reviewer Parallel Review Pattern, Phase Gates, Adversarial Rounds (July 24)",
+      "url": "https://claude.com/blog/ai-code-migration",
+      "source": "claude.com/blog",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-25T01:00:00Z",
+      "build_worthy": true,
+      "tags": [
+        "anthropic",
+        "dynamic-workflows",
+        "parallel-review",
+        "code-migration",
+        "architecture",
+        "buildable"
+      ],
+      "run": "2026-07-25_AM"
+    },
+    "cc:v2.1.219-opus5-default-strictallowlist-july-24": {
+      "title": "Claude Code v2.1.219 — Opus 5 Default, sandbox.network.strictAllowlist, DirectoryAdded Hook, workflowSizeGuideline (July 24)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "source": "code.claude.com/docs/en/changelog",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-25T01:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "changelog",
+        "opus-5",
+        "sandbox",
+        "hooks",
+        "workflow-config",
+        "informational"
+      ],
+      "run": "2026-07-25_AM"
+    },
+    "hn:cc-anatomy-misfeature-july-21": {
+      "title": "HN: Anatomy of a Claude Code Misfeature — post-mortem on design decision that missed stated goal",
+      "url": "https://news.ycombinator.com/",
+      "source": "Hacker News",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-25T01:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "hn",
+        "post-mortem",
+        "design",
+        "informational"
+      ],
+      "run": "2026-07-25_AM"
+    },
+    "news:anthropic-ipo-roadshow-july-24": {
+      "title": "Anthropic IPO Roadshow Confirmed — Late 2026 or 2027 Target, $40–60B Valuation Range",
+      "url": "https://www.reuters.com/",
+      "source": "Reuters / WSJ / Bloomberg",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-25T01:00:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "ipo",
+        "business",
+        "informational"
+      ],
+      "run": "2026-07-25_AM"
     }
   },
   "schema_version": 1
