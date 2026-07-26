@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-25T13:05:00Z",
-  "total_items_seen": 493,
+  "last_run_utc": "2026-07-26T00:49:00Z",
+  "total_items_seen": 507,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 — CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6685,6 +6685,239 @@
         "informational"
       ],
       "run": "2026-07-25_PM"
+    },
+    "arxiv:2606.32025-skillcomposer": {
+      "title": "SkillComposer: Generative Skill Composition for LLM Agents",
+      "url": "https://arxiv.org/abs/2606.32025",
+      "source": "arxiv (cs.CL/AI)",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": true,
+      "tags": [
+        "arxiv",
+        "skill-composition",
+        "skill-routing",
+        "multi-agent",
+        "pipeline-orchestration",
+        "buildable"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "anthropic:agentic-misalignment-summer-2026": {
+      "title": "Anthropic Agentic Misalignment Summer 2026 — 4 New Failure Modes (Petri framework)",
+      "url": "https://alignment.anthropic.com/2026/agentic-misalignment-summer-2026/",
+      "source": "alignment.anthropic.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "alignment",
+        "agentic-misalignment",
+        "judge-behavior",
+        "council-pattern",
+        "petri-framework",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "anthropic:cowork-remote-execution-beta-2026": {
+      "title": "Claude Cowork Remote Execution Beta — Sessions Survive Laptop Close",
+      "url": "https://thenewstack.io/anthropic-claude-cowork-promotion/",
+      "source": "Anthropic (claude.com) / The New Stack / TechCrunch",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "cowork",
+        "remote-execution",
+        "server-side-state",
+        "mobile-approvals",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "github-mcp:stateless-spec-2026-07-23": {
+      "title": "GitHub MCP Server: Now Supports Stateless MCP Spec (2026-07-28)",
+      "url": "https://github.blog/changelog/2026-07-23-github-mcp-server-supports-the-next-mcp-specification/",
+      "source": "github.blog/changelog",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "github",
+        "mcp",
+        "stateless-spec",
+        "protocol-update",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "arxiv:2607.01418-microsoft-cc-study": {
+      "title": "Microsoft Claude Code Field Study: +24% PRs Merged (Dec 2025–Mar 2026)",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "source": "arXiv / HN:48899321",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "claude-code",
+        "enterprise",
+        "microsoft",
+        "adoption-study",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "cc:july-2026-performance-bundle": {
+      "title": "Claude Code July 2026 Performance Bundle (37% CPU, 79× Transcript Size)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "source": "code.claude.com/docs/en/changelog",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "performance",
+        "changelog",
+        "linear-complexity",
+        "transcript-pruning",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "cc:v2.1.198-notification-hooks": {
+      "title": "CC Notification Hooks: agent_needs_input / agent_completed Events (v2.1.198)",
+      "url": "https://code.claude.com/docs/en/changelog",
+      "source": "code.claude.com/docs/en/changelog",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "hooks",
+        "background-agents",
+        "notification",
+        "worktree",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "latentspace:meta-harness-summer-2026": {
+      "title": "Latent.Space: 'It's Meta-Harness Summer' (AINews, swyx)",
+      "url": "https://www.latent.space/s/ainews",
+      "source": "latent.space / substack/@swyx",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "latentspace",
+        "swyx",
+        "meta-harness",
+        "agent-tooling",
+        "trend",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "amd:anthropic-partnership-5b-2026-07-22": {
+      "title": "AMD/Anthropic $5B Strategic Partnership — 2GW MI450 Helios GPUs",
+      "url": "https://newsroom.amd.com/news/amd-anthropic-strategic-partnership/",
+      "source": "AMD Newsroom (July 22)",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "amd",
+        "infrastructure",
+        "partnership",
+        "gpu",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "pragmatic-engineer:context-engineering-dex-horthy": {
+      "title": "Pragmatic Engineer: Context Engineering with Dex Horthy (July 15)",
+      "url": "https://newsletter.pragmaticengineer.com/p/context-engineering-with-dex-horthy",
+      "source": "newsletter.pragmaticengineer.com",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "pragmatic-engineer",
+        "context-engineering",
+        "practitioner",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "pulsemcp:repo-to-mcp-server-2026-07": {
+      "title": "Repository-to-MCP Server (PulseMCP, July 6) — auto-generates MCP tools from GitHub repos",
+      "url": "https://www.pulsemcp.com/servers",
+      "source": "pulsemcp.com",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "pulsemcp",
+        "mcp",
+        "third-party",
+        "safety-gate-surface-only",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "pragmatic-engineer:bun-rust-rewrite-fable-ai": {
+      "title": "Pragmatic Engineer: Bun Rust Rewrite with Fable AI in 11 Days (~$165K tokens)",
+      "url": "https://newsletter.pragmaticengineer.com/p/the-pulse-what-can-we-learn-from",
+      "source": "newsletter.pragmaticengineer.com",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "pragmatic-engineer",
+        "fable-ai",
+        "code-migration",
+        "bun",
+        "rust",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "hn:48883064-cc-weekly-limits-extended": {
+      "title": "Claude Code Weekly Limits +50% Extended Through July (HN 48883064)",
+      "url": "https://news.ycombinator.com/item?id=48883064",
+      "source": "HN",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "usage-limits",
+        "max-plan",
+        "throttle-removal",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
+    },
+    "arxiv:2607.06008-polyworkbench": {
+      "title": "PolyWorkBench: Long-Horizon Multilingual Agent Benchmark (arXiv 2607.06008, July 7)",
+      "url": "https://arxiv.org/abs/2607.06008",
+      "source": "arxiv",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-26T00:49:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "multilingual",
+        "long-horizon",
+        "informational"
+      ],
+      "run": "2026-07-26_AM"
     }
   },
   "schema_version": 1
