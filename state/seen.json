@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-27T00:52:00Z",
-  "total_items_seen": 514,
+  "last_run_utc": "2026-07-27T12:35:00Z",
+  "total_items_seen": 526,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6303,6 +6303,201 @@
         "third-party"
       ],
       "run": "2026-07-27_AM"
+    },
+    "arxiv:2602.23258-agentdropoutv2": {
+      "title": "AgentDropoutV2: Intercept-and-Filter at Multi-Agent Handoff Boundaries (~23% cascade error reduction)",
+      "url": "https://arxiv.org/abs/2602.23258",
+      "source": "arxiv.org",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": true,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "quality-gate",
+        "handoff",
+        "cascade-errors",
+        "writing-pipeline"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "arxiv:2607.01367-cache-merging-crdt": {
+      "title": "Cache Merging as CRDT for Shared-Context Multi-Agent Systems (60-80% cost reduction in shared-prefix scenarios)",
+      "url": "https://arxiv.org/abs/2607.01367",
+      "source": "arxiv.org",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "kv-cache",
+        "cost",
+        "crdt",
+        "informational"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "anthropic:mid-conversation-tool-changes-beta-july24": {
+      "title": "Anthropic Beta: Mid-Conversation Tool Changes — tool_addition/tool_removal blocks, defer_loading, cache-stable (July 24 2026)",
+      "url": "https://platform.claude.com/docs/en/build-with-claude/mid-conversation-system-messages",
+      "source": "anthropic.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "api",
+        "beta",
+        "tools",
+        "cache",
+        "informational"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "latent-space:modal-cto-agent-infra-july8": {
+      "title": "Latent Space: Why Agent Infrastructure Needs to Evolve — Modal CTO Akshat Bubna (July 8 2026, $355M Series C)",
+      "url": "https://www.latent.space/p/modal2026",
+      "source": "latent.space",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "latent-space",
+        "infrastructure",
+        "agents",
+        "cloud",
+        "informational"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "shipyard:claude-code-multi-agent-blog-july2026": {
+      "title": "Shipyard.build: Agent Teams vs. Gas Town vs. Multiclaude — practical comparison, file ownership per agent, experimental.agent_teams flag",
+      "url": "https://shipyard.build/blog/claude-code-multi-agent/",
+      "source": "shipyard.build",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "multi-agent",
+        "agent-teams",
+        "gas-town",
+        "informational"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "mcp:agenticemail-agent-native-inboxes": {
+      "title": "AgenticEmail MCP — Agent-Native Email Inboxes with scoped per-inbox permissions (PulseMCP July 7 2026)",
+      "url": "https://www.pulsemcp.com/servers",
+      "source": "pulsemcp.com",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "email",
+        "third-party-code",
+        "safety-gate",
+        "pulsemcp"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "mcp:forge-engine-design-system-source": {
+      "title": "Forge Engine MCP — Design System Source-of-Truth for Agents, prevents convention drift (PulseMCP July 9 2026)",
+      "url": "https://www.pulsemcp.com/servers",
+      "source": "pulsemcp.com",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "design-system",
+        "third-party-code",
+        "safety-gate",
+        "pulsemcp"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "latent-space:poolside-ai-laguna-s-july23": {
+      "title": "Latent Space: Poolside AI — Building a Competitive Model Training Factory, Laguna S 118B MoE (July 23 2026)",
+      "url": "https://www.latent.space/p/poolside",
+      "source": "latent.space",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "latent-space",
+        "open-weights",
+        "moe",
+        "model-training",
+        "informational"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "mcp:kynth-studios-doc-to-json-38tools": {
+      "title": "Kynth Studios MCP — Document-to-JSON + 38 AI preprocessing tools on unified credit wallet (PulseMCP July 9 2026)",
+      "url": "https://www.pulsemcp.com/servers",
+      "source": "pulsemcp.com",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "document-processing",
+        "third-party-code",
+        "safety-gate",
+        "pulsemcp"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "arxiv:2606.30005-vista-context-proprioception": {
+      "title": "LLM Agents Are Latent Context Managers: VISTA — visible context dashboard with typed addressable blocks, recency/access history (June 2026, updated July 23)",
+      "url": "https://arxiv.org/abs/2606.30005",
+      "source": "arxiv.org",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "context-management",
+        "memory",
+        "agents",
+        "informational"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "arxiv:2607.21404-memtools-unified-memory": {
+      "title": "MemTools: Unified Research Framework for Interoperable Agent Memory — declarative data contracts for symbolic/neural/multimodal memory (July 23 2026)",
+      "url": "https://arxiv.org/abs/2607.21404",
+      "source": "arxiv.org",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "memory",
+        "multi-agent",
+        "framework",
+        "informational"
+      ],
+      "run": "2026-07-27_PM"
+    },
+    "show-hn:governed-context-vault-claude-code": {
+      "title": "Show HN: Governed Context Vault for Claude Code and Cowork — AGPL CLI for context management",
+      "url": "https://news.ycombinator.com/item?id=49006270",
+      "source": "show-hn",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-27T12:35:00Z",
+      "build_worthy": false,
+      "tags": [
+        "show-hn",
+        "claude-code",
+        "context",
+        "third-party-code",
+        "safety-gate"
+      ],
+      "run": "2026-07-27_PM"
     }
   },
   "schema_version": 1
