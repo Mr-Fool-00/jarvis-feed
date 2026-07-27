@@ -158,3 +158,5 @@ failures:
 - arxiv.org direct: 403 from proxy (persistent). Papers found via search index.
 - YouTube RSS: WebFetch blocked (persistent). ColeMedin/IndyDevDan/AnthropicAI channels not verified this run.
 - Context compaction mid-run: session context was summarized between digest-write and delivery steps; continued without data loss from compaction summary.
+2026-07-27T01:00:00Z slack_post_failed channel=#ai-news reason="curl returns HTTP 000 — CCR sandbox proxy blocks hooks.slack.com; delivery via digest: commit prefix (GitHub→Slack bridge) confirmed as fallback"
+2026-07-27T01:00:00Z slack_post_failed channel=#general reason="same proxy block; heartbeat delivered via notify: commit prefix"
