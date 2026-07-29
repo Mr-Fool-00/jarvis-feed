@@ -162,3 +162,5 @@ failures:
 2026-07-27T01:00:00Z slack_post_failed channel=#general reason="same proxy block; heartbeat delivered via notify: commit prefix"
 2026-07-28T00:02:28Z SLACK_DELIVERY_FAILED #ai-news (curl exit 56 — CCR proxy block) digest: 2026-07-28 AM top 3 items
 2026-07-28T00:02:28Z SLACK_DELIVERY_FAILED #general heartbeat (curl exit 56 — CCR proxy block)
+2026-07-29T00:15:00Z	slack-delivery	#ai-news webhook POST blocked by CCR proxy (HTTP 000) — digest: 2026-07-29 AM commit routed via GitHub Slack app instead
+2026-07-29T00:15:00Z	slack-delivery	#improvements webhook POST blocked by CCR proxy (HTTP 000) — briefing: NWM commit routed via GitHub Slack app instead
