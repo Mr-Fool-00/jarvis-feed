@@ -1,5 +1,5 @@
 {
-  "last_run_utc": "2026-07-28T00:02:28Z",
+  "last_run_utc": "2026-07-29T00:15:00Z",
   "total_items_seen": 536,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
@@ -6489,6 +6489,141 @@
         "unverified"
       ],
       "run": "2026-07-28_AM"
+    },
+    "arxiv:2607.05577": {
+      "title": "Narrative World Model: Narratology-Grounded Writer Memory for Long-Form Fiction",
+      "url": "https://arxiv.org/abs/2607.05577",
+      "source": "arxiv.org",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": true,
+      "tags": [
+        "fiction-pipeline",
+        "memory",
+        "graph-rag",
+        "writing-tools",
+        "arxiv",
+        "briefed"
+      ],
+      "run": "2026-07-29_AM"
+    },
+    "anthropic:discovering-cryptographic-weaknesses": {
+      "title": "Discovering cryptographic weaknesses with Claude — Mythos attacks HAWK-256 and 7-round AES-128",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "source": "anthropic.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "claude-mythos",
+        "cryptography",
+        "security",
+        "research"
+      ],
+      "run": "2026-07-29_AM"
+    },
+    "arxiv:2607.00038": {
+      "title": "Stop Hand-Holding Your Coding Agent: Loop Engineering for Autonomous Coding",
+      "url": "https://arxiv.org/abs/2607.00038",
+      "source": "arxiv.org",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": false,
+      "tags": [
+        "coding-agents",
+        "loop-engineering",
+        "autonomous",
+        "arxiv"
+      ],
+      "run": "2026-07-29_AM"
+    },
+    "arxiv:2607.05120": {
+      "title": "Agent Data Injection: Attacking LLM Pipelines Through Structured Data Sources",
+      "url": "https://arxiv.org/abs/2607.05120",
+      "source": "arxiv.org",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "prompt-injection",
+        "agent-pipelines",
+        "arxiv"
+      ],
+      "run": "2026-07-29_AM"
+    },
+    "github:steipete/claude-code-mcp": {
+      "title": "steipete/claude-code-mcp — agent in your agent MCP server for Claude Code",
+      "url": "https://github.com/steipete/claude-code-mcp",
+      "source": "github.com/steipete",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "mcp",
+        "third-party",
+        "safety-gated"
+      ],
+      "run": "2026-07-29_AM"
+    },
+    "anthropic:dario-open-weights-statement": {
+      "title": "Dario Amodei public statement on open-weight AI models",
+      "url": "https://www.anthropic.com/news/dario-amodei-statement-open-weights",
+      "source": "anthropic.com",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "policy",
+        "open-weights"
+      ],
+      "run": "2026-07-29_AM"
+    },
+    "bloomberg:boris-cherny-cc-interview-2026-07-20": {
+      "title": "The Creator of Claude Code on The Hottest Piece of Software in the World — Bloomberg Odd Lots",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-20/the-creator-of-claude-code-on-the-hottest-piece-of-software-in-the-world",
+      "source": "bloomberg.com",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "interview",
+        "bloomberg"
+      ],
+      "run": "2026-07-29_AM"
+    },
+    "news:ai-workers-pacing-petition-2026-07-28": {
+      "title": "1100+ AI lab workers sign pacing petition on frontier AI deployment speed",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/ai-workers-pacing-petition",
+      "source": "bloomberg.com",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": false,
+      "tags": [
+        "ai-policy",
+        "labor",
+        "frontier-ai"
+      ],
+      "run": "2026-07-29_AM"
+    },
+    "anthropic:claude-science-workbench": {
+      "title": "Claude Science — Anthropic AI workbench for scientific researchers (launched June 30 2026)",
+      "url": "https://www.anthropic.com/news/claude-science-ai-workbench",
+      "source": "anthropic.com",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-29T00:15:00Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "claude-science",
+        "research-tools",
+        "product-launch"
+      ],
+      "run": "2026-07-29_AM"
     }
   },
   "schema_version": 1
