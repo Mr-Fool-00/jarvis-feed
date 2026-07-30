@@ -164,3 +164,13 @@ failures:
 2026-07-28T00:02:28Z SLACK_DELIVERY_FAILED #general heartbeat (curl exit 56 — CCR proxy block)
 2026-07-29T00:15:00Z	slack-delivery	#ai-news webhook POST blocked by CCR proxy (HTTP 000) — digest: 2026-07-29 AM commit routed via GitHub Slack app instead
 2026-07-29T00:15:00Z	slack-delivery	#improvements webhook POST blocked by CCR proxy (HTTP 000) — briefing: NWM commit routed via GitHub Slack app instead
+
+## 2026-07-30 AM
+- Reddit JSON API: 403 from CCR proxy (persistent, 40th+ run). WebSearch fallback used.
+- simonwillison.net/atom.xml: 403 from proxy (persistent). WebSearch fallback used; no new July 29-30 posts confirmed.
+- YouTube RSS: WebFetch blocked (persistent). Search index fallback; no new July 29-30 videos confirmed.
+- PulseMCP: 403 from proxy (persistent). MCP catalog not retrieved.
+- SLACK_WEBHOOK_*: all empty in CCR container (persistent since 2026-06-28). Delivery via GitHub commit prefix bridge (digest:, briefing:, notify: prefixes).
+- GITHUB_PAT env var: empty in shell (persistent). Workaround: literal PAT embedded in remote URL via git remote set-url. Push succeeded (1 retry, 502 on first attempt).
+- Detached HEAD: CCR container started in detached HEAD state (40th+ confirmed instance). Fix: git fetch origin main && git checkout -B main origin/main.
+- Context compaction mid-run: session context was summarized between digest-write and briefing-write steps; continued without data loss from compaction summary.
