@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-29T12:18:12Z",
-  "total_items_seen": 538,
+  "last_run_utc": "2026-07-30T00:01:36Z",
+  "total_items_seen": 550,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6656,6 +6656,188 @@
         "informational"
       ],
       "run": "2026-07-29_PM"
+    },
+    "outage:claude-529-july29-2026": {
+      "title": "Claude Global Outage — 529 errors, 19:45–21:26 UTC July 29 2026 (5,000+ users, 50% Claude Code)",
+      "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
+      "source": "BleepingComputer/Newsweek/Anthropic status",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "outage",
+        "claude-code",
+        "operational",
+        "informational"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "security:mcp-agent-security-wave-july29": {
+      "title": "MCP & Agent Security Wave: FakeGit + Azure DevOps MCP + Claude Cowork/Chrome VM escape + Ruflo CVE-2026-59726 CVSS 10.0",
+      "url": "https://adversa.ai/blog/top-mcp-security-resources-july-2026/",
+      "source": "The Hacker News / Help Net Security / Adversa AI",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "security",
+        "claude-code",
+        "agent-security",
+        "informational"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "github:yeachan-heo/oh-my-claudecode-38k": {
+      "title": "oh-my-claudecode — 38K stars in 7 days, Teams-first multi-agent orchestration for Claude Code v4.1.7+",
+      "url": "https://github.com/yeachan-heo/oh-my-claudecode",
+      "source": "github.com/yeachan-heo/oh-my-claudecode",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "third-party-code",
+        "safety-gate",
+        "multi-agent",
+        "claude-code",
+        "orchestration"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "arxiv:2607.09493-shared-selective-persistent-memory": {
+      "title": "Shared Selective Persistent Memory: 4 categories of reusable context (task specs, data schemas, tool configs, output constraints)",
+      "url": "https://arxiv.org/abs/2607.09493",
+      "source": "arXiv (~July 11, 2026)",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "memory",
+        "agent-architecture",
+        "context-management"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "arxiv:2607.11250-mace-multi-agent-exploration": {
+      "title": "MACE: Multi-Agent LLMs Fail to Explore Each Other — structured peer selection with assigned exploration roles",
+      "url": "https://arxiv.org/abs/2607.11250",
+      "source": "arXiv (~July 14, 2026)",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "failure-modes",
+        "council-pattern"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "arxiv:2607.14651-mempoison-persistent-memory": {
+      "title": "MemPoison: Persistent Memory Threats in LLM Agents — adversarial injection via standard interaction channels",
+      "url": "https://arxiv.org/abs/2607.14651",
+      "source": "arXiv (~July 18-21, 2026)",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "security",
+        "memory",
+        "agent-security",
+        "vector-db"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "arxiv:2607.01418-microsoft-cc-adoption-24pct": {
+      "title": "Microsoft CC Adoption Study: Claude Code adopters merged ~24% more PRs than baseline (empirical, early 2026)",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "source": "arXiv (July 2, 2026)",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "claude-code",
+        "productivity",
+        "empirical"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "arxiv:2607.13104-self-improvements-survey": {
+      "title": "Self-Improvements in Modern Agentic Systems — survey of instruction schemes, memory, tool interfaces, control logic layers",
+      "url": "https://arxiv.org/abs/2607.13104",
+      "source": "arXiv (~July 14, 2026)",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "survey",
+        "agent-architecture",
+        "self-improvement"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "gist:umputun-mandatory-skill-activation-hook": {
+      "title": "umputun gist: mandatory skill activation via Claude Code hooks — ensures specific skills always load regardless of invocation method",
+      "url": "https://gist.github.com/umputun/570c77f8d5f3ab621498e1449d2b98b6",
+      "source": "gist.github.com/umputun",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "third-party-code",
+        "claude-code",
+        "hooks",
+        "skills"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "arxiv:2607.20536-appworld-ul": {
+      "title": "AppWorld-UL: Agent-User Interaction Benchmarking for diverse tool-use patterns",
+      "url": "https://arxiv.org/abs/2607.20536",
+      "source": "arXiv (late July ~July 26-28, 2026)",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "benchmark",
+        "tool-use",
+        "agent-evaluation"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "news:anthropic-samsung-chip-talks-2026-07-29": {
+      "title": "Anthropic in discussions with Samsung for custom AI chip using Samsung 2nm foundry process",
+      "url": "https://www.bloomberg.com/opinion/articles/2026-07-29/anthropic-has-just-turned-up-the-heat-on-nvidia",
+      "source": "Bloomberg/TechCrunch (July 29)",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "infrastructure",
+        "hardware"
+      ],
+      "run": "2026-07-30_AM"
+    },
+    "reddit:r-claudeai-1m-subscribers-2026-07": {
+      "title": "r/ClaudeAI hits 1M subscribers (July 2026) — 88K new members in July alone; r/ClaudeCode 4,200+ weekly active posters",
+      "url": "https://redditli.st/subreddit/ClaudeAI",
+      "source": "RedditList",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-30T00:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "community",
+        "reddit",
+        "milestone"
+      ],
+      "run": "2026-07-30_AM"
     }
   },
   "schema_version": 1
