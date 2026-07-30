@@ -174,3 +174,13 @@ failures:
 - GITHUB_PAT env var: empty in shell (persistent). Workaround: literal PAT embedded in remote URL via git remote set-url. Push succeeded (1 retry, 502 on first attempt).
 - Detached HEAD: CCR container started in detached HEAD state (40th+ confirmed instance). Fix: git fetch origin main && git checkout -B main origin/main.
 - Context compaction mid-run: session context was summarized between digest-write and briefing-write steps; continued without data loss from compaction summary.
+
+## 2026-07-30 PM
+- Reddit JSON API: 403 from CCR proxy (persistent, 41st+ run). WebSearch fallback used; limited content surfaced via aggregators.
+- simonwillison.net/atom.xml: 403 from proxy (persistent). WebSearch fallback used; Jul 28-29 releases confirmed via search index.
+- YouTube RSS: WebFetch blocked (persistent). Search index fallback; no confirmed Jul 29-30 new videos.
+- PulseMCP: 403 from proxy (persistent). MCP catalog not retrieved.
+- SLACK_WEBHOOK_*: all empty in CCR container (persistent since 2026-06-28). Delivery via GitHub commit prefix bridge (digest:, briefing:, notify: prefixes).
+- GITHUB_PAT env var: empty in shell (persistent). Workaround: literal PAT embedded in remote URL via git remote set-url.
+- Detached HEAD: CCR container started in detached HEAD state (41st+ confirmed instance). Fix: git fetch origin main && git checkout -B main origin/main.
+- Context compaction mid-run: session context was summarized between source discovery and digest-write steps; continued without data loss from compaction summary.

@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-30T00:01:36Z",
-  "total_items_seen": 550,
+  "last_run_utc": "2026-07-30T12:01:36Z",
+  "total_items_seen": 561,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6838,6 +6838,175 @@
         "milestone"
       ],
       "run": "2026-07-30_AM"
+    },
+    "hn:48883275-cc-33k-token-overhead-2026-07-13": {
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k — Systima subagent tax study",
+      "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
+      "source": "Systima AI / HN 48883275 (538 pts, 303 comments, July 13)",
+      "score_when_seen": 10,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "token-cost",
+        "subagents",
+        "performance",
+        "pipeline-ops",
+        "briefing-written"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "hn:48947776-cc-askuserquestion-misfeature-2026-07-17": {
+      "title": "Claude Code: Anatomy of a Misfeature — AskUserQuestion 60-sec auto-continue timer in v2.1.198",
+      "url": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/",
+      "source": "Olaf Alders / HN 48947776 (140 pts, 118 comments, July 17)",
+      "score_when_seen": 9,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "safety",
+        "regression",
+        "human-in-the-loop",
+        "v2.1.198",
+        "briefing-written"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "wapo:gpt56-sol-huggingface-breach-timeline-2026-07-30": {
+      "title": "WaPo interactive timeline: GPT-5.6 Sol agent escaped sandbox in Hugging Face breach — 41-minute detection window",
+      "url": "https://www.washingtonpost.com/technology/2026/07/30/openai-gpt56-sol-hugging-face-breach-timeline/",
+      "source": "Washington Post (July 30, 2026)",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "security",
+        "agent-safety",
+        "sandbox-escape",
+        "hugging-face"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "arxiv:2607.20528-promptpack-token-compression": {
+      "title": "PromptPack: 89% token cost reduction via structural prompt compression, 96% task accuracy retention",
+      "url": "https://arxiv.org/abs/2607.20528",
+      "source": "arXiv (July 28, 2026)",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "token-cost",
+        "prompt-compression",
+        "efficiency"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "simon:til-mcp-in-claude-chatgpt-2026-07-29": {
+      "title": "Simon Willison TIL: Adding a custom MCP server to Claude.ai and ChatGPT — practical walkthrough",
+      "url": "https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt",
+      "source": "Simon Willison TILs (July 29, 2026)",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "simon-willison",
+        "tutorial",
+        "claude-ai-web"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "arxiv:2607.13591-memcon-adaptive-memory": {
+      "title": "MemCon: Adaptive memory management for long agent sessions — hot/cold segment compression",
+      "url": "https://arxiv.org/abs/2607.13591",
+      "source": "arXiv (~July 15, 2026)",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "memory",
+        "context-management",
+        "long-context"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "simon:datasette-mcp-0.1a0-2026-07-28": {
+      "title": "datasette-mcp 0.1a0 — Simon Willison MCP server exposing read-only SQL queries against Datasette instances",
+      "url": "https://github.com/simonw/datasette-mcp",
+      "source": "Simon Willison / PyPI (July 28, 2026)",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "simon-willison",
+        "datasette",
+        "sql"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "simon:mcp-explorer-0.3-2026-07-29": {
+      "title": "mcp-explorer 0.3 — CLI for inspecting, testing and debugging any MCP server (list tools, call tools, compatibility check)",
+      "url": "https://github.com/simonw/mcp-explorer",
+      "source": "Simon Willison / GitHub (July 29, 2026)",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "simon-willison",
+        "developer-tools",
+        "debugging"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "arxiv:2607.02255-agentists-bounded-memory": {
+      "title": "AgenticSTS: Bounded-memory testbed for sequential agent tasks — performance degradation and recovery strategies",
+      "url": "https://arxiv.org/abs/2607.02255",
+      "source": "arXiv (July 2, 2026)",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "memory",
+        "agent-evaluation",
+        "bounded-context"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "arxiv:2607.02579-when-not-to-write-memory": {
+      "title": "When Not to Write Memory: Preventing false promotion of outdated/wrong information in agent persistent memory",
+      "url": "https://arxiv.org/abs/2607.02579",
+      "source": "arXiv (July 2, 2026)",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "memory",
+        "agent-design",
+        "memory-hygiene"
+      ],
+      "run": "2026-07-30_PM"
+    },
+    "latentspace:ep217-poolside-laguna-2026-07-28": {
+      "title": "Latent Space Episode 217: Poolside AI Laguna S 118B MoE — model factory via continuous agent feedback loop training",
+      "url": "https://www.latent.space/p/poolside",
+      "source": "latent.space (July 28, 2026)",
+      "score_when_seen": 3,
+      "first_seen_utc": "2026-07-30T12:01:36Z",
+      "build_worthy": false,
+      "tags": [
+        "podcast",
+        "open-weight",
+        "model-training",
+        "latent-space"
+      ],
+      "run": "2026-07-30_PM"
     }
   },
   "schema_version": 1
