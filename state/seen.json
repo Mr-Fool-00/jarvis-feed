@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-31T01:00:00Z",
-  "total_items_seen": 519,
+  "last_run_utc": "2026-07-31T12:03:00Z",
+  "total_items_seen": 471,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -149,813 +149,6 @@
         "multi-agent"
       ],
       "run": "2026-07-19_PM"
-    },
-    "legacy:146": {
-      "id": "axios:fable5-return-imminent-june27",
-      "title": "Axios scoop: Fable 5 on track to return soon \u2014 Trump admin close to approving (June 27)",
-      "url": "https://www.axios.com/2026/06/27/anthropic-fable-5-return-soon",
-      "source": "axios.com",
-      "published": "2026-06-27",
-      "score": 8,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "fable5",
-        "export-control",
-        "policy",
-        "breaking"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:147": {
-      "id": "techtimes:mirrorcode-benchmark-60k-lines-june27",
-      "title": "MirrorCode Benchmark: autonomous coding clears 60K-line ceiling \u2014 Opus 4.7 rewrites 16K-line Go toolkit in 14h/$251",
-      "url": "https://www.techtimes.com/articles/319180/20260627/autonomous-ai-coding-clears-60000-line-ceiling-mirrorcode-benchmark-released.htm",
-      "source": "techtimes.com",
-      "published": "2026-06-27",
-      "score": 7,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "benchmark",
-        "autonomous-coding",
-        "scale",
-        "writing-pipeline"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:148": {
-      "id": "github:anthropics/claude-code/releases/v2.1.191-195-bundle",
-      "title": "CC v2.1.191-195: /rewind checkpointing, claude mcp login/logout, voice fixes, autoMode.classifyAllShell",
-      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.191",
-      "source": "github.com",
-      "published": "2026-06-24",
-      "score": 7,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "claude-code",
-        "changelog",
-        "rewind",
-        "checkpointing",
-        "mcp-auth"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:149": {
-      "id": "explainx:fable5-garbarino-demo-mythos-irony-june27",
-      "title": "Garbarino Demo + Mythos Irony: Congressional oversight angle on Fable 5 (explainx.ai Day 15-16)",
-      "url": "https://explainx.ai/blog/is-fable-5-back-2026",
-      "source": "explainx.ai",
-      "published": "2026-06-27",
-      "score": 6,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "fable5",
-        "export-control",
-        "congress",
-        "mythos5"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:150": {
-      "id": "docker:desktop-4.58-microvm-sandboxes-claude-code",
-      "title": "Docker Desktop 4.58+ Sandboxes: hardware-enforced microVM isolation for Claude Code agents (unsupervised-safe)",
-      "url": "https://www.docker.com/blog/docker-sandboxes-run-claude-code-and-other-coding-agents-unsupervised-but-safely/",
-      "source": "docker.com/blog",
-      "published": "2026-06",
-      "score": 6,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "docker",
-        "sandbox",
-        "security",
-        "microvm",
-        "claude-code"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:151": {
-      "id": "github:dsifry/metaswarm",
-      "title": "dsifry/metaswarm: 18-agent full-SDLC framework, recursive orchestration, SkillOpt-style skill evolution",
-      "url": "https://github.com/dsifry/metaswarm",
-      "source": "github.com/dsifry",
-      "published": "2026-06",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "multi-agent",
-        "orchestration",
-        "third-party",
-        "safety-gate"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:152": {
-      "id": "level1techs:book-agent-epistemic-control-fiction",
-      "title": "Level1Techs: Book-Agent \u2014 Epistemically Controlled Long-Form Fiction (custom novel pipeline with logic consistency enforcement)",
-      "url": "https://forum.level1techs.com/t/my-ai-powered-novel-writing-pipeline-book-agent-generating-epistemically-controlled-long-form-fiction/243193",
-      "source": "forum.level1techs.com",
-      "published": "2026-06",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "writing-pipeline",
-        "fiction",
-        "epistemic",
-        "consistency"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:153": {
-      "id": "hn:44507963-agentic-mcp-server-manager",
-      "title": "Show HN: Agentic MCP Server Manager \u2014 multi-server lifecycle orchestration for agent environments",
-      "url": "https://news.ycombinator.com/item?id=44507963",
-      "source": "hn",
-      "published": "2026-06",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "mcp",
-        "orchestration",
-        "third-party"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:154": {
-      "id": "arxiv:2503.08275-beyond-outlining-recursive-planning",
-      "title": "arxiv 2503.08275: Beyond Outlining \u2014 Heterogeneous Recursive Planning for Adaptive Long-form Writing (March 2025)",
-      "url": "https://arxiv.org/pdf/2503.08275",
-      "source": "arxiv.org",
-      "published": "2025-03",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "arxiv",
-        "writing",
-        "planning",
-        "long-form"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:155": {
-      "id": "arxiv:2603.13258-code-agent-structured-memory",
-      "title": "arxiv 2603.13258: Your Code Agent Can Grow Alongside You with Structured Memory (March 2026)",
-      "url": "https://arxiv.org/pdf/2603.13258",
-      "source": "arxiv.org",
-      "published": "2026-03",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "arxiv",
-        "memory",
-        "code-agent",
-        "persistent"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:156": {
-      "id": "explainx:ue58-mcp-plugin-2026",
-      "title": "Unreal Engine 5.8 experimental MCP plugin for Editor \u2014 agents can control UE Editor via MCP tools",
-      "url": "https://www.explainx.ai/blog/unreal-engine-5-8-claude-codex-mcp-ai-integration-2026",
-      "source": "explainx.ai",
-      "published": "2026-06",
-      "score": 4,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "mcp",
-        "unreal-engine",
-        "editor",
-        "tooling"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:157": {
-      "id": "anthropic:release-trusted-devices-team-enterprise",
-      "title": "CC Trusted Devices for Remote Control Admins (Team/Enterprise) \u2014 admin-designated devices bypass per-session approval",
-      "url": "https://code.claude.com/docs/en/changelog",
-      "source": "anthropic.com",
-      "published": "2026-06",
-      "score": 4,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "claude-code",
-        "security",
-        "enterprise",
-        "remote-control"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:158": {
-      "id": "anthropic:amazon-5gw-compute-expansion-june2026",
-      "title": "Anthropic + Amazon expand for up to 5GW new compute \u2014 infrastructure announcement",
-      "url": "https://www.anthropic.com/news/anthropic-amazon-compute",
-      "source": "anthropic.com",
-      "published": "2026-06",
-      "score": 3,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T01:05:00Z",
-      "tags": [
-        "anthropic",
-        "amazon",
-        "infrastructure"
-      ],
-      "run": "2026-06-28_AM"
-    },
-    "legacy:159": {
-      "id": "osmani:claude-code-agent-teams-swarm-2026-06",
-      "title": "Addy Osmani: Claude Code Agent Teams \u2014 Swarm Coordination Pattern (coordinator + shared task list + file locking)",
-      "url": "https://addyosmani.com/blog/claude-code-agent-teams/",
-      "source": "addyosmani.com",
-      "published": "2026-06-28",
-      "score": 8,
-      "build_worthy": true,
-      "first_seen_utc": "2026-06-28T12:48:00Z",
-      "tags": [
-        "claude-code",
-        "multi-agent",
-        "orchestration",
-        "file-locking",
-        "book-pipeline"
-      ],
-      "run": "2026-06-28_PM"
-    },
-    "legacy:160": {
-      "id": "anthropic:alibaba-qwen-distillation-senate-letter-june24",
-      "title": "Anthropic Formally Accuses Alibaba of Largest-Ever Claude Distillation Attack \u2014 28.8M interactions, 7-week campaign April\u2013June 2026",
-      "url": "https://www.cnbc.com/2026/06/24/anthropic-alibaba-distillation-campaign.html",
-      "source": "CNBC / Anthropic Senate letter",
-      "published": "2026-06-24",
-      "score": 6,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T12:48:00Z",
-      "tags": [
-        "anthropic",
-        "alibaba",
-        "qwen",
-        "distillation",
-        "policy",
-        "security"
-      ],
-      "run": "2026-06-28_PM"
-    },
-    "legacy:161": {
-      "id": "hidekazu-konishi:cc-extension-layer-decision-guide-june11",
-      "title": "Hidekazu-Konishi: Claude Code Extension Layer Decision Guide \u2014 Skills vs Subagents vs Hooks vs Plugins framework",
-      "url": "https://hidekazu-konishi.com/entry/claude_code_extension_layers_decision_guide.html",
-      "source": "hidekazu-konishi.com",
-      "published": "2026-06-11",
-      "score": 7,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T12:48:00Z",
-      "tags": [
-        "claude-code",
-        "skills",
-        "subagents",
-        "hooks",
-        "plugins",
-        "architecture"
-      ],
-      "run": "2026-06-28_PM"
-    },
-    "legacy:162": {
-      "id": "isfable5back:fable5-day16-offline-mythos5-100orgs",
-      "title": "Fable 5 Day 16 \u2014 Still Offline; Mythos 5 Approved for ~100 US Annex A Orgs via Lutnick/BIS letter",
-      "url": "https://isfable5back.com/",
-      "source": "isfable5back.com / TechTimes / CNBC",
-      "published": "2026-06-28",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T12:48:00Z",
-      "tags": [
-        "fable5",
-        "export-controls",
-        "mythos5",
-        "anthropic",
-        "regulatory"
-      ],
-      "run": "2026-06-28_PM"
-    },
-    "legacy:163": {
-      "id": "dicklesworthstone:claude-code-agent-farm-847stars",
-      "title": "Dicklesworthstone/claude_code_agent_farm \u2014 20-50 Parallel Agents with Distributed File Locking + Work Registry",
-      "url": "https://github.com/Dicklesworthstone/claude_code_agent_farm",
-      "source": "github.com",
-      "published": "2026-04",
-      "score": 6,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T12:48:00Z",
-      "tags": [
-        "claude-code",
-        "multi-agent",
-        "orchestration",
-        "file-locking",
-        "python",
-        "safety-gate"
-      ],
-      "run": "2026-06-28_PM"
-    },
-    "legacy:164": {
-      "id": "nextgov:nsa-loses-mythos5-anthropic-supply-chain-june2026",
-      "title": "NSA Parts Lose Mythos 5 Access \u2014 Anthropic Supply Chain Dispute Escalates (Pentagon Feb 2026 designation + Anthropic federal suit)",
-      "url": "https://www.nextgov.com/artificial-intelligence/2026/06/parts-nsa-lose-mythos-5-access-amid-anthropic-supply-chain-dispute/414366/",
-      "source": "Nextgov / SecurityAffairs",
-      "published": "2026-06-28",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T12:48:00Z",
-      "tags": [
-        "anthropic",
-        "nsa",
-        "mythos5",
-        "supply-chain",
-        "regulatory"
-      ],
-      "run": "2026-06-28_PM"
-    },
-    "legacy:165": {
-      "id": "hn:almanac-mcp-inline-research-no-context-break",
-      "title": "Almanac MCP \u2014 Deep Research Without Breaking Agent Context (Show HN, item 47855284)",
-      "url": "https://news.ycombinator.com/item?id=47855284",
-      "source": "Show HN",
-      "published": "2026-06-28",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T12:48:00Z",
-      "tags": [
-        "mcp",
-        "research",
-        "context",
-        "claude-code",
-        "safety-gate"
-      ],
-      "run": "2026-06-28_PM"
-    },
-    "legacy:166": {
-      "id": "arxiv:2606.03115-spoq-specialist-orchestrated-queuing",
-      "title": "SPOQ: Specialist Orchestrated Queuing for Multi-Agent Systems \u2014 quality control at handoff boundaries (arxiv 2606.03115)",
-      "url": "https://arxiv.org/abs/2606.03115",
-      "source": "arxiv",
-      "published": "2026-06",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-28T12:48:00Z",
-      "tags": [
-        "multi-agent",
-        "orchestration",
-        "paper",
-        "handoff",
-        "quality-control"
-      ],
-      "run": "2026-06-28_PM"
-    },
-    "legacy:167": {
-      "id": "mcp:rc-2026-07-28-stateless",
-      "title": "MCP 2026-07-28 Release Candidate \u2014 Stateless Protocol, MCP Apps, Tasks Extension",
-      "url": "https://blog.modelcontextprotocol.io/posts/2026-07-28-release-candidate/",
-      "source": "modelcontextprotocol.io (official)",
-      "published": "2026-06-28",
-      "score": 7,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T00:52:00Z",
-      "tags": [
-        "mcp",
-        "protocol",
-        "stateless",
-        "tasks-extension",
-        "spec"
-      ],
-      "run": "2026-06-29_AM"
-    },
-    "legacy:168": {
-      "id": "techtimes:karpathy-claudemd-10rules-june28",
-      "title": "Karpathy CLAUDE.md Grows to 10 Rules \u2014 6 New Agent Loop Additions (unverified)",
-      "url": "https://www.techtimes.com/articles/319214/20260628/karpathy-claudemd-grows-ten-rules-new-self-check-protocol-ai-coding-loops.htm",
-      "source": "TechTimes June 28",
-      "published": "2026-06-28",
-      "score": 6,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T00:52:00Z",
-      "tags": [
-        "claude-md",
-        "agent-loops",
-        "karpathy",
-        "best-practices",
-        "unverified"
-      ],
-      "run": "2026-06-29_AM"
-    },
-    "legacy:169": {
-      "id": "isfable5back:fable5-day17-monday-watch",
-      "title": "Fable 5 Day 17 \u2014 Monday Is the Prediction Market Date (Polymarket, isfable5back.com)",
-      "url": "https://isfable5back.com/",
-      "source": "isfable5back.com, Polymarket, Explainx.ai",
-      "published": "2026-06-29",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T00:52:00Z",
-      "tags": [
-        "fable5",
-        "export-controls",
-        "anthropic",
-        "polymarket"
-      ],
-      "run": "2026-06-29_AM"
-    },
-    "legacy:170": {
-      "id": "addyosmani:agentic-code-review-june2026",
-      "title": "Addy Osmani: Agentic Code Review \u2014 Trust But Verify at Scale",
-      "url": "https://addyosmani.com/blog/agentic-code-review/",
-      "source": "addyosmani.com/blog",
-      "published": "2026-06",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T00:52:00Z",
-      "tags": [
-        "agentic",
-        "code-review",
-        "trust",
-        "osmani",
-        "best-practices"
-      ],
-      "run": "2026-06-29_AM"
-    },
-    "legacy:171": {
-      "id": "hn:48664814-alibaba-max-pooling",
-      "title": "HN: Alibaba Claude MAX Account Pooling \u2014 Different Mechanism Than Distillation (item 48664814)",
-      "url": "https://news.ycombinator.com/item?id=48664814",
-      "source": "HN item 48664814, June 28",
-      "published": "2026-06-28",
-      "score": 4,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T00:52:00Z",
-      "tags": [
-        "alibaba",
-        "claude-max",
-        "distillation",
-        "pooling",
-        "security"
-      ],
-      "run": "2026-06-29_AM"
-    },
-    "legacy:172": {
-      "id": "aws:mcp-server-ga-june2026",
-      "title": "AWS MCP Server \u2014 Generally Available (S3, EC2, IAM, CloudWatch, Lambda via MCP)",
-      "url": "https://aws.amazon.com/blogs/aws/the-aws-mcp-server-is-now-generally-available/",
-      "source": "aws.amazon.com/blogs/aws",
-      "published": "2026-06-28",
-      "score": 4,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T00:52:00Z",
-      "tags": [
-        "mcp",
-        "aws",
-        "s3",
-        "lambda",
-        "ga",
-        "cloud"
-      ],
-      "run": "2026-06-29_AM"
-    },
-    "legacy:173": {
-      "id": "explainx:zhipu-matches-mythos-june28",
-      "title": "Zhipu GLM-5.2 Matches Mythos 5 Security Benchmarks (June 28)",
-      "url": "https://www.explainx.ai/blog/when-will-fable-5-be-available-again-2026",
-      "source": "explainx.ai",
-      "published": "2026-06-28",
-      "score": 3,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T00:52:00Z",
-      "tags": [
-        "fable5",
-        "zhipu",
-        "glm",
-        "benchmark",
-        "export-controls",
-        "china"
-      ],
-      "run": "2026-06-29_AM"
-    },
-    "legacy:174": {
-      "id": "github:cc-v2.1.195-voice-mouse-details",
-      "title": "CC v2.1.195 \u2014 Voice Dictation + Hook Matcher Specifics (CLAUDE_CODE_DISABLE_MOUSE_CLICKS, exact-match hyphenated IDs)",
-      "url": "https://github.com/anthropics/claude-code/releases",
-      "source": "GitHub Releases",
-      "published": "2026-06-26",
-      "score": 3,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T00:52:00Z",
-      "tags": [
-        "claude-code",
-        "changelog",
-        "hooks",
-        "voice-dictation",
-        "settings"
-      ],
-      "run": "2026-06-29_AM"
-    },
-    "legacy:175": {
-      "id": "mcp:stateless-migration-wave-june29",
-      "title": "MCP Stateless Migration Wave \u2014 5 Practitioner Guides in 24h (channel.tel, mcpplaygroundonline.com, dev.to, Medium)",
-      "url": "https://channel.tel/blog/mcp-stateless-spec-2026-guide",
-      "source": "channel.tel + practitioner blogs",
-      "published": "2026-06-28",
-      "score": 7,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "mcp",
-        "stateless",
-        "migration",
-        "protocol",
-        "spec"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:176": {
-      "id": "arxiv:2606.05724-narrative-knowledge-weaver",
-      "title": "Narrative Knowledge Weaver \u2014 Story-World Reasoning Framework for Long-Form Narrative (arXiv:2606.05724)",
-      "url": "https://arxiv.org/abs/2606.05724",
-      "source": "arXiv",
-      "published": "2026-06-04",
-      "score": 7,
-      "build_worthy": true,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "arxiv",
-        "fiction",
-        "narrative",
-        "memory",
-        "knowledge-graph",
-        "long-form",
-        "pipeline"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:177": {
-      "id": "pragmaticengineer:ai-tooling-2026",
-      "title": "Pragmatic Engineer AI Tooling 2026 Survey \u2014 Claude Code #1 for 8 Months, 73% Loop-Driven Development",
-      "url": "https://pragmaticengineer.com/ai-tooling-2026",
-      "source": "pragmaticengineer.com",
-      "published": "2026-06-29",
-      "score": 6,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "claude-code",
-        "survey",
-        "loop-driven",
-        "adoption",
-        "ai-tooling"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:178": {
-      "id": "github:google-mcp-servers",
-      "title": "Google MCP Servers \u2014 BigQuery, Cloud SQL, Firestore, GKE, Cloud Run (Official, Apache 2.0)",
-      "url": "https://github.com/google/mcp",
-      "source": "GitHub (google/mcp)",
-      "published": "2026-05-28",
-      "score": 6,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "mcp",
-        "google",
-        "cloud",
-        "bigquery",
-        "gcp",
-        "official"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:179": {
-      "id": "anthropic:fable-mythos-official-statement",
-      "title": "Official Anthropic Statement on Fable 5 / Mythos 5 \u2014 Mythos 5 Annex A for ~100 Critical Infra Orgs, Fable 5 Still Offline",
-      "url": "https://www.anthropic.com/news/fable-mythos-access",
-      "source": "anthropic.com",
-      "published": "2026-06-27",
-      "score": 6,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "fable5",
-        "mythos5",
-        "export-controls",
-        "anthropic",
-        "official"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:180": {
-      "id": "latentspace:redteam-after-mythos",
-      "title": "Latent Space: Red-Teaming Post-Mythos with Zico Kolter + Matt Fredrikson (Gray Swan AI)",
-      "url": "https://www.latent.space/p/redteam-after-mythos",
-      "source": "latent.space",
-      "published": "2026-06-28",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "safety",
-        "red-teaming",
-        "fable5",
-        "mythos5",
-        "podcast",
-        "latent-space"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:181": {
-      "id": "cybersecuritynews:mythos5-critical-infra",
-      "title": "Cybersecuritynews: Mythos 5 for Critical Infra \u2014 CISA Quarterly Audits, No Credential Sharing",
-      "url": "https://cybersecuritynews.com/mythos-5-critical-infrastructure-access",
-      "source": "cybersecuritynews.com",
-      "published": "2026-06-28",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "mythos5",
-        "critical-infra",
-        "cisa",
-        "export-controls",
-        "security"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:182": {
-      "id": "lennys:catwu-product-timelines",
-      "title": "Lenny's Newsletter: Cat Wu on AI-Compressed Product Timelines \u2014 6 Months \u2192 1 Month \u2192 1 Day (April 23)",
-      "url": "https://www.lennysnewsletter.com/p/ai-product-timelines-cat-wu",
-      "source": "lennysnewsletter.com",
-      "published": "2026-04-23",
-      "score": 5,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "product",
-        "pm",
-        "ai-timelines",
-        "lenny",
-        "loop-driven"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:183": {
-      "id": "euractiv:austria-eu-anthropic",
-      "title": "Austria Urges EU Commission to Establish Anthropic European Presence Post-Export Controls",
-      "url": "https://www.euractiv.com/section/artificial-intelligence/news/austria-eu-anthropic-europe-access",
-      "source": "euractiv.com",
-      "published": "2026-06-28",
-      "score": 4,
-      "build_worthy": false,
-      "first_seen_utc": "2026-06-29T12:30:00Z",
-      "tags": [
-        "eu",
-        "policy",
-        "export-controls",
-        "fable5",
-        "austria",
-        "anthropic"
-      ],
-      "run": "2026-06-29_PM"
-    },
-    "legacy:184": {
-      "id": "simonwillison:cve-2026-lgtm-incident-report",
-      "title_snippet": "CVE-2026-LGTM: $41K Agent Disagreement Loop",
-      "first_seen_utc": "2026-06-30T00:47:00Z",
-      "score_when_seen": 8,
-      "build_worthy": false
-    },
-    "legacy:185": {
-      "id": "anthropic:azure-foundry-ga-mcp-limitations",
-      "title_snippet": "Azure Foundry GA: Claude on Azure Breaks MCP Connectors",
-      "first_seen_utc": "2026-06-30T00:47:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false
-    },
-    "legacy:186": {
-      "id": "simonwillison:ornith-1.0-self-scaffolding-june29",
-      "title_snippet": "Ornith-1.0: Self-Scaffolding Open-Weights LLM for Agentic Coding",
-      "first_seen_utc": "2026-06-30T00:47:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false
-    },
-    "legacy:187": {
-      "id": "news:fable5-day18-return-imminent-june30",
-      "title_snippet": "Fable 5 Day 18 \u2014 Still Offline, Return Described as Imminent",
-      "first_seen_utc": "2026-06-30T00:47:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false
-    },
-    "legacy:188": {
-      "id": "arxiv:2604.08224-externalization-llm-agents",
-      "title_snippet": "Externalization in LLM Agents: Memory, Skills, Protocols, Harness Engineering",
-      "first_seen_utc": "2026-06-30T00:47:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false
-    },
-    "legacy:189": {
-      "id": "arxiv:2605.17634-prompt-injection-agents",
-      "title_snippet": "AI Agents May Always Fall for Prompt Injections",
-      "first_seen_utc": "2026-06-30T00:47:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false
-    },
-    "legacy:190": {
-      "id": "anthropic:economic-index-june-2026",
-      "title_snippet": "Anthropic Economic Index \u2014 June 2026 Report",
-      "first_seen_utc": "2026-06-30T00:47:00Z",
-      "score_when_seen": 4,
-      "build_worthy": false
-    },
-    "legacy:191": {
-      "id": "github:voltAgent-awesome-cc-subagents",
-      "title_snippet": "VoltAgent/awesome-claude-code-subagents \u2014 100+ Specialized Subagents Catalog",
-      "first_seen_utc": "2026-06-30T00:47:00Z",
-      "score_when_seen": 4,
-      "build_worthy": false
-    },
-    "legacy:192": {
-      "id": "github:anthropics-cc-v2.1.196",
-      "title_snippet": "Claude Code v2.1.196 \u2014 Resilient Background Sessions, 25% Token Cut in Code Review, Streaming Watchdog Default-On",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 7,
-      "build_worthy": false
-    },
-    "legacy:193": {
-      "id": "arxiv:2606.18837",
-      "title_snippet": "Skill-MAS: Evolving Meta-Skills for Automatic Multi-Agent Systems",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 6,
-      "build_worthy": false
-    },
-    "legacy:194": {
-      "id": "github:MJbae-awesome-novel-studio",
-      "title_snippet": "MJbae/awesome-novel-studio \u2014 18 Specialist Agents for Web Novel Production",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 6,
-      "build_worthy": false,
-      "tags": [
-        "third-party-code",
-        "safety-gate"
-      ]
-    },
-    "legacy:195": {
-      "id": "arxiv:2606.24775",
-      "title_snippet": "Are We Ready For An Agent-Native Memory System? Survey arXiv:2606.24775",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false
-    },
-    "legacy:196": {
-      "id": "anthropic:ai-for-science-event-2026-06-30",
-      "title_snippet": "Anthropic AI for Science Event June 30 2026 + VirBench arXiv:2606.06749",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false
-    },
-    "legacy:197": {
-      "id": "hn:47402125",
-      "title_snippet": "Context Drift + Persistent Markdown CONTEXT.md pattern for long Claude Code sessions",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false
-    },
-    "legacy:198": {
-      "id": "hn:47759035",
-      "title_snippet": "CodeBurn \u2014 Analyze Claude Code token usage by task type",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 5,
-      "build_worthy": false,
-      "tags": [
-        "third-party-code",
-        "safety-gate"
-      ]
-    },
-    "legacy:199": {
-      "id": "fable5:day19-2026-06-30",
-      "title_snippet": "Fable 5 Day 19 \u2014 still offline, prediction market ~41.5% for June 30 restoration",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 4,
-      "build_worthy": false
-    },
-    "legacy:200": {
-      "id": "github:ponytail-44k-stars",
-      "title_snippet": "Ponytail \u2014 AI agent that reasons like the laziest senior developer, 44K stars",
-      "first_seen_utc": "2026-06-30T12:07:00Z",
-      "score_when_seen": 4,
-      "build_worthy": false
     },
     "legacy:201": {
       "id": "github:anthropics-claude-code-v2.1.197",
@@ -7085,6 +6278,110 @@
       "url": "https://www.latent.space",
       "score": 4,
       "date": "2026-07"
+    },
+    "mcpbench:mcpevol-bench-0pct-stateless-spec-2026-07-31": {
+      "title": "mcpbench: Claude Opus 4.8 and GPT-5.6 both score 0% on 2026-07-28 stateless MCP spec without documentation",
+      "url": "https://github.com/modelscope/mcpbench",
+      "source": "github.com/modelscope",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-31T12:03:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "benchmark",
+        "knowledge-gap",
+        "stateless-spec"
+      ],
+      "run": "2026-07-31_PM"
+    },
+    "arxiv:2607.14642-mcpevol-bench": {
+      "title": "MCPEvol-Bench: Evaluating Frontier Model Knowledge of Evolving MCP Protocol Spec (arXiv:2607.14642)",
+      "url": "https://arxiv.org/html/2607.14642",
+      "source": "arxiv.org",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-07-31T12:03:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "benchmark",
+        "arxiv",
+        "protocol-evolution"
+      ],
+      "run": "2026-07-31_PM"
+    },
+    "simon:llm-chat-completions-server-0.1a0-2026-07-30": {
+      "title": "Simon Willison: llm-chat-completions-server 0.1a0 \u2014 any LLM as local OpenAI-compatible endpoint",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-chat-completions-server/",
+      "source": "simonwillison.net",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-31T12:03:00Z",
+      "build_worthy": false,
+      "tags": [
+        "simon-willison",
+        "llm-cli",
+        "openai-compatible",
+        "local-proxy"
+      ],
+      "run": "2026-07-31_PM"
+    },
+    "mcp-sdk:stateless-spec-july30-2026": {
+      "title": "MCP SDK updates July 30: Python, TypeScript, Rust, Ruby aligned to 2026-07-28 stateless spec",
+      "url": "https://github.com/modelcontextprotocol/python-sdk",
+      "source": "github.com/modelcontextprotocol",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-07-31T12:03:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "sdk",
+        "stateless-spec",
+        "protocol-update"
+      ],
+      "run": "2026-07-31_PM"
+    },
+    "simon:llm-0.32rc2-2026-07-30": {
+      "title": "Simon Willison: llm 0.32rc1/rc2 \u2014 GPT-5.6 Luna default, new llm openai endpoint command",
+      "url": "https://simonwillison.net/2026/Jul/30/llm-rc2/",
+      "source": "simonwillison.net",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-31T12:03:00Z",
+      "build_worthy": false,
+      "tags": [
+        "simon-willison",
+        "llm-cli",
+        "gpt"
+      ],
+      "run": "2026-07-31_PM"
+    },
+    "youtube:indydevdan-cc-deep-mastery-2026-07-30": {
+      "title": "IndyDevDan: Claude Code Deep Mastery series new video (July 30, 2026)",
+      "url": "https://www.youtube.com/watch?v=-GZFdlvw0co",
+      "source": "youtube.com/@indydevdan",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-31T12:03:00Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "youtube",
+        "agentic-engineering",
+        "indydevdan"
+      ],
+      "run": "2026-07-31_PM"
+    },
+    "github:jeremylongshore-cc-plugins-plus-skills-2026-07-29": {
+      "title": "jeremylongshore/claude-code-plugins-plus-skills updated July 29 \u2014 no-ai-slop skill, wondelai strategy skills, B12 plugin (3,179 skills, 471 plugins, 347 agents)",
+      "url": "https://github.com/jeremylongshore/claude-code-plugins-plus-skills",
+      "source": "github.com/jeremylongshore",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-07-31T12:03:00Z",
+      "build_worthy": false,
+      "tags": [
+        "third-party",
+        "skills-catalog",
+        "plugins",
+        "community"
+      ],
+      "run": "2026-07-31_PM"
     }
   },
   "schema_version": 1
