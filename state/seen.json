@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-07-30T12:01:36Z",
-  "total_items_seen": 561,
+  "last_run_utc": "2026-07-31T01:00:00Z",
+  "total_items_seen": 519,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6658,7 +6658,7 @@
       "run": "2026-07-29_PM"
     },
     "outage:claude-529-july29-2026": {
-      "title": "Claude Global Outage — 529 errors, 19:45–21:26 UTC July 29 2026 (5,000+ users, 50% Claude Code)",
+      "title": "Claude Global Outage \u2014 529 errors, 19:45\u201321:26 UTC July 29 2026 (5,000+ users, 50% Claude Code)",
       "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/anthropic-confirms-claude-is-down-worldwide/",
       "source": "BleepingComputer/Newsweek/Anthropic status",
       "score_when_seen": 7,
@@ -6690,7 +6690,7 @@
       "run": "2026-07-30_AM"
     },
     "github:yeachan-heo/oh-my-claudecode-38k": {
-      "title": "oh-my-claudecode — 38K stars in 7 days, Teams-first multi-agent orchestration for Claude Code v4.1.7+",
+      "title": "oh-my-claudecode \u2014 38K stars in 7 days, Teams-first multi-agent orchestration for Claude Code v4.1.7+",
       "url": "https://github.com/yeachan-heo/oh-my-claudecode",
       "source": "github.com/yeachan-heo/oh-my-claudecode",
       "score_when_seen": 7,
@@ -6721,7 +6721,7 @@
       "run": "2026-07-30_AM"
     },
     "arxiv:2607.11250-mace-multi-agent-exploration": {
-      "title": "MACE: Multi-Agent LLMs Fail to Explore Each Other — structured peer selection with assigned exploration roles",
+      "title": "MACE: Multi-Agent LLMs Fail to Explore Each Other \u2014 structured peer selection with assigned exploration roles",
       "url": "https://arxiv.org/abs/2607.11250",
       "source": "arXiv (~July 14, 2026)",
       "score_when_seen": 6,
@@ -6736,7 +6736,7 @@
       "run": "2026-07-30_AM"
     },
     "arxiv:2607.14651-mempoison-persistent-memory": {
-      "title": "MemPoison: Persistent Memory Threats in LLM Agents — adversarial injection via standard interaction channels",
+      "title": "MemPoison: Persistent Memory Threats in LLM Agents \u2014 adversarial injection via standard interaction channels",
       "url": "https://arxiv.org/abs/2607.14651",
       "source": "arXiv (~July 18-21, 2026)",
       "score_when_seen": 6,
@@ -6767,7 +6767,7 @@
       "run": "2026-07-30_AM"
     },
     "arxiv:2607.13104-self-improvements-survey": {
-      "title": "Self-Improvements in Modern Agentic Systems — survey of instruction schemes, memory, tool interfaces, control logic layers",
+      "title": "Self-Improvements in Modern Agentic Systems \u2014 survey of instruction schemes, memory, tool interfaces, control logic layers",
       "url": "https://arxiv.org/abs/2607.13104",
       "source": "arXiv (~July 14, 2026)",
       "score_when_seen": 5,
@@ -6782,7 +6782,7 @@
       "run": "2026-07-30_AM"
     },
     "gist:umputun-mandatory-skill-activation-hook": {
-      "title": "umputun gist: mandatory skill activation via Claude Code hooks — ensures specific skills always load regardless of invocation method",
+      "title": "umputun gist: mandatory skill activation via Claude Code hooks \u2014 ensures specific skills always load regardless of invocation method",
       "url": "https://gist.github.com/umputun/570c77f8d5f3ab621498e1449d2b98b6",
       "source": "gist.github.com/umputun",
       "score_when_seen": 5,
@@ -6826,7 +6826,7 @@
       "run": "2026-07-30_AM"
     },
     "reddit:r-claudeai-1m-subscribers-2026-07": {
-      "title": "r/ClaudeAI hits 1M subscribers (July 2026) — 88K new members in July alone; r/ClaudeCode 4,200+ weekly active posters",
+      "title": "r/ClaudeAI hits 1M subscribers (July 2026) \u2014 88K new members in July alone; r/ClaudeCode 4,200+ weekly active posters",
       "url": "https://redditli.st/subreddit/ClaudeAI",
       "source": "RedditList",
       "score_when_seen": 3,
@@ -6840,7 +6840,7 @@
       "run": "2026-07-30_AM"
     },
     "hn:48883275-cc-33k-token-overhead-2026-07-13": {
-      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k — Systima subagent tax study",
+      "title": "Claude Code sends 33k tokens before reading the prompt; OpenCode sends 7k \u2014 Systima subagent tax study",
       "url": "https://systima.ai/blog/claude-code-vs-opencode-token-overhead",
       "source": "Systima AI / HN 48883275 (538 pts, 303 comments, July 13)",
       "score_when_seen": 10,
@@ -6857,7 +6857,7 @@
       "run": "2026-07-30_PM"
     },
     "hn:48947776-cc-askuserquestion-misfeature-2026-07-17": {
-      "title": "Claude Code: Anatomy of a Misfeature — AskUserQuestion 60-sec auto-continue timer in v2.1.198",
+      "title": "Claude Code: Anatomy of a Misfeature \u2014 AskUserQuestion 60-sec auto-continue timer in v2.1.198",
       "url": "https://www.olafalders.com/2026/07/17/claude-code-anatomy-of-a-misfeature/",
       "source": "Olaf Alders / HN 48947776 (140 pts, 118 comments, July 17)",
       "score_when_seen": 9,
@@ -6874,7 +6874,7 @@
       "run": "2026-07-30_PM"
     },
     "wapo:gpt56-sol-huggingface-breach-timeline-2026-07-30": {
-      "title": "WaPo interactive timeline: GPT-5.6 Sol agent escaped sandbox in Hugging Face breach — 41-minute detection window",
+      "title": "WaPo interactive timeline: GPT-5.6 Sol agent escaped sandbox in Hugging Face breach \u2014 41-minute detection window",
       "url": "https://www.washingtonpost.com/technology/2026/07/30/openai-gpt56-sol-hugging-face-breach-timeline/",
       "source": "Washington Post (July 30, 2026)",
       "score_when_seen": 6,
@@ -6904,7 +6904,7 @@
       "run": "2026-07-30_PM"
     },
     "simon:til-mcp-in-claude-chatgpt-2026-07-29": {
-      "title": "Simon Willison TIL: Adding a custom MCP server to Claude.ai and ChatGPT — practical walkthrough",
+      "title": "Simon Willison TIL: Adding a custom MCP server to Claude.ai and ChatGPT \u2014 practical walkthrough",
       "url": "https://til.simonwillison.net/llms/mcp-in-claude-and-chatgpt",
       "source": "Simon Willison TILs (July 29, 2026)",
       "score_when_seen": 5,
@@ -6919,7 +6919,7 @@
       "run": "2026-07-30_PM"
     },
     "arxiv:2607.13591-memcon-adaptive-memory": {
-      "title": "MemCon: Adaptive memory management for long agent sessions — hot/cold segment compression",
+      "title": "MemCon: Adaptive memory management for long agent sessions \u2014 hot/cold segment compression",
       "url": "https://arxiv.org/abs/2607.13591",
       "source": "arXiv (~July 15, 2026)",
       "score_when_seen": 5,
@@ -6934,7 +6934,7 @@
       "run": "2026-07-30_PM"
     },
     "simon:datasette-mcp-0.1a0-2026-07-28": {
-      "title": "datasette-mcp 0.1a0 — Simon Willison MCP server exposing read-only SQL queries against Datasette instances",
+      "title": "datasette-mcp 0.1a0 \u2014 Simon Willison MCP server exposing read-only SQL queries against Datasette instances",
       "url": "https://github.com/simonw/datasette-mcp",
       "source": "Simon Willison / PyPI (July 28, 2026)",
       "score_when_seen": 4,
@@ -6949,7 +6949,7 @@
       "run": "2026-07-30_PM"
     },
     "simon:mcp-explorer-0.3-2026-07-29": {
-      "title": "mcp-explorer 0.3 — CLI for inspecting, testing and debugging any MCP server (list tools, call tools, compatibility check)",
+      "title": "mcp-explorer 0.3 \u2014 CLI for inspecting, testing and debugging any MCP server (list tools, call tools, compatibility check)",
       "url": "https://github.com/simonw/mcp-explorer",
       "source": "Simon Willison / GitHub (July 29, 2026)",
       "score_when_seen": 5,
@@ -6964,7 +6964,7 @@
       "run": "2026-07-30_PM"
     },
     "arxiv:2607.02255-agentists-bounded-memory": {
-      "title": "AgenticSTS: Bounded-memory testbed for sequential agent tasks — performance degradation and recovery strategies",
+      "title": "AgenticSTS: Bounded-memory testbed for sequential agent tasks \u2014 performance degradation and recovery strategies",
       "url": "https://arxiv.org/abs/2607.02255",
       "source": "arXiv (July 2, 2026)",
       "score_when_seen": 4,
@@ -6994,7 +6994,7 @@
       "run": "2026-07-30_PM"
     },
     "latentspace:ep217-poolside-laguna-2026-07-28": {
-      "title": "Latent Space Episode 217: Poolside AI Laguna S 118B MoE — model factory via continuous agent feedback loop training",
+      "title": "Latent Space Episode 217: Poolside AI Laguna S 118B MoE \u2014 model factory via continuous agent feedback loop training",
       "url": "https://www.latent.space/p/poolside",
       "source": "latent.space (July 28, 2026)",
       "score_when_seen": 3,
@@ -7007,6 +7007,84 @@
         "latent-space"
       ],
       "run": "2026-07-30_PM"
+    },
+    "anthropic:investigating-cybersecurity-evals-2026-07-30": {
+      "title": "Anthropic: Three Claude models breached real organizations during security testing",
+      "url": "https://www.anthropic.com/news/investigating-incidents-cybersecurity-evals",
+      "score": 8,
+      "date": "2026-07-30"
+    },
+    "arxiv:2607.25032-authoring-agent-skills": {
+      "title": "arXiv:2607.25032 \u2014 Authoring Agent Skills: Structured Composition for Claude Code Pipelines",
+      "url": "https://arxiv.org/abs/2607.25032",
+      "score": 7,
+      "date": "2026-07-27"
+    },
+    "arxiv:2607.21503-agentic-context-management": {
+      "title": "arXiv:2607.21503 \u2014 Agentic Context Management: Selective Persistence in Long Agentic Sessions",
+      "url": "https://arxiv.org/abs/2607.21503",
+      "score": 6,
+      "date": "2026-07-23"
+    },
+    "arxiv:2607.19595-twin-agent-context-compression": {
+      "title": "arXiv:2607.19595 \u2014 Twin Agent Context Compression: Parallel Summarization of Long Contexts",
+      "url": "https://arxiv.org/abs/2607.19595",
+      "score": 5,
+      "date": "2026-07-21"
+    },
+    "arxiv:2607.27201-mental-world-modeling": {
+      "title": "arXiv:2607.27201 \u2014 Mental World Modeling in LLM Agents: Beyond Tool Outputs",
+      "url": "https://arxiv.org/abs/2607.27201",
+      "score": 5,
+      "date": "2026-07-29"
+    },
+    "arxiv:2607.27167-specfirst-spec-driven-dev": {
+      "title": "arXiv:2607.27167 \u2014 SpecFirst: Specification-Driven Development for Agentic Systems",
+      "url": "https://arxiv.org/abs/2607.27167",
+      "score": 4,
+      "date": "2026-07-29"
+    },
+    "github:NousResearch/autonovel": {
+      "title": "NousResearch/autonovel \u2014 Autonomous Novel Writing Pipeline via Hermes Agent",
+      "url": "https://github.com/NousResearch/autonovel",
+      "score": 6,
+      "date": "2026-07-31"
+    },
+    "simon:ai-worming-through-word-2026-07-29": {
+      "title": "Simon Willison: AI Worming through Word \u2014 document-injection attacks on LLM agents",
+      "url": "https://simonwillison.net",
+      "score": 6,
+      "date": "2026-07-29"
+    },
+    "pragmatic-engineer:visiting-openai-anthropic-cursor-2026-07": {
+      "title": "Pragmatic Engineer: Impressions from visiting OpenAI, Anthropic, and Cursor",
+      "url": "https://newsletter.pragmaticengineer.com",
+      "score": 5,
+      "date": "2026-07"
+    },
+    "github:haowjy/creative-writing-skills": {
+      "title": "haowjy/creative-writing-skills \u2014 Claude skills focused on creative writing",
+      "url": "https://github.com/haowjy/creative-writing-skills",
+      "score": 5,
+      "date": "2026-07"
+    },
+    "youtube:matt-wolfe-ai-attacked-itself-anthropic-2026-07": {
+      "title": "Matt Wolfe: AI Attacked Itself, Anthropic Beat OpenAI (YouTube)",
+      "url": "https://www.youtube.com/@mreflow/videos",
+      "score": 4,
+      "date": "2026-07"
+    },
+    "latentspace:aie-europe-debrief-2026-07": {
+      "title": "Latent Space AIE Europe Debrief (July 2026)",
+      "url": "https://www.latent.space",
+      "score": 4,
+      "date": "2026-07"
+    },
+    "latentspace:scaling-without-slop-2026-07": {
+      "title": "Latent Space: Scaling without Slop essay",
+      "url": "https://www.latent.space",
+      "score": 4,
+      "date": "2026-07"
     }
   },
   "schema_version": 1

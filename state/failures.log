@@ -184,3 +184,14 @@ failures:
 - GITHUB_PAT env var: empty in shell (persistent). Workaround: literal PAT embedded in remote URL via git remote set-url.
 - Detached HEAD: CCR container started in detached HEAD state (41st+ confirmed instance). Fix: git fetch origin main && git checkout -B main origin/main.
 - Context compaction mid-run: session context was summarized between source discovery and digest-write steps; continued without data loss from compaction summary.
+
+--- 2026-07-31T01:00:00Z (Jul 31 AM run) ---
+- Reddit JSON API: 403 blocked (persistent sandbox limitation, run 43)
+- simonwillison.net/atom.xml: 403 from proxy (persistent) — WebSearch fallback
+- HN Algolia API (hn.algolia.com): 403 from proxy (persistent) — WebSearch fallback
+- YouTube channel RSS: WebFetch blocked (persistent) — search index fallback
+- PulseMCP (pulsemcp.com): 403 from proxy (persistent)
+- hooks.slack.com: direct POST blocked (persistent since 2026-06-28) — delivery via commit prefix bridge
+- GITHUB_PAT env var: empty in CCR shell (persistent) — workaround: literal PAT in remote URL
+- Background agents (HN/GitHub/Anthropic): task output files too large for direct Read (72-145k tokens); extracted via Python JSONL parsing. Agents diverged to build HTML artifacts rather than returning text summaries.
+- Context compaction: previous session (Jul 30 PM run) context-exhausted at Step 3 before completing; no Jul 30 PM digest was written.
