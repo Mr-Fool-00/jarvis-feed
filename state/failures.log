@@ -205,3 +205,11 @@ failures:
 - simonwillison.net/atom.xml: 403 from proxy (persistent) — WebSearch fallback
 - anthropic.com/news: 403 on direct fetch — release notes via platform.claude.com and search aggregators
 - hooks.slack.com: direct POST blocked (persistent since 2026-06-28) — delivery via commit prefix bridge
+
+--- 2026-08-01T12:01:24Z (Aug 1 PM run) ---
+- Reddit JSON API: 403 blocked (persistent, 46th+ run) — domain-level platform block confirmed; WebSearch fallback insufficient for live data
+- HN Algolia API (hn.algolia.com): 403 from proxy (persistent) — HN items found via WebSearch index
+- YouTube channel RSS: WebFetch blocked (persistent) — no Aug 1 new videos confirmed for configured channels
+- PulseMCP (pulsemcp.com): 403 from proxy (persistent)
+- simonwillison.net/atom.xml: 403 from proxy (persistent) — Simon posts found via WebSearch index
+- hooks.slack.com: direct POST blocked (persistent since 2026-06-28) — delivery via commit prefix bridge
