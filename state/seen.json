@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-08-01T00:55:00Z",
-  "total_items_seen": 483,
+  "last_run_utc": "2026-08-01T12:01:24Z",
+  "total_items_seen": 482,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6424,6 +6424,200 @@
         "summit"
       ],
       "run": "2026-08-01_AM"
+    },
+    "arxiv:2607.26922-two-calls-beat-five-agents": {
+      "title": "Two Calls Beat Five Agents: Evaluating Multi-Agent Pipelines Against Self-Refinement for Local Language Models",
+      "url": "https://arxiv.org/abs/2607.26922",
+      "source": "arxiv.org",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": true,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "self-refinement",
+        "pipeline-design",
+        "orchestration"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "arxiv:2607.27191-can-ai-agents-conduct-research": {
+      "title": "Can AI Agents Conduct Open-Ended AI Research? Early Evidence from Two Case Studies",
+      "url": "https://arxiv.org/abs/2607.27191",
+      "source": "arxiv.org (AI Snake Oil team)",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": true,
+      "tags": [
+        "arxiv",
+        "agents",
+        "failure-modes",
+        "open-ended",
+        "research",
+        "writing-pipeline"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "anthropic:discovering-cryptographic-weaknesses-2026-07-28": {
+      "title": "Anthropic Research: Claude Discovers Novel Vulnerability in HAWK Post-Quantum Cryptography + 7-Round AES-128",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "source": "anthropic.com/research",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "agentic-research",
+        "crypto",
+        "post-quantum",
+        "long-horizon",
+        "case-study"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "simonwillison:stateless-mcp-explorer-datasette-2026-07-31": {
+      "title": "Simon Willison: Stateless MCP Recaptured My Interest \u2014 mcp-explorer + datasette-mcp",
+      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+      "source": "simonwillison.net",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "simon-willison",
+        "mcp",
+        "stateless",
+        "datasette",
+        "tools"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "arxiv:2607.26212-multi-agent-debate-strategies-survey": {
+      "title": "Multi-Agent Debate Strategies: Survey, Taxonomy, and Challenges (141 Papers)",
+      "url": "https://arxiv.org/abs/2607.26212",
+      "source": "arxiv.org",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "debate",
+        "survey",
+        "taxonomy",
+        "council-pattern"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "cc:mid-conversation-tool-changes-beta-2026-07-24": {
+      "title": "Anthropic API Beta: Mid-Conversation Tool Changes \u2014 Add/Remove Tools Between Turns Without Cache Bust",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "platform.claude.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "api-beta",
+        "tool-use",
+        "cache",
+        "pipeline"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "mcp:registry-audit-1in6-dead-mcpqueen-2026-07-30": {
+      "title": "MCPQueen: 1 in 6 MCP Registry Servers Dead \u2014 17.2% of 9,326 Remote Servers Unreachable (July 2026 Audit)",
+      "url": "https://mcpqueen.com/reports/state-of-mcp-2026-07",
+      "source": "mcpqueen.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "infrastructure",
+        "reliability",
+        "audit"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "arxiv:2607.01418-microsoft-claude-code-rollout-study": {
+      "title": "Adoption and Impact of Command-Line AI Coding Agents: +24% PR Merges, Microsoft License Pulled for Cost",
+      "url": "https://arxiv.org/abs/2607.01418",
+      "source": "arxiv.org",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "enterprise",
+        "productivity",
+        "microsoft",
+        "cost",
+        "claude-code"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "cc:server-side-fallback-beta-2026-07-24": {
+      "title": "Anthropic API Beta: Server-Side Fallback \u2014 Refused Fable 5 Requests Auto-Retry on Fallback Model",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "platform.claude.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "api-beta",
+        "fable-5",
+        "fallback",
+        "retry"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "policy:cjs-jailbreak-severity-framework-2026-08-01": {
+      "title": "Five-Lab Cyber Jailbreak Severity (CJS) Framework Goes Live \u2014 Anthropic, OpenAI, Google, Microsoft, Amazon",
+      "url": "https://www.anthropic.com/news/fable-safeguards-jailbreak-framework",
+      "source": "anthropic.com",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "policy",
+        "jailbreak",
+        "safety",
+        "industry-standard",
+        "anthropic"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "cc:usage-boost-extended-aug19-2026-08-01": {
+      "title": "Claude Code 50% Weekly Usage Boost Extended Through August 19 (Max Plan)",
+      "url": "https://platform.claude.com/docs/en/release-notes/overview",
+      "source": "anthropic.com",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "max-plan",
+        "usage-limits",
+        "operational"
+      ],
+      "run": "2026-08-01_PM"
+    },
+    "event:agentic-ai-summit-berkeley-2026-08-01": {
+      "title": "Agentic AI Summit Berkeley Day 1 \u2014 Live Now (Karpathy, Ng, Zaremba, Ghodsi; 5K+ attendees; free livestream)",
+      "url": "https://luma.com/livestream-agenticaisummit",
+      "source": "Berkeley RDI",
+      "score_when_seen": 4,
+      "first_seen_utc": "2026-08-01T12:01:24Z",
+      "build_worthy": false,
+      "tags": [
+        "event",
+        "berkeley",
+        "agentic-ai",
+        "karpathy",
+        "livestream"
+      ],
+      "run": "2026-08-01_PM"
     }
   },
   "schema_version": 1
