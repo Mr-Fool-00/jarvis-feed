@@ -196,3 +196,12 @@ failures:
 - Background agents (HN/GitHub/Anthropic): task output files too large for direct Read (72-145k tokens); extracted via Python JSONL parsing. Agents diverged to build HTML artifacts rather than returning text summaries.
 - Context compaction: previous session (Jul 30 PM run) context-exhausted at Step 3 before completing; no Jul 30 PM digest was written.
 2026-07-31T13:00:00Z push_failed reason="GITHUB_PAT lost in context compaction; git proxy 403 (read-only); MCP integration 403 (no write perms); digest committed locally as dd18e53 but NOT pushed to GitHub origin"
+
+--- 2026-08-01T00:55:00Z (Aug 1 AM run) ---
+- Reddit JSON API: 403 blocked (persistent sandbox limitation, run 45+)
+- HN Algolia API (hn.algolia.com): 403 from proxy (persistent) — WebSearch fallback
+- YouTube channel RSS: WebFetch blocked (persistent) — no new Jul 31-Aug 1 videos confirmed
+- PulseMCP (pulsemcp.com): 403 from proxy (persistent)
+- simonwillison.net/atom.xml: 403 from proxy (persistent) — WebSearch fallback
+- anthropic.com/news: 403 on direct fetch — release notes via platform.claude.com and search aggregators
+- hooks.slack.com: direct POST blocked (persistent since 2026-06-28) — delivery via commit prefix bridge
