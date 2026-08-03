@@ -213,3 +213,14 @@ failures:
 - PulseMCP (pulsemcp.com): 403 from proxy (persistent)
 - simonwillison.net/atom.xml: 403 from proxy (persistent) — Simon posts found via WebSearch index
 - hooks.slack.com: direct POST blocked (persistent since 2026-06-28) — delivery via commit prefix bridge
+
+--- 2026-08-03_AM ---
+Reddit JSON API: 403 blocked by CCR sandbox (persistent, 48th+ run) — WebSearch fallback used
+HN Algolia API: 403 from proxy (persistent) — HN items found via WebSearch index
+YouTube direct fetch: 403 on all channel/video requests (persistent) — no Aug 3 new videos confirmed
+PulseMCP: 403 from proxy (persistent)
+simonwillison.net/atom.xml: 403 from proxy (persistent) — Simon posts via WebSearch index
+anthropic.com/news: 403 on direct fetch (persistent)
+hooks.slack.com: POST blocked by proxy (persistent since 2026-06-28) — delivery via GitHub commit prefix bridge
+GITHUB_PAT env: empty in CCR shell (persistent) — PAT used from session prompt secrets
+git HEAD: detached on session start (persistent) — checkout main workaround applied
