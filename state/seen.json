@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-08-04T00:30:00Z",
-  "total_items_seen": 454,
+  "last_run_utc": "2026-08-04T12:01:34Z",
+  "total_items_seen": 468,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -6299,6 +6299,228 @@
         "ai4"
       ],
       "run": "2026-08-04_AM"
+    },
+    "github:cc-v2.1.221-focus-view": {
+      "title": "Claude Code v2.1.221 \u2014 Focus View, credential masking, bash/zsh security fix",
+      "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.221",
+      "source": "github.com/anthropics/claude-code",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "claude-code",
+        "changelog",
+        "focus-view",
+        "security",
+        "credential-masking"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "rss:simonwillison:stateless-mcp-2026-07-31": {
+      "title": "Simon Willison: Stateless MCP has recaptured my interest \u2014 mcp-explorer and datasette-mcp",
+      "url": "https://simonwillison.net/2026/Jul/31/stateless-mcp/",
+      "source": "simonwillison.net",
+      "score_when_seen": 8,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "stateless",
+        "simon-willison",
+        "datasette",
+        "tooling"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "anthropic:claude-cryptanalysis-hawk256-aes": {
+      "title": "Anthropic: Claude found novel attack on HAWK-256 post-quantum crypto and 200-800x AES speedup",
+      "url": "https://www.anthropic.com/research/discovering-cryptographic-weaknesses",
+      "source": "anthropic.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "research",
+        "cryptography",
+        "capability",
+        "claude-mythos"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "rss:simonwillison:dont-be-a-meat-proxy-2026-08-03": {
+      "title": "Simon Willison: Don't be a meat proxy (term coined by Niklas Gruhn, 1100+ HN points)",
+      "url": "https://simonwillison.net/2026/Aug/3/dont-be-a-meat-proxy/",
+      "source": "simonwillison.net",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "ai-usage",
+        "responsibility",
+        "simon-willison",
+        "hn-notable",
+        "philosophy"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "news:claude-ctf-breach-irregular-april-july-2026": {
+      "title": "Anthropic incident: Claude breached 3 real orgs during CTF eval after Irregular partner misconfiguration",
+      "url": "https://thehackernews.com/2026/07/anthropic-says-claude-mistook-the-open.html",
+      "source": "thehackernews.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "safety",
+        "incident",
+        "ctf",
+        "metr",
+        "capability"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "rss:simonwillison:til-mcp-claude-chatgpt-2026-07-29": {
+      "title": "Simon Willison TIL: Adding a custom MCP server to Claude and ChatGPT (stateless spec)",
+      "url": "https://simonwillison.net/2026/Jul/29/mcp-in-claude-and-chatgpt/",
+      "source": "simonwillison.net",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "stateless",
+        "simon-willison",
+        "tutorial",
+        "claude-desktop"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "github:PrefectHQ-fastmcp-v4.0.0b1": {
+      "title": "FastMCP v4.0.0b1 Fourgone Conclusion \u2014 Python stateless MCP SDK ships",
+      "url": "https://github.com/PrefectHQ/fastmcp/releases/tag/v4.0.0b1",
+      "source": "github.com/PrefectHQ/fastmcp",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "python",
+        "fastmcp",
+        "stateless",
+        "type-b"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "github:github-mcp-server-v1.8.0": {
+      "title": "GitHub MCP Server v1.8.0 \u2014 fields parameter, batched GraphQL, efficiency improvements",
+      "url": "https://github.com/github/github-mcp-server/releases/tag/v1.8.0",
+      "source": "github.com/github/github-mcp-server",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "github",
+        "changelog",
+        "efficiency"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "anthropic:claude-cookbook-agentic-patterns": {
+      "title": "Anthropic Claude Cookbook \u2014 official agentic workflow patterns reference",
+      "url": "https://news.ycombinator.com/item?id=49031409",
+      "source": "anthropic.com",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "docs",
+        "agentic",
+        "multi-agent",
+        "patterns"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "reddit:claudeai-share-links-google-indexed": {
+      "title": "r/ClaudeAI: Claude shared conversation links are publicly Google-indexable",
+      "url": "https://www.reddit.com/r/ClaudeAI/",
+      "source": "reddit.com/r/ClaudeAI",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "privacy",
+        "claude.ai",
+        "sharing",
+        "google-indexing",
+        "reddit"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "latentspace:ep218-databricks-lakebase-2026-08-03": {
+      "title": "Latent Space Episode 218: Databricks cofounders \u2014 agent infrastructure and Lakebase",
+      "url": "https://www.latent.space/podcast",
+      "source": "latent.space",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "podcast",
+        "agents",
+        "infrastructure",
+        "databricks",
+        "latent-space"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "anthropic:workbench-retirement-aug17-2026": {
+      "title": "Anthropic Developer Platform retiring legacy Workbench and experimental prompt tools (deadline Aug 17)",
+      "url": "https://releasebot.io/updates/anthropic/claude-developer-platform",
+      "source": "anthropic.com",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "anthropic",
+        "developer-platform",
+        "deprecation",
+        "operational"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "youtube:indydevdan-claude-changed-2026-mid-jul": {
+      "title": "IndyDevDan: Claude Just Changed Completely \u2014 Here's How It Works (In 2026)",
+      "url": "https://www.youtube.com/watch?v=bj04doEDOY4",
+      "source": "youtube.com/@indydevdan",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "youtube",
+        "claude-code",
+        "walkthrough",
+        "indydevdan"
+      ],
+      "run": "2026-08-04_PM"
+    },
+    "arxiv:2606.13598-orchrm-reward-modeling": {
+      "title": "OrchRM: Reward Modeling for Multi-Agent Orchestration (arXiv:2606.13598)",
+      "url": "https://arxiv.org/abs/2606.13598",
+      "source": "arxiv.org",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-08-04T12:01:34Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "orchestration",
+        "reward-modeling",
+        "research"
+      ],
+      "run": "2026-08-04_PM"
     }
   },
   "schema_version": 1
