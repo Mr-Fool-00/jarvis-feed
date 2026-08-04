@@ -1,6 +1,6 @@
 {
-  "last_run_utc": "2026-08-03T12:05:11Z",
-  "total_items_seen": 489,
+  "last_run_utc": "2026-08-04T00:30:00Z",
+  "total_items_seen": 454,
   "items": {
     "cc:v2.1.217-subagent-concurrency-2026-07-21": {
       "title": "Claude Code v2.1.217 \u2014 CLAUDE_CODE_MAX_CONCURRENT_SUBAGENTS default 20, nested subagents disabled by default, budget enforcement across background agents, MCP memory leak fix",
@@ -149,101 +149,6 @@
         "multi-agent"
       ],
       "run": "2026-07-19_PM"
-    },
-    "legacy:250": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 9,
-      "title_snippet": "HN:48734373 \u2014 Claude Code steganographically marking requests via Unicode homoglyphs in system prompt (2425 pts, 740 comments); fixed in v2.1.197"
-    },
-    "legacy:251": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 7,
-      "title_snippet": "HN:48735113 \u2014 Anthropic embedded spyware-like code in Claude Code framing; same finding as 48734373; KAIROS persistent daemon revealed from source map leak"
-    },
-    "legacy:252": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 8,
-      "title_snippet": "arxiv:2607.00918 \u2014 MAGNET + ATLAS multi-agent character-grounded story generation; 41% plot continuity error reduction, 50% character hallucination reduction"
-    },
-    "legacy:253": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 8,
-      "title_snippet": "HN:48732846 \u2014 CC silently deletes >30 day transcripts via unlink(); Anthropic closed issue #62959 as 'not planned'; workaround: cleanupPeriodDays:36500 (NOT 0)"
-    },
-    "legacy:254": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 7,
-      "title_snippet": "HN:48664814 \u2014 Anthropic accuses Alibaba of 25,000 fake accounts + 28.8M exchanges to distill Claude (April-June 2026); July 10 ban on Chinese users"
-    },
-    "legacy:255": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 7,
-      "title_snippet": "Simon Willison 'Fable's Judgement' July 3 \u2014 model-dispatch heuristic for multi-agent pipelines: Fable=creative, Sonnet=engineering, Haiku=extraction"
-    },
-    "legacy:256": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 6,
-      "title_snippet": "CC v2.1.198-201 changelog \u2014 background subagents default on, /dataviz skill, Manual permission mode default, stacked slash-skills up to 5"
-    },
-    "legacy:257": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 6,
-      "title_snippet": "MindStudio production telemetry: Sonnet 5 uses ~30% more tokens than Sonnet 4.6; can exceed Opus 4.8 cost on verbose tasks"
-    },
-    "legacy:258": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 6,
-      "title_snippet": "Latent Space AINews: Anthropic rolling out programmatic usage metering; CC usage limits +50% through July 13 summer promotion"
-    },
-    "legacy:259": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 5,
-      "title_snippet": "HN:48762862 \u2014 Manufact (YC S25) MCP Cloud launch; raised $6.3M; 108 pts, 66 comments; 'Vercel for MCP' \u2014 60s GitHub-to-production MCP URL"
-    },
-    "legacy:260": {
-      "first_seen_utc": "2026-07-04T00:01:43Z",
-      "score_when_seen": 4,
-      "title_snippet": "Claude Science workbench \u2014 Anthropic program for scientific computing; applications through July 15, 2026"
-    },
-    "legacy:261": {
-      "title_snippet": "Addy Osmani Agentic Code Review 33707 PRs comprehension debt evidence gate fresh-window self-review circuit breaker",
-      "score_when_seen": 7,
-      "first_seen_utc": "2026-07-04T12:15:00Z"
-    },
-    "legacy:262": {
-      "title_snippet": "CJS Framework Cyber Jailbreak Severity CVSS for AI jailbreaks Anthropic Amazon Microsoft Google Mythos classifier",
-      "score_when_seen": 7,
-      "first_seen_utc": "2026-07-04T12:15:00Z"
-    },
-    "legacy:263": {
-      "title_snippet": "Axios How the Worlds AI Models Were Revived Jassy Tom Brown NSA NIST Fable restoration behind-the-scenes",
-      "score_when_seen": 6,
-      "first_seen_utc": "2026-07-04T12:15:00Z"
-    },
-    "legacy:264": {
-      "title_snippet": "Anthropic AI Espionage Report Chinese state actor used Claude Code autonomously attack 30 targets task fragmentation",
-      "score_when_seen": 6,
-      "first_seen_utc": "2026-07-04T12:15:00Z"
-    },
-    "legacy:265": {
-      "title_snippet": "DeepWriter arxiv 2507.14189 fact-grounded multimodal knowledge base generation paragraph-level citations",
-      "score_when_seen": 5,
-      "first_seen_utc": "2026-07-04T12:15:00Z"
-    },
-    "legacy:266": {
-      "title_snippet": "WriteHERE principia-ai heterogeneous recursive planning EMNLP 2025 oral 951 stars",
-      "score_when_seen": 5,
-      "first_seen_utc": "2026-07-04T12:15:00Z"
-    },
-    "legacy:267": {
-      "title_snippet": "Claude in Chrome GA launch browser extension select markets",
-      "score_when_seen": 4,
-      "first_seen_utc": "2026-07-04T12:15:00Z"
-    },
-    "legacy:268": {
-      "title_snippet": "Claude Security public beta Opus 4.7 repo vulnerability scanning Enterprise April 2026",
-      "score_when_seen": 4,
-      "first_seen_utc": "2026-07-04T12:15:00Z"
     },
     "legacy:269": {
       "id": "anthropic:fable5-credits-only-july7",
@@ -6150,7 +6055,7 @@
       "run": "2026-08-03_AM"
     },
     "anthropic:opus5-launch-2026-07-24": {
-      "title": "Claude Opus 5 — Fable 5 Performance at Half the Price ($5/$25/MTok, 1M ctx, zero retention, ARC-AGI 3x next-best)",
+      "title": "Claude Opus 5 \u2014 Fable 5 Performance at Half the Price ($5/$25/MTok, 1M ctx, zero retention, ARC-AGI 3x next-best)",
       "url": "https://www.anthropic.com/news/claude-opus-5",
       "source": "anthropic.com",
       "score_when_seen": 9,
@@ -6166,7 +6071,7 @@
       "run": "2026-08-03_PM"
     },
     "cc:v2.1.218-code-review-contextfork-2026-07-29": {
-      "title": "Claude Code v2.1.218 — /code-review as background subagent, context:fork for full-context subagent spawn, workflowSizeGuideline key",
+      "title": "Claude Code v2.1.218 \u2014 /code-review as background subagent, context:fork for full-context subagent spawn, workflowSizeGuideline key",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.218",
       "source": "github.com/anthropics/claude-code",
       "score_when_seen": 8,
@@ -6183,7 +6088,7 @@
       "run": "2026-08-03_PM"
     },
     "cc:v2.1.219-opus5-default-directoryadded-2026-07-30": {
-      "title": "Claude Code v2.1.219 — Opus 5 as default model, DirectoryAdded hook, nested subagent depth 3",
+      "title": "Claude Code v2.1.219 \u2014 Opus 5 as default model, DirectoryAdded hook, nested subagent depth 3",
       "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.219",
       "source": "github.com/anthropics/claude-code",
       "score_when_seen": 8,
@@ -6200,7 +6105,7 @@
       "run": "2026-08-03_PM"
     },
     "anthropic:sonnet5-pricing-cliff-sept-2026": {
-      "title": "Claude Sonnet 5 promotional pricing ($2/$10/MTok) ends Aug 31 — standard $3/$15 + 30% tokenizer inflation from Sept 1",
+      "title": "Claude Sonnet 5 promotional pricing ($2/$10/MTok) ends Aug 31 \u2014 standard $3/$15 + 30% tokenizer inflation from Sept 1",
       "url": "https://www.anthropic.com/api",
       "source": "anthropic.com/api",
       "score_when_seen": 7,
@@ -6216,7 +6121,7 @@
       "run": "2026-08-03_PM"
     },
     "arxiv:2607.25656-orchbench-dag-simulation": {
-      "title": "OrchBench: Isolating Orchestration Plan Quality via Deterministic DAG Simulation — separates plan quality from tool reliability (July 28)",
+      "title": "OrchBench: Isolating Orchestration Plan Quality via Deterministic DAG Simulation \u2014 separates plan quality from tool reliability (July 28)",
       "url": "https://arxiv.org/abs/2607.25656",
       "source": "arXiv",
       "score_when_seen": 7,
@@ -6232,7 +6137,7 @@
       "run": "2026-08-03_PM"
     },
     "latentspace:felix-rieseberg-cowork-skills-mcp-2026": {
-      "title": "Latent Space: Felix Rieseberg (head of Cowork, Anthropic) — Skills vs MCP, VM-first sandboxing, local machine as primary AI execution surface",
+      "title": "Latent Space: Felix Rieseberg (head of Cowork, Anthropic) \u2014 Skills vs MCP, VM-first sandboxing, local machine as primary AI execution surface",
       "url": "https://www.latent.space/p/felix-anthropic",
       "source": "latent.space",
       "score_when_seen": 7,
@@ -6250,7 +6155,7 @@
       "run": "2026-08-03_PM"
     },
     "arxiv:2606.08878-perspectivegap-orchestration-prompting": {
-      "title": "PerspectiveGap: 14.9% average pass rate on orchestration prompting — Opus 4.7 notably weak on delegation chains",
+      "title": "PerspectiveGap: 14.9% average pass rate on orchestration prompting \u2014 Opus 4.7 notably weak on delegation chains",
       "url": "https://arxiv.org/abs/2606.08878",
       "source": "arXiv",
       "score_when_seen": 6,
@@ -6266,7 +6171,7 @@
       "run": "2026-08-03_PM"
     },
     "github:juliusbrussee-caveman-typeb": {
-      "title": "JuliusBrussee/caveman — CC skill for 65% prose compression via fragmented speech (95.4k stars) — TYPE B safety gate pending",
+      "title": "JuliusBrussee/caveman \u2014 CC skill for 65% prose compression via fragmented speech (95.4k stars) \u2014 TYPE B safety gate pending",
       "url": "https://github.com/JuliusBrussee/caveman",
       "source": "github.com",
       "score_when_seen": 6,
@@ -6284,7 +6189,7 @@
       "run": "2026-08-03_PM"
     },
     "github:othmanadi-planning-files-typeb": {
-      "title": "OthmanAdi/planning-with-files — crash-proof markdown plans with session recovery for CC (25.9k stars) — TYPE B safety gate pending",
+      "title": "OthmanAdi/planning-with-files \u2014 crash-proof markdown plans with session recovery for CC (25.9k stars) \u2014 TYPE B safety gate pending",
       "url": "https://github.com/OthmanAdi/planning-with-files",
       "source": "github.com",
       "score_when_seen": 5,
@@ -6300,6 +6205,100 @@
         "type-b"
       ],
       "run": "2026-08-03_PM"
+    },
+    "hn:49157807-mcp-session-analytics": {
+      "title": "Show HN: Product analytics (and evals) for agent sessions on MCP",
+      "url": "https://news.ycombinator.com/item?id=49157807",
+      "source": "news.ycombinator.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-08-04T00:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "mcp",
+        "observability",
+        "analytics",
+        "evals",
+        "hn"
+      ],
+      "run": "2026-08-04_AM"
+    },
+    "substack:build-to-launch-cc-token-optimization-19": {
+      "title": "Claude Code Token Optimization: 19 Changes (Build to Launch Substack, Aug 2026)",
+      "url": "https://buildtolaunch.substack.com",
+      "source": "buildtolaunch.substack.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-08-04T00:30:00Z",
+      "build_worthy": true,
+      "tags": [
+        "claude-code",
+        "token-optimization",
+        "cost",
+        "substack",
+        "actionable"
+      ],
+      "run": "2026-08-04_AM"
+    },
+    "newsletter:developers-digest-cc-usage-limits-2026": {
+      "title": "Claude Code Usage Limits Playbook 2026 (Developers Digest)",
+      "url": "https://developersdigest.com",
+      "source": "developersdigest.com",
+      "score_when_seen": 7,
+      "first_seen_utc": "2026-08-04T00:30:00Z",
+      "build_worthy": true,
+      "tags": [
+        "claude-code",
+        "usage-limits",
+        "cost",
+        "newsletter",
+        "actionable"
+      ],
+      "run": "2026-08-04_AM"
+    },
+    "arxiv:2605.06614-skillOS-self-evolving-agents": {
+      "title": "SkillOS: Learning Skill Curation for Self-Evolving Agents (arXiv:2605.06614)",
+      "url": "https://arxiv.org/abs/2605.06614",
+      "source": "arxiv.org",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-04T00:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "skills",
+        "agents",
+        "self-improvement",
+        "research"
+      ],
+      "run": "2026-08-04_AM"
+    },
+    "arxiv:2605.25746-MACA-multi-agent-coordination": {
+      "title": "MACA: Multi-Agent Coordination Adaptation via Structure-Guided Orchestration (arXiv:2605.25746)",
+      "url": "https://arxiv.org/abs/2605.25746",
+      "source": "arxiv.org",
+      "score_when_seen": 6,
+      "first_seen_utc": "2026-08-04T00:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "arxiv",
+        "multi-agent",
+        "orchestration",
+        "coordination",
+        "research"
+      ],
+      "run": "2026-08-04_AM"
+    },
+    "conf:ai4-2026-day1-opens": {
+      "title": "Ai4 2026 Conference Day 1 opens (Las Vegas, Aug 4-7, Hinton/Ng/Li keynotes)",
+      "url": "https://ai4.io",
+      "source": "ai4.io",
+      "score_when_seen": 5,
+      "first_seen_utc": "2026-08-04T00:30:00Z",
+      "build_worthy": false,
+      "tags": [
+        "conference",
+        "forward-flag",
+        "ai4"
+      ],
+      "run": "2026-08-04_AM"
     }
   },
   "schema_version": 1
