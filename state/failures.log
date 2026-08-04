@@ -224,3 +224,4 @@ anthropic.com/news: 403 on direct fetch (persistent)
 hooks.slack.com: POST blocked by proxy (persistent since 2026-06-28) — delivery via GitHub commit prefix bridge
 GITHUB_PAT env: empty in CCR shell (persistent) — PAT used from session prompt secrets
 git HEAD: detached on session start (persistent) — checkout main workaround applied
+2026-08-04T12:01Z [PM] hooks.slack.com direct POST blocked (persistent since 2026-06-28) — delivery via GitHub commit prefix bridge OK
